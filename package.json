@@ -1,0 +1,19 @@
+{
+  "name": "archer-cinematic-campaigns-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Git-backed cinematic campaigns landing page content and media for Archer",
+  "keywords": [
+    "gabriel-operator",
+    "persona",
+    "landing-page",
+    "cinematic-campaigns"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-landing-page.js assets/landing-page.json"
+  }
+}
