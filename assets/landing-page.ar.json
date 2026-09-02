@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "ar",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "قابل آرتشر"
+    },
+    "badge": "مدير حملة الذكاء الاصطناعي",
+    "headline": "إنشاء حملات سينمائية بقوة الذكاء الاصطناعي",
+    "subheadline": "قم بتحويل منتج أو فرضية أو إطلاق حملة واحدة متماسكة - من الملخص الإبداعي واللوحة المصورة إلى الفيلم الرئيسي والتخفيضات الاجتماعية.",
+    "ctaLabel": "تحدث إلى آرتشر",
+    "secondaryCtaLabel": "انظر كيف يعمل",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "مرحبًا ، أنا آرتشر. أخبرني بما ستطلقه وسأجد القصة تستحق الرواية."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "عبر الإنترنت · عادة ما يتم الرد على الفور",
+      "inputPlaceholder": "لصق عنوان URL للمنتج العام…",
+      "suggestedPrompts": [
+        "شكل الإطلاق الخاص بي",
+        "ابحث عن زاوية حملتي",
+        "بناء لوحة مصورة"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "حملات آرتشر السينمائية"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "رام",
+        "navItems": [
+          {
+            "label": "نتاج",
+            "target": "product"
+          },
+          {
+            "label": "عرض",
+            "target": "showcase"
+          },
+          {
+            "label": "قدرات",
+            "target": "capabilities"
+          },
+          {
+            "label": "مجلة",
+            "target": "journal"
+          },
+          {
+            "label": "قابل آرتشر",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "تسجيل دخول",
+        "meetLabel": "قابل آرتشر",
+        "announcementLabel": "جديد",
+        "announcementTitle": "شرح المنتج متاح الآن",
+        "headingLines": [
+          "خلق سينمائية",
+          "الحملات مع"
+        ],
+        "mutedHeadingLine": "قوة الذكاء الاصطناعي",
+        "primaryCtaLabel": "تحدث إلى آرتشر",
+        "secondaryCtaLabel": "انظر كيف يعمل",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "مدير حملة الذكاء الاصطناعي",
+          "statusLabel": "عبر الإنترنت · عادة ما يتم الرد على الفور",
+          "openingMessage": "مرحبًا ، أنا آرتشر. أخبرني بما ستطلقه وسأجد القصة تستحق الرواية.",
+          "inputPlaceholder": "لصق عنوان URL للمنتج العام…",
+          "suggestions": [
+            "شكل الإطلاق الخاص بي",
+            "ابحث عن زاوية حملتي",
+            "بناء لوحة مصورة"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "توجيه شرح المنتج",
+          "body": "أحضر صفحة منتج عام وقم بتعيين الاتجاه الإبداعي. سيقوم آرتشر بإعداد موجز توضيحي قبل تسجيل الدخول.",
+          "urlLabel": "عنوان URL للموقع العام",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "جمهور",
+          "objectiveLabel": "موضوعي",
+          "ctaLabel": "دعوة للعمل",
+          "durationLabel": "مدة",
+          "styleLabel": "أسلوب بصري",
+          "previewLabel": "معاينة موجهة",
+          "previewHeading": "أول اتجاه للحملة",
+          "campaignDirectionLabel": "اتجاه الحملة",
+          "storyboardLabel": "عينة مصورة",
+          "deliverablesLabel": "المخرجات المتوقعة",
+          "submitLabel": "معاينة الاتجاه",
+          "generateLabel": "إنشاء الشرح الخاص بي",
+          "voiceLabel": "جرب Voice Demo",
+          "editLabel": "تحرير موجز",
+          "disclaimer": "معاينة توضيحية فقط. لم يقم آرتشر بفحص هذا الموقع أو تقديم الوسائط. يبدأ الالتقاط والتوليد المدعومين بالأدلة بعد تسجيل الدخول.",
+          "loginNotice": "قم بتسجيل الدخول للسماح لـ Archer بفحص صفحة المنتج العام وإنشاء شرح المنتج الخاص بك في مساحة عمل خاصة.",
+          "invalidUrlCopy": "أدخل عنوان URL عام لموقع HTTP أو HTTPS. الشبكات الخاصة والعناوين المحلية غير مدعومة.",
+          "expiredCopy": "انتهت صلاحية تسليم هذه الحملة. عد إلى آرتشر وقم بإعداد معاينة جديدة.",
+          "sampleDirection": "اكشف عن المنتج من خلال تحول سينمائي واحد ، وانتقل من التوتر إلى مكافأة واضحة لا تنسى.",
+          "sampleMessage": "حول أقوى وعد للمنتج إلى قصة يمكن للجمهور فهمها في مشاهدة واحدة.",
+          "sampleTone": "واثقة ودقيقة وسينمائية",
+          "sampleVisualLanguage": "ضوء نحتي، تفاصيل اللمس، حركة كاميرا هادفة",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "التوتر",
+              "body": "افتح على مشكلة الجمهور الحقيقية في صورة واحدة جذابة."
+            },
+            {
+              "number": "02",
+              "title": "الكشف",
+              "body": "قدم المنتج كنقطة تحول وليس قائمة ميزات."
+            },
+            {
+              "number": "03",
+              "title": "الدليل",
+              "body": "أظهر القيمة الأساسية من خلال عرض مرئي موجز."
+            },
+            {
+              "number": "04",
+              "title": "الدعوة",
+              "body": "هبط على عمل واحد وإطار نهاية ذو علامة تجارية نظيفة."
+            }
+          ],
+          "deliverables": [
+            "موجز الحملة",
+            "لوحة القصة والتعليق الصوتي",
+            "فيلم رئيسي مع تخفيضات اجتماعية"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "من شرارة إلى حملة.",
+        "mutedHeading": "ثلاثة أفعال بسيطة",
+        "learnLabel": "تعلم المزيد",
+        "acts": [
+          {
+            "number": "01",
+            "title": "الكتابة",
+            "description": "صِف حملتك في موجه واحد.",
+            "visualKind": "write",
+            "prompt": "أطلق حملة سينمائية لحذاء أداء جديد في طوكيو المبللة بالمطر.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "مرجع حملة الأداء المبلل بالمطر"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "مرجع حملة حذاء الأداء"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "مرجع حملة طوكيو"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "ولد",
+            "description": "ينشئ آرتشر حملتك السينمائية على الفور.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84٪",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "يتم إنشاء إطارات الحملات السينمائية"
+            }
+          },
+          {
+            "number": "03",
+            "title": "حصة",
+            "description": "الموافقة والتصدير بدقة 4K والمشاركة في كل مكان.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "حملة آرتشر جاهزة للتصدير"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "اكتشف القوة",
+        "chipLabel": "فيديو",
+        "mutedHeading": "نماذج. الكل في مكان واحد",
+        "items": [
+          "موجز الحملة",
+          "القصص المصورة",
+          "الجيل البصري",
+          "التعليق الصوتي",
+          "تصميم الصوت",
+          "تحرير نهائي",
+          "التخفيضات الاجتماعية",
+          "تصدير 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "حملات صنعت مع آرتشر",
+        "items": [
+          {
+            "label": "إعلان سينمائي",
+            "prompt": "زجاجة عطر منحوتة تبرز من خلال فيلم Silver Mist",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "حملة العطور الفاخرة"
+          },
+          {
+            "label": "مقطورة فيلم",
+            "prompt": "رائد فضاء وحيد يعبر مدينة غمرتها المياه بينما يخترق الفجر الأفق",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "مقطورة رائد فضاء سينمائي"
+          },
+          {
+            "label": "شرح المنتج",
+            "prompt": "ساعة دقيقة تجمع نفسها في استوديو مظلم ، كل آلية في الحركة",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "شرح دقيق للساعة"
+          },
+          {
+            "label": "حملة اجتماعية",
+            "prompt": "سيارة كهربائية جديدة تخترق عاصفة صحراوية سينمائية في الساعة الزرقاء",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "فيلم اجتماعي للسيارات الكهربائية"
+          }
+        ]
+      },
+      "features": {
+        "heading": "كل ما تحتاجه لعمل الحملة",
+        "body": "موجز ، وإنشاء ، وتحرير ، وإطلاق - كل ذلك في مكان واحد.",
+        "ctaLabel": "ابدأ مجانًا",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "تنسيقات الحملة",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "صورة فوكس سينمائية"
+          },
+          {
+            "kind": "metric",
+            "title": "تصدير رئيسي",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "صورة سينمائية في الضوء الدافئ"
+          },
+          {
+            "kind": "wide",
+            "title": "أي نمط",
+            "body": "صور واقعية ، متحركة ، بقيادة منتج - تختار العالم.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "حملة آرتشر السينمائية الإبداعية"
+          },
+          {
+            "kind": "feature",
+            "title": "موجز واحد",
+            "body": "يحمل آرتشر فكرة واحدة من خلال كل مشهد وقطع وقناة.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "حملة تنس تم تصويرها من فوق"
+          },
+          {
+            "kind": "feature",
+            "title": "قطع فوري",
+            "body": "حوّل فيلمًا رئيسيًا واحدًا إلى تعديلات اجتماعية جاهزة للإطلاق.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "حملة مركبة سينمائية في وادي"
+          },
+          {
+            "kind": "video",
+            "title": "نموذج متعدد",
+            "body": "استخدم النموذج المرئي والصوت والحركة الصحيح لكل لقطة.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "تسلسل المنتجات السينمائية"
+          },
+          {
+            "kind": "metric",
+            "title": "الزخم الإبداعي",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "حملة الجبال السينمائية"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "مساحة عمل واحدة.",
+        "accentHeading": "بنيت لكل حملة",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "منزل",
+          "ولد",
+          "مكتبة",
+          "حملات",
+          "الإعدادات"
+        ],
+        "bannerLabel": "جديد · شرح المنتج",
+        "bannerTitle": "تحويل أي موقع ويب إلى فيلم إطلاق مصقول.",
+        "bannerBody": "قم ببناء الموجز ، ولوحة العمل ، واللقطات ، والتعليق الصوتي ، والتحرير ، والقطع في تدفق واحد موجه.",
+        "projectHeading": "حملاتي",
+        "projectBody": "12 مشروع · 3 في الإنتاج",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "الأثير - إطلاق فيلم"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "ريف - قصة العلامة التجارية"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne - مقطورة"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "تعاون",
+            "body": "قم بدعوة فريقك ومراجعة القصص المصورة والموافقة على القطع النهائي معًا."
+          },
+          {
+            "label": "تنظم",
+            "body": "احتفظ بالملخصات والمراجع والأجيال والصادرات في مركز حملة نظيف."
+          },
+          {
+            "label": "إلى أي مكان",
+            "body": "إنشاء على سطح المكتب أو الكمبيوتر اللوحي أو الهاتف المحمول - يحافظ آرتشر على استمرار القصة."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "قابل مدير حملة الذكاء الاصطناعي الخاص بك",
+        "heading": "قابل آرتشر.",
+        "mutedHeading": "امنح كل فكرة عالماً.",
+        "body": "يحول آرتشر منتجًا أو فرضية أو إطلاقًا إلى حملة سينمائية متماسكة - ثم يحافظ على اصطفاف القصة في كل مشهد وقناة.",
+        "points": [
+          {
+            "number": "01",
+            "label": "غرائز إبداعية حادة"
+          },
+          {
+            "number": "02",
+            "label": "الإنتاج الشامل"
+          },
+          {
+            "number": "03",
+            "label": "دائما على العلامة التجارية"
+          }
+        ],
+        "ctaLabel": "تحدث إلى آرتشر",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "آرتشر جاهز",
+        "statusBody": "أخبره بما تريد إطلاقه"
+      },
+      "journal": {
+        "heading": "داخل آرتشر",
+        "body": "ملاحظات حول صناعة أفلام الذكاء الاصطناعي والحملات والتوجيه الإبداعي.",
+        "allStoriesLabel": "كل القصص",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "مساحة عمل حملة آرتشر",
+            "category": "نتاج",
+            "date": "Aug 18, 2026",
+            "title": "من صفحة المنتج إلى شرح مصقول في تدفق إبداعي واحد",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "عالم حملة آرتشر السينمائية",
+            "category": "ستوديو",
+            "date": "Aug 06, 2026",
+            "title": "لماذا لا تزال أقوى حملات الذكاء الاصطناعي تبدأ بوجهة نظر",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "حملتك تبدأ هنا",
+        "ctaLabel": "ابدأ مجانًا",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "إطار المنتج السينمائي"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "إطار جو الحملة"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "إطار عالم الحملة"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "إطار قصة العلامة التجارية"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "إطار إغلاق المقطورة"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "إنشاء حملات سينمائية بقوة الذكاء الاصطناعي.",
+        "groups": [
+          {
+            "label": "ملاحة",
+            "links": [
+              {
+                "label": "نتاج",
+                "target": "product"
+              },
+              {
+                "label": "عرض",
+                "target": "showcase"
+              },
+              {
+                "label": "قدرات",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "خلق",
+            "links": [
+              {
+                "label": "إعلان سينمائي",
+                "target": "start"
+              },
+              {
+                "label": "مقطورة فيلم",
+                "target": "start"
+              },
+              {
+                "label": "شرح المنتج",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "ربط",
+            "links": [
+              {
+                "label": "اتصل",
+                "target": "contact"
+              },
+              {
+                "label": "مجلة",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 آرتشر.",
+        "closingStatement": "مدير حملة الذكاء الاصطناعي الخاص بك.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "el",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Meet Archer"
+    },
+    "badge": "Διευθυντής εκστρατείας AI",
+    "headline": "Δημιουργήστε κινηματογραφικές καμπάνιες με τη δύναμη της τεχνητής νοημοσύνης",
+    "subheadline": "Μετατρέψτε ένα προϊόν, μια υπόθεση ή ξεκινήστε σε μια συνεκτική καμπάνια—από τη δημιουργική σύντομη και το storyboard μέχρι την κύρια ταινία και τις κοινωνικές περικοπές.",
+    "ctaLabel": "Μιλήστε με τον Archer",
+    "secondaryCtaLabel": "Δείτε πώς λειτουργεί",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Γεια, είμαι τοξότης. Πείτε μου τι ξεκινάτε και θα βρω την ιστορία που αξίζει να πω."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Συνήθως απαντά άμεσα",
+      "inputPlaceholder": "Επικολλήστε μια δημόσια διεύθυνση URL προϊόντος…",
+      "suggestedPrompts": [
+        "Shape My Launch",
+        "Βρείτε τη γωνία της καμπάνιας μου",
+        "Φτιάξτε ένα Storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Κινηματογραφικές καμπάνιες Archer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Τοξότης",
+        "navItems": [
+          {
+            "label": "Προϊόν",
+            "target": "product"
+          },
+          {
+            "label": "Βιτρίνα",
+            "target": "showcase"
+          },
+          {
+            "label": "καταλληλότητες",
+            "target": "capabilities"
+          },
+          {
+            "label": "Εφημερίδα",
+            "target": "journal"
+          },
+          {
+            "label": "Meet Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Σύνδεση",
+        "meetLabel": "Meet Archer",
+        "announcementLabel": "Νέος",
+        "announcementTitle": "Η επεξήγηση προϊόντος είναι πλέον διαθέσιμη",
+        "headingLines": [
+          "Δημιουργήστε κινηματογραφικό",
+          "εκστρατείες με το"
+        ],
+        "mutedHeadingLine": "Δύναμη του AI",
+        "primaryCtaLabel": "Μιλήστε με τον Archer",
+        "secondaryCtaLabel": "Δείτε πώς λειτουργεί",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Διευθυντής εκστρατείας AI",
+          "statusLabel": "Online · Συνήθως απαντά άμεσα",
+          "openingMessage": "Γεια, είμαι τοξότης. Πείτε μου τι ξεκινάτε και θα βρω την ιστορία που αξίζει να πω.",
+          "inputPlaceholder": "Επικολλήστε μια δημόσια διεύθυνση URL προϊόντος…",
+          "suggestions": [
+            "Shape My Launch",
+            "Βρείτε τη γωνία της καμπάνιας μου",
+            "Φτιάξτε ένα Storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "κατευθύνει μια επεξήγηση προϊόντος",
+          "body": "Φέρτε μια δημόσια σελίδα προϊόντος και ορίστε τη δημιουργική κατεύθυνση. Ο Archer θα ετοιμάσει μια ενδεικτική σύνοψη πριν από την είσοδο.",
+          "urlLabel": "URL δημόσιου ιστότοπου",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Ακροατήριο",
+          "objectiveLabel": "Σκοπός",
+          "ctaLabel": "Πρόσκληση σε δράση",
+          "durationLabel": "Διάρκεια",
+          "styleLabel": "οπτικό στυλ",
+          "previewLabel": "Καθοδηγούμενη προεπισκόπηση",
+          "previewHeading": "Μια πρώτη κατεύθυνση εκστρατείας",
+          "campaignDirectionLabel": "Campaign direction",
+          "storyboardLabel": "δείγμα σεναρίου",
+          "deliverablesLabel": "αναμενόμενα παραδοτέα",
+          "submitLabel": "Προεπισκόπηση της κατεύθυνσης",
+          "generateLabel": "Δημιουργήστε τον εξηγητή μου",
+          "voiceLabel": "Try voice demo",
+          "editLabel": "Σύντομη έκδοση",
+          "disclaimer": "Μόνο ενδεικτική προεπισκόπηση. Η Archer δεν έχει επιθεωρήσει αυτόν τον ιστότοπο ή δεν έχει αποδώσει μέσα. Η σύλληψη και η δημιουργία που υποστηρίζονται από αποδεικτικά στοιχεία ξεκινούν μετά τη σύνδεση.",
+          "loginNotice": "Συνδεθείτε για να επιτρέψετε στον Archer να επιθεωρήσει τη σελίδα του δημόσιου προϊόντος και να δημιουργήσει την επεξήγηση του προϊόντος σας σε έναν ιδιωτικό χώρο εργασίας.",
+          "invalidUrlCopy": "Εισαγάγετε μια δημόσια διεύθυνση URL ιστότοπου HTTP ή HTTPS. Τα ιδιωτικά δίκτυα και οι τοπικές διευθύνσεις δεν υποστηρίζονται.",
+          "expiredCopy": "Αυτή η μεταβίβαση της εκστρατείας έληξε. Επιστρέψτε στο Archer και ετοιμάστε μια νέα προεπισκόπηση.",
+          "sampleDirection": "Αποκαλύψτε το προϊόν μέσα από μια κινηματογραφική μεταμόρφωση, μεταβαίνοντας από την ένταση σε μια σαφή, αξέχαστη ανταμοιβή.",
+          "sampleMessage": "Μετατρέψτε την ισχυρότερη υπόσχεση του προϊόντος σε μια ιστορία που το κοινό μπορεί να καταλάβει με μία προβολή.",
+          "sampleTone": "σίγουρο, ακριβές, κινηματογραφικό",
+          "sampleVisualLanguage": "γλυπτό φως, απτικές λεπτομέρειες, σκόπιμη κίνηση της κάμερας",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "η ένταση",
+              "body": "Ανοιχτό στο πραγματικό πρόβλημα του κοινού σε μια συναρπαστική εικόνα."
+            },
+            {
+              "number": "02",
+              "title": "Η αποκάλυψη",
+              "body": "Εισαγάγετε το προϊόν ως σημείο καμπής, όχι ως λίστα χαρακτηριστικών."
+            },
+            {
+              "number": "03",
+              "title": "Η απόδειξη",
+              "body": "Δείξτε τη βασική αξία μέσω μιας συνοπτικής οπτικής επίδειξης."
+            },
+            {
+              "number": "04",
+              "title": "Η πρόσκληση",
+              "body": "Προσγειωθείτε σε μία δράση και ένα καθαρό επώνυμο τελικό πλαίσιο."
+            }
+          ],
+          "deliverables": [
+            "Σύντομη εκστρατεία",
+            "storyboard και σκηνοθεσία φωνής",
+            "Master Film with Social Cutdowns"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Από το Spark στην καμπάνια.",
+        "mutedHeading": "Τρεις απλές πράξεις",
+        "learnLabel": "Μάθε περισσότερα",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Γράφω",
+            "description": "Περιγράψτε την καμπάνια σας σε ένα μόνο μήνυμα.",
+            "visualKind": "write",
+            "prompt": "Ξεκινήστε μια κινηματογραφική καμπάνια για ένα νέο παπούτσι παράστασης στο εμποτισμένο με βροχή Τόκιο.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Αναφορά καμπάνιας απόδοσης εμποτισμένη με βροχή"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Performance shoe campaign reference"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Αναφορά καμπάνιας του Τόκιο"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Παράγω",
+            "description": "Η Archer δημιουργεί αμέσως την κινηματογραφική σας καμπάνια.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Δημιουργούνται πλαίσια κινηματογραφικών καμπανιών"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Μερίδιο",
+            "description": "Εγκρίνετε, εξάγετε σε 4K και μοιραστείτε παντού.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Ολοκληρωμένη καμπάνια Archer έτοιμη για εξαγωγή"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "ανακαλύψτε ισχυρό",
+        "chipLabel": "Βίντεο",
+        "mutedHeading": "μοντέλα. Όλα σε ένα μέρος",
+        "items": [
+          "Σύντομη εκστρατεία",
+          "πίνακες γραφής",
+          "οπτική γενιά",
+          "φωνήεν",
+          "ηχητική σχεδίαση",
+          "Τελική επεξεργασία",
+          "κοινωνικές περικοπές",
+          "Εξαγωγή 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Εκστρατείες που έγιναν με την Archer",
+        "items": [
+          {
+            "label": "κινηματογραφική διαφήμιση",
+            "prompt": "Ένα γλυπτό άρωμα μπουκάλι που αναδύεται μέσα από την ασημένια ομίχλη, πολυτελής ταινία καμπάνιας",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "πολυτελής καμπάνια αρωμάτων"
+          },
+          {
+            "label": "Movie Trailer",
+            "prompt": "Ένας μοναχικός αστροναύτης διασχίζει μια πλημμυρισμένη πόλη καθώς το ξημέρωμα ξημερώνει στον ορίζοντα",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "τρέιλερ κινηματογραφικού αστροναύτη"
+          },
+          {
+            "label": "επεξήγηση προϊόντος",
+            "prompt": "Ένα ρολόι ακριβείας συναρμολογείται σε ένα σκοτεινό στούντιο, με κάθε μηχανισμό σε κίνηση",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precision watch explainer"
+          },
+          {
+            "label": "κοινωνική εκστρατεία",
+            "prompt": "Ένα νέο ηλεκτρικό όχημα διαπερνά μια κινηματογραφική καταιγίδα της ερήμου στο Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Electric vehicle social film"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Όλα όσα χρειάζεστε για να κάνετε την καμπάνια",
+        "body": "Σύντομη, δημιουργία, επεξεργασία και εκκίνηση — όλα σε ένα μέρος.",
+        "ctaLabel": "Ξεκινήστε δωρεάν",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Μορφές καμπάνιας",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "κινηματογραφικό πορτρέτο αλεπούς"
+          },
+          {
+            "kind": "metric",
+            "title": "κύρια εξαγωγή",
+            "metric": "4κ",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Κινηματογραφικό πορτρέτο σε ζεστό φως"
+          },
+          {
+            "kind": "wide",
+            "title": "οποιοδήποτε στυλ",
+            "body": "Φωτορεαλιστικά, κινούμενα, με προϊόντα — επιλέγετε τον κόσμο.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Δημιουργική κινηματογραφικής καμπάνιας Archer"
+          },
+          {
+            "kind": "feature",
+            "title": "μια σύντομη",
+            "body": "Ο Archer κουβαλά μια ενιαία ιδέα σε κάθε σκηνή, κόψιμο και κανάλι.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Εκστρατεία τένις φωτογραφήθηκε από ψηλά"
+          },
+          {
+            "kind": "feature",
+            "title": "Άμεσες περικοπές",
+            "body": "Μετατρέψτε μια κύρια ταινία σε έτοιμες κοινωνικές επεξεργασίες.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Καμπάνια κινηματογραφικών οχημάτων σε ένα φαράγγι"
+          },
+          {
+            "kind": "video",
+            "title": "υ-μοντέλο",
+            "body": "Χρησιμοποιήστε το σωστό οπτικό, φωνητικό και μοντέλο κίνησης για κάθε λήψη.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "ακολουθία κινηματογραφικών προϊόντων"
+          },
+          {
+            "kind": "metric",
+            "title": "δημιουργική ορμή",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Cinematic Mountain Campaign"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "ένας χώρος εργασίας.",
+        "accentHeading": "κατασκευασμένο για κάθε καμπάνια",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Σπίτι",
+          "Παράγω",
+          "Βιβλιοθήκη",
+          "εκστρατείες",
+          "Ρυθμίσεις"
+        ],
+        "bannerLabel": "Νέο · Επεξήγηση προϊόντος",
+        "bannerTitle": "Μετατρέψτε οποιονδήποτε ιστότοπο σε μια εκλεπτυσμένη ταινία εκκίνησης.",
+        "bannerBody": "Δημιουργήστε τη σύντομη περιγραφή, το storyboard, τις λήψεις, τη φωνή, την επεξεργασία και τις περικοπές σε μια καθοδηγούμενη ροή.",
+        "projectHeading": "Οι καμπάνιες μου",
+        "projectBody": "12 έργα · 3 στην παραγωγή",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Αιθέρας — Ταινία έναρξης"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef — Brand Story"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Νυχτερινό — τρέιλερ"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Συνεργάζομαι",
+            "body": "Προσκαλέστε την ομάδα σας, ελέγξτε τα σενάρια και εγκρίνετε την τελική περικοπή μαζί."
+          },
+          {
+            "label": "Οργανώνω",
+            "body": "Διατηρήστε σλιπ, αναφορές, γενιές και εξαγωγές σε έναν καθαρό κόμβο καμπάνιας."
+          },
+          {
+            "label": "Οπουδήποτε",
+            "body": "Δημιουργία σε επιτραπέζιους υπολογιστές, tablet ή κινητά — Το Archer διατηρεί την ιστορία σε κίνηση."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Γνωρίστε τον Διευθυντή της καμπάνιας AI σας",
+        "heading": "Γνωρίστε τον Archer.",
+        "mutedHeading": "Δώστε σε κάθε ιδέα έναν κόσμο.",
+        "body": "Ο Archer μετατρέπει ένα προϊόν, μια υπόθεση ή την κυκλοφορία σε μια συνεκτική κινηματογραφική καμπάνια—στη συνέχεια διατηρεί την ιστορία ευθυγραμμισμένη σε κάθε σκηνή και κανάλι.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Sharp creative instincts"
+          },
+          {
+            "number": "02",
+            "label": "από άκρο σε άκρο παραγωγή"
+          },
+          {
+            "number": "03",
+            "label": "Πάντα στο εμπορικό σήμα"
+          }
+        ],
+        "ctaLabel": "Μιλήστε με τον Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Ο Archer είναι έτοιμος",
+        "statusBody": "Πείτε του τι θέλετε να ξεκινήσετε"
+      },
+      "journal": {
+        "heading": "Μέσα στον Τοξότη",
+        "body": "Σημειώσεις για τη δημιουργία ταινιών τεχνητής νοημοσύνης, τις καμπάνιες και τη δημιουργική σκηνοθεσία.",
+        "allStoriesLabel": "Όλες οι ιστορίες",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "χώρος εργασίας της καμπάνιας Archer",
+            "category": "Προϊόν",
+            "date": "Aug 18, 2026",
+            "title": "Από τη σελίδα προϊόντος στο Polished Explainer σε μία δημιουργική ροή",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "κόσμος κινηματογραφικής καμπάνιας Archer",
+            "category": "Στούντιο",
+            "date": "Aug 06, 2026",
+            "title": "Γιατί οι πιο δυνατές καμπάνιες τεχνητής νοημοσύνης εξακολουθούν να ξεκινούν με μια άποψη",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Η καμπάνια σας ξεκινά εδώ",
+        "ctaLabel": "Ξεκινήστε δωρεάν",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "πλαίσιο κινηματογραφικού προϊόντος"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "πλαίσιο ατμόσφαιρας καμπάνιας"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Παγκόσμιο πλαίσιο εκστρατείας"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "πλαίσιο ιστορίας μάρκας"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Trailer closing frame"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Δημιουργήστε κινηματογραφικές καμπάνιες με τη δύναμη της τεχνητής νοημοσύνης.",
+        "groups": [
+          {
+            "label": "Πλοήγηση",
+            "links": [
+              {
+                "label": "Προϊόν",
+                "target": "product"
+              },
+              {
+                "label": "Βιτρίνα",
+                "target": "showcase"
+              },
+              {
+                "label": "καταλληλότητες",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Δημιουργώ",
+            "links": [
+              {
+                "label": "κινηματογραφική διαφήμιση",
+                "target": "start"
+              },
+              {
+                "label": "Movie Trailer",
+                "target": "start"
+              },
+              {
+                "label": "επεξήγηση προϊόντος",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Συνδέω",
+            "links": [
+              {
+                "label": "Επαφή",
+                "target": "contact"
+              },
+              {
+                "label": "Εφημερίδα",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Ο διευθυντής της καμπάνιας AI σας.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

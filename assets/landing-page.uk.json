@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "uk",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Зустрічайте Арчер"
+    },
+    "badge": "Директор кампанії AI",
+    "headline": "Створюйте кінематографічні кампанії з силою ШІ",
+    "subheadline": "Перетворіть продукт, передумову або запуск в одну послідовну кампанію — від творчого брифу та розкадрування до головного фільму та соціальних скорочень.",
+    "ctaLabel": "Поговоріть з Арчером",
+    "secondaryCtaLabel": "Подивіться, як це працює",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Привіт, я лучник. Скажіть мені, що ви запускаєте, і я знайду історію, яку варто розповісти."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Онлайн · Зазвичай миттєво відповідає",
+      "inputPlaceholder": "Вставте URL-адресу загальнодоступного продукту…",
+      "suggestedPrompts": [
+        "Сформуйте мій запуск",
+        "Знайти мій кут кампанії",
+        "Побудуйте розкадрування"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Кінематографічні кампанії Арчера"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "стрілець",
+        "navItems": [
+          {
+            "label": "добуток",
+            "target": "product"
+          },
+          {
+            "label": "вітрина",
+            "target": "showcase"
+          },
+          {
+            "label": "здібності",
+            "target": "capabilities"
+          },
+          {
+            "label": "журнал",
+            "target": "journal"
+          },
+          {
+            "label": "Зустрічайте Арчер",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "входити",
+        "meetLabel": "Зустрічайте Арчер",
+        "announcementLabel": "новітній",
+        "announcementTitle": "Пояснювач продукту тепер доступний",
+        "headingLines": [
+          "створити кінематограф",
+          "кампанії з"
+        ],
+        "mutedHeadingLine": "Потужність ШІ",
+        "primaryCtaLabel": "Поговоріть з Арчером",
+        "secondaryCtaLabel": "Подивіться, як це працює",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Директор кампанії AI",
+          "statusLabel": "Онлайн · Зазвичай миттєво відповідає",
+          "openingMessage": "Привіт, я лучник. Скажіть мені, що ви запускаєте, і я знайду історію, яку варто розповісти.",
+          "inputPlaceholder": "Вставте URL-адресу загальнодоступного продукту…",
+          "suggestions": [
+            "Сформуйте мій запуск",
+            "Знайти мій кут кампанії",
+            "Побудуйте розкадрування"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Спрямуйте пояснення продукту",
+          "body": "Принесіть сторінку публічного продукту та встановіть творчий напрямок. Перед входом Арчер підготує ілюстративний запис.",
+          "urlLabel": "Public website URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "аудиторія",
+          "objectiveLabel": "об'єктив",
+          "ctaLabel": "Заклик до дії",
+          "durationLabel": "тривалість",
+          "styleLabel": "Візуальний стиль",
+          "previewLabel": "Попередній перегляд",
+          "previewHeading": "Перший напрямок кампанії",
+          "campaignDirectionLabel": "Напрямок кампанії",
+          "storyboardLabel": "зразок розкадрування",
+          "deliverablesLabel": "Очікувані результати",
+          "submitLabel": "Попередній перегляд напряму",
+          "generateLabel": "Створіть мій пояснювач",
+          "voiceLabel": "Спробуйте голосове демо",
+          "editLabel": "Редагувати коротко",
+          "disclaimer": "Тільки ілюстративний попередній перегляд. Archer не перевіряв цей веб-сайт або не відтворив медіа. Підтримка доказів та генерація починається після входу.",
+          "loginNotice": "Увійдіть, щоб дозволити Archer оглянути сторінку загальнодоступного продукту та створити пояснення продукту в приватному робочому просторі.",
+          "invalidUrlCopy": "Enter a public HTTP or HTTPS website URL. Приватні мережі та локальні адреси не підтримуються.",
+          "expiredCopy": "Термін дії цієї кампанії закінчився. Поверніться до Арчера і підготуйте свіжий попередній перегляд.",
+          "sampleDirection": "Розкрийте продукт за допомогою однієї кінематографічної трансформації, переходячи від напруги до чіткої, незабутньої виплати.",
+          "sampleMessage": "Перетворіть найсильнішу обіцянку продукту в історію, яку аудиторія може зрозуміти за один перегляд.",
+          "sampleTone": "Впевнений, точний, кінематографічний",
+          "sampleVisualLanguage": "Скульптурне світло, тактильні деталі, цілеспрямований рух камери",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "напруга",
+              "body": "Відкрити справжню проблему глядачів в одному захоплюючому образі."
+            },
+            {
+              "number": "02",
+              "title": "розкриття",
+              "body": "Введіть продукт як поворотний момент, а не список функцій."
+            },
+            {
+              "number": "03",
+              "title": "доказ",
+              "body": "Покажіть основну цінність за допомогою короткої візуальної демонстрації."
+            },
+            {
+              "number": "04",
+              "title": "запрошення",
+              "body": "Приземляйтеся на одну дію і чисту фірмову кінцеву раму."
+            }
+          ],
+          "deliverables": [
+            "Короткий опис кампанії",
+            "Storyboard and voiceover direction",
+            "Майстер фільму з соціальними скороченнями"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Від іскри до кампанії.",
+        "mutedHeading": "Три прості дії",
+        "learnLabel": "Вчи більше",
+        "acts": [
+          {
+            "number": "01",
+            "title": "писання",
+            "description": "Опишіть свою кампанію в одному підказці.",
+            "visualKind": "write",
+            "prompt": "Запустіть кінематографічну кампанію для створення нового взуття в Токіо, просоченому дощем.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Посилання на кампанію, просочену дощем"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Performance shoe campaign reference"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Токійська кампанія"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "породити",
+            "description": "Арчер миттєво створює вашу кінематографічну кампанію.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Створюються кадри кінематографічної кампанії"
+            }
+          },
+          {
+            "number": "03",
+            "title": "пай",
+            "description": "Схвалюйте, експортуйте в 4K та діліться всюди.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Finished Archer campaign ready to export"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "виявити потужний",
+        "chipLabel": "відео",
+        "mutedHeading": "Моделі. Все в одному місці",
+        "items": [
+          "Короткий опис кампанії",
+          "розкадрування",
+          "Візуальне покоління",
+          "за кадром",
+          "звукове оформлення",
+          "Final edit",
+          "Соціальні скорочення",
+          "Експорт 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Кампанії, проведені з лучником",
+        "items": [
+          {
+            "label": "кінематографічне оголошення",
+            "prompt": "Скульптурна пляшка аромату, що з’являється через срібний туман, розкішний фільм кампанії",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Розкішна кампанія ароматів"
+          },
+          {
+            "label": "Трейлер до фільму",
+            "prompt": "Самотній астронавт перетинає затоплене місто, коли світанок пробивається крізь горизонт",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Трейлер кінематографічного астронавта"
+          },
+          {
+            "label": "Пояснювач продукту",
+            "prompt": "Точність годинника збирається в темній студії, кожен механізм рухається",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Пояснювач точного годинника"
+          },
+          {
+            "label": "Social Campaign",
+            "prompt": "Новий електромобіль прорізає кінематографічну бурю в пустелі в блакитну годину",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Електричний автомобіль Соціальний фільм"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Все необхідне для проведення кампанії",
+        "body": "Коротко, генерувати, редагувати та запускати — все в одному місці.",
+        "ctaLabel": "Почніть безкоштовно",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Формати кампанії",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "кінематографічний лисиця"
+          },
+          {
+            "kind": "metric",
+            "title": "Майстер експорт",
+            "metric": "4к",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Кінематографічний портрет в теплому світлі"
+          },
+          {
+            "kind": "wide",
+            "title": "Будь-який стиль",
+            "body": "Фотореалістичний, анімований, керований продуктом — ви обираєте світ.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Арчер кінематографічна кампанія креатив"
+          },
+          {
+            "kind": "feature",
+            "title": "Один короткий",
+            "body": "Арчер несе одну ідею через кожну сцену, виріз і канал.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Тенісна кампанія, сфотографована зверху"
+          },
+          {
+            "kind": "feature",
+            "title": "Миттєві скорочення",
+            "body": "Перетворіть One Master Film на готові до запуску соціальні редагування.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Кампанія кінематографічного транспорту в каньйоні"
+          },
+          {
+            "kind": "video",
+            "title": "мультимодель",
+            "body": "Використовуйте правильну візуальну, голосову та рухову модель для кожного кадру.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Послідовність кінематографії"
+          },
+          {
+            "kind": "metric",
+            "title": "Творчий імпульс",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Кінематографічна гора"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "один робочий простір.",
+        "accentHeading": "Створено для кожної кампанії",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "дім",
+          "породити",
+          "бібліотека",
+          "кампанії",
+          "установки"
+        ],
+        "bannerLabel": "Новий · Пояснювач продукту",
+        "bannerTitle": "Перетворіть будь-який веб-сайт на вишуканий запуск.",
+        "bannerBody": "Створіть коротку, розкадрування, кадри, закадровий голос, редагування та скорочення в одному керованому потоці.",
+        "projectHeading": "Мої кампанії",
+        "projectBody": "12 проектів · 3 у виробництві",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Ефір — запуск фільму"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Риф — історія бренду"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Ноктюрн — трейлер"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "співробітничати",
+            "body": "Запросіть свою команду, перегляньте розкадровки та разом схваліть остаточний розріз."
+          },
+          {
+            "label": "організувати",
+            "body": "Зберігайте брифи, посилання, покоління та експорт в одному чистому центрі кампанії."
+          },
+          {
+            "label": "будь-де",
+            "body": "Створити на робочому столі, планшеті чи мобільному пристрої — Арчер підтримує історію."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Зустрічайте свого директора кампанії AI",
+        "heading": "Знайомтесь, Арчер.",
+        "mutedHeading": "Дайте кожній ідеї світ.",
+        "body": "Арчер перетворює продукт, передумову або запуск у цілісну кінематографічну кампанію, а потім тримає історію вирівняною через кожну сцену та канал.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Гострі творчі інстинкти"
+          },
+          {
+            "number": "02",
+            "label": "Наскрізне виробництво"
+          },
+          {
+            "number": "03",
+            "label": "Завжди на бренді"
+          }
+        ],
+        "ctaLabel": "Поговоріть з Арчером",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "лучник готовий",
+        "statusBody": "Скажіть йому, що ви хочете запустити"
+      },
+      "journal": {
+        "heading": "Всередині лучника",
+        "body": "Примітки щодо створення фільмів, кампаній та творчого напряму ШІ.",
+        "allStoriesLabel": "Всі історії",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Робочий простір кампанії Archer",
+            "category": "добуток",
+            "date": "Aug 18, 2026",
+            "title": "Від сторінки продукту до відшліфованого пояснення в одному творчому потоці",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Світ кінематографічної кампанії Арчер",
+            "category": "студія",
+            "date": "Aug 06, 2026",
+            "title": "Чому найсильніші кампанії зі штучного інтелекту все ще починаються з точки зору",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Ваша кампанія починається тут",
+        "ctaLabel": "Почніть безкоштовно",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Кадр кінематографічного продукту"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Атмосфера кампанії"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Світова кампанія"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Рамка історії бренду"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Рамка для закриття"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Створюйте кінематографічні кампанії з силою ШІ.",
+        "groups": [
+          {
+            "label": "плавання",
+            "links": [
+              {
+                "label": "добуток",
+                "target": "product"
+              },
+              {
+                "label": "вітрина",
+                "target": "showcase"
+              },
+              {
+                "label": "здібності",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "творити",
+            "links": [
+              {
+                "label": "кінематографічне оголошення",
+                "target": "start"
+              },
+              {
+                "label": "Трейлер до фільму",
+                "target": "start"
+              },
+              {
+                "label": "Пояснювач продукту",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "сполучатися",
+            "links": [
+              {
+                "label": "зв'язок",
+                "target": "contact"
+              },
+              {
+                "label": "журнал",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Арчер.",
+        "closingStatement": "Ваш директор кампанії AI.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

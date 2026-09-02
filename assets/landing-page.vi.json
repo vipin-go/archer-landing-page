@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "vi",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "gặp cung thủ"
+    },
+    "badge": "Giám đốc chiến dịch AI",
+    "headline": "Tạo chiến dịch điện ảnh với sức mạnh của AI",
+    "subheadline": "Biến một sản phẩm, tiền đề hoặc khởi động thành một chiến dịch mạch lạc — từ bản tóm tắt sáng tạo và bảng phân cảnh đến bộ phim chính và các đợt cắt giảm xã hội.",
+    "ctaLabel": "Nói chuyện với Archer",
+    "secondaryCtaLabel": "Xem nó hoạt động như thế nào",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Xin chào, tôi là cung thủ. Hãy cho tôi biết những gì bạn đang khởi chạy và tôi sẽ tìm thấy câu chuyện đáng để kể."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "trực tuyến · thường trả lời ngay lập tức",
+      "inputPlaceholder": "Dán URL sản phẩm công cộng…",
+      "suggestedPrompts": [
+        "Định hình sự ra mắt của tôi",
+        "Tìm góc chiến dịch của tôi",
+        "Xây dựng một bảng phân cảnh"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Chiến dịch điện ảnh Archer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Người bắn cung",
+        "navItems": [
+          {
+            "label": "sản phẩm",
+            "target": "product"
+          },
+          {
+            "label": "Showcase",
+            "target": "showcase"
+          },
+          {
+            "label": "khả năng",
+            "target": "capabilities"
+          },
+          {
+            "label": "tạp chí",
+            "target": "journal"
+          },
+          {
+            "label": "gặp cung thủ",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Đăng nhập",
+        "meetLabel": "gặp cung thủ",
+        "announcementLabel": "Mới mẻ",
+        "announcementTitle": "Trình giải thích sản phẩm hiện đã có sẵn",
+        "headingLines": [
+          "Tạo điện ảnh",
+          "Các chiến dịch với"
+        ],
+        "mutedHeadingLine": "Sức mạnh của AI",
+        "primaryCtaLabel": "Nói chuyện với Archer",
+        "secondaryCtaLabel": "Xem nó hoạt động như thế nào",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Giám đốc chiến dịch AI",
+          "statusLabel": "trực tuyến · thường trả lời ngay lập tức",
+          "openingMessage": "Xin chào, tôi là cung thủ. Hãy cho tôi biết những gì bạn đang khởi chạy và tôi sẽ tìm thấy câu chuyện đáng để kể.",
+          "inputPlaceholder": "Dán URL sản phẩm công cộng…",
+          "suggestions": [
+            "Định hình sự ra mắt của tôi",
+            "Tìm góc chiến dịch của tôi",
+            "Xây dựng một bảng phân cảnh"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "chỉ đạo một người giải thích sản phẩm",
+          "body": "Mang theo một trang sản phẩm công cộng và thiết lập hướng sáng tạo. Archer sẽ chuẩn bị một bản tóm tắt minh họa trước khi đăng nhập.",
+          "urlLabel": "URL trang web công cộng",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Thính giả",
+          "objectiveLabel": "mục tiêu",
+          "ctaLabel": "Kêu gọi hành động",
+          "durationLabel": "thời lượng",
+          "styleLabel": "Phong cách trực quan",
+          "previewLabel": "xem trước có hướng dẫn",
+          "previewHeading": "Hướng chiến dịch đầu tiên",
+          "campaignDirectionLabel": "Hướng chiến dịch",
+          "storyboardLabel": "Bảng phân cảnh mẫu",
+          "deliverablesLabel": "dự kiến giao hàng",
+          "submitLabel": "Xem trước hướng đi",
+          "generateLabel": "Tạo trình giải thích của tôi",
+          "voiceLabel": "thử demo giọng nói",
+          "editLabel": "Chỉnh sửa tóm tắt",
+          "disclaimer": "Chỉ xem trước minh họa. Archer đã không kiểm tra trang web này hoặc kết xuất phương tiện. Bắt đầu từ bằng chứng được chứng minh và bắt đầu sau khi đăng nhập.",
+          "loginNotice": "Đăng nhập để cho phép Archer kiểm tra trang sản phẩm công cộng và tạo trình giải thích sản phẩm của bạn trong không gian làm việc riêng tư.",
+          "invalidUrlCopy": "Nhập URL trang web HTTP hoặc HTTPS công khai. Mạng riêng và địa chỉ cục bộ không được hỗ trợ.",
+          "expiredCopy": "chiến dịch này đã hết hạn. Quay trở lại Archer và chuẩn bị một bản xem trước mới.",
+          "sampleDirection": "Tiết lộ sản phẩm thông qua một lần chuyển đổi điện ảnh, chuyển từ căng thẳng sang phần thưởng rõ ràng, đáng nhớ.",
+          "sampleMessage": "Biến lời hứa mạnh mẽ nhất của sản phẩm thành một câu chuyện mà khán giả có thể hiểu được trong một lần xem.",
+          "sampleTone": "Tự tin, chính xác, điện ảnh",
+          "sampleVisualLanguage": "Ánh sáng điêu khắc, chi tiết xúc giác, chuyển động máy ảnh có mục đích",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "sự căng thẳng",
+              "body": "mở về vấn đề thực sự của khán giả trong một hình ảnh bắt giữ."
+            },
+            {
+              "number": "02",
+              "title": "tiết lộ",
+              "body": "Giới thiệu sản phẩm như một bước ngoặt, không phải là một danh sách tính năng."
+            },
+            {
+              "number": "03",
+              "title": "bằng chứng",
+              "body": "Hiển thị giá trị cốt lõi thông qua một cuộc trình diễn trực quan ngắn gọn."
+            },
+            {
+              "number": "04",
+              "title": "lời mời",
+              "body": "hạ cánh trên một hành động và một khung kết thúc có thương hiệu sạch sẽ."
+            }
+          ],
+          "deliverables": [
+            "Tóm tắt chiến dịch",
+            "Bảng phân cảnh và hướng lồng tiếng",
+            "Phim chính với sự cắt giảm xã hội"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Từ tia lửa đến chiến dịch.",
+        "mutedHeading": "Ba hành vi đơn giản",
+        "learnLabel": "Tìm hiểu thêm",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Viết",
+            "description": "Mô tả chiến dịch của bạn trong một lời nhắc duy nhất.",
+            "visualKind": "write",
+            "prompt": "Khởi động một chiến dịch điện ảnh cho một đôi giày biểu diễn mới ở Tokyo ướt đẫm mưa.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Tham khảo chiến dịch hiệu suất ướt đẫm mưa"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Tham khảo chiến dịch giày hiệu suất"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tham khảo chiến dịch Tokyo"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Đưa đến kết qủa",
+            "description": "Archer tạo chiến dịch điện ảnh của bạn ngay lập tức.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Khung chiến dịch điện ảnh đang được tạo"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Chia",
+            "description": "Phê duyệt, xuất trong 4K và chia sẻ ở khắp mọi nơi.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Chiến dịch Archer đã hoàn thành đã sẵn sàng để xuất"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Khám phá mạnh mẽ",
+        "chipLabel": "Video",
+        "mutedHeading": "mô hình. tất cả ở một nơi",
+        "items": [
+          "Tóm tắt chiến dịch",
+          "bảng phân cảnh",
+          "thế hệ trực quan",
+          "lồng tiếng",
+          "Thiết kế âm thanh",
+          "Chỉnh sửa cuối cùng",
+          "cắt giảm xã hội",
+          "Xuất khẩu 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Chiến dịch được thực hiện với Archer",
+        "items": [
+          {
+            "label": "Quảng cáo điện ảnh",
+            "prompt": "Một chai nước hoa điêu khắc nổi lên thông qua sương bạc, phim chiến dịch sang trọng",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Chiến dịch hương thơm sang trọng"
+          },
+          {
+            "label": "Trailer phim",
+            "prompt": "Một phi hành gia đơn độc băng qua một thành phố ngập lụt khi bình minh ló dạng trên đường chân trời",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Trailer phi hành gia điện ảnh"
+          },
+          {
+            "label": "Người giải thích sản phẩm",
+            "prompt": "Một chiếc đồng hồ chính xác tự lắp ráp trong một studio tối, mọi cơ chế chuyển động",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Trình giải thích đồng hồ chính xác"
+          },
+          {
+            "label": "Chiến dịch xã hội",
+            "prompt": "Một chiếc xe điện mới vượt qua cơn bão sa mạc điện ảnh vào giờ xanh",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "phim xã hội xe điện"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Mọi thứ bạn cần để thực hiện chiến dịch",
+        "body": "Tóm tắt, tạo, chỉnh sửa và khởi chạy - tất cả ở một nơi.",
+        "ctaLabel": "Bắt đầu miễn phí",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Định dạng chiến dịch",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Chân dung cáo điện ảnh"
+          },
+          {
+            "kind": "metric",
+            "title": "Xuất chính",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Chân dung điện ảnh trong ánh sáng ấm áp"
+          },
+          {
+            "kind": "wide",
+            "title": "bất kỳ phong cách nào",
+            "body": "Photoreal, hoạt hình, dẫn đầu sản phẩm - bạn chọn thế giới.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Chiến dịch điện ảnh Archer"
+          },
+          {
+            "kind": "feature",
+            "title": "một ngắn gọn",
+            "body": "Archer mang một ý tưởng duy nhất qua mỗi cảnh, cắt và kênh.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Chiến dịch tennis chụp từ trên cao"
+          },
+          {
+            "kind": "feature",
+            "title": "cắt giảm tức thì",
+            "body": "Biến One Master Film thành các chỉnh sửa xã hội sẵn sàng ra mắt.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Chiến dịch xe điện ảnh trong hẻm núi"
+          },
+          {
+            "kind": "video",
+            "title": "Đa mô hình",
+            "body": "Sử dụng hình ảnh, giọng nói và mô hình chuyển động phù hợp cho mỗi cảnh quay.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Trình tự sản phẩm điện ảnh"
+          },
+          {
+            "kind": "metric",
+            "title": "Động lực sáng tạo",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Chiến dịch Núi Điện ảnh"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "một không gian làm việc.",
+        "accentHeading": "Được xây dựng cho mọi chiến dịch",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Tổ ấm",
+          "Đưa đến kết qủa",
+          "Thư viện",
+          "Chiến dịch",
+          "Cài đặt"
+        ],
+        "bannerLabel": "Mới · Giải thích sản phẩm",
+        "bannerTitle": "Biến bất kỳ trang web nào thành một bộ phim ra mắt bóng bẩy.",
+        "bannerBody": "Xây dựng bản tóm tắt, bảng phân cảnh, cảnh quay, lồng tiếng, chỉnh sửa và cắt giảm trong một luồng có hướng dẫn.",
+        "projectHeading": "chiến dịch của tôi",
+        "projectBody": "12 dự án · 3 trong sản xuất",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether - ra mắt phim"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef - Câu chuyện thương hiệu"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne - Đoạn giới thiệu"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Hợp tác",
+            "body": "Mời nhóm của bạn, xem lại bảng phân cảnh và phê duyệt phần cuối cùng cùng nhau."
+          },
+          {
+            "label": "Tổ chức",
+            "body": "Giữ các bản tóm tắt, tài liệu tham khảo, thế hệ và xuất khẩu trong một trung tâm chiến dịch sạch."
+          },
+          {
+            "label": "ở bất cứ đâu",
+            "body": "Tạo trên máy tính để bàn, máy tính bảng hoặc thiết bị di động - Archer giữ cho câu chuyện chuyển động."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Gặp gỡ Giám đốc Chiến dịch AI của bạn",
+        "heading": "gặp cung thủ.",
+        "mutedHeading": "Cung cấp cho mọi ý tưởng một thế giới.",
+        "body": "Archer biến một sản phẩm, tiền đề hoặc khởi động thành một chiến dịch điện ảnh mạch lạc — sau đó giữ cho câu chuyện được căn chỉnh qua từng cảnh và kênh.",
+        "points": [
+          {
+            "number": "01",
+            "label": "bản năng sáng tạo sắc bén"
+          },
+          {
+            "number": "02",
+            "label": "Sản xuất đầu cuối"
+          },
+          {
+            "number": "03",
+            "label": "Luôn luôn trên thương hiệu"
+          }
+        ],
+        "ctaLabel": "Nói chuyện với Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer đã sẵn sàng",
+        "statusBody": "Nói với anh ấy những gì bạn muốn khởi chạy"
+      },
+      "journal": {
+        "heading": "Bên trong cung thủ",
+        "body": "Ghi chú về làm phim AI, chiến dịch và định hướng sáng tạo.",
+        "allStoriesLabel": "tất cả các câu chuyện",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Không gian làm việc của chiến dịch Archer",
+            "category": "sản phẩm",
+            "date": "Aug 18, 2026",
+            "title": "Từ trang sản phẩm đến người giải thích được đánh bóng trong một luồng sáng tạo",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Thế giới chiến dịch điện ảnh Archer",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Tại sao các chiến dịch AI mạnh nhất vẫn bắt đầu với quan điểm",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Chiến dịch của bạn bắt đầu từ đây",
+        "ctaLabel": "Bắt đầu miễn phí",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Khung sản phẩm điện ảnh"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Khung không khí chiến dịch"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Khung thế giới chiến dịch"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Khung câu chuyện thương hiệu"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Khung đóng trailer"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Tạo chiến dịch điện ảnh bằng sức mạnh của AI.",
+        "groups": [
+          {
+            "label": "Điều hướng",
+            "links": [
+              {
+                "label": "sản phẩm",
+                "target": "product"
+              },
+              {
+                "label": "Showcase",
+                "target": "showcase"
+              },
+              {
+                "label": "khả năng",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Đóng tuồng",
+            "links": [
+              {
+                "label": "Quảng cáo điện ảnh",
+                "target": "start"
+              },
+              {
+                "label": "Trailer phim",
+                "target": "start"
+              },
+              {
+                "label": "Người giải thích sản phẩm",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Liên kết",
+            "links": [
+              {
+                "label": "Tiếp xúc",
+                "target": "contact"
+              },
+              {
+                "label": "tạp chí",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Cung thủ.",
+        "closingStatement": "Giám đốc chiến dịch AI của bạn.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

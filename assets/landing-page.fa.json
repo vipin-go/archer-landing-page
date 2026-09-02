@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "fa",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "با آرچر آشنا شوید"
+    },
+    "badge": "مدیر کمپین هوش مصنوعی",
+    "headline": "کمپین‌های سینمایی با قدرت هوش مصنوعی بسازید",
+    "subheadline": "یک محصول، فرضیه یا عرضه را به یک کمپین منسجم تبدیل کنید - از خلاصه خلاقانه و استوری‌بورد تا فیلم اصلی و نسخه‌های کوتاه شبکه‌های اجتماعی.",
+    "ctaLabel": "با آرچر گفتگو کنید",
+    "secondaryCtaLabel": "نحوه کار را ببینید",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "سلام، من آرچر هستم. بگویید چه چیزی را عرضه می‌کنید و من داستانی که ارزش گفتن دارد پیدا می‌کنم."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "آنلاین · معمولاً فوراً پاسخ می‌دهد",
+      "inputPlaceholder": "یک URL عمومی محصول را الصاق کنید...",
+      "suggestedPrompts": [
+        "عرضه من را شکل بده",
+        "زاویه کمپین من را پیدا کن",
+        "یک استوری‌بورد بساز"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "کمپین‌های سینمایی آرچر"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "آرچر",
+        "navItems": [
+          {
+            "label": "محصول",
+            "target": "product"
+          },
+          {
+            "label": "نمایشگاه",
+            "target": "showcase"
+          },
+          {
+            "label": "قابلیت‌ها",
+            "target": "capabilities"
+          },
+          {
+            "label": "ژورنال",
+            "target": "journal"
+          },
+          {
+            "label": "با آرچر آشنا شوید",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "ورود",
+        "meetLabel": "با آرچر آشنا شوید",
+        "announcementLabel": "جدید",
+        "announcementTitle": "Product Explainer اکنون در دسترس است",
+        "headingLines": [
+          "کمپین سینمایی بسازید",
+          "با"
+        ],
+        "mutedHeadingLine": "قدرت هوش مصنوعی",
+        "primaryCtaLabel": "با آرچر گفتگو کنید",
+        "secondaryCtaLabel": "نحوه کار را ببینید",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "مدیر کمپین هوش مصنوعی",
+          "statusLabel": "آنلاین · معمولاً فوراً پاسخ می‌دهد",
+          "openingMessage": "سلام، من آرچر هستم. بگویید چه چیزی را عرضه می‌کنید و من داستانی که ارزش گفتن دارد پیدا می‌کنم.",
+          "inputPlaceholder": "یک URL عمومی محصول را الصاق کنید...",
+          "suggestions": [
+            "عرضه من را شکل بده",
+            "زاویه کمپین من را پیدا کن",
+            "یک استوری‌بورد بساز"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "یک Product Explainer را کارگردانی کنید",
+          "body": "یک صفحه محصول عمومی بیاورید و جهت خلاقانه را تعیین کنید. آرچر قبل از ورود، یک خلاصه تصویری آماده می‌کند.",
+          "urlLabel": "URL وب‌سایت عمومی",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "مخاطب",
+          "objectiveLabel": "هدف",
+          "ctaLabel": "دعوت به اقدام",
+          "durationLabel": "مدت زمان",
+          "styleLabel": "سبک بصری",
+          "previewLabel": "پیش‌نمایش راهنما",
+          "previewHeading": "یک جهت کمپین اولیه",
+          "campaignDirectionLabel": "جهت کمپین",
+          "storyboardLabel": "نمونه استوری‌بورد",
+          "deliverablesLabel": "تحویلی‌های مورد انتظار",
+          "submitLabel": "پیش‌نمایش جهت را ببینید",
+          "generateLabel": "Explainer من را بساز",
+          "voiceLabel": "دموی صوتی را امتحان کنید",
+          "editLabel": "ویرایش خلاصه",
+          "disclaimer": "فقط پیش‌نمایش تصویری است. آرچر این وب‌سایت را بررسی نکرده یا رسانه‌ای رندر نگرفته است. جمع‌آوری شواهد‌محور و تولید پس از ورود آغاز می‌شود.",
+          "loginNotice": "برای اینکه آرچر صفحه محصول عمومی را بررسی کند و Product Explainer شما را در فضای کاری خصوصی بسازد، وارد شوید.",
+          "invalidUrlCopy": "یک URL وب‌سایت عمومی HTTP یا HTTPS وارد کنید. شبکه‌های خصوصی و آدرس‌های محلی پشتیبانی نمی‌شوند.",
+          "expiredCopy": "این تحویل کمپین منقضی شده است. به آرچر برگردید و یک پیش‌نمایش جدید آماده کنید.",
+          "sampleDirection": "محصول را از طریق یک تحول سینمایی آشکار کنید، از تنش به نتیجه‌ای واضح و ماندگار.",
+          "sampleMessage": "قوی‌ترین وعده محصول را به داستانی تبدیل کنید که مخاطب در یک نگاه بتواند آن را درک کند.",
+          "sampleTone": "مطمئن، دقیق، سینمایی",
+          "sampleVisualLanguage": "نور مجسمه‌ای، جزئیات لمسی، حرکت دوربین هدفمند",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "تنش",
+              "body": "با یک تصویر چشمگیر از مشکل واقعی مخاطب شروع کنید."
+            },
+            {
+              "number": "02",
+              "title": "رونمایی",
+              "body": "محصول را به عنوان نقطه عطف معرفی کنید، نه لیستی از ویژگی‌ها."
+            },
+            {
+              "number": "03",
+              "title": "اثبات",
+              "body": "ارزش اصلی را از طریق یک نمایش بصری مختصر نشان دهید."
+            },
+            {
+              "number": "04",
+              "title": "دعوت",
+              "body": "روی یک اقدام و یک فریم پایانی برند‌دار تمیز بمانید."
+            }
+          ],
+          "deliverables": [
+            "خلاصه کمپین",
+            "استوری‌بورد و جهت صداگذاری",
+            "فیلم اصلی با نسخه‌های کوتاه شبکه‌های اجتماعی"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "از جرقه تا کمپین.",
+        "mutedHeading": "سه عمل ساده",
+        "learnLabel": "بیشتر بدانید",
+        "acts": [
+          {
+            "number": "01",
+            "title": "بنویسید",
+            "description": "کمپین خود را در یک پرامپت واحد توصیف کنید.",
+            "visualKind": "write",
+            "prompt": "یک کمپین سینمایی برای یک کفش ورزشی جدید در توکیوی باران‌خورده راه‌اندازی کنید.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "مرجع کمپین باران‌خورده"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "مرجع کمپین کفش ورزشی"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "مرجع کمپین توکیو"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "تولید کنید",
+            "description": "آرچر کمپین سینمایی شما را فوراً می‌سازد.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "۸۴٪",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "فریم‌های کمپین سینمایی در حال تولید"
+            }
+          },
+          {
+            "number": "03",
+            "title": "به اشتراک بگذارید",
+            "description": "تأیید، صادر کردن در 4K، و اشتراک‌گذاری همه‌جا.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "کمپین آرچر آماده صادر کردن"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "قدرت‌های مدل‌های",
+        "chipLabel": "ویدیو",
+        "mutedHeading": "را کشف کنید. همه در یک جا",
+        "items": [
+          "خلاصه کمپین",
+          "استوری‌بوردها",
+          "تولید بصری",
+          "صداگذاری",
+          "طراحی صدا",
+          "ویرایش نهایی",
+          "نسخه‌های کوتاه شبکه‌های اجتماعی",
+          "صادرات 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "کمپین‌های ساخته‌شده با آرچر",
+        "items": [
+          {
+            "label": "تبلیغ سینمایی",
+            "prompt": "یک بطری عطر مجسمه‌ای که از مه نقره‌ای ظاهر می‌شود، فیلم کمپین لوکس",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "کمپین عطر لوکس"
+          },
+          {
+            "label": "پیش‌نمایش فیلم",
+            "prompt": "یک فضانورد تنها از یک شهر سیل‌زده عبور می‌کند در حالی که سحرگاه از افق عبور می‌کند",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "پیش‌نمایش فضانورد سینمایی"
+          },
+          {
+            "label": "توضیح‌دهنده محصول",
+            "prompt": "یک ساعت دقیق در یک استودیوی تاریک مونتاژ می‌شود، هر مکانیسم در حرکت",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "توضیح ساعت دقیق"
+          },
+          {
+            "label": "کمپین شبکه‌های اجتماعی",
+            "prompt": "یک خودروی برقی جدید از یک طوفان شنی سینمایی در ساعت آبی عبور می‌کند",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "فیلم شبکه‌های اجتماعی خودروی برقی"
+          }
+        ]
+      },
+      "features": {
+        "heading": "هر آنچه برای ساخت کمپین نیاز دارید",
+        "body": "خلاصه، تولید، ویرایش، و راه‌اندازی — همه در یک جا.",
+        "ctaLabel": "رایگان شروع کنید",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "فرمت‌های کمپین",
+            "metric": "۳",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "پرتره سینمایی روباه"
+          },
+          {
+            "kind": "metric",
+            "title": "صادرات اصلی",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "پرتره سینمایی در نور گرم"
+          },
+          {
+            "kind": "wide",
+            "title": "هر سبکی",
+            "body": "فتوریالیستی، متحرک، محصول‌محور — شما دنیا را انتخاب می‌کنید.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "خلاقیت کمپین سینمایی آرچر"
+          },
+          {
+            "kind": "feature",
+            "title": "یک خلاصه",
+            "body": "آرچر یک ایده واحد را در هر صحنه، برش و کانال حفظ می‌کند.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "کمپین تنیس از بالا عکسبرداری شده"
+          },
+          {
+            "kind": "feature",
+            "title": "برش‌های فوری",
+            "body": "یک فیلم اصلی را به ویرایش‌های شبکه‌های اجتماعی آماده راه‌اندازی تبدیل کنید.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "کمپین سینمایی خودرو در دره"
+          },
+          {
+            "kind": "video",
+            "title": "چند مدلی",
+            "body": "از مدل بصری، صوتی و حرکتی مناسب برای هر شات استفاده کنید.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "دنباله محصول سینمایی"
+          },
+          {
+            "kind": "metric",
+            "title": "تکانه خلاقانه",
+            "metric": "۲۴/۷",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "کمپین سینمایی کوهستانی"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "یک فضای کاری.",
+        "accentHeading": "برای هر کمپین ساخته شده",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "خانه",
+          "تولید کنید",
+          "کتابخانه",
+          "کمپین‌ها",
+          "تنظیمات"
+        ],
+        "bannerLabel": "جدید · Product Explainer",
+        "bannerTitle": "هر وب‌سایتی را به یک فیلم عرضه صیقل‌خورده تبدیل کنید.",
+        "bannerBody": "خلاصه، استوری‌بورد، شات‌ها، صداگذاری، ویرایش و برش‌های کوتاه را در یک جریان راهنما بسازید.",
+        "projectHeading": "کمپین‌های من",
+        "projectBody": "۱۲ پروژه · ۳ در حال تولید",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — فیلم عرضه"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef — داستان برند"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — پیش‌نمایش"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "همکاری کنید",
+            "body": "تیم خود را دعوت کنید، استوری‌بوردها را بررسی کنید و برش نهایی را با هم تأیید کنید."
+          },
+          {
+            "label": "سازماندهی کنید",
+            "body": "خلاصه‌ها، مراجع، تولیدات و صادرات را در یک هاب کمپین تمیز نگه دارید."
+          },
+          {
+            "label": "هر جایی",
+            "body": "روی دسکتاپ، تبلت یا موبایل بسازید — آرچر داستان را در حرکت نگه می‌دارد."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "با مدیر کمپین هوش مصنوعی خود آشنا شوید",
+        "heading": "با آرچر آشنا شوید.",
+        "mutedHeading": "به هر ایده‌ای یک دنیا بدهید.",
+        "body": "آرچر یک محصول، فرضیه یا عرضه را به یک کمپین سینمایی منسجم تبدیل می‌کند — سپس داستان را در هر صحنه و کانال هماهنگ نگه می‌دارد.",
+        "points": [
+          {
+            "number": "01",
+            "label": "غرایز خلاقانه تیز"
+          },
+          {
+            "number": "02",
+            "label": "تولید سرتاسری"
+          },
+          {
+            "number": "03",
+            "label": "همیشه برند-محور"
+          }
+        ],
+        "ctaLabel": "با آرچر گفتگو کنید",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "آرچر آماده است",
+        "statusBody": "به او بگویید چه می‌خواهید عرضه کنید"
+      },
+      "journal": {
+        "heading": "درون آرچر",
+        "body": "یادداشت‌هایی درباره فیلمسازی هوش مصنوعی، کمپین‌ها و جهت خلاقانه.",
+        "allStoriesLabel": "همه داستان‌ها",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "فضای کاری کمپین آرچر",
+            "category": "محصول",
+            "date": "Aug 18, 2026",
+            "title": "از صفحه محصول به توضیح‌دهنده صیقل‌خورده در یک جریان خلاقانه",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "دنیای کمپین سینمایی آرچر",
+            "category": "استودیو",
+            "date": "Aug 06, 2026",
+            "title": "چرا قوی‌ترین کمپین‌های هوش مصنوعی هنوز با یک دیدگاه شروع می‌شوند",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "کمپین شما از اینجا شروع می‌شود",
+        "ctaLabel": "رایگان شروع کنید",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "فریم محصول سینمایی"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "فریم فضای کمپین"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "فریم دنیای کمپین"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "فریم داستان برند"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "فریم پایانی پیش‌نمایش"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "کمپین‌های سینمایی با قدرت هوش مصنوعی بسازید.",
+        "groups": [
+          {
+            "label": "ناوبری",
+            "links": [
+              {
+                "label": "محصول",
+                "target": "product"
+              },
+              {
+                "label": "نمایشگاه",
+                "target": "showcase"
+              },
+              {
+                "label": "قابلیت‌ها",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "بسازید",
+            "links": [
+              {
+                "label": "تبلیغ سینمایی",
+                "target": "start"
+              },
+              {
+                "label": "پیش‌نمایش فیلم",
+                "target": "start"
+              },
+              {
+                "label": "توضیح‌دهنده محصول",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "اتصال",
+            "links": [
+              {
+                "label": "تماس",
+                "target": "contact"
+              },
+              {
+                "label": "ژورنال",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© ۲۰۲۶ آرچر.",
+        "closingStatement": "مدیر کمپین هوش مصنوعی شما.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

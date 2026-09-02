@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Möt Archer"
+    },
+    "badge": "AI-kampanjledare",
+    "headline": "Skapa filmiska kampanjer med kraften i AI",
+    "subheadline": "Förvandla en produkt, premiss eller lansering till en sammanhängande kampanj – från den kreativa briefen och storyboarden till masterfilmen och sociala nedskärningar.",
+    "ctaLabel": "Prata med Archer",
+    "secondaryCtaLabel": "Se hur det fungerar",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hej, jag heter Archer. Berätta för mig vad du lanserar så hittar jag historien värd att berätta."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Svarar vanligtvis direkt",
+      "inputPlaceholder": "Klistra in en URL för offentlig produkt...",
+      "suggestedPrompts": [
+        "Forma min lansering",
+        "Hitta min kampanjvinkel",
+        "Bygg en storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer filmiska kampanjer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "bågskytt",
+        "navItems": [
+          {
+            "label": "Produkt",
+            "target": "product"
+          },
+          {
+            "label": "Monter",
+            "target": "showcase"
+          },
+          {
+            "label": "förmågor",
+            "target": "capabilities"
+          },
+          {
+            "label": "Tidning",
+            "target": "journal"
+          },
+          {
+            "label": "Möt Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Logga in",
+        "meetLabel": "Möt Archer",
+        "announcementLabel": "Ny",
+        "announcementTitle": "Produktförklaring är nu tillgänglig",
+        "headingLines": [
+          "skapa filmisk",
+          "Kampanjer med"
+        ],
+        "mutedHeadingLine": "Kraften av AI",
+        "primaryCtaLabel": "Prata med Archer",
+        "secondaryCtaLabel": "Se hur det fungerar",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI-kampanjledare",
+          "statusLabel": "Online · Svarar vanligtvis direkt",
+          "openingMessage": "Hej, jag heter Archer. Berätta för mig vad du lanserar så hittar jag historien värd att berätta.",
+          "inputPlaceholder": "Klistra in en URL för offentlig produkt...",
+          "suggestions": [
+            "Forma min lansering",
+            "Hitta min kampanjvinkel",
+            "Bygg en storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Direkt en produktförklaring",
+          "body": "Ta med en offentlig produktsida och ställ in den kreativa riktningen. Archer kommer att förbereda en illustrativ brief innan inloggning.",
+          "urlLabel": "URL för offentlig webbplats",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Publik",
+          "objectiveLabel": "Mål",
+          "ctaLabel": "Uppmaning till handling",
+          "durationLabel": "Varaktighet",
+          "styleLabel": "bildstil",
+          "previewLabel": "Guidad förhandsvisning",
+          "previewHeading": "En första kampanjriktning",
+          "campaignDirectionLabel": "kampanjriktning",
+          "storyboardLabel": "Exempel på storyboard",
+          "deliverablesLabel": "Förväntade leveranser",
+          "submitLabel": "Förhandsgranska riktningen",
+          "generateLabel": "Skapa min förklarare",
+          "voiceLabel": "prova röstdemo",
+          "editLabel": "redigera kort",
+          "disclaimer": "Endast illustrativ förhandsvisning. Archer har inte inspekterat denna webbplats eller renderat media. Evidensstödd fångst och generation börjar efter inloggning.",
+          "loginNotice": "Logga in för att låta Archer inspektera den offentliga produktsidan och skapa din produktförklaring i en privat arbetsyta.",
+          "invalidUrlCopy": "Ange en offentlig HTTP- eller HTTPS-webbplats URL. Privata nätverk och lokala adresser stöds inte.",
+          "expiredCopy": "Denna kampanjöverlämning löpte ut. Återvänd till Archer och förbered en ny förhandstitt.",
+          "sampleDirection": "Avslöja produkten genom en filmisk transformation, från spänning till en tydlig, minnesvärd utdelning.",
+          "sampleMessage": "Förvandla produktens starkaste löfte till en berättelse som publiken kan förstå i en visning.",
+          "sampleTone": "Självsäker, exakt, filmisk",
+          "sampleVisualLanguage": "Skulpturellt ljus, taktila detaljer, målmedvetna kamerarörelser",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "Spänningen",
+              "body": "Öppna om publikens verkliga problem i en gripande bild."
+            },
+            {
+              "number": "02",
+              "title": "Avslöjandet",
+              "body": "Introducera produkten som vändpunkt, inte en funktionslista."
+            },
+            {
+              "number": "03",
+              "title": "Beviset",
+              "body": "Visa kärnvärdet genom en kortfattad visuell demonstration."
+            },
+            {
+              "number": "04",
+              "title": "Inbjudan",
+              "body": "Landa på en åtgärd och en ren ändram."
+            }
+          ],
+          "deliverables": [
+            "kampanjkort",
+            "Storyboard och VoiceOver-riktning",
+            "Masterfilm med sociala nedskärningar"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Från gnista till kampanj.",
+        "mutedHeading": "Tre enkla handlingar",
+        "learnLabel": "Läs mer",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Skriva",
+            "description": "Beskriv din kampanj i en enda uppmaning.",
+            "visualKind": "write",
+            "prompt": "Lansera en filmisk kampanj för en ny prestationssko i det regnvåta Tokyo.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Regn-dränkt prestationskampanjreferens"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Prestandaskokampanjreferens"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokyo kampanjreferens"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Generera",
+            "description": "Archer skapar din filmkampanj direkt.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Filmiska kampanjramar genereras"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Dela med sig",
+            "description": "Godkänn, exportera i 4K och dela överallt.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Avslutad Archer-kampanj redo att exporteras"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Upptäck kraftfull",
+        "chipLabel": "Video-",
+        "mutedHeading": "modeller. Allt på ett ställe",
+        "items": [
+          "kampanjkort",
+          "storyboards",
+          "visuell generation",
+          "voiceover",
+          "ljuddesign",
+          "slutredigering",
+          "Sociala nedskärningar",
+          "4K-export"
+        ]
+      },
+      "showcase": {
+        "heading": "Kampanjer gjorda med Archer",
+        "items": [
+          {
+            "label": "filmreklam",
+            "prompt": "En skulpturell doftflaska som växer fram genom Silver Mist, lyxkampanjfilm",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Lyxdoftkampanj"
+          },
+          {
+            "label": "filmtrailer",
+            "prompt": "En ensam astronaut korsar en översvämmad stad när gryningen bryter igenom silhuetten",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "filmisk astronauttrailer"
+          },
+          {
+            "label": "Produktförklarare",
+            "prompt": "En precisionsklocka monterar sig själv i en mörk studio, varje mekanism i rörelse",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precision Watch Förklarare"
+          },
+          {
+            "label": "samhällskampanj",
+            "prompt": "Ett nytt elfordon skär genom en filmisk ökenstorm vid Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "elfordon social film"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Allt du behöver för att göra kampanjen",
+        "body": "Kort, generera, redigera och lansera – allt på ett ställe.",
+        "ctaLabel": "börja gratis",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "kampanjformat",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmiskt rävporträtt"
+          },
+          {
+            "kind": "metric",
+            "title": "huvudexport",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "filmiskt porträtt i varmt ljus"
+          },
+          {
+            "kind": "wide",
+            "title": "Vilken stil som helst",
+            "body": "Fotoreal, animerad, produktledd — du väljer världen.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign Creative"
+          },
+          {
+            "kind": "feature",
+            "title": "en kort",
+            "body": "Archer bär en enda idé genom varje scen, klipp och kanal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Tenniskampanj fotograferad från ovan"
+          },
+          {
+            "kind": "feature",
+            "title": "Omedelbara nedskärningar",
+            "body": "Förvandla en masterfilm till lanseringsklara sociala redigeringar.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Cinematic Vehicle Campaign i en kanjon"
+          },
+          {
+            "kind": "video",
+            "title": "flermodells-",
+            "body": "Använd rätt bild-, röst- och rörelsemodell för varje bild.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "filmisk produktsekvens"
+          },
+          {
+            "kind": "metric",
+            "title": "kreativt momentum",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "filmbergskampanj"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "En arbetsyta.",
+        "accentHeading": "Byggd för varje kampanj",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Hem-",
+          "Generera",
+          "Bibliotek",
+          "kampanjer",
+          "inställningar"
+        ],
+        "bannerLabel": "Ny · Produktförklaring",
+        "bannerTitle": "Förvandla vilken webbplats som helst till en polerad lanseringsfilm.",
+        "bannerBody": "Bygg brief, storyboard, shots, voiceover, redigering och nedskärningar i ett guidat flöde.",
+        "projectHeading": "mina kampanjer",
+        "projectBody": "12 projekt · 3 i produktion",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Lanseringsfilm"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Rev — Varumärkeshistoria"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Samarbeta",
+            "body": "Bjud in ditt team, granska storyboards och godkänn det slutliga klippet tillsammans."
+          },
+          {
+            "label": "Organisera",
+            "body": "Håll trosor, referenser, generationer och export i ett rent kampanjnav."
+          },
+          {
+            "label": "Någonstans",
+            "body": "Skapa på stationära, surfplattor eller mobil — Archer håller berättelsen i rörelse."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Möt din AI-kampanjledare",
+        "heading": "Möt Archer.",
+        "mutedHeading": "Ge varje idé en värld.",
+        "body": "Archer förvandlar en produkt, premiss eller lansering till en sammanhängande filmkampanj – och håller sedan berättelsen i linje genom varje scen och kanal.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Skarpa kreativa instinkter"
+          },
+          {
+            "number": "02",
+            "label": "end-to-end-produktion"
+          },
+          {
+            "number": "03",
+            "label": "Alltid på varumärket"
+          }
+        ],
+        "ctaLabel": "Prata med Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer är redo",
+        "statusBody": "Berätta för honom vad du vill starta"
+      },
+      "journal": {
+        "heading": "Inuti Archer",
+        "body": "Anteckningar om AI-filmskapande, kampanjer och kreativ riktning.",
+        "allStoriesLabel": "Alla berättelser",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer Campaign Workspace",
+            "category": "Produkt",
+            "date": "Aug 18, 2026",
+            "title": "Från produktsida till polerad förklarare i ett kreativt flöde",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign World",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Varför de starkaste AI-kampanjerna fortfarande börjar med en synvinkel",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Din kampanj börjar här",
+        "ctaLabel": "börja gratis",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmisk produktram"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Kampanjstämningsram"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Kampanj världsram"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Varumärkesberättelseram"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "släpvagnsstängningsram"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Skapa filmiska kampanjer med kraften i AI.",
+        "groups": [
+          {
+            "label": "Navigering",
+            "links": [
+              {
+                "label": "Produkt",
+                "target": "product"
+              },
+              {
+                "label": "Monter",
+                "target": "showcase"
+              },
+              {
+                "label": "förmågor",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Skapa",
+            "links": [
+              {
+                "label": "filmreklam",
+                "target": "start"
+              },
+              {
+                "label": "filmtrailer",
+                "target": "start"
+              },
+              {
+                "label": "Produktförklarare",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Ansluta",
+            "links": [
+              {
+                "label": "Kontakta",
+                "target": "contact"
+              },
+              {
+                "label": "Tidning",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Din AI-kampanjledare.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

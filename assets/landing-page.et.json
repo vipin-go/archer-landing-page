@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "et",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Tutvuge Archeriga"
+    },
+    "badge": "AI kampaania direktor",
+    "headline": "Looge kinoelamuse kampaaniaid AI võimsusega",
+    "subheadline": "Muutke toode, eeldus või toode üheks sidusaks kampaaniaks - loomingulise briifist ja storyboardist kuni põhifilmi ja sotsiaalse sisuni.",
+    "ctaLabel": "Rääkige Archeriga",
+    "secondaryCtaLabel": "Vaadake, kuidas see toimib",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Tere, olen Archer. Ütle mulle, mida sa lähed, ja ma leian loo, mis on väärt rääkimist."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Veebis · tavaliselt vastab kohe",
+      "inputPlaceholder": "Kleepige toote avalik URL...",
+      "suggestedPrompts": [
+        "Kujunda mu toode",
+        "Leia mu kampaania nurk",
+        "Koosta stooritaust"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archeri kinoelamuse kampaaniad"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Archer",
+        "navItems": [
+          {
+            "label": "Toode",
+            "target": "product"
+          },
+          {
+            "label": "Näitus",
+            "target": "showcase"
+          },
+          {
+            "label": "Võimalused",
+            "target": "capabilities"
+          },
+          {
+            "label": "Ajakiri",
+            "target": "journal"
+          },
+          {
+            "label": "Tutvuge Archeriga",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Logi sisse",
+        "meetLabel": "Tutvuge Archeriga",
+        "announcementLabel": "Uus",
+        "announcementTitle": "Product Explainer on nüüd saadaval",
+        "headingLines": [
+          "Loo kinoelamuse kampaania",
+          "võimsusega"
+        ],
+        "mutedHeadingLine": "AI",
+        "primaryCtaLabel": "Rääkige Archeriga",
+        "secondaryCtaLabel": "Vaadake, kuidas see toimib",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI kampaania direktor",
+          "statusLabel": "Veebis · tavaliselt vastab kohe",
+          "openingMessage": "Tere, olen Archer. Ütle mulle, mida sa lähed, ja ma leian loo, mis on väärt rääkimist.",
+          "inputPlaceholder": "Kleepige toote avalik URL...",
+          "suggestions": [
+            "Kujunda mu toode",
+            "Leia mu kampaania nurk",
+            "Koosta stooritaust"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Reži toote tutvustust",
+          "body": "Tooge avalik tooteleht ja määrake loominguline suund. Archer valmistab enne sisselogimist illustreeriva briifi.",
+          "urlLabel": "Veebisaidi URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Sihtgrupp",
+          "objectiveLabel": "Eesmärk",
+          "ctaLabel": "Tegevusele kutsuv",
+          "durationLabel": "Kestvus",
+          "styleLabel": "Visuaalne stiil",
+          "previewLabel": "Juhendatud eelvaade",
+          "previewHeading": "Algne kampaania suund",
+          "campaignDirectionLabel": "Kampaania suund",
+          "storyboardLabel": "Näidis stooritaust",
+          "deliverablesLabel": "Eeldatavad tulemid",
+          "submitLabel": "Vaata suunda",
+          "generateLabel": "Loo mu selgitus",
+          "voiceLabel": "Proovi häält演示i",
+          "editLabel": "Muuda briifi",
+          "disclaimer": "Ainult illustratiivne eelvaade. Archer ei ole seda veebisaidi kontrollinud ega meediumit renderdanud. Tõenditel põhinev püüe ja genereerimine algab pärast sisselogimist.",
+          "loginNotice": "Logige sisse, et Archer saaks avaliku tootelehe üle vaadata ja teie toote tutvustuse privaatses tööruumis luua.",
+          "invalidUrlCopy": "Sisestage avalik HTTP või HTTPS veebisaidi URL. Privaatvõrke ja kohalikke aadresse ei toetata.",
+          "expiredCopy": "See kampaania üleandmine on aegunud. Naaske Archeri juurde ja valmistage uus eelvaade.",
+          "sampleDirection": "Kuva toode läbi ühe kinematograafilise transformatsiooni, pingest selge ja meeldejääva tulemuseni.",
+          "sampleMessage": "Muutke toote tugevaim lubadus looks, mida sihtgrupp saab ühe vaatamisega mõista.",
+          "sampleTone": "Enesekindel, täpne, kinoelamus",
+          "sampleVisualLanguage": "Skulpturaalne valgustus, tekstuursed detailid, sihitud kaamera liikumine",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "Pinge",
+              "body": "Alusta ühe kõnekujulise pildiga publiku tegelikust probleemist."
+            },
+            {
+              "number": "02",
+              "title": "Avaldus",
+              "body": "Tutvustage toodet kui pöördepunkti, mitte funktsioonide loeteluna."
+            },
+            {
+              "number": "03",
+              "title": "Tõestus",
+              "body": "Näidake põhiväärtust läbi kokkuvõtliku visuaalse demonstratsiooni."
+            },
+            {
+              "number": "04",
+              "title": "Kutse",
+              "body": "Lõpetage ühe tegevusega ja puhta bränditud lõpukaadriga."
+            }
+          ],
+          "deliverables": [
+            "Kampaania briif",
+            "Stooritaust ja hääljuhtimine",
+            "Põhifilm koos sotsiaalsete lühivormidega"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Sädemest kampaaniani.",
+        "mutedHeading": "Kolm lihtsat vaatust",
+        "learnLabel": "Lisateave",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Kirjuta",
+            "description": "Kirjeldage oma kampaania ühes viipas.",
+            "visualKind": "write",
+            "prompt": "Käivitage kinematograafiline kampaania uutele jooksujalatsitele vihmas Tallinnas.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Vihmase kampaania viide"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Jooksujalatsite kampaania viide"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokio kampaania viide"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Genereeri",
+            "description": "Archer loob teie kinoelamuse kampaania koheselt.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Kinoelamuse kampaania kaadrid genereeritakse"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Jaga",
+            "description": "Kinnita, ekspordi 4K-s ja jaga kõikjal.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Archeri kampaania eksportimiseks valmis"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Avasta võimsad",
+        "chipLabel": "Video",
+        "mutedHeading": "mudelite. Kõik ühes kohas",
+        "items": [
+          "Kampaania briif",
+          "Stooritaustad",
+          "Visuaalne genereerimine",
+          "Häälsalvestis",
+          "Helikujundus",
+          "Lõplik montaaž",
+          "Sotsiaalsed lühiformaadid",
+          "4K eksport"
+        ]
+      },
+      "showcase": {
+        "heading": "Archeriga loodud kampaaniad",
+        "items": [
+          {
+            "label": "Kinoelamuse reklaam",
+            "prompt": "Skulpturaalne lõhnaõlipudelite, mis ilmuvad läbi hõbeudu, luksuslik reklaamfilm",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luksuslik lõhna kampaania"
+          },
+          {
+            "label": "Kino treiler",
+            "prompt": "Üksik astronaut läbib üleujutatud linna, kui koidik läbi horisondi paistab",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Kosmonauti kino treiler"
+          },
+          {
+            "label": "Toote selgitus",
+            "prompt": "Täpne kellas ise kokku stuudios, iga mehhanism liikumas",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Täpse kella selgitus"
+          },
+          {
+            "label": "Sotsiaalne kampaania",
+            "prompt": "Uus elektriauto lõikab läbi kinematograafilisest liivatormist sinises tunnis",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Elektriauto sotsiaalfilm"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Kõik, mida vajate kampaania loomiseks",
+        "body": "Briif, generei, monteeri ja käivita — kõik ühes kohas.",
+        "ctaLabel": "Alusta tasuta",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Kampaania formaadid",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Kinoelamuse rebane portree"
+          },
+          {
+            "kind": "metric",
+            "title": "Põhi eksport",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Kinoelamuse portree soojas valguses"
+          },
+          {
+            "kind": "wide",
+            "title": "Suvaline stiil",
+            "body": "Fotorealistlik, animeeritud, toote juhitud — te valite maailma.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archeri kinoelamuse loominguline kampaania"
+          },
+          {
+            "kind": "feature",
+            "title": "Üks briif",
+            "body": "Archer kannab ühte ideed läbi igat stseeni, lõigu ja kanali.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Kõrgalt pildistatud tennisakampaania"
+          },
+          {
+            "kind": "feature",
+            "title": "Kohesed lõikused",
+            "body": "Muutke üks põhifilm sotsiaalseks sisuks, mis on avaldamiseks valmis.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Sõiduki kinoelamuse kampaania kanjonis"
+          },
+          {
+            "kind": "video",
+            "title": "Mitme mudeliga",
+            "body": "Kasutage igale kaadridele sobivat visuaalset, hääle ja liikumise mudelit.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Kinoelamuse toote jada"
+          },
+          {
+            "kind": "metric",
+            "title": "Roheline loomulikult",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Kinoelamuse mägikampaania"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "Üks tööruum.",
+        "accentHeading": "Ehitatud igale kampaaniale",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Avaleht",
+          "Genereeri",
+          "Teekond",
+          "Kampaaniad",
+          "Sätted"
+        ],
+        "bannerLabel": "Uus · Product Explainer",
+        "bannerTitle": "Muutke mis tahes veebisaidipolished launch filmiks.",
+        "bannerBody": "Koostage briif, stooritaust, kaadrid, hääl, montaaž ja lõikused ühes juhendatud voos.",
+        "projectHeading": "Minu kampaaniad",
+        "projectBody": "12 projekti · 3 tootmises",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Avaldamise film"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef — Brändilood"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Treiler"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Koostöö",
+            "body": "Kutsuge oma meeskond, vaadake üle stooritaustad ja kinnitage lõplik montaaž koos."
+          },
+          {
+            "label": "Korraldage",
+            "body": "Hoidke briifid, viited, genereerimised ja ekspordid ühes korras kampaania keskuses."
+          },
+          {
+            "label": "Kõikjal",
+            "body": "Looge lauaarvutil, tahvelarvutil või mobiilsideseadmes — Archer hoiab loo liikumas."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Tutvuge oma AI kampaania direktoriga",
+        "heading": "Tutvuge Archeriga.",
+        "mutedHeading": "Andke igale ideele maailm.",
+        "body": "Archer muudab toote, eelduse või toote sidusaks kinoelamuse kampaaniaks — ja hoiab loo kohandatuna läbi iga stseeni ja kanali.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Teravad radovad instinktid"
+          },
+          {
+            "number": "02",
+            "label": "Lõpuni tootmine"
+          },
+          {
+            "number": "03",
+            "label": "Alati brändi järgselt"
+          }
+        ],
+        "ctaLabel": "Rääkige Archeriga",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer on valmis",
+        "statusBody": "Ütle talle, mida soovid lasta"
+      },
+      "journal": {
+        "heading": "Archeri sees",
+        "body": "Märkmed VI filmikunstist, kampaaniatest ja loomingulisest juhtimisest.",
+        "allStoriesLabel": "Kõik lood",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archeri kampaania tööruum",
+            "category": "Toode",
+            "date": "Aug 18, 2026",
+            "title": "Tootelehelt selgituseni ühes loomingulises voos",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archeri kinoelamuse kampaania maailm",
+            "category": "Stuudio",
+            "date": "Aug 06, 2026",
+            "title": "Miks tugevaimad VI kampaaniad ikka veel algavad vaatevinklist",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Teie kampaania algab siit",
+        "ctaLabel": "Alusta tasuta",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Kinoelamuse toote kaader"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Kampaania atmosfääri kaader"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Kampaania maailma kaader"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Brändilood kaader"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Treileri lõpukaader"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Looge kinoelamuse kampaaniaid AI võimsusega.",
+        "groups": [
+          {
+            "label": "Navigatsioon",
+            "links": [
+              {
+                "label": "Toode",
+                "target": "product"
+              },
+              {
+                "label": "Näitus",
+                "target": "showcase"
+              },
+              {
+                "label": "Võimalused",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Loo",
+            "links": [
+              {
+                "label": "Kinoelamuse reklaam",
+                "target": "start"
+              },
+              {
+                "label": "Kino treiler",
+                "target": "start"
+              },
+              {
+                "label": "Toote selgitus",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Ühenda",
+            "links": [
+              {
+                "label": "Kontakt",
+                "target": "contact"
+              },
+              {
+                "label": "Ajakiri",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Teie AI kampaania direktor.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

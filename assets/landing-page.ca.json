@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "ca",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Coneix Archer"
+    },
+    "badge": "Director de campanya d'IA",
+    "headline": "Crea campanyes cinemàtiques amb el poder de la IA",
+    "subheadline": "Converteix un producte, premissa o llançament en una campanya coherent: del resum creatiu i el guió gràfic fins a la pel·lícula principal i els formats reduïts per a xarxes.",
+    "ctaLabel": "Parla amb Archer",
+    "secondaryCtaLabel": "Mira com funciona",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hola, sóc Archer. Digues-me què llances i trobaré la història que val la pena explicar."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "En línia · normalment respon a l'instant",
+      "inputPlaceholder": "Enganxa una URL pública de producte...",
+      "suggestedPrompts": [
+        "Dona forma al meu llançament",
+        "Troba el meu angle de campanya",
+        "Construeix un storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Campanyes cinematogràfiques Archer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Archer",
+        "navItems": [
+          {
+            "label": "Producte",
+            "target": "product"
+          },
+          {
+            "label": "Mostra",
+            "target": "showcase"
+          },
+          {
+            "label": "Capacitats",
+            "target": "capabilities"
+          },
+          {
+            "label": "Diari",
+            "target": "journal"
+          },
+          {
+            "label": "Coneix Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Inicia sessió",
+        "meetLabel": "Coneix Archer",
+        "announcementLabel": "Nou",
+        "announcementTitle": "Product Explainer ara està disponible",
+        "headingLines": [
+          "Crea una campanya cinematogràfica",
+          "amb el"
+        ],
+        "mutedHeadingLine": "poder de la IA",
+        "primaryCtaLabel": "Parla amb Archer",
+        "secondaryCtaLabel": "Mira com funciona",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Director de campanya d'IA",
+          "statusLabel": "En línia · normalment respon a l'instant",
+          "openingMessage": "Hola, sóc Archer. Digues-me què llances i trobaré la història que val la pena explicar.",
+          "inputPlaceholder": "Enganxa una URL pública de producte...",
+          "suggestions": [
+            "Dona forma al meu llançament",
+            "Troba el meu angle de campanya",
+            "Construeix un storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Dirigeix un Product Explainer",
+          "body": "Aporta una pàgina de producte pública i estableix la direcció creativa. Archer prepararà un resum il·lustratiu abans d'iniciar sessió.",
+          "urlLabel": "URL del lloc web",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Audiència",
+          "objectiveLabel": "Objectiu",
+          "ctaLabel": "Crida a l'acció",
+          "durationLabel": "Durada",
+          "styleLabel": "Estil visual",
+          "previewLabel": "Vista prèvia guiada",
+          "previewHeading": "Una direcció inicial de campanya",
+          "campaignDirectionLabel": "Direcció de campanya",
+          "storyboardLabel": "Storyboard de mostra",
+          "deliverablesLabel": "Entregables esperats",
+          "submitLabel": "Visualitza la direcció",
+          "generateLabel": "Crea el meu explainer",
+          "voiceLabel": "Prova la demo de veu",
+          "editLabel": "Edita el resum",
+          "disclaimer": "Només és una vista prèvia il·lustrativa. Archer no ha inspeccionat aquest lloc web ni ha renderitzat cap mitjà. La captura i generació fonamentades en evidències comencen després d'iniciar sessió.",
+          "loginNotice": "Inicia sessió perquè Archer inspecti la pàgina de producte pública i creï el teu Product Explainer en un espai de treball privat.",
+          "invalidUrlCopy": "Introdueix una URL de lloc web HTTP o HTTPS pública. Les xarxes privades i les adreces locals no són compatibles.",
+          "expiredCopy": "Aquesta entrega de campanya ha caducat. Torna a Archer i prepara una nova vista prèvia.",
+          "sampleDirection": "Revela el producte a través d'una transformació cinematogràfica, des de la tensió fins a un retorn clar i memorable.",
+          "sampleMessage": "Converteix la promesa més forta del producte en una història que el teu público pugui entendre en una sola visió.",
+          "sampleTone": "Segur, precís, cinematogràfic",
+          "sampleVisualLanguage": "Llum escultural, detalls tàctils, moviment de càmera intencional",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "Tensió",
+              "body": "Comença amb una imatge reveladora del problema real del teu público."
+            },
+            {
+              "number": "02",
+              "title": "Revelació",
+              "body": "Presenta el producte com el punt d'inflexió, no com una llista de característiques."
+            },
+            {
+              "number": "03",
+              "title": "Prova",
+              "body": "Mostra el valor central a través d'una demostració visual concisa."
+            },
+            {
+              "number": "04",
+              "title": "Invitació",
+              "body": "Aterra en una acció i un marc final net de marca."
+            }
+          ],
+          "deliverables": [
+            "Resum de campanya",
+            "Storyboard i direcció de veu",
+            "Pel·lícula principal amb formats reduïts per a xarxes socials"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "De l'espurna a la campanya.",
+        "mutedHeading": "Tres actes senzills",
+        "learnLabel": "Més informació",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Escriu",
+            "description": "Descriu la teva campanya en un sol missatge.",
+            "visualKind": "write",
+            "prompt": "Llança una campanya cinematogràfica per a una nova sabatilla d'atletisme a Tòquio xopada de pluja.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Referència de campanya plujosa"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Referència de campanya de sabatilles"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Referència de Tòquio"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Genera",
+            "description": "Archer crea la teva campanya cinematogràfica a l'instant.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "S'estan generant els fotogrames de la campanya cinematogràfica"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Comparteix",
+            "description": "Aprova, exporta en 4K i comparteix a tot arreu.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Campanya Archer llesta per exportar"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Descobreix potents",
+        "chipLabel": "Vídeo",
+        "mutedHeading": "models. Tot en un sol lloc",
+        "items": [
+          "Resum de campanya",
+          "Storyboards",
+          "Generació visual",
+          "Veu en off",
+          "Disseny de so",
+          "Edició final",
+          "Formats reduïts per a xarxes socials",
+          "Export 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Campanyes creades amb Archer",
+        "items": [
+          {
+            "label": "Anunci cinematogràfic",
+            "prompt": "Una ampolla de perfum escultural que emergeix a través de la boira platejada, pel·lícula de campanya de luxe",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Campanya de perfum de luxe"
+          },
+          {
+            "label": "Tràiler cinematogràfic",
+            "prompt": "Un astronauta solitari creua una ciutat inundada quan l'alba sorgeix a través de l'horitzó",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Tràiler d'astronauta cinemàtic"
+          },
+          {
+            "label": "Explainer de producte",
+            "prompt": "Un rellotge de precisió s'assembla en un estudi fosc, cada mecanisme en moviment",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Explainer de rellotge de precisió"
+          },
+          {
+            "label": "Campanya social",
+            "prompt": "Un nou vehicle elèctric travessa una tempesta de sorra cinematogràfica a l'hora blava",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Pel·lícula social de vehicle elèctric"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Tot el que necessites per fer la campanya",
+        "body": "Brief, genera, edita i llança — tot en un sol lloc.",
+        "ctaLabel": "Comença gratis",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Formats de campanya",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Retrat cinematogràfic de guineu"
+          },
+          {
+            "kind": "metric",
+            "title": "Export principal",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Retrat cinematogràfic amb llum càlida"
+          },
+          {
+            "kind": "wide",
+            "title": "Qualsevol estil",
+            "body": "Fotorealista, animat, liderat per producte — tu tries el món.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Creativitat cinematogràfica de campanya Archer"
+          },
+          {
+            "kind": "feature",
+            "title": "Un resum",
+            "body": "Archer porta una única idea a través de cada escena, tall i canal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Campanya de tennis fotografiada des de dalt"
+          },
+          {
+            "kind": "feature",
+            "title": "Talls instantanis",
+            "body": "Converteix una pel·lícula principal en edicions socials llestes per llançar.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Campanya cinematogràfica de vehicle en un canó"
+          },
+          {
+            "kind": "video",
+            "title": "Multi-model",
+            "body": "Utilitza el model visual, de veu i de moviment adequat per a cada presa.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Seqüència cinematogràfica de producte"
+          },
+          {
+            "kind": "metric",
+            "title": "Impuls creatiu",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Campanya cinematogràfica de muntanya"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "Un espai de treball.",
+        "accentHeading": "Creat per a cada campanya",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Inici",
+          "Genera",
+          "Biblioteca",
+          "Campanyes",
+          "Configuració"
+        ],
+        "bannerLabel": "Nou · Product Explainer",
+        "bannerTitle": "Converteix qualsevol lloc web en una pel·lícula de llançament polida.",
+        "bannerBody": "Construeix el resum, storyboard, preses, veu en off, edició i talls en un fluxguiat.",
+        "projectHeading": "Les meves campanyes",
+        "projectBody": "12 projectes · 3 en producció",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Pel·lícula de llançament"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef — Història de marca"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Tràiler"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Col·labora",
+            "body": "Convida el teu equip, revisa storyboards i aprova el tall final junts."
+          },
+          {
+            "label": "Organitza",
+            "body": "Mantén els resums, referències, generacions i exports en un hub de campanya net."
+          },
+          {
+            "label": "A qualsevol lloc",
+            "body": "Crea a l'escriptori, tauleta o mòbil — Archer manté la història en moviment."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Coneix el teu director de campanya d'IA",
+        "heading": "Coneix Archer.",
+        "mutedHeading": "Dona un món a cada idea.",
+        "body": "Archer converteix un producte, premissa o llançament en una campanya cinematogràfica coherent — i manté la història alineada a través de cada escena i canal.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Instints creatius precisos"
+          },
+          {
+            "number": "02",
+            "label": "Producció de principi a fi"
+          },
+          {
+            "number": "03",
+            "label": "Sempre a favor de marca"
+          }
+        ],
+        "ctaLabel": "Parla amb Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer està a punt",
+        "statusBody": "Digues-li què vols llançar"
+      },
+      "journal": {
+        "heading": "Dins d'Archer",
+        "body": "Notes sobre filmmaking amb IA, campanyes i direcció creativa.",
+        "allStoriesLabel": "Totes les històries",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Espai de treball de campanya Archer",
+            "category": "Producte",
+            "date": "Aug 18, 2026",
+            "title": "De la pàgina de producte a l'explainer polit en un flux creatiu",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Món de campanya cinematogràfica Archer",
+            "category": "Estudi",
+            "date": "Aug 06, 2026",
+            "title": "Per què les kampaņes d'IA més potents encara comencen amb un punt de vista",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "La teva campanya comença aquí",
+        "ctaLabel": "Comença gratis",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Fotograma cinematogràfica de producte"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Fotograma d'atmosfera de campanya"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Fotograma de món de campanya"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Fotograma d'història de marca"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Fotograma de tancament de tràiler"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Crea campanyes cinemàtiques amb el poder de la IA.",
+        "groups": [
+          {
+            "label": "Navegació",
+            "links": [
+              {
+                "label": "Producte",
+                "target": "product"
+              },
+              {
+                "label": "Mostra",
+                "target": "showcase"
+              },
+              {
+                "label": "Capacitats",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Crea",
+            "links": [
+              {
+                "label": "Anunci cinematogràfic",
+                "target": "start"
+              },
+              {
+                "label": "Tràiler cinematogràfic",
+                "target": "start"
+              },
+              {
+                "label": "Explainer de producte",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Connecta",
+            "links": [
+              {
+                "label": "Contacte",
+                "target": "contact"
+              },
+              {
+                "label": "Diari",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "El teu director de campanya d'IA.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

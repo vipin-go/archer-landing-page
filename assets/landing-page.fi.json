@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "tavata jousiampuja"
+    },
+    "badge": "AI-kampanjan johtaja",
+    "headline": "Luo elokuvamaisia kampanjoita tekoälyn voimalla",
+    "subheadline": "Muuta tuote, lähtökohta tai lanseeraus yhdeksi johdonmukaiseksi kampanjaksi – luovasta esittelystä ja kuvakäsikirjoituksesta mestarielokuvaan ja sosiaalisiin leikkauksiin.",
+    "ctaLabel": "Puhu Archerille",
+    "secondaryCtaLabel": "Katso kuinka se toimii",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hei, olen Archer. Kerro minulle, mitä julkaiset, niin pidän tarinan kertomisen arvoisena."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "verkossa · yleensä vastaa välittömästi",
+      "inputPlaceholder": "Liitä julkisen tuotteen URL-osoite…",
+      "suggestedPrompts": [
+        "Muotoile laukaisuni",
+        "Etsi kampanjakulmani",
+        "rakentaa kuvakäsikirjoitus"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archerin elokuvakampanjat"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Jousimies",
+        "navItems": [
+          {
+            "label": "Tuote",
+            "target": "product"
+          },
+          {
+            "label": "Näyteikkuna",
+            "target": "showcase"
+          },
+          {
+            "label": "Kyvyt",
+            "target": "capabilities"
+          },
+          {
+            "label": "Aikakauslehti",
+            "target": "journal"
+          },
+          {
+            "label": "tavata jousiampuja",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Kirjautua sisään",
+        "meetLabel": "tavata jousiampuja",
+        "announcementLabel": "Uusi",
+        "announcementTitle": "Product Explainer on nyt saatavilla",
+        "headingLines": [
+          "Luo elokuvamaisia",
+          "kampanjoita kanssa"
+        ],
+        "mutedHeadingLine": "Ain voima",
+        "primaryCtaLabel": "Puhu Archerille",
+        "secondaryCtaLabel": "Katso kuinka se toimii",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI-kampanjan johtaja",
+          "statusLabel": "verkossa · yleensä vastaa välittömästi",
+          "openingMessage": "Hei, olen Archer. Kerro minulle, mitä julkaiset, niin pidän tarinan kertomisen arvoisena.",
+          "inputPlaceholder": "Liitä julkisen tuotteen URL-osoite…",
+          "suggestions": [
+            "Muotoile laukaisuni",
+            "Etsi kampanjakulmani",
+            "rakentaa kuvakäsikirjoitus"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Ohjaa tuotteen selitys",
+          "body": "Tuo julkinen tuotesivu ja aseta luova suunta. Archer laatii havainnollistavan esittelyn ennen sisäänkirjautumista.",
+          "urlLabel": "Julkisen verkkosivuston URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Yleisö",
+          "objectiveLabel": "Tavoite",
+          "ctaLabel": "kehotus toimia",
+          "durationLabel": "Kesto",
+          "styleLabel": "tyyli",
+          "previewLabel": "Ohjattu esikatselu",
+          "previewHeading": "Ensimmäinen kampanjan suunta",
+          "campaignDirectionLabel": "kampanjan suunta",
+          "storyboardLabel": "Esimerkki kuvakäsikirjoituksesta",
+          "deliverablesLabel": "Odotetut toimitukset",
+          "submitLabel": "Katso suunta",
+          "generateLabel": "Luo selitykseni",
+          "voiceLabel": "kokeile äänidemoa",
+          "editLabel": "Edit Brief",
+          "disclaimer": "Vain havainnollistava esikatselu. Archer ei ole tarkastanut tätä verkkosivustoa tai renderöinyt mediaa. Todisteiden tukeminen ja luominen alkavat sisäänkirjautumisen jälkeen.",
+          "loginNotice": "Kirjaudu sisään, jotta Archer tarkastaa julkisen tuotesivun ja luo tuoteselityksessäsi yksityisessä työtilassa.",
+          "invalidUrlCopy": "Anna julkinen HTTP- tai HTTPS-verkkosivuston URL-osoite. Yksityisiä verkkoja ja paikallisia osoitteita ei tueta.",
+          "expiredCopy": "Tämä kampanjan vaihto päättyi. Palaa Archeriin ja valmistele uusi esikatselu.",
+          "sampleDirection": "Paljasta tuote yhden elokuvallisen muutoksen kautta, siirtyen jännityksestä selkeään, ikimuistoiseen voittoon.",
+          "sampleMessage": "Muuta tuotteen vahvin lupaus tarinaksi, jonka yleisö voi ymmärtää yhdellä katselukerralla.",
+          "sampleTone": "itsevarma, tarkka, elokuvallinen",
+          "sampleVisualLanguage": "veistoksellinen valo, kosketusyksityiskohdat, määrätietoinen kameran liike",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "jännitys",
+              "body": "Avaa yleisön todellinen ongelma yhdessä pidätyskuvassa."
+            },
+            {
+              "number": "02",
+              "title": "paljastus",
+              "body": "Esittele tuote käännekohtana, ei ominaisuusluettelona."
+            },
+            {
+              "number": "03",
+              "title": "todisteet",
+              "body": "Näytä ydinarvo tiiviillä visuaalisella esittelyllä."
+            },
+            {
+              "number": "04",
+              "title": "Kutsu",
+              "body": "Pääset yhteen toimintoon ja puhtaaseen päätyrunkoon."
+            }
+          ],
+          "deliverables": [
+            "kampanjan esikuva",
+            "kuvakäsikirjoitus ja selostuksen suunta",
+            "Master-elokuva sosiaalisilla leikkauksilla"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "kipinästä kampanjaan.",
+        "mutedHeading": "Kolme yksinkertaista tekoa",
+        "learnLabel": "Lue lisää",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Kirjoittaa",
+            "description": "Kuvaile kampanjaasi yhdellä kehotteella.",
+            "visualKind": "write",
+            "prompt": "Käynnistä elokuvallinen kampanja uudelle esiintymiskengälle sateen kastelemassa Tokiossa.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Sateen kastelevan suorituskyvyn kampanjaviittaus"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Performance shoe campaign reference"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokion kampanjaviittaus"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Tuottaa",
+            "description": "Archer luo elokuvakampanjasi välittömästi.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "elokuvamaisia kampanjakehyksiä luodaan"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Jakaa",
+            "description": "Hyväksy, vie 4K-tarkkuudella ja jaa kaikkialla.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Valmis Archer-kampanja valmis vientiin"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "löytää voimakas",
+        "chipLabel": "Video-",
+        "mutedHeading": "malleja. Kaikki yhdessä paikassa",
+        "items": [
+          "kampanjan esikuva",
+          "kuvakäsikirjoitus",
+          "visuaalinen sukupolvi",
+          "puheenvuoro",
+          "äänisuunnittelu",
+          "Loppumuokka",
+          "yhteiskunnalliset leikkaukset",
+          "4K vienti"
+        ]
+      },
+      "showcase": {
+        "heading": "Archerin kanssa tehdyt kampanjat",
+        "items": [
+          {
+            "label": "elokuvamainos",
+            "prompt": "veistoksellinen tuoksupullo, joka nousee esiin hopeasumun kautta, luksuskampanjaelokuva",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luksustuoksukampanja"
+          },
+          {
+            "label": "elokuvan traileri",
+            "prompt": "Yksinäinen astronautti ylittää tulvineen kaupungin, kun aamunkoitto koittaa taivaanrantaan",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "elokuvamainen astronautin traileri"
+          },
+          {
+            "label": "tuoteselvitys",
+            "prompt": "Tarkkuuskello kokoaa itsensä pimeään studioon, jokainen mekanismi liikkeessä",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "tarkkuuskellon selitys"
+          },
+          {
+            "label": "sosiaalikampanja",
+            "prompt": "Uusi sähköauto katkaisee elokuvamaisen aavikkomyrskyn sinisellä hetkellä",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "sähköajoneuvojen sosiaalinen elokuva"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Kaikki mitä tarvitset kampanjan tekemiseen",
+        "body": "Lyhyt, luo, muokkaa ja käynnistä – kaikki yhdessä paikassa.",
+        "ctaLabel": "Aloita ilmaiseksi",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Kampanjamuodot",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "elokuvamainen kettu muotokuva"
+          },
+          {
+            "kind": "metric",
+            "title": "mestarivienti",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "elokuvamainen muotokuva lämpimässä valossa"
+          },
+          {
+            "kind": "wide",
+            "title": "Mikä tahansa tyyli",
+            "body": "Valokuvallinen, animoitu, tuotevetoinen – sinä valitset maailman.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer elokuvamainen kampanja luova"
+          },
+          {
+            "kind": "feature",
+            "title": "yksi lyhyt",
+            "body": "Archer kuljettaa yhden idean jokaisen kohtauksen, leikkauksen ja kanavan läpi.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Tenniskampanja kuvattu ylhäältä"
+          },
+          {
+            "kind": "feature",
+            "title": "Välittömät leikkaukset",
+            "body": "Muuta yksi master-elokuva julkaisuvalmiiksi sosiaalisiksi muokkauksiksi.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "elokuvallinen ajoneuvokampanja kanjonissa"
+          },
+          {
+            "kind": "video",
+            "title": "monimalli",
+            "body": "Käytä oikeaa visuaalista, ääntä ja liikemallia jokaisessa otoksessa.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "elokuvallinen tuotesarja"
+          },
+          {
+            "kind": "metric",
+            "title": "Luova vauhti",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "elokuvateatteri"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "yksi työtila.",
+        "accentHeading": "rakennettu jokaista kampanjaa varten",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Kotiin",
+          "Tuottaa",
+          "Kirjasto",
+          "kampanja",
+          "asetukset"
+        ],
+        "bannerLabel": "UUSI · Tuotteen selitys",
+        "bannerTitle": "Muuta mikä tahansa verkkosivusto kiillotetuksi julkaisuelokuvaksi.",
+        "bannerBody": "Rakenna lyhyt kuvakäsikirjoitus, otokset, selostus, editointi ja leikkaukset yhdellä ohjatulla virtauksella.",
+        "projectHeading": "My campaigns",
+        "projectBody": "12 projektia · 3 tuotannossa",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Launch Film"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef - Brand Story"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne - traileri"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Tehdä yhteistyötä",
+            "body": "Kutsu tiimisi, arvostele kuvakäsikirjoituksia ja hyväksy lopullinen leikkaus yhdessä."
+          },
+          {
+            "label": "Järjestää",
+            "body": "Säilytä tiedotteet, referenssit, sukupolvet ja vienti yhdessä puhtaassa kampanjakeskuksessa."
+          },
+          {
+            "label": "Missä tahansa",
+            "body": "Luo työpöydällä, tabletilla tai mobiililaitteella – Archer pitää tarinan liikkeessä."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Tapaa tekoälykampanjasi johtaja",
+        "heading": "tavata jousiampuja.",
+        "mutedHeading": "Anna jokaiselle idealle maailma.",
+        "body": "Archer muuttaa tuotteen, lähtökohdan tai julkaisun yhtenäiseksi elokuvakampanjaksi – pitää sitten tarinan linjassa jokaisen kohtauksen ja kanavan läpi.",
+        "points": [
+          {
+            "number": "01",
+            "label": "teräviä luovia vaistoja"
+          },
+          {
+            "number": "02",
+            "label": "mukavuuslaitos"
+          },
+          {
+            "number": "03",
+            "label": "Aina merkkinä"
+          }
+        ],
+        "ctaLabel": "Puhu Archerille",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer on valmis",
+        "statusBody": "Kerro hänelle, mitä haluat käynnistää"
+      },
+      "journal": {
+        "heading": "Archerin sisällä",
+        "body": "Huomautuksia tekoälyelokuvan tekemisestä, kampanjoista ja luovasta ohjauksesta.",
+        "allStoriesLabel": "kaikki tarinat",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer-kampanjan työtila",
+            "category": "Tuote",
+            "date": "Aug 18, 2026",
+            "title": "tuotesivulta kiillotettuun selitykseen yhdessä luovassa virrassa",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archerin elokuvakampanjamaailma",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Miksi vahvimmat tekoälykampanjat alkavat edelleen näkökulmasta",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Kampanjasi alkaa tästä",
+        "ctaLabel": "Aloita ilmaiseksi",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "elokuvamainen tuotekehys"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Kampanjan tunnelmakehys"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Kampanjamaailma"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Tuotemerkin tarinakehys"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "perävaunun sulkemiskehys"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Luo elokuvamaisia kampanjoita tekoälyn voimalla.",
+        "groups": [
+          {
+            "label": "Navigaatio",
+            "links": [
+              {
+                "label": "Tuote",
+                "target": "product"
+              },
+              {
+                "label": "Näyteikkuna",
+                "target": "showcase"
+              },
+              {
+                "label": "Kyvyt",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Luoda",
+            "links": [
+              {
+                "label": "elokuvamainos",
+                "target": "start"
+              },
+              {
+                "label": "elokuvan traileri",
+                "target": "start"
+              },
+              {
+                "label": "tuoteselvitys",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Kytkeä",
+            "links": [
+              {
+                "label": "Yhteyshenkilö",
+                "target": "contact"
+              },
+              {
+                "label": "Aikakauslehti",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "tekoälykampanjasi johtaja.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

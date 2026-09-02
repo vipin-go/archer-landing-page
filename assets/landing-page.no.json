@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "no",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Møt Archer"
+    },
+    "badge": "AI-kampanjedirektør",
+    "headline": "Lag filmkampanjer med kraften til AI",
+    "subheadline": "Gjør et produkt, premiss eller lansering til én sammenhengende kampanje – fra den kreative briefen og storyboardet til mesterfilmen og sosiale nedskjæringer.",
+    "ctaLabel": "Snakk med Archer",
+    "secondaryCtaLabel": "Se hvordan det fungerer",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hei, jeg er Archer. Fortell meg hva du lanserer, så finner jeg historien verdt å fortelle."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "online · svarer vanligvis umiddelbart",
+      "inputPlaceholder": "Lim inn en offentlig produkt-URL...",
+      "suggestedPrompts": [
+        "Form lanseringen min",
+        "Finn min kampanjevinkel",
+        "Bygg et storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer Cinematic Campaigns"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Bueskytter",
+        "navItems": [
+          {
+            "label": "Produkt",
+            "target": "product"
+          },
+          {
+            "label": "Vise frem",
+            "target": "showcase"
+          },
+          {
+            "label": "evner",
+            "target": "capabilities"
+          },
+          {
+            "label": "Tidsskrift",
+            "target": "journal"
+          },
+          {
+            "label": "Møt Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Logg inn",
+        "meetLabel": "Møt Archer",
+        "announcementLabel": "Ny",
+        "announcementTitle": "Produktforklaring er nå tilgjengelig",
+        "headingLines": [
+          "Lag filmisk",
+          "Kampanjer med"
+        ],
+        "mutedHeadingLine": "Kraften til AI",
+        "primaryCtaLabel": "Snakk med Archer",
+        "secondaryCtaLabel": "Se hvordan det fungerer",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI-kampanjedirektør",
+          "statusLabel": "online · svarer vanligvis umiddelbart",
+          "openingMessage": "Hei, jeg er Archer. Fortell meg hva du lanserer, så finner jeg historien verdt å fortelle.",
+          "inputPlaceholder": "Lim inn en offentlig produkt-URL...",
+          "suggestions": [
+            "Form lanseringen min",
+            "Finn min kampanjevinkel",
+            "Bygg et storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Direkte en produktforklaring",
+          "body": "Ta med en offentlig produktside og angi den kreative retningen. Archer vil forberede en illustrerende brief før pålogging.",
+          "urlLabel": "URL for offentlig nettside",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Publikum",
+          "objectiveLabel": "Objektiv",
+          "ctaLabel": "Oppfordring til handling",
+          "durationLabel": "Varighet",
+          "styleLabel": "Visuell stil",
+          "previewLabel": "Guidet forhåndsvisning",
+          "previewHeading": "En første kampanjeretning",
+          "campaignDirectionLabel": "Kampanjeretning",
+          "storyboardLabel": "Eksempel på storyboard",
+          "deliverablesLabel": "Forventede leveranser",
+          "submitLabel": "Forhåndsvis retningen",
+          "generateLabel": "Lag min forklaring",
+          "voiceLabel": "prøv stemmedemo",
+          "editLabel": "rediger kort",
+          "disclaimer": "Kun illustrerende forhåndsvisning. Archer har ikke inspisert denne nettsiden eller gjengitt media. Evidensstøttet fangst og generering begynner etter pålogging.",
+          "loginNotice": "Logg på for å la Archer inspisere den offentlige produktsiden og lage din produktforklaring i et privat arbeidsområde.",
+          "invalidUrlCopy": "Skriv inn en offentlig HTTP- eller HTTPS-nettadresse. Private nettverk og lokale adresser støttes ikke.",
+          "expiredCopy": "Denne kampanjeoverleveringen utløp. Gå tilbake til Archer og lag en ny forhåndsvisning.",
+          "sampleDirection": "Avslør produktet gjennom én filmisk transformasjon, og gå fra spenning til en klar, minneverdig gevinst.",
+          "sampleMessage": "Gjør produktets sterkeste løfte til en historie publikum kan forstå i én visning.",
+          "sampleTone": "Selvsikker, presis, filmatisk",
+          "sampleVisualLanguage": "skulpturelt lys, taktile detaljer, målrettet kamerabevegelse",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "spenningen",
+              "body": "Åpne om publikums virkelige problem i ett fascinerende bilde."
+            },
+            {
+              "number": "02",
+              "title": "Avsløringen",
+              "body": "Introduser produktet som vendepunktet, ikke en funksjonsliste."
+            },
+            {
+              "number": "03",
+              "title": "Beviset",
+              "body": "Vis kjerneverdien gjennom en kortfattet visuell demonstrasjon."
+            },
+            {
+              "number": "04",
+              "title": "Invitasjonen",
+              "body": "Land på én handling og en ren merkede enderamme."
+            }
+          ],
+          "deliverables": [
+            "Kampanjekort",
+            "storyboard og voiceover-retning",
+            "Mesterfilm med sosiale nedskjæringer"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "fra gnist til kampanje.",
+        "mutedHeading": "Tre enkle handlinger",
+        "learnLabel": "Lære mer",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Skrive",
+            "description": "Beskriv kampanjen din i en enkelt melding.",
+            "visualKind": "write",
+            "prompt": "Start en filmkampanje for en ny ytelsessko i det regnvåte Tokyo.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Regnvåt ytelseskampanjereferanse"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Performance Shoe-kampanjereferanse"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokyo-kampanjereferanse"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Generere",
+            "description": "Archer lager din filmiske kampanje umiddelbart.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84 %",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Filmatiske kampanjerammer blir generert"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Dele",
+            "description": "Godkjenn, eksporter i 4K og del overalt.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Fullført Archer-kampanje klar til å eksportere"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Oppdag kraftig",
+        "chipLabel": "video",
+        "mutedHeading": "modeller. Alt på ett sted",
+        "items": [
+          "Kampanjekort",
+          "storyboards",
+          "Visuell generasjon",
+          "VoiceOver",
+          "Lyddesign",
+          "endelig redigering",
+          "Sosiale nedskjæringer",
+          "4K-eksport"
+        ]
+      },
+      "showcase": {
+        "heading": "Kampanjer laget med Archer",
+        "items": [
+          {
+            "label": "filmisk annonse",
+            "prompt": "En skulpturell duftflaske som dukker opp gjennom sølvtåke, luksuskampanjefilm",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luksusduftkampanje"
+          },
+          {
+            "label": "filmtrailer",
+            "prompt": "En ensom astronaut krysser en oversvømmet by når daggry bryter gjennom skyline",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Kinematisk astronaut-trailer"
+          },
+          {
+            "label": "Produktforklarer",
+            "prompt": "En presisjonsklokke setter seg sammen i et mørkt studio, hver mekanisme i bevegelse",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precision Watch Explainer"
+          },
+          {
+            "label": "Sosial kampanje",
+            "prompt": "Et nytt elektrisk kjøretøy skjærer gjennom en filmisk ørkenstorm på Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "elektrisk kjøretøy sosial film"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Alt du trenger for å lage kampanjen",
+        "body": "Kort, generer, rediger og start – alt på ett sted.",
+        "ctaLabel": "Start gratis",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Kampanjeformater",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmisk reveportrett"
+          },
+          {
+            "kind": "metric",
+            "title": "Mastereksport",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "filmportrett i varmt lys"
+          },
+          {
+            "kind": "wide",
+            "title": "hvilken som helst stil",
+            "body": "Photoreal, animert, produktledet - du velger verden.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign Creative"
+          },
+          {
+            "kind": "feature",
+            "title": "en kort",
+            "body": "Archer bærer en enkelt idé gjennom hver scene, klipp og kanal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Tenniskampanje fotografert ovenfra"
+          },
+          {
+            "kind": "feature",
+            "title": "Øyeblikkelige nedskjæringer",
+            "body": "Gjør én masterfilm til lanseringsklare sosiale redigeringer.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Kinematisk kjøretøykampanje i en canyon"
+          },
+          {
+            "kind": "video",
+            "title": "Multimodell",
+            "body": "Bruk riktig visuell, stemme og bevegelsesmodell for hvert skudd.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Kinematisk produktsekvens"
+          },
+          {
+            "kind": "metric",
+            "title": "Kreativt momentum",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Cinematic Mountain Campaign"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "ett arbeidsområde.",
+        "accentHeading": "Bygget for hver kampanje",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Hjem",
+          "Generere",
+          "Bibliotek",
+          "Kampanjer",
+          "Innstillinger"
+        ],
+        "bannerLabel": "Ny · Produktforklarer",
+        "bannerTitle": "Gjør et hvilket som helst nettsted til en polert lanseringsfilm.",
+        "bannerBody": "Bygg briefen, storyboard, bilder, voiceover, rediger og nedskjæringer i én guidet flyt.",
+        "projectHeading": "Mine kampanjer",
+        "projectBody": "12 prosjekter · 3 i produksjon",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Lanseringsfilm"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef - merkevarehistorie"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Samarbeide",
+            "body": "Inviter teamet ditt, gjennomgå storyboards og godkjenne det siste kuttet sammen."
+          },
+          {
+            "label": "Organisere",
+            "body": "Oppbevar truser, referanser, generasjoner og eksport i ett rent kampanjeknutepunkt."
+          },
+          {
+            "label": "Hvor som helst",
+            "body": "Opprett på skrivebord, nettbrett eller mobil – Archer holder historien i bevegelse."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Møt din AI-kampanjedirektør",
+        "heading": "Møt Archer.",
+        "mutedHeading": "Gi hver idé en verden.",
+        "body": "Archer gjør et produkt, premiss eller lansering til en sammenhengende filmkampanje – og holder deretter historien på linje gjennom hver scene og kanal.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Skarpe kreative instinkter"
+          },
+          {
+            "number": "02",
+            "label": "End-to-end produksjon"
+          },
+          {
+            "number": "03",
+            "label": "Alltid på merke"
+          }
+        ],
+        "ctaLabel": "Snakk med Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer er klar",
+        "statusBody": "Fortell ham hva du vil lansere"
+      },
+      "journal": {
+        "heading": "Inne i Archer",
+        "body": "Notater om AI-filmskaping, kampanjer og kreativ regi.",
+        "allStoriesLabel": "Alle historier",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer Campaign Workspace",
+            "category": "Produkt",
+            "date": "Aug 18, 2026",
+            "title": "Fra produktside til polert forklaring i én kreativ flyt",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign World",
+            "category": "studio",
+            "date": "Aug 06, 2026",
+            "title": "Hvorfor de sterkeste AI-kampanjene fortsatt begynner med et synspunkt",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Kampanjen din starter her",
+        "ctaLabel": "Start gratis",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmisk produktramme"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Kampanjeatmosfæreramme"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Campaign World Frame"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Merkehistorieramme"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Tilhengerlukkingsramme"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Lag filmkampanjer med kraften til AI.",
+        "groups": [
+          {
+            "label": "Navigasjon",
+            "links": [
+              {
+                "label": "Produkt",
+                "target": "product"
+              },
+              {
+                "label": "Vise frem",
+                "target": "showcase"
+              },
+              {
+                "label": "evner",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Skape",
+            "links": [
+              {
+                "label": "filmisk annonse",
+                "target": "start"
+              },
+              {
+                "label": "filmtrailer",
+                "target": "start"
+              },
+              {
+                "label": "Produktforklarer",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Koble",
+            "links": [
+              {
+                "label": "Ta kontakt med",
+                "target": "contact"
+              },
+              {
+                "label": "Tidsskrift",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Din AI-kampanjedirektør.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "hr",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Upoznajte Strijela"
+    },
+    "badge": "AI voditelj kampanje",
+    "headline": "Stvorite kinematografske kampanje sa snagom umjetne inteligencije",
+    "subheadline": "Pretvorite proizvod, premisu ili lansirajte u jednu koherentnu kampanju - od kreativnog sažetka i storyboarda do glavnog filma i društvenih rezova.",
+    "ctaLabel": "Razgovarajte sa Archerom",
+    "secondaryCtaLabel": "Pogledajte kako radi",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Bok, ja sam Archer. Reci mi što pokrećeš i ja ću pronaći priču vrijednu ispričati."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "online · obično odgovara odmah",
+      "inputPlaceholder": "Zalijepite URL javnog proizvoda…",
+      "suggestedPrompts": [
+        "Oblikujte moje lansiranje",
+        "Pronađite moj kut kampanje",
+        "Napravite storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer Cinematic Campaigns"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Strijelac",
+        "navItems": [
+          {
+            "label": "Proizvod",
+            "target": "product"
+          },
+          {
+            "label": "Vitrina",
+            "target": "showcase"
+          },
+          {
+            "label": "sposobnosti",
+            "target": "capabilities"
+          },
+          {
+            "label": "Časopis",
+            "target": "journal"
+          },
+          {
+            "label": "Upoznajte Strijela",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Prijaviti se",
+        "meetLabel": "Upoznajte Strijela",
+        "announcementLabel": "Novi",
+        "announcementTitle": "Objašnjenje proizvoda je sada dostupno",
+        "headingLines": [
+          "stvoriti film",
+          "kampanje s"
+        ],
+        "mutedHeadingLine": "Moć AI",
+        "primaryCtaLabel": "Razgovarajte sa Archerom",
+        "secondaryCtaLabel": "Pogledajte kako radi",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI voditelj kampanje",
+          "statusLabel": "online · obično odgovara odmah",
+          "openingMessage": "Bok, ja sam Archer. Reci mi što pokrećeš i ja ću pronaći priču vrijednu ispričati.",
+          "inputPlaceholder": "Zalijepite URL javnog proizvoda…",
+          "suggestions": [
+            "Oblikujte moje lansiranje",
+            "Pronađite moj kut kampanje",
+            "Napravite storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Usmjerite objašnjenje proizvoda",
+          "body": "Donesite javnu stranicu proizvoda i postavite kreativni smjer. Archer će pripremiti ilustrativni sažetak prije prijave.",
+          "urlLabel": "URL javne web stranice",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Publika",
+          "objectiveLabel": "Cilj",
+          "ctaLabel": "poziv na akciju",
+          "durationLabel": "Trajanje",
+          "styleLabel": "Vizualst",
+          "previewLabel": "upućivan",
+          "previewHeading": "Prvi smjer kampanje",
+          "campaignDirectionLabel": "smjer",
+          "storyboardLabel": "prizor",
+          "deliverablesLabel": "Očekivani rezultati",
+          "submitLabel": "Pregledajte smjer",
+          "generateLabel": "Napravite moje objašnjenje",
+          "voiceLabel": "Try voice demo",
+          "editLabel": "uređivati se",
+          "disclaimer": "Samo ilustrativni pregled. Archer nije pregledao ovu web stranicu niti renderirao medije. Snimanje i generiranje potkrijepljeno dokazima počinju nakon prijave.",
+          "loginNotice": "Prijavite se kako biste Archeru omogućili da pregleda stranicu javnog proizvoda i stvorite objašnjenje svog proizvoda u privatnom radnom prostoru.",
+          "invalidUrlCopy": "Unesite javni HTTP ili HTTPS URL web stranice. Privatne mreže i lokalne adrese nisu podržane.",
+          "expiredCopy": "Ova primopredaja kampanje je istekla. Vratite se u Archer i pripremite novi pregled.",
+          "sampleDirection": "Otkrijte proizvod kroz jednu kinematografsku transformaciju, krećući se od napetosti do jasne, nezaboravne isplate.",
+          "sampleMessage": "Pretvorite najjače obećanje proizvoda u priču koju publika može razumjeti u jednom gledanju.",
+          "sampleTone": "samouvjereni, precizni, filmski",
+          "sampleVisualLanguage": "skulpturalno svjetlo, taktilni detalji, svrhovito kretanje kamere",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "napetost",
+              "body": "Otvorite stvarni problem publike u jednoj zastrašujućoj slici."
+            },
+            {
+              "number": "02",
+              "title": "Otkrivanje",
+              "body": "Predstavite proizvod kao prekretnicu, a ne kao popis značajki."
+            },
+            {
+              "number": "03",
+              "title": "dokaz",
+              "body": "Pokažite temeljnu vrijednost kroz sažetu vizualnu demonstraciju."
+            },
+            {
+              "number": "04",
+              "title": "poziv",
+              "body": "Sletite na jednu radnju i čisti krajnji okvir s markom."
+            }
+          ],
+          "deliverables": [
+            "kontrolna kampanja",
+            "Storyboard i režija govora",
+            "Majstorski film s društvenim rezovima"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Od iskre do kampanje.",
+        "mutedHeading": "Tri jednostavna djela",
+        "learnLabel": "Uči više",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Pisati",
+            "description": "Opišite svoju kampanju u jednom upitu.",
+            "visualKind": "write",
+            "prompt": "Pokrenite kinematografsku kampanju za novu cipelu za izvođenje u Tokiju natopljenom kišom.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Referenca kampanje natopljene kišom"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Referenca kampanje za cipele"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Referenca za kampanju u Tokiju"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Generirati",
+            "description": "Archer odmah stvara vašu kinematografsku kampanju.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "generiraju se okviri kinematografske kampanje"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Udio",
+            "description": "Odobravajte, izvozite u 4K i dijelite svugdje.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Završena Archer kampanja spremna za izvoz"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "otkriti moćno",
+        "chipLabel": "Video",
+        "mutedHeading": "Modeli. sve na jednom mjestu",
+        "items": [
+          "kontrolna kampanja",
+          "stonerske knjige",
+          "vizualna generacija",
+          "prestiž",
+          "zvučni dizajn",
+          "Final edit",
+          "društvena smanjenja",
+          "4k izvoz"
+        ]
+      },
+      "showcase": {
+        "heading": "Kampanje napravljene sa strijelcem",
+        "items": [
+          {
+            "label": "kinematograf",
+            "prompt": "Skulpturalna boca mirisa koja izlazi kroz srebrnu maglu, luksuzni film kampanje",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luksuzna kampanja mirisa"
+          },
+          {
+            "label": "filmska ograda",
+            "prompt": "Usamljeni astronaut prelazi preko poplavljenog grada dok zora propada kroz horizont",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "kinematografski trailer"
+          },
+          {
+            "label": "objašnjenje proizvoda",
+            "prompt": "Precizni sat se sastavlja u mračnom studiju, svaki mehanizam u pokretu",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Objašnjenje preciznog sata"
+          },
+          {
+            "label": "društvena kampanja",
+            "prompt": "Novo električno vozilo prolazi kroz kinematografsku pustinjsku oluju u Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Društveni film"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Sve što vam je potrebno za izradu kampanje",
+        "body": "Sažetak, generiranje, uređivanje i pokretanje — sve na jednom mjestu.",
+        "ctaLabel": "Počnite besplatno",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "formati pohoda",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmski portret"
+          },
+          {
+            "kind": "metric",
+            "title": "gospodariti izvozom",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Filmski portret u toplom svjetlu"
+          },
+          {
+            "kind": "wide",
+            "title": "bilo kakav stil",
+            "body": "Fotorealno, animirano, vođeno proizvodima - vi birate svijet.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer kinematografska kampanja kreativna"
+          },
+          {
+            "kind": "feature",
+            "title": "jedan kratki",
+            "body": "Archer nosi jednu ideju kroz svaku scenu, rez i kanal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Teniska kampanja fotografirana odozgo"
+          },
+          {
+            "kind": "feature",
+            "title": "Trenutni rezovi",
+            "body": "Pretvorite jedan glavni film u društvene montaže spremne za lansiranje.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Kampanja kinematografskih vozila u kanjonu"
+          },
+          {
+            "kind": "video",
+            "title": "više modela",
+            "body": "Koristite pravi vizualni, glasovni i pokretni model za svaki snimak.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "filmski slijed"
+          },
+          {
+            "kind": "metric",
+            "title": "kreativni moment",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "kinematografija"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "jedan radni prostor.",
+        "accentHeading": "Izgrađen za svaku kampanju",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Dom",
+          "Generirati",
+          "Knjižnica",
+          "kampanje",
+          "zaključci"
+        ],
+        "bannerLabel": "Novo · Objašnjenje proizvoda",
+        "bannerTitle": "Pretvorite bilo koju web stranicu u uglađeni film za lansiranje.",
+        "bannerBody": "Izgradite sažetak, storyboard, snimke, glas, uređivanje i smanjenje u jednom vođenom toku.",
+        "projectHeading": "Moje kampanje",
+        "projectBody": "12 projekata · 3 u proizvodnji",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Launch Film"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Greben — priča o brendu"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — prikolica"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Sarađivati",
+            "body": "Pozovite svoj tim, pregledajte storyboards i zajedno odobrite konačni rez."
+          },
+          {
+            "label": "Urediti",
+            "body": "Čuvajte sažetke, reference, generacije i izvoz u jednom čistom čvorištu kampanje."
+          },
+          {
+            "label": "Negdje",
+            "body": "Kreirajte na stolnom računalu, tabletu ili mobilnom uređaju — Archer održava priču u pokretu."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Upoznajte svog direktora AI kampanje",
+        "heading": "Upoznajte Archera.",
+        "mutedHeading": "Dajte svakoj ideji svijet.",
+        "body": "Archer pretvara proizvod, premisu ili lansiranje u koherentnu kinematografsku kampanju - a zatim održava priču usklađenom kroz svaku scenu i kanal.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Oštri kreativni instinkti"
+          },
+          {
+            "number": "02",
+            "label": "cjelovrnačna proizvodnja"
+          },
+          {
+            "number": "03",
+            "label": "Uvijek na brendu"
+          }
+        ],
+        "ctaLabel": "Razgovarajte sa Archerom",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Strijelac je spreman",
+        "statusBody": "Recite mu što želite lansirati"
+      },
+      "journal": {
+        "heading": "strijelac",
+        "body": "Bilješke o stvaranju filmova o umjetnoj inteligenciji, kampanjama i kreativnom smjeru.",
+        "allStoriesLabel": "sve priče",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Radni prostor za strijelsku kampanju",
+            "category": "Proizvod",
+            "date": "Aug 18, 2026",
+            "title": "Od stranice proizvoda do uglađenog objašnjenja u jednom kreativnom toku",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign World",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Zašto najjače AI kampanje još uvijek počinju s gledištem",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Vaša kampanja počinje ovdje",
+        "ctaLabel": "Počnite besplatno",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmski okvir"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "atmosfera kampanje"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "okvir svijeta"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Okvir za marku priče"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "prikolica za zatvaranje"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Stvorite kinematografske kampanje sa snagom umjetne inteligencije.",
+        "groups": [
+          {
+            "label": "Navigacija",
+            "links": [
+              {
+                "label": "Proizvod",
+                "target": "product"
+              },
+              {
+                "label": "Vitrina",
+                "target": "showcase"
+              },
+              {
+                "label": "sposobnosti",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Stvoriti",
+            "links": [
+              {
+                "label": "kinematograf",
+                "target": "start"
+              },
+              {
+                "label": "filmska ograda",
+                "target": "start"
+              },
+              {
+                "label": "objašnjenje proizvoda",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Spojiti",
+            "links": [
+              {
+                "label": "Kontakt",
+                "target": "contact"
+              },
+              {
+                "label": "Časopis",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Vaš direktor AI kampanje.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

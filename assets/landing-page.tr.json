@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "tr",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Okçu ile tanışın"
+    },
+    "badge": "AI Kampanya Direktörü",
+    "headline": "AI'nın gücüyle sinematik kampanyalar oluşturun",
+    "subheadline": "Bir ürünü, öncülü veya lansmanı tek bir tutarlı kampanyaya dönüştürün - yaratıcı özet ve storyboard'dan ana filme ve sosyal kesintilere kadar.",
+    "ctaLabel": "Okçu ile konuş",
+    "secondaryCtaLabel": "Nasıl çalıştığını görün",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Merhaba, ben okçuyum. Bana neyi başlattığınızı söyleyin, anlatmaya değer hikayeyi bulacağım."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Çevrimiçi · Genellikle anında yanıt verir",
+      "inputPlaceholder": "Herkese açık bir ürün URL'si yapıştırın…",
+      "suggestedPrompts": [
+        "Fırlatmamı Şekillendir",
+        "Kampanya Açımı Bul",
+        "Bir storyboard oluşturun"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Okçu sinema kampanyaları"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Okçu",
+        "navItems": [
+          {
+            "label": "Ürün",
+            "target": "product"
+          },
+          {
+            "label": "Vitrin",
+            "target": "showcase"
+          },
+          {
+            "label": "yetenekler",
+            "target": "capabilities"
+          },
+          {
+            "label": "Dergi",
+            "target": "journal"
+          },
+          {
+            "label": "Okçu ile tanışın",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "giriş yapmak",
+        "meetLabel": "Okçu ile tanışın",
+        "announcementLabel": "Yeni",
+        "announcementTitle": "Ürün açıklayıcısı artık mevcut",
+        "headingLines": [
+          "sinematik yaratmak",
+          "ile kampanyalar"
+        ],
+        "mutedHeadingLine": "AI'nın gücü",
+        "primaryCtaLabel": "Okçu ile konuş",
+        "secondaryCtaLabel": "Nasıl çalıştığını görün",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI Kampanya Direktörü",
+          "statusLabel": "Çevrimiçi · Genellikle anında yanıt verir",
+          "openingMessage": "Merhaba, ben okçuyum. Bana neyi başlattığınızı söyleyin, anlatmaya değer hikayeyi bulacağım.",
+          "inputPlaceholder": "Herkese açık bir ürün URL'si yapıştırın…",
+          "suggestions": [
+            "Fırlatmamı Şekillendir",
+            "Kampanya Açımı Bul",
+            "Bir storyboard oluşturun"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Bir ürün açıklayıcısını yönlendirin",
+          "body": "Herkese açık bir ürün sayfası getirin ve yaratıcı yönü belirleyin. Okçu, oturum açmadan önce açıklayıcı bir özet hazırlayacaktır.",
+          "urlLabel": "Herkese açık web sitesi URL'si",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Seyirci",
+          "objectiveLabel": "Amaç",
+          "ctaLabel": "Eylem çağrısı",
+          "durationLabel": "Süre",
+          "styleLabel": "görsel stil",
+          "previewLabel": "rehberli önizleme",
+          "previewHeading": "İlk Kampanya Yönü",
+          "campaignDirectionLabel": "Kampanya yönü",
+          "storyboardLabel": "Örnek hikaye tahtası",
+          "deliverablesLabel": "Beklenen teslimatlar",
+          "submitLabel": "Yönü önizleyin",
+          "generateLabel": "Açıklayıcımı oluştur",
+          "voiceLabel": "Ses Demosunu Deneyin",
+          "editLabel": "Özeti düzenle",
+          "disclaimer": "Yalnızca açıklayıcı önizleme. Archer bu web sitesini incelemedi veya medya oluşturmadı. Kanıt destekli yakalama ve üretim, oturum açmadan sonra başlar.",
+          "loginNotice": "Archer'ın genel ürün sayfasını incelemesine ve özel bir çalışma alanında ürün açıklayıcınızı oluşturmasına izin vermek için oturum açın.",
+          "invalidUrlCopy": "Herkese açık bir HTTP veya HTTPS web sitesi URL'si girin. Özel ağlar ve yerel adresler desteklenmez.",
+          "expiredCopy": "Bu kampanya geçişi sona erdi. Archer'a dönün ve yeni bir önizleme hazırlayın.",
+          "sampleDirection": "Gerginlikten net, unutulmaz bir getiriye geçerek ürünü tek bir sinemasal dönüşümle ortaya çıkarın.",
+          "sampleMessage": "Ürünün en güçlü vaadini, izleyicinin tek bir izlemede anlayabileceği bir hikayeye dönüştürün.",
+          "sampleTone": "kendinden emin, kesin, sinematik",
+          "sampleVisualLanguage": "Heykel ışığı, dokunsal ayrıntılar, amaçlı kamera hareketi",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "gerginlik",
+              "body": "Seyircinin asıl sorununu tek bir tutuklama görüntüsünde açın."
+            },
+            {
+              "number": "02",
+              "title": "ifşa",
+              "body": "Ürünü bir özellik listesi olarak değil, dönüm noktası olarak tanıtın."
+            },
+            {
+              "number": "03",
+              "title": "delil",
+              "body": "Özlü bir görsel gösterim yoluyla çekirdek değeri gösterin."
+            },
+            {
+              "number": "04",
+              "title": "davet",
+              "body": "Tek bir eyleme ve temiz markalı bir uç çerçeveye inin."
+            }
+          ],
+          "deliverables": [
+            "kampanya özeti",
+            "Storyboard ve seslendirme yönü",
+            "Sosyal kesintileri olan ana film"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Kıvılcımdan kampanyaya.",
+        "mutedHeading": "Üç basit eylem",
+        "learnLabel": "Daha fazla bilgi edinin",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Yazmak",
+            "description": "Kampanyanızı tek bir istemle tanımlayın.",
+            "visualKind": "write",
+            "prompt": "Yağmurlu Tokyo'da yeni bir performans ayakkabısı için sinematik bir kampanya başlatın.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Yağmurlu Performans Kampanya Referansı"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Performans Ayakkabı Kampanyası"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokyo kampanyası referans"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Oluşturmak",
+            "description": "Archer, sinema kampanyanızı anında oluşturur.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "%84",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Sinematik kampanya çerçeveleri oluşturuluyor"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Pay",
+            "description": "Onaylayın, 4K'da dışa aktarın ve her yerde paylaşın.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "İhracata hazır Okçu kampanyası bitti"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "güçlü keşfetmek",
+        "chipLabel": "Video",
+        "mutedHeading": "modeller. Hepsi bir arada",
+        "items": [
+          "kampanya özeti",
+          "storyboard'lar",
+          "görsel üretim",
+          "seslendirme",
+          "ses tasarımı",
+          "son düzenleme",
+          "Sosyal kesintiler",
+          "4K İhracat"
+        ]
+      },
+      "showcase": {
+        "heading": "Okçu ile yapılan kampanyalar",
+        "items": [
+          {
+            "label": "sinema",
+            "prompt": "Silver Mist, Lüks Kampanya Filmi ile Ortaya Çıkan Heykeltıraş Bir Koku Şişesi",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Lüks koku kampanyası"
+          },
+          {
+            "label": "fragman",
+            "prompt": "Yalnız bir astronot, şafak ufuk çizgisinden geçerken su basmış bir şehri geçer",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "sinematik astronot fragmanı"
+          },
+          {
+            "label": "ürün açıklayıcısı",
+            "prompt": "Hassas bir saat kendini karanlık bir stüdyoda toplar, her mekanizma hareket halindedir",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "hassas saat açıklayıcı"
+          },
+          {
+            "label": "sosyal kampanya",
+            "prompt": "Yeni bir elektrikli araç, mavi saatte sinematik bir çöl fırtınasını kesiyor",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "elektrikli araç sosyal film"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Kampanya yapmak için ihtiyacınız olan her şey",
+        "body": "Kısa, oluşturun, düzenleyin ve başlatın - hepsi tek bir yerde.",
+        "ctaLabel": "ücretsiz başla",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Kampanya biçimleri",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "sinematik tilki portre"
+          },
+          {
+            "kind": "metric",
+            "title": "ana ihracat",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Sıcak ışıkta sinematik portre"
+          },
+          {
+            "kind": "wide",
+            "title": "herhangi bir stil",
+            "body": "PhotoReal, animasyonlu, ürün odaklı — dünyayı siz seçersiniz.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "okçu sinema kampanyası yaratıcı"
+          },
+          {
+            "kind": "feature",
+            "title": "Bir Özet",
+            "body": "Okçu her sahnede, kesimde ve kanalda tek bir fikir taşır.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Yukarıdan fotoğraflanan tenis kampanyası"
+          },
+          {
+            "kind": "feature",
+            "title": "Anlık kesintiler",
+            "body": "Bir ana filmi lansmana hazır sosyal düzenlemelere dönüştürün.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Bir kanyonda sinematik araç kampanyası"
+          },
+          {
+            "kind": "video",
+            "title": "çok model",
+            "body": "Her çekim için doğru görsel, ses ve hareket modelini kullanın.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "sinematik ürün dizisi"
+          },
+          {
+            "kind": "metric",
+            "title": "yaratıcı ivme",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "sinematik dağ kampanyası"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "bir çalışma alanı.",
+        "accentHeading": "Her kampanya için oluşturuldu",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Ev",
+          "Oluşturmak",
+          "Kütüphane",
+          "kampanyalar",
+          "erler"
+        ],
+        "bannerLabel": "Yeni · Ürün açıklayıcısı",
+        "bannerTitle": "Herhangi bir web sitesini cilalı bir lansman filmine dönüştürün.",
+        "bannerBody": "Kısa, storyboard, çekimler, seslendirme, düzenleme ve kesmeleri tek bir rehberli akışta oluşturun.",
+        "projectHeading": "kampanyalarım",
+        "projectBody": "12 proje · 3 üretimde",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether - lansman filmi"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Resif - Marka Hikayesi"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Gece - Fragman"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "İşbirliği yapmak",
+            "body": "Ekibinizi davet edin, storyboard'ları inceleyin ve son kesimi birlikte onaylayın."
+          },
+          {
+            "label": "Düzenlemek",
+            "body": "Özetleri, referansları, nesilleri ve ihracatı tek bir temiz kampanya merkezinde saklayın."
+          },
+          {
+            "label": "Herhangi bir yer",
+            "body": "Masaüstünde, tablette veya mobilde oluşturun - Archer hikayeyi hareket ettirir."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "AI Kampanya Direktörünüzle Tanışın",
+        "heading": "Okçu ile tanışın.",
+        "mutedHeading": "Her fikre bir dünya verin.",
+        "body": "Archer bir ürünü, öncülü veya lansmanı tutarlı bir sinematik kampanyaya dönüştürür ve ardından hikayeyi her sahne ve kanalda hizalı tutar.",
+        "points": [
+          {
+            "number": "01",
+            "label": "keskin yaratıcı içgüdüler"
+          },
+          {
+            "number": "02",
+            "label": "Uçtan uca üretim"
+          },
+          {
+            "number": "03",
+            "label": "her zaman marka üzerinde"
+          }
+        ],
+        "ctaLabel": "Okçu ile konuş",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "okçu hazır",
+        "statusBody": "ona ne başlatmak istediğini söyle"
+      },
+      "journal": {
+        "heading": "içinde okçu",
+        "body": "AI film yapımı, kampanyalar ve yaratıcı yön hakkında notlar.",
+        "allStoriesLabel": "tüm hikayeler",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Okçu kampanyası çalışma alanı",
+            "category": "Ürün",
+            "date": "Aug 18, 2026",
+            "title": "Tek bir yaratıcı akışta ürün sayfasından cilalı açıklayıcıya",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "okçu sinematik kampanya dünyası",
+            "category": "Stüdyo",
+            "date": "Aug 06, 2026",
+            "title": "En güçlü AI kampanyaları neden hala bir bakış açısıyla başlıyor?",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Kampanyanız burada başlıyor",
+        "ctaLabel": "ücretsiz başla",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "sinematik ürün çerçevesi"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Kampanya atmosferi çerçevesi"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Kampanya dünyası çerçevesi"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Marka Hikaye Çerçevesi"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "römork kapatma çerçeve"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "AI'nın gücüyle sinematik kampanyalar oluşturun.",
+        "groups": [
+          {
+            "label": "Navigasyon",
+            "links": [
+              {
+                "label": "Ürün",
+                "target": "product"
+              },
+              {
+                "label": "Vitrin",
+                "target": "showcase"
+              },
+              {
+                "label": "yetenekler",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Oluşturmak",
+            "links": [
+              {
+                "label": "sinema",
+                "target": "start"
+              },
+              {
+                "label": "fragman",
+                "target": "start"
+              },
+              {
+                "label": "ürün açıklayıcısı",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Bağlanmak",
+            "links": [
+              {
+                "label": "Temas",
+                "target": "contact"
+              },
+              {
+                "label": "Dergi",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Okçu.",
+        "closingStatement": "AI Kampanya Direktörünüz.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

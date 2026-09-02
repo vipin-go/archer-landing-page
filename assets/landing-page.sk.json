@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "sk",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Meet Archer"
+    },
+    "badge": "Riaditeľ kampane AI",
+    "headline": "Vytvárajte filmové kampane so silou AI",
+    "subheadline": "Premeňte produkt, predpoklad alebo spustenie do jednej súvislej kampane – od kreatívneho briefu a storyboardu až po hlavný film a sociálne škrty.",
+    "ctaLabel": "Porozprávajte sa s Archerom",
+    "secondaryCtaLabel": "Pozrite sa, ako to funguje",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Ahoj, som Archer. Povedz mi, čo spúšťaš, a ja zistím, že príbeh stojí za to povedať."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Zvyčajne odpovie okamžite",
+      "inputPlaceholder": "Prilepte verejnú adresu URL produktu…",
+      "suggestedPrompts": [
+        "Shape My Launch",
+        "Nájdite môj uhol kampane",
+        "Zostavte si storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer Cinematic Campaigns"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "lukostrelec",
+        "navItems": [
+          {
+            "label": "súčin",
+            "target": "product"
+          },
+          {
+            "label": "výklad",
+            "target": "showcase"
+          },
+          {
+            "label": "inteligencia",
+            "target": "capabilities"
+          },
+          {
+            "label": "denník",
+            "target": "journal"
+          },
+          {
+            "label": "Meet Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Prihlásiť sa",
+        "meetLabel": "Meet Archer",
+        "announcementLabel": "Nový",
+        "announcementTitle": "Vysvetľovač produktu je teraz k dispozícii",
+        "headingLines": [
+          "Vytvorte film",
+          "kampane s"
+        ],
+        "mutedHeadingLine": "Sila AI",
+        "primaryCtaLabel": "Porozprávajte sa s Archerom",
+        "secondaryCtaLabel": "Pozrite sa, ako to funguje",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Riaditeľ kampane AI",
+          "statusLabel": "Online · Zvyčajne odpovie okamžite",
+          "openingMessage": "Ahoj, som Archer. Povedz mi, čo spúšťaš, a ja zistím, že príbeh stojí za to povedať.",
+          "inputPlaceholder": "Prilepte verejnú adresu URL produktu…",
+          "suggestions": [
+            "Shape My Launch",
+            "Nájdite môj uhol kampane",
+            "Zostavte si storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Nasmerujte vysvetľovač produktu",
+          "body": "Prineste verejnú produktovú stránku a nastavte kreatívne smerovanie. Archer pred prihlásením pripraví ilustratívny brief.",
+          "urlLabel": "URL verejnej webovej stránky",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "publikum",
+          "objectiveLabel": "cieľ",
+          "ctaLabel": "výzva na akciu",
+          "durationLabel": "trvanie",
+          "styleLabel": "vizuálny štýl",
+          "previewLabel": "Ukážka so sprievodcom",
+          "previewHeading": "Prvý smer kampane",
+          "campaignDirectionLabel": "Smerovanie",
+          "storyboardLabel": "ukážkový scenár",
+          "deliverablesLabel": "Očakávané výstupy",
+          "submitLabel": "Ukážte smer",
+          "generateLabel": "Vytvorte si môj vysvetľovač",
+          "voiceLabel": "skúste hlasové demo",
+          "editLabel": "Upraviť stručný prehľad",
+          "disclaimer": "Iba ilustratívny náhľad. Archer túto webovú stránku neskontroloval ani nevykreslil médiá. Zachytenie a generovanie podporované dôkazmi sa začínajú po prihlásení.",
+          "loginNotice": "Prihláste sa a umožnite spoločnosti Archer skontrolovať verejnú stránku produktu a vytvoriť si vysvetľovač produktu v súkromnom pracovnom priestore.",
+          "invalidUrlCopy": "Zadajte verejnú adresu URL webovej stránky HTTP alebo HTTPS. Súkromné siete a miestne adresy nie sú podporované.",
+          "expiredCopy": "Platnosť tohto odovzdania kampane vypršala. Vráťte sa k Archerovi a pripravte si novú ukážku.",
+          "sampleDirection": "Odhaliť produkt prostredníctvom jednej filmovej transformácie, prechodu od napätia k jasnej, nezabudnuteľnej odmene.",
+          "sampleMessage": "Premeňte najsilnejší prísľub produktu na príbeh, ktorému môžu diváci porozumieť v jednom zhliadnutí.",
+          "sampleTone": "sebavedomý, presný, filmový",
+          "sampleVisualLanguage": "sochárske svetlo, hmatové detaily, účelný pohyb kamery",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "napätie",
+              "body": "Otvorte skutočný problém publika v jednom pútavom obrázku."
+            },
+            {
+              "number": "02",
+              "title": "odhalenie",
+              "body": "Predstavte produkt ako zlomový bod, nie zoznam funkcií."
+            },
+            {
+              "number": "03",
+              "title": "dôkaz",
+              "body": "Ukážte základnú hodnotu prostredníctvom stručnej vizuálnej demonštrácie."
+            },
+            {
+              "number": "04",
+              "title": "pozvánka",
+              "body": "Pristaňte na jednej akcii a čistom značkovom koncovom ráme."
+            }
+          ],
+          "deliverables": [
+            "krátka kampaň",
+            "Storyboard a hlasový smer",
+            "Majster film so sociálnymi škrtmi"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Od iskry ku kampani.",
+        "mutedHeading": "Tri jednoduché činy",
+        "learnLabel": "Uč sa viac",
+        "acts": [
+          {
+            "number": "01",
+            "title": "zapísať",
+            "description": "Popíšte svoju kampaň jednou výzvou.",
+            "visualKind": "write",
+            "prompt": "Spustite filmovú kampaň pre novú výkonnú obuv v dažďom nasiaknutom Tokiu.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Odkaz na kampaň nasiaknutú dažďom"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Performance shoe campaign reference"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Odkaz na kampaň v Tokiu"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "generovať",
+            "description": "Archer okamžite vytvorí vašu filmovú kampaň.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Vytvárajú sa snímky filmových kampaní"
+            }
+          },
+          {
+            "number": "03",
+            "title": "rozdeliť",
+            "description": "Schvaľujte, exportujte v 4K a zdieľajte všade.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Dokončená kampaň Archer pripravená na export"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "objavte mocné",
+        "chipLabel": "video",
+        "mutedHeading": "modely. Všetko na jednom mieste",
+        "items": [
+          "krátka kampaň",
+          "storyboardy",
+          "vizuálna generácia",
+          "komentár",
+          "zvukový dizajn",
+          "Konečná úprava",
+          "Sociálne zníženia",
+          "4K export"
+        ]
+      },
+      "showcase": {
+        "heading": "Kampane uskutočnené s Archerom",
+        "items": [
+          {
+            "label": "filmový inzerát",
+            "prompt": "Sochárska fľaša na vôňu vystupujúca cez striebornú hmlu, film o luxusnej kampani",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luxusná vôňa"
+          },
+          {
+            "label": "filmový trailer",
+            "prompt": "Osamelý astronaut prekročí zaplavené mesto, keď úsvit prerazí panorámu",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Trailer k filmovým astronautom"
+          },
+          {
+            "label": "Vysvetľovač produktu",
+            "prompt": "Presné hodinky sa zostavujú v tmavom štúdiu, každý mechanizmus je v pohybe",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precision watch explainer"
+          },
+          {
+            "label": "sociálna kampaň",
+            "prompt": "Nové elektrické vozidlo pretína filmovú púštnu búrku v modrej hodine",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Sociálny film pre elektrické vozidlo"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Všetko, čo potrebujete na vytvorenie kampane",
+        "body": "Stručne, generovať, upravovať a spúšťať – všetko na jednom mieste.",
+        "ctaLabel": "začať zadarmo",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Formáty kampane",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmový líščí portrét"
+          },
+          {
+            "kind": "metric",
+            "title": "hlavný export",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "filmový portrét v teplom svetle"
+          },
+          {
+            "kind": "wide",
+            "title": "akýkoľvek štýl",
+            "body": "Fotoreal, animovaný, produktom – vy si vyberiete svet.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer filmová kampaň kreativita"
+          },
+          {
+            "kind": "feature",
+            "title": "jeden stručný",
+            "body": "Archer nesie jednu myšlienku cez každú scénu, strih a kanál.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Tenisová kampaň fotografovaná zhora"
+          },
+          {
+            "kind": "feature",
+            "title": "Okamžité zníženia",
+            "body": "Premeňte jeden hlavný film na sociálne úpravy pripravené na spustenie.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Kampaň Cinematic Vehicle v kaňone"
+          },
+          {
+            "kind": "video",
+            "title": "viacmodelka",
+            "body": "Pre každý záber použite správny vizuálny, hlasový a pohybový model.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Poradie kinematografických produktov"
+          },
+          {
+            "kind": "metric",
+            "title": "kreatívna dynamika",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "filmová horská kampaň"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "jeden pracovný priestor.",
+        "accentHeading": "Postavené pre každú kampaň",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "domáci",
+          "generovať",
+          "knižnica",
+          "kampane",
+          "Nastavenie"
+        ],
+        "bannerLabel": "Nový · Vysvetľovač produktu",
+        "bannerTitle": "Premeňte akúkoľvek webovú stránku na vyleštený film.",
+        "bannerBody": "Vytvorte skratku, storyboard, zábery, voiceover, úpravy a škrty v jednom riadenom toku.",
+        "projectHeading": "Moje kampane",
+        "projectBody": "12 projektov · 3 vo výrobe",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Uveďte film"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "útes — príbeh značky"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "spolupracovať",
+            "body": "Pozvite svoj tím, skontrolujte storyboardy a spoločne schvaľujte konečný strih."
+          },
+          {
+            "label": "usporiadať",
+            "body": "Uchovávajte stručné informácie, referencie, generácie a exporty v jednom čistom centre kampane."
+          },
+          {
+            "label": "všade",
+            "body": "Vytvárajte na počítači, tablete alebo mobile — Archer udržiava príbeh v pohybe."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Zoznámte sa so svojím riaditeľom kampane AI",
+        "heading": "stretnúť sa s Archerom.",
+        "mutedHeading": "Dajte každej myšlienke svet.",
+        "body": "Archer premení produkt, premisu alebo spustenie na koherentnú filmovú kampaň – potom udržiava príbeh zosúladený cez každú scénu a kanál.",
+        "points": [
+          {
+            "number": "01",
+            "label": "ostré tvorivé inštinkty"
+          },
+          {
+            "number": "02",
+            "label": "komplexná výroba"
+          },
+          {
+            "number": "03",
+            "label": "Vždy na značke"
+          }
+        ],
+        "ctaLabel": "Porozprávajte sa s Archerom",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer je pripravený",
+        "statusBody": "Povedzte mu, čo chcete spustiť"
+      },
+      "journal": {
+        "heading": "Vnútri Archer",
+        "body": "Poznámky k filmovej tvorbe AI, kampaniam a kreatívnemu smerovaniu.",
+        "allStoriesLabel": "Všetky príbehy",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Pracovný priestor kampane Archer",
+            "category": "súčin",
+            "date": "Aug 18, 2026",
+            "title": "Zo stránky produktu po vyleštený vysvetľovač v jednom kreatívnom toku",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign World",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Prečo najsilnejšie kampane AI stále začínajú z pohľadu",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Vaša kampaň začína tu",
+        "ctaLabel": "začať zadarmo",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "kinematografický rám produktu"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "atmosféra kampane rám"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Rám sveta kampane"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Rám príbehu značky"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Trailer closing frame"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Vytvárajte filmové kampane so silou AI.",
+        "groups": [
+          {
+            "label": "plavba",
+            "links": [
+              {
+                "label": "súčin",
+                "target": "product"
+              },
+              {
+                "label": "výklad",
+                "target": "showcase"
+              },
+              {
+                "label": "inteligencia",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "vytvoriť",
+            "links": [
+              {
+                "label": "filmový inzerát",
+                "target": "start"
+              },
+              {
+                "label": "filmový trailer",
+                "target": "start"
+              },
+              {
+                "label": "Vysvetľovač produktu",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "spojovať",
+            "links": [
+              {
+                "label": "kontaktovať",
+                "target": "contact"
+              },
+              {
+                "label": "denník",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Váš riaditeľ kampane AI.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

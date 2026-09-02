@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "pt",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Conheça o Arqueiro"
+    },
+    "badge": "Diretor de Campanha da IA",
+    "headline": "Crie campanhas cinematográficas com o poder da IA",
+    "subheadline": "Transforme um produto, uma premissa ou um lançamento em uma campanha coerente — do briefing criativo e do storyboard ao filme mestre e cortes sociais.",
+    "ctaLabel": "Fale com Archer",
+    "secondaryCtaLabel": "Veja como funciona",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Olá, sou Arqueiro. Diga-me o que você está lançando e encontrarei a história que vale a pena contar."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "online · geralmente responde instantaneamente",
+      "inputPlaceholder": "Cole um URL de produto público…",
+      "suggestedPrompts": [
+        "moldar meu lançamento",
+        "Encontre o ângulo da minha campanha",
+        "Construa um storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Campanhas cinematográficas do Archer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Arqueiro",
+        "navItems": [
+          {
+            "label": "Produto",
+            "target": "product"
+          },
+          {
+            "label": "Mostruário",
+            "target": "showcase"
+          },
+          {
+            "label": "capacidades",
+            "target": "capabilities"
+          },
+          {
+            "label": "Diário",
+            "target": "journal"
+          },
+          {
+            "label": "Conheça o Arqueiro",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Entrar",
+        "meetLabel": "Conheça o Arqueiro",
+        "announcementLabel": "Novo",
+        "announcementTitle": "O explicador do produto já está disponível",
+        "headingLines": [
+          "Crie cinema",
+          "Campanhas com o"
+        ],
+        "mutedHeadingLine": "Poder da IA",
+        "primaryCtaLabel": "Fale com Archer",
+        "secondaryCtaLabel": "Veja como funciona",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Diretor de Campanha da IA",
+          "statusLabel": "online · geralmente responde instantaneamente",
+          "openingMessage": "Olá, sou Arqueiro. Diga-me o que você está lançando e encontrarei a história que vale a pena contar.",
+          "inputPlaceholder": "Cole um URL de produto público…",
+          "suggestions": [
+            "moldar meu lançamento",
+            "Encontre o ângulo da minha campanha",
+            "Construa um storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Dirija um explicador do produto",
+          "body": "Traga uma página de produto público e defina a direção criativa. Archer preparará um resumo ilustrativo antes do login.",
+          "urlLabel": "URL do site público",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Público",
+          "objectiveLabel": "Objetivo",
+          "ctaLabel": "Chamada à ação",
+          "durationLabel": "Duração",
+          "styleLabel": "estilo visual",
+          "previewLabel": "Visualização guiada",
+          "previewHeading": "Uma primeira direção de campanha",
+          "campaignDirectionLabel": "Direção da campanha",
+          "storyboardLabel": "Exemplo de storyboard",
+          "deliverablesLabel": "Entregas esperadas",
+          "submitLabel": "Visualize a direção",
+          "generateLabel": "Crie meu explicador",
+          "voiceLabel": "Experimente a demonstração de voz",
+          "editLabel": "Editar resumo",
+          "disclaimer": "Somente visualização ilustrativa. Archer não inspecionou este site ou renderizou a mídia. A captura e a geração apoiadas por evidências começam após o login.",
+          "loginNotice": "Faça login para permitir que Archer inspecione a página do produto público e crie o explicador do produto em um espaço de trabalho privado.",
+          "invalidUrlCopy": "Insira um URL de site público HTTP ou HTTPS. Redes privadas e endereços locais não são suportados.",
+          "expiredCopy": "Esta transferência de campanha expirou. Retorne ao Archer e prepare uma nova prévia.",
+          "sampleDirection": "Revele o produto por meio de uma transformação cinematográfica, passando da tensão para uma recompensa clara e memorável.",
+          "sampleMessage": "Transforme a promessa mais forte do produto em uma história que o público pode entender em uma única visualização.",
+          "sampleTone": "Confiante, preciso, cinematográfico",
+          "sampleVisualLanguage": "Luz escultural, detalhes táteis, movimento intencional da câmera",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "A tensão",
+              "body": "Abra o problema real do público em uma imagem impressionante."
+            },
+            {
+              "number": "02",
+              "title": "A revelação",
+              "body": "Apresente o produto como ponto de virada, não como uma lista de recursos."
+            },
+            {
+              "number": "03",
+              "title": "A prova",
+              "body": "Mostre o valor central por meio de uma demonstração visual concisa."
+            },
+            {
+              "number": "04",
+              "title": "O convite",
+              "body": "Aterrissar em uma ação e uma moldura final de marca limpa."
+            }
+          ],
+          "deliverables": [
+            "Resumo da campanha",
+            "Direção de storyboard e narração",
+            "Filme mestre com cortes sociais"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Da faísca à campanha.",
+        "mutedHeading": "Três atos simples",
+        "learnLabel": "Aprender mais",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Escrever",
+            "description": "Descreva sua campanha em um único prompt.",
+            "visualKind": "write",
+            "prompt": "Lance uma campanha cinematográfica para um novo tênis de desempenho em Tóquio encharcado de chuva.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Referência da campanha de desempenho encharcada de chuva"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Referência da campanha de calçados de desempenho"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Referência da campanha de Tóquio"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Gerar",
+            "description": "Archer cria sua campanha cinematográfica instantaneamente.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Quadros de campanha cinematográficas sendo geradas"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Compartilhar",
+            "description": "Aprove, exporte em 4K e compartilhe em todos os lugares.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Campanha finalizada do Archer pronta para exportar"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Descubra poderoso",
+        "chipLabel": "Vídeo",
+        "mutedHeading": "modelos. tudo em um só lugar",
+        "items": [
+          "Resumo da campanha",
+          "storyboards",
+          "Geração visual",
+          "locução",
+          "design de som",
+          "edição final",
+          "cortes sociais",
+          "Exportação 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Campanhas feitas com o Archer",
+        "items": [
+          {
+            "label": "Anúncio cinematográfico",
+            "prompt": "Um frasco de fragrância escultural emergindo através da névoa de prata, filme de campanha de luxo",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Campanha de fragrância de luxo"
+          },
+          {
+            "label": "trailer do filme",
+            "prompt": "Um astronauta solitário cruza uma cidade inundada quando o amanhecer atravessa o horizonte",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Trailer do astronauta cinematográfico"
+          },
+          {
+            "label": "Explicador do produto",
+            "prompt": "Um relógio de precisão se monta em um estúdio escuro, todos os mecanismos em movimento",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Explicador do relógio de precisão"
+          },
+          {
+            "label": "Campanha Social",
+            "prompt": "Um novo veículo elétrico corta uma tempestade cinematográfica na hora azul",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "filme social para veículos elétricos"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Tudo o que você precisa para fazer a campanha",
+        "body": "Breve, gere, edite e inicie — tudo em um só lugar.",
+        "ctaLabel": "Comece de graça",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Formatos de campanha",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Retrato de raposa cinematográfica"
+          },
+          {
+            "kind": "metric",
+            "title": "Exportação mestre",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Retrato cinematográfico na luz quente"
+          },
+          {
+            "kind": "wide",
+            "title": "qualquer estilo",
+            "body": "Fotorreal, animado, liderado por produtos — você escolhe o mundo.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Criativo da campanha cinematográfica Archer"
+          },
+          {
+            "kind": "feature",
+            "title": "um breve",
+            "body": "Archer carrega uma única ideia em cada cena, corte e canal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Campanha de tênis fotografada de cima"
+          },
+          {
+            "kind": "feature",
+            "title": "cortes instantâneos",
+            "body": "Transforme um filme mestre em edições sociais prontas para o lançamento.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Campanha de veículos cinematográficos em um canyon"
+          },
+          {
+            "kind": "video",
+            "title": "Multimodelo",
+            "body": "Use o modelo certo de visual, voz e movimento para cada foto.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Sequência de produtos cinematográficos"
+          },
+          {
+            "kind": "metric",
+            "title": "Momento criativo",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Campanha da Montanha Cinematográfica"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "um espaço de trabalho.",
+        "accentHeading": "Construído para cada campanha",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Casa",
+          "Gerar",
+          "Biblioteca",
+          "Campanhas",
+          "Definições"
+        ],
+        "bannerLabel": "Novo · Explicador do produto",
+        "bannerTitle": "Transforme qualquer site em um filme de lançamento polido.",
+        "bannerBody": "Construa o briefing, storyboard, fotos, narração, edição e cortes em um fluxo guiado.",
+        "projectHeading": "Minhas campanhas",
+        "projectBody": "12 projetos · 3 em produção",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether – Lançamento do filme"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef – história da marca"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Noturno — Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Colaborar",
+            "body": "Convide sua equipe, revise os storyboards e aprove o corte final juntos."
+          },
+          {
+            "label": "Organizar",
+            "body": "Mantenha resumos, referências, gerações e exportações em um hub de campanha limpo."
+          },
+          {
+            "label": "Qualquer lugar",
+            "body": "Criar em desktop, tablet ou celular — Archer mantém a história em movimento."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Conheça seu Diretor de Campanha de IA",
+        "heading": "Conheça o Arqueiro.",
+        "mutedHeading": "Dê um mundo a cada ideia.",
+        "body": "Archer transforma um produto, uma premissa ou um lançamento em uma campanha cinematográfica coerente - então mantém a história alinhada em cada cena e canal.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Instintos criativos afiados"
+          },
+          {
+            "number": "02",
+            "label": "Produção de ponta a ponta"
+          },
+          {
+            "number": "03",
+            "label": "Sempre na marca"
+          }
+        ],
+        "ctaLabel": "Fale com Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer está pronto",
+        "statusBody": "Diga a ele o que você quer lançar"
+      },
+      "journal": {
+        "heading": "dentro do arqueiro",
+        "body": "Notas sobre o cinema, campanhas e direção criativa da IA.",
+        "allStoriesLabel": "Todas as histórias",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Espaço de Trabalho da Campanha do Archer",
+            "category": "Produto",
+            "date": "Aug 18, 2026",
+            "title": "Da página do produto ao explicador polido em um fluxo criativo",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "mundo da campanha cinematográfica de arqueiro",
+            "category": "Estúdio",
+            "date": "Aug 06, 2026",
+            "title": "Por que as campanhas de IA mais fortes ainda começam com um ponto de vista",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Sua campanha começa aqui",
+        "ctaLabel": "Comece de graça",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Quadro do produto cinematográfico"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Quadro da atmosfera da campanha"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Quadro do mundo da campanha"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Moldura da história da marca"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Estrutura de fechamento do reboque"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Crie campanhas cinematográficas com o poder da IA.",
+        "groups": [
+          {
+            "label": "Navegação",
+            "links": [
+              {
+                "label": "Produto",
+                "target": "product"
+              },
+              {
+                "label": "Mostruário",
+                "target": "showcase"
+              },
+              {
+                "label": "capacidades",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Crio",
+            "links": [
+              {
+                "label": "Anúncio cinematográfico",
+                "target": "start"
+              },
+              {
+                "label": "trailer do filme",
+                "target": "start"
+              },
+              {
+                "label": "Explicador do produto",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Conectar",
+            "links": [
+              {
+                "label": "Contato",
+                "target": "contact"
+              },
+              {
+                "label": "Diário",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Seu Diretor de Campanha de IA.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

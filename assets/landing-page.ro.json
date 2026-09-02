@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "ro",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Faceți cunoștință cu Archer"
+    },
+    "badge": "Director de campanie AI",
+    "headline": "Creați campanii cinematografice cu puterea AI",
+    "subheadline": "Transformă un produs, premisă sau lansează-te într-o singură campanie coerentă, de la brief-ul creativ și storyboard-ul până la filmul principal și decupările sociale.",
+    "ctaLabel": "Vorbește cu Archer",
+    "secondaryCtaLabel": "Vezi cum funcționează",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Bună, sunt Archer. Spune-mi ce lansezi și voi găsi povestea care merită spusă."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · de obicei răspunde instantaneu",
+      "inputPlaceholder": "Lipiți o adresă URL a unui produs public...",
+      "suggestedPrompts": [
+        "modelează-mi lansarea",
+        "Găsiți unghiul campaniei mele",
+        "Construiți un storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Campanii cinematografice Archer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Săgetătorul",
+        "navItems": [
+          {
+            "label": "Produs",
+            "target": "product"
+          },
+          {
+            "label": "vitrina",
+            "target": "showcase"
+          },
+          {
+            "label": "Capabilitati",
+            "target": "capabilities"
+          },
+          {
+            "label": "Jurnal",
+            "target": "journal"
+          },
+          {
+            "label": "Faceți cunoștință cu Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Autentifica",
+        "meetLabel": "Faceți cunoștință cu Archer",
+        "announcementLabel": "Nou",
+        "announcementTitle": "Produs explicativ este acum disponibil",
+        "headingLines": [
+          "Creați cinematografic",
+          "campanii cu"
+        ],
+        "mutedHeadingLine": "Puterea AI",
+        "primaryCtaLabel": "Vorbește cu Archer",
+        "secondaryCtaLabel": "Vezi cum funcționează",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Director de campanie AI",
+          "statusLabel": "Online · de obicei răspunde instantaneu",
+          "openingMessage": "Bună, sunt Archer. Spune-mi ce lansezi și voi găsi povestea care merită spusă.",
+          "inputPlaceholder": "Lipiți o adresă URL a unui produs public...",
+          "suggestions": [
+            "modelează-mi lansarea",
+            "Găsiți unghiul campaniei mele",
+            "Construiți un storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Dirijați un explicator de produs",
+          "body": "Aduceți o pagină publică de produs și stabiliți direcția creativă. Archer va pregăti un brief ilustrativ înainte de a se conecta.",
+          "urlLabel": "Adresa URL a site-ului public",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Public",
+          "objectiveLabel": "Obiectiv",
+          "ctaLabel": "Apel la acțiune",
+          "durationLabel": "Durată",
+          "styleLabel": "Stil vizual",
+          "previewLabel": "Previzualizare ghidată",
+          "previewHeading": "o primă direcție de campanie",
+          "campaignDirectionLabel": "Direcția campaniei",
+          "storyboardLabel": "Exemplu de storyboard",
+          "deliverablesLabel": "Livrabile așteptate",
+          "submitLabel": "Previzualizează direcția",
+          "generateLabel": "Creați-mi explicatorul",
+          "voiceLabel": "încercați vocea demo",
+          "editLabel": "editați brief",
+          "disclaimer": "Numai previzualizare ilustrativă. Archer nu a inspectat acest site web și nu a redat media. Captura și generarea susținute de dovezi încep după conectare.",
+          "loginNotice": "Conectați-vă pentru a-i permite lui Archer să inspecteze pagina de produs public și să creeze explicatorul de produs într-un spațiu de lucru privat.",
+          "invalidUrlCopy": "Introduceți o adresă URL publică a site-ului HTTP sau HTTPS. Rețelele private și adresele locale nu sunt acceptate.",
+          "expiredCopy": "Acest transfer de campanie a expirat. Reveniți la Archer și pregătiți o nouă previzualizare.",
+          "sampleDirection": "Dezvăluie produsul printr-o transformare cinematografică, trecând de la tensiune la o răsplată clară, memorabilă.",
+          "sampleMessage": "Transformă cea mai puternică promisiune a produsului într-o poveste pe care publicul o poate înțelege într-o singură vizionare.",
+          "sampleTone": "Încrezător, precis, cinematografic",
+          "sampleVisualLanguage": "Lumină sculpturală, detalii tactile, mișcare intenționată a camerei",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "tensiunea",
+              "body": "Deschide problema reală a publicului într-o singură imagine captivantă."
+            },
+            {
+              "number": "02",
+              "title": "Dezvăluirea",
+              "body": "Introduceți produsul ca punct de cotitură, nu o listă de caracteristici."
+            },
+            {
+              "number": "03",
+              "title": "Dovada",
+              "body": "arată valoarea de bază printr-o demonstrație vizuală concisă."
+            },
+            {
+              "number": "04",
+              "title": "Invitația",
+              "body": "Aterizați pe o singură acțiune și un cadru de capăt curat de marcă."
+            }
+          ],
+          "deliverables": [
+            "Rezumatul campaniei",
+            "Direcția de storyboard și voce off",
+            "Maestru film cu reduceri sociale"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "de la scânteie la campanie.",
+        "mutedHeading": "Trei acte simple",
+        "learnLabel": "Aflați mai multe",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Scrie",
+            "description": "Descrieți campania dvs. într-un singur prompt.",
+            "visualKind": "write",
+            "prompt": "Lansați o campanie cinematografică pentru un nou pantof de performanță în Tokyo, îmbibat de ploaie.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Referință la campania de performanță îmbibată de ploaie"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Referință la campania de pantofi de performanță"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Referință la campania Tokyo"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Genera",
+            "description": "Archer vă creează campania cinematografică instantaneu.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Se generează cadre de campanii cinematografice"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Împărtăși",
+            "description": "Aprobați, exportați în 4K și distribuiți peste tot.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Campania Archer terminată gata de export"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Descoperiți puternic",
+        "chipLabel": "Video",
+        "mutedHeading": "modele. Toate într-un singur loc",
+        "items": [
+          "Rezumatul campaniei",
+          "Storyboard-uri",
+          "Generația vizuală",
+          "voce off",
+          "Design de sunet",
+          "Editare finală",
+          "Reduceri sociale",
+          "Export 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Campanii făcute cu Archer",
+        "items": [
+          {
+            "label": "Anunț cinematografic",
+            "prompt": "O sticlă de parfum sculpturală care apare prin ceață de argint, film de campanie de lux",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Campanie de parfumuri de lux"
+          },
+          {
+            "label": "Trailer-ul filmului",
+            "prompt": "Un astronaut singuratic traversează un oraș inundat în timp ce zorii străbate orizontul",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Trailer astronaut cinematografic"
+          },
+          {
+            "label": "Explicator de produs",
+            "prompt": "Un ceas de precizie se adună într-un studio întunecat, fiecare mecanism în mișcare",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precision Watch Explainer"
+          },
+          {
+            "label": "campanie socială",
+            "prompt": "Un nou vehicul electric trece printr-o furtună cinematografică în deșert la Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "film social vehicul electric"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Tot ce aveți nevoie pentru a face campania",
+        "body": "Scurtați, generați, editați și lansați - totul într-un singur loc.",
+        "ctaLabel": "începe gratuit",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Formate de campanie",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Portret cinematografic de vulpe"
+          },
+          {
+            "kind": "metric",
+            "title": "Export principal",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Portret cinematografic în lumină caldă"
+          },
+          {
+            "kind": "wide",
+            "title": "orice stil",
+            "body": "Fotoreal, animat, condus de produse — tu alegi lumea.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Campanie cinematografică Archer Creative"
+          },
+          {
+            "kind": "feature",
+            "title": "un brief",
+            "body": "Archer poartă o singură idee prin fiecare scenă, tăietură și canal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Campanie de tenis fotografiată de sus"
+          },
+          {
+            "kind": "feature",
+            "title": "Reduceri instantanee",
+            "body": "Transformă un film Master în editări sociale gata de lansare.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "campanie de vehicule cinematografice într-un canion"
+          },
+          {
+            "kind": "video",
+            "title": "Multi-model",
+            "body": "Utilizați vizualul, vocea și modelul de mișcare potrivit pentru fiecare fotografie.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Secvența de produse cinematografice"
+          },
+          {
+            "kind": "metric",
+            "title": "Moment creativ",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Campanie cinematografică montană"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "un spațiu de lucru.",
+        "accentHeading": "Construit pentru fiecare campanie",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Acasă",
+          "Genera",
+          "Bibliotecă",
+          "campanii",
+          "Setări"
+        ],
+        "bannerLabel": "Nou · Explicator de produse",
+        "bannerTitle": "Transformă orice site web într-un film de lansare rafinat.",
+        "bannerBody": "Construiți brief-ul, storyboard-ul, fotografiile, vocea off, editarea și decupările într-un singur flux ghidat.",
+        "projectHeading": "campaniile mele",
+        "projectBody": "12 proiecte · 3 în producție",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Film de lansare"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef — Povestea mărcii"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Colabora",
+            "body": "Invitați-vă echipa, revizuiți storyboard-urile și aprobați împreună tăierea finală."
+          },
+          {
+            "label": "Organiza",
+            "body": "Păstrați brief-uri, referințe, generații și exporturi într-un singur centru de campanie curat."
+          },
+          {
+            "label": "Oriunde",
+            "body": "Creați pe desktop, tabletă sau mobil — Archer menține povestea în mișcare."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Faceți cunoștință cu directorul de campanie AI",
+        "heading": "Faceți cunoștință cu Archer.",
+        "mutedHeading": "Oferă fiecărei idei o lume.",
+        "body": "Archer transformă un produs, premisă sau lansare într-o campanie cinematografică coerentă, apoi menține povestea aliniată prin fiecare scenă și canal.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Instincte creative ascuțite"
+          },
+          {
+            "number": "02",
+            "label": "Producție de la capăt la capăt"
+          },
+          {
+            "number": "03",
+            "label": "Întotdeauna pe brand"
+          }
+        ],
+        "ctaLabel": "Vorbește cu Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer este gata",
+        "statusBody": "Spune-i ce vrei să lansezi"
+      },
+      "journal": {
+        "heading": "În interiorul Archer",
+        "body": "Note despre realizarea de filme AI, campanii și direcția creativă.",
+        "allStoriesLabel": "Toate poveștile",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Spațiul de lucru al campaniei Archer",
+            "category": "Produs",
+            "date": "Aug 18, 2026",
+            "title": "De la pagina produsului la explicativ lustruit într-un singur flux creativ",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Lumea campaniei cinematografice Archer",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "De ce cele mai puternice campanii AI încep încă cu un punct de vedere",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Campania ta începe aici",
+        "ctaLabel": "începe gratuit",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Cadru produs cinematografic"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Campaign atmosphere frame"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Cadrul lumii campaniei"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Cadrul poveștii mărcii"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Cadrul de închidere a remorcii"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Creați campanii cinematografice cu puterea AI.",
+        "groups": [
+          {
+            "label": "Navigare",
+            "links": [
+              {
+                "label": "Produs",
+                "target": "product"
+              },
+              {
+                "label": "vitrina",
+                "target": "showcase"
+              },
+              {
+                "label": "Capabilitati",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Crea",
+            "links": [
+              {
+                "label": "Anunț cinematografic",
+                "target": "start"
+              },
+              {
+                "label": "Trailer-ul filmului",
+                "target": "start"
+              },
+              {
+                "label": "Explicator de produs",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Lega",
+            "links": [
+              {
+                "label": "Contact",
+                "target": "contact"
+              },
+              {
+                "label": "Jurnal",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Directorul dvs. de campanie AI.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

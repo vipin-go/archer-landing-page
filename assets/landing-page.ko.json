@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "ko",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "아처를 만나보세요"
+    },
+    "badge": "AI 캠페인 디렉터",
+    "headline": "AI의 힘으로 시네마틱 캠페인을 만들어 보세요",
+    "subheadline": "제품, 전제 또는 출시를 크리에이티브 브리프와 스토리보드에서 마스터 영화 및 소셜 컷다운에 이르기까지 하나의 일관된 캠페인으로 전환하십시오.",
+    "ctaLabel": "아처와 대화하십시오",
+    "secondaryCtaLabel": "작동 방식을 참조하십시오",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "안녕하세요 아처입니다. 당신이 무엇을 시작하는지 말해주세요. 그러면 제가 할 가치가 있는 이야기를 찾을 수 있습니다."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "온라인 · 일반적으로 즉시 응답합니다",
+      "inputPlaceholder": "공개 제품 URL 붙여넣기…",
+      "suggestedPrompts": [
+        "내 출시를 형성하십시오",
+        "내 캠페인 각도를 찾으십시오",
+        "스토리보드를 구축합니다"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "아처 시네마틱 캠페인"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "궁수",
+        "navItems": [
+          {
+            "label": "생성물",
+            "target": "product"
+          },
+          {
+            "label": "유리 진열장",
+            "target": "showcase"
+          },
+          {
+            "label": "능력",
+            "target": "capabilities"
+          },
+          {
+            "label": "일지",
+            "target": "journal"
+          },
+          {
+            "label": "아처를 만나보세요",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "로그인",
+        "meetLabel": "아처를 만나보세요",
+        "announcementLabel": "새로운",
+        "announcementTitle": "제품 설명자를 사용할 수 있습니다",
+        "headingLines": [
+          "시네마틱을 만듭니다",
+          "와 함께 캠페인"
+        ],
+        "mutedHeadingLine": "AI의 힘",
+        "primaryCtaLabel": "아처와 대화하십시오",
+        "secondaryCtaLabel": "작동 방식을 참조하십시오",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI 캠페인 디렉터",
+          "statusLabel": "온라인 · 일반적으로 즉시 응답합니다",
+          "openingMessage": "안녕하세요 아처입니다. 당신이 무엇을 시작하는지 말해주세요. 그러면 제가 할 가치가 있는 이야기를 찾을 수 있습니다.",
+          "inputPlaceholder": "공개 제품 URL 붙여넣기…",
+          "suggestions": [
+            "내 출시를 형성하십시오",
+            "내 캠페인 각도를 찾으십시오",
+            "스토리보드를 구축합니다"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "제품 설명자를 지시하십시오",
+          "body": "공개 제품 페이지를 가져와 광고 방향을 설정합니다. Archer는 로그인 전에 예시 브리핑을 준비합니다.",
+          "urlLabel": "공개 웹사이트 URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "청중",
+          "objectiveLabel": "목표",
+          "ctaLabel": "행동을 요구하다.",
+          "durationLabel": "지속",
+          "styleLabel": "비주얼 스타일",
+          "previewLabel": "가이드 미리보기",
+          "previewHeading": "첫 번째 캠페인 방향",
+          "campaignDirectionLabel": "캠페인 방향",
+          "storyboardLabel": "샘플 스토리보드",
+          "deliverablesLabel": "예상 산출물",
+          "submitLabel": "방향을 미리 봅니다",
+          "generateLabel": "내 설명자를 만듭니다",
+          "voiceLabel": "음성 데모를 시도하십시오",
+          "editLabel": "간략한 편집",
+          "disclaimer": "예시적인 미리보기만. Archer는 이 웹사이트를 조사하거나 미디어를 렌더링하지 않았습니다. 증거 기반 캡처 및 생성은 로그인 후 시작됩니다.",
+          "loginNotice": "Archer가 공개 제품 페이지를 검사하고 비공개 작업 공간에서 제품 설명자를 만들 수 있도록 로그인하세요.",
+          "invalidUrlCopy": "공개 HTTP 또는 HTTPS 웹사이트 URL을 입력합니다. 사설 네트워크 및 로컬 주소는 지원되지 않습니다.",
+          "expiredCopy": "이 캠페인 핸드오프가 만료되었습니다. Archer로 돌아가 새로운 미리보기를 준비하십시오.",
+          "sampleDirection": "긴장에서 명확하고 기억에 남는 보상으로 이동하는 하나의 영화적 변형을 통해 제품을 공개하십시오.",
+          "sampleMessage": "제품의 가장 강력한 약속을 청중이 한 번에 이해할 수 있는 이야기로 바꾸십시오.",
+          "sampleTone": "자신감 있고 정확하며 영화적입니다",
+          "sampleVisualLanguage": "조각 빛, 촉각 세부 사항, 목적이있는 카메라 모션",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "긴장",
+              "body": "하나의 마음을 사로잡는 이미지에서 청중의 진짜 문제를 열어줍니다."
+            },
+            {
+              "number": "02",
+              "title": "공개",
+              "body": "기능 목록이 아닌 전환점으로 제품을 소개합니다."
+            },
+            {
+              "number": "03",
+              "title": "증거",
+              "body": "간결한 시각적 데모를 통해 핵심 가치를 보여줍니다."
+            },
+            {
+              "number": "04",
+              "title": "초대장",
+              "body": "하나의 액션과 깨끗한 브랜드의 엔드 프레임에 착륙합니다."
+            }
+          ],
+          "deliverables": [
+            "캠페인 개요",
+            "스토리보드 및 음성 해설 방향",
+            "소셜 컷다운이 있는 마스터 영화"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "스파크에서 캠페인으로.",
+        "mutedHeading": "세 가지 간단한 행위",
+        "learnLabel": "자세히 알아보기",
+        "acts": [
+          {
+            "number": "01",
+            "title": "글씨를 쓰다",
+            "description": "단일 프롬프트로 캠페인을 설명하십시오.",
+            "visualKind": "write",
+            "prompt": "비에 흠뻑 젖은 도쿄에서 새로운 공연 신발을 위한 시네마틱 캠페인을 시작하십시오.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "비에 흠뻑 젖은 성과 캠페인 참조"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "성능 신발 캠페인 참조"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "도쿄 캠페인 참조"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "발생시키다",
+            "description": "Archer는 즉시 시네마틱 캠페인을 만듭니다.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "생성되는 시네마틱 캠페인 프레임"
+            }
+          },
+          {
+            "number": "03",
+            "title": "몫",
+            "description": "4K로 승인, 내보내기 및 모든 곳에서 공유합니다.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "내보낼 준비가 완료된 궁수 캠페인"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "강력한 를 발견하십시오",
+        "chipLabel": "비디오",
+        "mutedHeading": "모델. 한 곳에서 모두",
+        "items": [
+          "캠페인 개요",
+          "스토리보드",
+          "시각적 생성",
+          "음성 해설",
+          "사운드 디자인",
+          "최종 편집",
+          "소셜 컷다운",
+          "4K 내보내기"
+        ]
+      },
+      "showcase": {
+        "heading": "Archer와 함께 만든 캠페인",
+        "items": [
+          {
+            "label": "영화 광고",
+            "prompt": "실버 미스트를 통해 떠오르는 조각 향수 병, 럭셔리 캠페인 영화",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "럭셔리 향수 캠페인"
+          },
+          {
+            "label": "영화 예고편",
+            "prompt": "새벽이 스카이라인을 통과하면서 고독한 우주비행사가 침수된 도시를 건넜습니다.",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "시네마틱 우주비행사 트레일러"
+          },
+          {
+            "label": "제품 설명자",
+            "prompt": "정밀한 시계는 다크 스튜디오에서 조립되며 모든 메커니즘이 움직이는",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "정밀 시계 설명자"
+          },
+          {
+            "label": "소셜 캠페인",
+            "prompt": "Blue Hour에서 새로운 전기 자동차가 영화 같은 사막 폭풍을 뚫고",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "전기 자동차 사회 영화"
+          }
+        ]
+      },
+      "features": {
+        "heading": "캠페인을 만드는 데 필요한 모든 것",
+        "body": "한 곳에서 간략하게, 생성, 편집 및 시작하십시오.",
+        "ctaLabel": "무료로 시작하십시오",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "캠페인 형식",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "시네마틱 폭스 초상화"
+          },
+          {
+            "kind": "metric",
+            "title": "마스터 내보내기",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "따뜻한 빛의 영화적 초상화"
+          },
+          {
+            "kind": "wide",
+            "title": "모든 스타일",
+            "body": "포토리얼, 애니메이션, 제품 주도 — 당신은 세계를 선택합니다.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "아처 시네마틱 캠페인 크리에이티브"
+          },
+          {
+            "kind": "feature",
+            "title": "하나의 짧은",
+            "body": "Archer는 모든 장면, 컷 및 채널을 통해 하나의 아이디어를 전달합니다.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "위에서 촬영한 테니스 캠페인"
+          },
+          {
+            "kind": "feature",
+            "title": "즉각적인 컷다운",
+            "body": "하나의 마스터 영화를 출시 준비가 된 소셜 편집으로 전환하십시오.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "협곡에서의 시네마틱 차량 캠페인"
+          },
+          {
+            "kind": "video",
+            "title": "다중 모델",
+            "body": "모든 샷에 적합한 비주얼, 음성 및 모션 모델을 사용하십시오.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "시네마틱 제품 시퀀스"
+          },
+          {
+            "kind": "metric",
+            "title": "창조적 모멘텀",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "시네마틱 마운틴 캠페인"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "하나의 작업 공간.",
+        "accentHeading": "모든 캠페인을 위해 구축되었습니다",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "홈",
+          "발생시키다",
+          "도서관",
+          "캠페인",
+          "설정"
+        ],
+        "bannerLabel": "새로운 · 제품 설명자",
+        "bannerTitle": "모든 웹사이트를 세련된 출시 필름으로 바꾸십시오.",
+        "bannerBody": "하나의 안내 흐름으로 간략한, 스토리보드, 샷, 음성 해설, 편집 및 컷다운을 빌드합니다.",
+        "projectHeading": "내 캠페인",
+        "projectBody": "12 프로젝트 · 3 생산 중",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "에테르 — 영화 출시"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "리프 — 브랜드 스토리"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "녹턴 — 트레일러"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "협력",
+            "body": "팀을 초대하고 스토리보드를 검토하고 함께 최종 컷을 승인하십시오."
+          },
+          {
+            "label": "조직",
+            "body": "브리핑, 참조, 세대 및 내보내기를 하나의 깨끗한 캠페인 허브에 보관하십시오."
+          },
+          {
+            "label": "어딘가에",
+            "body": "데스크탑, 태블릿 또는 모바일에서 만들기 — Archer가 스토리를 계속 진행합니다."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "AI 캠페인 디렉터를 만나보세요",
+        "heading": "아처를 만나다.",
+        "mutedHeading": "모든 아이디어에 세계를 제공하십시오.",
+        "body": "Archer는 제품, 전제 또는 출시를 일관된 영화 캠페인으로 전환한 다음 모든 장면과 채널을 통해 이야기를 정렬합니다.",
+        "points": [
+          {
+            "number": "01",
+            "label": "날카로운 창조적 본능"
+          },
+          {
+            "number": "02",
+            "label": "엔드 투 엔드 생산"
+          },
+          {
+            "number": "03",
+            "label": "항상 브랜드"
+          }
+        ],
+        "ctaLabel": "아처와 대화하십시오",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "아처가 준비되었습니다",
+        "statusBody": "당신이 시작하고 싶은 것을 그에게 말하십시오"
+      },
+      "journal": {
+        "heading": "아처 내부",
+        "body": "AI 영화 제작, 캠페인 및 크리에이티브 디렉션에 대한 메모.",
+        "allStoriesLabel": "모든 이야기",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer 캠페인 작업 공간",
+            "category": "생성물",
+            "date": "Aug 18, 2026",
+            "title": "하나의 창의적인 흐름에서 제품 페이지에서 세련된 설명으로",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "아처 시네마틱 캠페인 월드",
+            "category": "취입실",
+            "date": "Aug 06, 2026",
+            "title": "가장 강력한 AI 캠페인이 여전히 관점에서 시작되는 이유",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "귀하의 캠페인은 여기에서 시작됩니다",
+        "ctaLabel": "무료로 시작하십시오",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "시네마틱 제품 프레임"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "캠페인 분위기 프레임"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "캠페인 세계 프레임"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "브랜드 스토리 프레임"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "트레일러 폐쇄 프레임"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "AI의 힘으로 시네마틱 캠페인을 만들어 보세요.",
+        "groups": [
+          {
+            "label": "항해",
+            "links": [
+              {
+                "label": "생성물",
+                "target": "product"
+              },
+              {
+                "label": "유리 진열장",
+                "target": "showcase"
+              },
+              {
+                "label": "능력",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "창조하다",
+            "links": [
+              {
+                "label": "영화 광고",
+                "target": "start"
+              },
+              {
+                "label": "영화 예고편",
+                "target": "start"
+              },
+              {
+                "label": "제품 설명자",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "연결하다",
+            "links": [
+              {
+                "label": "접촉",
+                "target": "contact"
+              },
+              {
+                "label": "일지",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 아처.",
+        "closingStatement": "AI 캠페인 디렉터.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

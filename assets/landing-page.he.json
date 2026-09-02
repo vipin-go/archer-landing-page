@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "he",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "הכירו את ארצ'ר"
+    },
+    "badge": "מנהל קמפיין AI",
+    "headline": "צור קמפיינים קולנועיים בכוח של AI",
+    "subheadline": "הפוך מוצר, הנחת יסוד או השקה לקמפיין אחד קוהרנטי - מהבריף היצירתי ולוח התכנון ועד לסרט המאסטר ולקיצוצים חברתיים.",
+    "ctaLabel": "דבר עם ארצ'ר",
+    "secondaryCtaLabel": "תראה איך זה עובד",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "היי, אני ארצ'ר. ספר לי מה אתה משיק ואני אמצא את הסיפור שכדאי לספר."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "מקוון · בדרך כלל עונה באופן מיידי",
+      "inputPlaceholder": "הדבק כתובת אתר של מוצר ציבורי…",
+      "suggestedPrompts": [
+        "עצב את ההשקה שלי",
+        "מצא את זווית הקמפיין שלי",
+        "בנה לוח תכנון"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "קמפיינים קולנועיים של ארצ'ר"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "קַשָׁת",
+        "navItems": [
+          {
+            "label": "מוצר",
+            "target": "product"
+          },
+          {
+            "label": "ראווה",
+            "target": "showcase"
+          },
+          {
+            "label": "יכולות",
+            "target": "capabilities"
+          },
+          {
+            "label": "כְּתַב הָעֵת",
+            "target": "journal"
+          },
+          {
+            "label": "הכירו את ארצ'ר",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "התחבר",
+        "meetLabel": "הכירו את ארצ'ר",
+        "announcementLabel": "חָדָשׁ",
+        "announcementTitle": "מסביר מוצר זמין כעת",
+        "headingLines": [
+          "צור קולנוע",
+          "קמפיינים עם"
+        ],
+        "mutedHeadingLine": "כוח של AI",
+        "primaryCtaLabel": "דבר עם ארצ'ר",
+        "secondaryCtaLabel": "תראה איך זה עובד",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "מנהל קמפיין AI",
+          "statusLabel": "מקוון · בדרך כלל עונה באופן מיידי",
+          "openingMessage": "היי, אני ארצ'ר. ספר לי מה אתה משיק ואני אמצא את הסיפור שכדאי לספר.",
+          "inputPlaceholder": "הדבק כתובת אתר של מוצר ציבורי…",
+          "suggestions": [
+            "עצב את ההשקה שלי",
+            "מצא את זווית הקמפיין שלי",
+            "בנה לוח תכנון"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "הפנה מסביר מוצר",
+          "body": "הביאו דף מוצר ציבורי וקבעו את הכיוון היצירתי. ארצ'ר יכין תקציר המחשה לפני הכניסה.",
+          "urlLabel": "כתובת אתר ציבורית",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "קהל יעד",
+          "objectiveLabel": "מַטָרָה",
+          "ctaLabel": "קריאה לפעולה",
+          "durationLabel": "מֶשֶׁך",
+          "styleLabel": "סגנון חזותי",
+          "previewLabel": "תצוגה מקדימה מודרכת",
+          "previewHeading": "כיוון קמפיין ראשון",
+          "campaignDirectionLabel": "כיוון הקמפיין",
+          "storyboardLabel": "לוח תכנון לדוגמה",
+          "deliverablesLabel": "תוצרים צפויים",
+          "submitLabel": "תצוגה מקדימה של הכיוון",
+          "generateLabel": "צור את ההסבר שלי",
+          "voiceLabel": "נסה הדגמה קולית",
+          "editLabel": "ערוך תקציר",
+          "disclaimer": "תצוגה מקדימה להמחשה בלבד. Archer לא בדק את האתר הזה או רינדור מדיה. לכידת ויצירת ראיות מתחילים לאחר הכניסה.",
+          "loginNotice": "היכנס כדי לאפשר לארצ'ר לבדוק את דף המוצר הציבורי וליצור את מסביר המוצר שלך בסביבת עבודה פרטית.",
+          "invalidUrlCopy": "הזן כתובת אתר ציבורית של HTTP או HTTPS. רשתות פרטיות וכתובות מקומיות אינן נתמכות.",
+          "expiredCopy": "מסירת הקמפיין הזה פג. חזור לארצ'ר והכין תצוגה מקדימה חדשה.",
+          "sampleDirection": "חשפו את המוצר באמצעות טרנספורמציה קולנועית אחת, מעבר ממתח לתמורה ברורה ובלתי נשכחת.",
+          "sampleMessage": "הפוך את ההבטחה החזקה ביותר של המוצר לסיפור שהקהל יכול להבין בצפייה אחת.",
+          "sampleTone": "בטוח, מדויק, קולנועי",
+          "sampleVisualLanguage": "אור פיסולי, פרטים מישוש, תנועת מצלמה מכוונת",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "המתח",
+              "body": "פתוח על הבעיה האמיתית של הקהל בתמונה אחת מעצרת."
+            },
+            {
+              "number": "02",
+              "title": "הגילוי",
+              "body": "הצג את המוצר כנקודת המפנה, לא רשימת תכונות."
+            },
+            {
+              "number": "03",
+              "title": "ההוכחה",
+              "body": "הצג את ערך הליבה באמצעות הדגמה ויזואלית תמציתית."
+            },
+            {
+              "number": "04",
+              "title": "ההזמנה",
+              "body": "נוחת על פעולה אחת ומסגרת קצה ממותגת נקייה."
+            }
+          ],
+          "deliverables": [
+            "תקציר קמפיין",
+            "לוח תכנון וכיוון קריינות",
+            "סרט מאסטר עם קיצוצים חברתיים"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "מניצוץ לקמפיין.",
+        "mutedHeading": "שלוש פעולות פשוטות",
+        "learnLabel": "למד עוד",
+        "acts": [
+          {
+            "number": "01",
+            "title": "לִכתוֹב",
+            "description": "תאר את מסע הפרסום שלך בהנחיה אחת.",
+            "visualKind": "write",
+            "prompt": "השקת קמפיין קולנועי לנעל ביצועים חדשה בטוקיו ספוגת הגשם.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "הפניה לקמפיין ביצועים ספוג גשם"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "הפניה לקמפיין נעלי ביצועים"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "הפניה לקמפיין של טוקיו"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "לִיצוֹר",
+            "description": "Archer יוצר את הקמפיין הקולנועי שלך באופן מיידי.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "נוצרות מסגרות של מסע פרסום קולנועי"
+            }
+          },
+          {
+            "number": "03",
+            "title": "לַחֲלוֹק",
+            "description": "לאשר, לייצא ב-4K ולשתף בכל מקום.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "סיים את קמפיין Archer מוכן לייצוא"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "גלה עוצמתי",
+        "chipLabel": "וִידֵאוֹ",
+        "mutedHeading": "דגמים. הכל במקום אחד",
+        "items": [
+          "תקציר קמפיין",
+          "לוחות תכנון",
+          "דור ויזואלי",
+          "קריינות",
+          "עיצוב סאונד",
+          "עריכה סופית",
+          "קיצוצים חברתיים",
+          "ייצוא 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "קמפיינים שנעשו עם ארצ'ר",
+        "items": [
+          {
+            "label": "מודעה קולנועית",
+            "prompt": "בקבוק ניחוח פיסולי מגיח דרך ערפל כסף, סרט קמפיין יוקרתי",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "קמפיין ניחוחות יוקרתי"
+          },
+          {
+            "label": "קדימון",
+            "prompt": "אסטרונאוט בודד חוצה עיר מוצפת עם עלות השחר דרך קו הרקיע",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "טריילר אסטרונאוט קולנועי"
+          },
+          {
+            "label": "מסביר מוצר",
+            "prompt": "שעון מדויק מרכיב את עצמו באולפן חשוך, כל מנגנון בתנועה",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "הסבר שעון מדויק"
+          },
+          {
+            "label": "קמפיין חברתי",
+            "prompt": "רכב חשמלי חדש חוצה סופת מדבר קולנועית בשעה כחולה",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "סרט חברתי לרכב חשמלי"
+          }
+        ]
+      },
+      "features": {
+        "heading": "כל מה שאתה צריך כדי לעשות את הקמפיין",
+        "body": "קצר, צור, ערוך והפעל - הכל במקום אחד.",
+        "ctaLabel": "התחל בחינם",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "פורמטים של מסע פרסום",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "דיוקן שועל קולנועי"
+          },
+          {
+            "kind": "metric",
+            "title": "ייצוא ראשי",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "דיוקן קולנועי באור חם"
+          },
+          {
+            "kind": "wide",
+            "title": "כל סגנון",
+            "body": "פוטוריאלי, מונפש, מונחה מוצר - אתה בוחר את העולם.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "קמפיין קולנועי ארצ'ר קריאייטיב"
+          },
+          {
+            "kind": "feature",
+            "title": "קצר אחד",
+            "body": "ארצ'ר נושא רעיון בודד בכל סצנה, חתך וערוץ.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "קמפיין טניס צולם מלמעלה"
+          },
+          {
+            "kind": "feature",
+            "title": "קיצוצים מיידיים",
+            "body": "הפוך סרט מאסטר אחד לעריכות חברתיות מוכנות להשקה.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "קמפיין רכב קולנועי בקניון"
+          },
+          {
+            "kind": "video",
+            "title": "ריבוי דגמים",
+            "body": "השתמש במודל החזותי, הקול והתנועה הנכון עבור כל צילום.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "רצף מוצרים קולנועי"
+          },
+          {
+            "kind": "metric",
+            "title": "מומנטום יצירתי",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "קמפיין הרים קולנועי"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "סביבת עבודה אחת.",
+        "accentHeading": "נבנה לכל קמפיין",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "הביתה",
+          "לִיצוֹר",
+          "סִפְרִיָה",
+          "קמפיינים",
+          "הגדרות"
+        ],
+        "bannerLabel": "חדש · מסביר מוצר",
+        "bannerTitle": "הפוך כל אתר לסרט השקה מלוטש.",
+        "bannerBody": "בנה את ה-Brief, Storyboard, Shots, VoiceOver, Edit ו-Cutdowns בזרימה מודרכת אחת.",
+        "projectHeading": "הקמפיינים שלי",
+        "projectBody": "12 פרויקטים · 3 בייצור",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "אתר - השקת סרט"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "שונית - סיפור מותג"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "נוקטורן - טריילר"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "לְשַׁתֵף פְּעוּלָה",
+            "body": "הזמינו את הצוות שלכם, סקור לוחות תכנון ואשרו יחד את החתך הסופי."
+          },
+          {
+            "label": "לְאַרגֵן",
+            "body": "שמור תקצירים, הפניות, דורות ויצוא במרכז קמפיין נקי אחד."
+          },
+          {
+            "label": "בְּכָל מָקוֹם",
+            "body": "צור על שולחן העבודה, הטאבלט או הנייד - Archer שומר על תנועת הסיפור."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "הכירו את מנהל קמפיין הבינה המלאכותית שלכם",
+        "heading": "הכירו את ארצ'ר.",
+        "mutedHeading": "תן לכל רעיון עולם.",
+        "body": "ארצ'ר הופך מוצר, הנחת יסוד או השקה לקמפיין קולנועי קוהרנטי - ואז שומר על הסיפור מיושר בכל סצנה וערוץ.",
+        "points": [
+          {
+            "number": "01",
+            "label": "אינסטינקטים יצירתיים חדים"
+          },
+          {
+            "number": "02",
+            "label": "הפקה מקצה לקצה"
+          },
+          {
+            "number": "03",
+            "label": "תמיד על המותג"
+          }
+        ],
+        "ctaLabel": "דבר עם ארצ'ר",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "ארצ'ר מוכן",
+        "statusBody": "תגיד לו מה אתה רוצה להשיק"
+      },
+      "journal": {
+        "heading": "בתוך ארצ'ר",
+        "body": "הערות על יצירת סרטים בינה מלאכותית, קמפיינים וכיוון יצירתי.",
+        "allStoriesLabel": "כל הסיפורים",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer Campaign Workspace",
+            "category": "מוצר",
+            "date": "Aug 18, 2026",
+            "title": "מדף מוצר ועד מסביר מלוטש בזרימה יצירתית אחת",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "עולם הקמפיין הקולנועי של ארצ'ר",
+            "category": "סטוּדִיוֹ",
+            "date": "Aug 06, 2026",
+            "title": "מדוע מסעות הבינה המלאכותית החזקים ביותר עדיין מתחילים בנקודת מבט",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "הקמפיין שלך מתחיל כאן",
+        "ctaLabel": "התחל בחינם",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "מסגרת מוצר קולנועית"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "מסגרת אווירה של מסע פרסום"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "מסגרת עולם הקמפיין"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "מסגרת סיפור מותג"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "מסגרת סגירת נגרר"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "צור קמפיינים קולנועיים בכוח של AI.",
+        "groups": [
+          {
+            "label": "ניווט",
+            "links": [
+              {
+                "label": "מוצר",
+                "target": "product"
+              },
+              {
+                "label": "ראווה",
+                "target": "showcase"
+              },
+              {
+                "label": "יכולות",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "לִיצוֹר",
+            "links": [
+              {
+                "label": "מודעה קולנועית",
+                "target": "start"
+              },
+              {
+                "label": "קדימון",
+                "target": "start"
+              },
+              {
+                "label": "מסביר מוצר",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "לְחַבֵּר",
+            "links": [
+              {
+                "label": "איש קשר",
+                "target": "contact"
+              },
+              {
+                "label": "כְּתַב הָעֵת",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "מנהל קמפיין הבינה המלאכותית שלך.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

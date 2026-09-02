@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "lv",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Iepazīstieties ar Archer"
+    },
+    "badge": "AI kampaņu direktors",
+    "headline": "Veidojiet kinematogrāfiskas kampaņas ar AI spēku",
+    "subheadline": "Pārveidojiet produktu, pieņēmumu vai palaišanu vienā saskanīgā kampaņā - no radošā briefa un stāstu dēļa līdz galvenajam filmam un īsajiem formātiem sociālajiem tīkliem.",
+    "ctaLabel": "Runājiet ar Archer",
+    "secondaryCtaLabel": "Skatiet, kā tas darbojas",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Sveiki, esmu Archer. Pastāstiet, ko laidīsiet tirgū, un es atradīšu stāstu, kas ir vērts izstāstīt."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Tiešsaistē · parasti atbild nekavējoties",
+      "inputPlaceholder": "Ielīmējiet produkta publisko URL...",
+      "suggestedPrompts": [
+        "Noformē manu produktu",
+        "Atrast manu kampaņas leņķi",
+        "Izveido stāsta dēli"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer kinematogrāfiskās kampaņas"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Archer",
+        "navItems": [
+          {
+            "label": "Produkts",
+            "target": "product"
+          },
+          {
+            "label": "Izstāde",
+            "target": "showcase"
+          },
+          {
+            "label": "Iespējas",
+            "target": "capabilities"
+          },
+          {
+            "label": "Žurnāls",
+            "target": "journal"
+          },
+          {
+            "label": "Iepazīstieties ar Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Pierakstīties",
+        "meetLabel": "Iepazīstieties ar Archer",
+        "announcementLabel": "Jauns",
+        "announcementTitle": "Product Explainer tagad ir pieejams",
+        "headingLines": [
+          "Izveido kinematogrāfisku kampaņu",
+          "ar"
+        ],
+        "mutedHeadingLine": "AI spēku",
+        "primaryCtaLabel": "Runājiet ar Archer",
+        "secondaryCtaLabel": "Skatiet, kā tas darbojas",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI kampaņu direktors",
+          "statusLabel": "Tiešsaistē · parasti atbild nekavējoties",
+          "openingMessage": "Sveiki, esmu Archer. Pastāstiet, ko laidīsiet tirgū, un es atradīšu stāstu, kas ir vērts izstāstīt.",
+          "inputPlaceholder": "Ielīmējiet produkta publisko URL...",
+          "suggestions": [
+            "Noformē manu produktu",
+            "Atrast manu kampaņas leņķi",
+            "Izveido stāsta dēli"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Vadi produktu skaidrotāju",
+          "body": "Atvediet publisko produkta lapu un nosakiet radošo virzienu. Archer pirms pierakstīšanās sagatavos ilustratīvu briifu.",
+          "urlLabel": "Vietnes URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Mērķauditorija",
+          "objectiveLabel": "Mērķis",
+          "ctaLabel": "Aicinājums uz darbību",
+          "durationLabel": "Ilgums",
+          "styleLabel": "Vizuālais stils",
+          "previewLabel": "Vadītā priekšskatījums",
+          "previewHeading": "Sākotnējais kampaņas virziens",
+          "campaignDirectionLabel": "Kampaņas virziens",
+          "storyboardLabel": "Parauga stāsta dēlis",
+          "deliverablesLabel": "Sagaidāmie rezultāti",
+          "submitLabel": "Priekšskatiet virzienu",
+          "generateLabel": "Izveido manu skaidrotāju",
+          "voiceLabel": "Izmēģiniet balss demonstrāciju",
+          "editLabel": "Rediģēt briifu",
+          "disclaimer": "Tikai ilustratīvs priekšskatījums. Archer nav pārbaudījis šo vietni vai neesat izveidojis multividu. Pierādījumiem balstīta satura iegūšana un ģenerēšana sākas pēc pierakstīšanās.",
+          "loginNotice": "Pierakstieties, lai Archer pārbaudītu publisko produkta lapu un izveidotu jūsu Product Explainer privātā darbvietā.",
+          "invalidUrlCopy": "Ievadiet publisku HTTP vai HTTPS vietnes URL. Privātās tīkli un vietējās adreses netiek atbalstītas.",
+          "expiredCopy": "Šī kampaņas nodošana ir beidzies. Atgriezieties pie Archer un sagatavojiet jaunu priekšskatījumu.",
+          "sampleDirection": "Atklājiet produktu caur vienu kinematogrāfisku pārveidojumu, no spriedzes līdz skaidram, neaizmirstamam iznākumam.",
+          "sampleMessage": "Pārveidojiet produkta spēcīgāko solījumu stāstā, ko auditorija var saprast vienā skatījumā.",
+          "sampleTone": "Pārliecināts, precīzs, kinematogrāfisks",
+          "sampleVisualLanguage": "Skulpturāla gaisma, taustiņas detaļas, mērķtiecīga kameras kustība",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "Spriežiens",
+              "body": "Sāciet ar vienu uzrunājošu attēlu no auditorijas reālās problēmas."
+            },
+            {
+              "number": "02",
+              "title": "Atklāšana",
+              "body": "Ieviesiet produktu kā pagrieziena punktu, nevis kā funkciju sarakstu."
+            },
+            {
+              "number": "03",
+              "title": "Pierādījums",
+              "body": "Parādiet galveno vērtību ar īsu vizuālu demonstrāciju."
+            },
+            {
+              "number": "04",
+              "title": "Ielūgums",
+              "body": "Noslēdziet ar vienu darbību un tīru zīmola beigu kadru."
+            }
+          ],
+          "deliverables": [
+            "Kampaņas briefs",
+            "Stāsta dēlis un balss norādījumi",
+            "Galvenā filma ar īsajiem sociālo tīklu formātiem"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "No dzirksteles līdz kampaņai.",
+        "mutedHeading": "Trīs vienkāršas darbības",
+        "learnLabel": "Uzziniet vairāk",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Rakstiet",
+            "description": "Aprakstiet savu kampaņu vienā uzvedumā.",
+            "visualKind": "write",
+            "prompt": "Uzsāciet kinematogrāfisku kampaņu jauniem skriešanas apaviem lietainā Tokijā.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Lietaina kampaņas atsauce"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Skriešanas apavu kampaņas atsauce"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokijas kampaņas atsauce"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Ģenerēt",
+            "description": "Archer nekavējoties izveido jūsu kinematogrāfisko kampaņu.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Kinematogrāfiskās kampaņas kadri tiek ģenerēti"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Kopīgojiet",
+            "description": "Apstipriniet, eksportējiet 4K un kopīgojiet visur.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Archer kampaņa gatava eksportēšanai"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Atklājiet spēcīgos",
+        "chipLabel": "Video",
+        "mutedHeading": "modeļus. Viss vienā vietā",
+        "items": [
+          "Kampaņas briefs",
+          "Stāsta dēļi",
+          "Vizuālā ģenerēšana",
+          "Balss ieraksts",
+          "Skaņas noformējums",
+          "Galīgā montāža",
+          "Īsie sociālo tīklu formāti",
+          "4K eksports"
+        ]
+      },
+      "showcase": {
+        "heading": "Archer veidotas kampaņas",
+        "items": [
+          {
+            "label": "Kinematogrāfiska reklāma",
+            "prompt": "Skulpturāls smaržu pudelis, kas parādās caur sudraba miglu, luksusa kampaņas filma",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luksusa smaržu kampaņa"
+          },
+          {
+            "label": "Kino tializeris",
+            "prompt": "Viens vientuļš astronauts šķērso plūdos cietušo pilsētu, kad aust irms izlaužas caur horizontu",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Kinematogrāfiskais kosmonauta tializeris"
+          },
+          {
+            "label": "Produkta skaidrotājs",
+            "prompt": "Precizs pulkstenis pats saliekas tumšā studijā, katrs mehānisms kustībā",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precīza pulksteņa skaidrojums"
+          },
+          {
+            "label": "Sociālā kampaņa",
+            "prompt": "Jauns elektriskais transportlīdzeklis pārvar kinematogrāfisku smilšu vētru zilajā stundā",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Elektriskā transportlīdzekļa sociālā filma"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Viss, kas nepieciešams kampaņas veidošanai",
+        "body": "Briefs, ģenerēšana, montāža un palaišana — viss vienā vietā.",
+        "ctaLabel": "Sāciet bez maksas",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Kampaņu formāti",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Kinematogrāfiskais lapss attēls"
+          },
+          {
+            "kind": "metric",
+            "title": "Galvenā eksportēšana",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Kinematogrāfisks portrets siltā gaismā"
+          },
+          {
+            "kind": "wide",
+            "title": "Jebkurš stils",
+            "body": "Fotoreālistisks, animēts, produktu virzīts — jūs izvēlaties pasauli.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer kinematogrāfiskā radošā kampaņa"
+          },
+          {
+            "kind": "feature",
+            "title": "Viens briifs",
+            "body": "Archer nes vienu ideju caur katru ainu, griezumu un kanālu.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "No augšas fotografēta tenisa kampaņa"
+          },
+          {
+            "kind": "feature",
+            "title": "Tūlītējie griezumi",
+            "body": "Pārveidojiet vienu galveno filmu par sociālo tīklu redakcijām, kas gatavas publicēšanai.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Transportlīdzekļa kinematogrāfiskā kampaņa kanjonā"
+          },
+          {
+            "kind": "video",
+            "title": "Vairāki modeļi",
+            "body": "Izmantojiet katram kadram piemērotu vizuālo, balss un kustības modeli.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Kinematogrāfiskā produkta secība"
+          },
+          {
+            "kind": "metric",
+            "title": "Radošais impulss",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Kinematogrāfiskā kalnu kampaņa"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "Viena darbvieta.",
+        "accentHeading": "Veidots katrai kampaņai",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Sākums",
+          "Ģenerēt",
+          "Bibliotēka",
+          "Kampaņas",
+          "Iestatījumi"
+        ],
+        "bannerLabel": "Jauns · Product Explainer",
+        "bannerTitle": "Pārveidojiet jebkuru vietni par pulētu palaišanas filmu.",
+        "bannerBody": "Veidojiet briefu, stāsta dēli, kadrus, balss ierakstu, montāžu un īsinājumus vienā vadītā plūsmā.",
+        "projectHeading": "Manas kampaņas",
+        "projectBody": "12 projekti · 3 ražošanā",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Palaišanas filma"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef — Zīmola stāsts"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Tializeris"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Sadarbība",
+            "body": "Uzaiciet savu komandu, pārskatiet stāsta dēļus un kopīgi apstipriniet galīgo montāžu."
+          },
+          {
+            "label": "Organizējiet",
+            "body": "Glabājiet briefus, atsauces, ģenerēšanu un eksportus vienā kārtīgā kampaņu centā."
+          },
+          {
+            "label": "Jebkur",
+            "body": "Veidojiet galddatorā, planšetē vai mobilajā ierīcē — Archer turpina stāstu."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Ieepazīstieties ar savu AI kampaņu direktoru",
+        "heading": "Ieepazīstieties ar Archer.",
+        "mutedHeading": "Piešķiriet katrai idejai pasauli.",
+        "body": "Archer pārveido produktu, pieņēmumu vai palaišanu saskanīgā kinematogrāfiskā kampaņā — un pēc tam notur stāstu saskaņotu caur katru ainu un kanālu.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Asi radošie instinkti"
+          },
+          {
+            "number": "02",
+            "label": "No gala gala ražošana"
+          },
+          {
+            "number": "03",
+            "label": "Vienmēr atbilstošs zīmolam"
+          }
+        ],
+        "ctaLabel": "Runājiet ar Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer ir gatavs",
+        "statusBody": "Pastāstiet viņam, ko vēlaties palaist"
+      },
+      "journal": {
+        "heading": "Archer iekšienē",
+        "body": "Piezīmes par AI filmu veidošanu, kampaņām un radošo virzienu.",
+        "allStoriesLabel": "Visi stāsti",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer kampaņas darbvieta",
+            "category": "Produkts",
+            "date": "Aug 18, 2026",
+            "title": "No produkta lapas līdz pulētam skaidrotājam vienā radošā plūsmā",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer kinematogrāfiskās kampaņas pasaule",
+            "category": "Studijas",
+            "date": "Aug 06, 2026",
+            "title": "Kāpēc spēcīgākās AI kampaņas joprojām sākas ar skatupunktu",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Jūsu kampaņa sākas šeit",
+        "ctaLabel": "Sāciet bez maksas",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Kinematogrāfiskais produkta kadrs"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Kampaņas atmosfēras kadrs"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Kampaņas pasaules kadrs"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Zīmola stāsta kadrs"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Tieļera beigu kadrs"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Veidojiet kinematogrāfiskas kampaņas ar AI spēku.",
+        "groups": [
+          {
+            "label": "Navigācija",
+            "links": [
+              {
+                "label": "Produkts",
+                "target": "product"
+              },
+              {
+                "label": "Izstāde",
+                "target": "showcase"
+              },
+              {
+                "label": "Iespējas",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Veidojiet",
+            "links": [
+              {
+                "label": "Kinematogrāfiska reklāma",
+                "target": "start"
+              },
+              {
+                "label": "Kino tializeris",
+                "target": "start"
+              },
+              {
+                "label": "Produkta skaidrotājs",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Savienojiet",
+            "links": [
+              {
+                "label": "Kontakti",
+                "target": "contact"
+              },
+              {
+                "label": "Žurnāls",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Jūsu AI kampaņu direktors.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

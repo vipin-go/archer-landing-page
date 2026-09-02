@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Ismerje meg Archert"
+    },
+    "badge": "mesterséges intelligencia kampányigazgató",
+    "headline": "filmes kampányokat hozzon létre az AI erejével",
+    "subheadline": "Változtass egy terméket, premisszát vagy indítást egyetlen koherens kampányba – a kreatív összefoglalótól és a storyboardtól a mesterfilmig és a társadalmi kivágásokig.",
+    "ctaLabel": "Beszélj Archerrel",
+    "secondaryCtaLabel": "Hogyan működik",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Szia, íjász vagyok. Mondd el, mit indítasz, és érdemesnek találom a történetet elmesélni."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Általában azonnal válaszol",
+      "inputPlaceholder": "Nyilvános termék URL-címének beillesztése…",
+      "suggestedPrompts": [
+        "alakítom az indításomat",
+        "Keresd meg a kampányszögemet",
+        "Készítsen storyboardot"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer filmes kampányok"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Íjász",
+        "navItems": [
+          {
+            "label": "Termék",
+            "target": "product"
+          },
+          {
+            "label": "kirakat",
+            "target": "showcase"
+          },
+          {
+            "label": "képességek",
+            "target": "capabilities"
+          },
+          {
+            "label": "Folyóirat",
+            "target": "journal"
+          },
+          {
+            "label": "Ismerje meg Archert",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Bejelentkezés",
+        "meetLabel": "Ismerje meg Archert",
+        "announcementLabel": "Új",
+        "announcementTitle": "A termékmagyarázó már elérhető",
+        "headingLines": [
+          "filmes létrehozása",
+          "kampányokat a"
+        ],
+        "mutedHeadingLine": "A mesterséges intelligencia ereje",
+        "primaryCtaLabel": "Beszélj Archerrel",
+        "secondaryCtaLabel": "Hogyan működik",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "mesterséges intelligencia kampányigazgató",
+          "statusLabel": "Online · Általában azonnal válaszol",
+          "openingMessage": "Szia, íjász vagyok. Mondd el, mit indítasz, és érdemesnek találom a történetet elmesélni.",
+          "inputPlaceholder": "Nyilvános termék URL-címének beillesztése…",
+          "suggestions": [
+            "alakítom az indításomat",
+            "Keresd meg a kampányszögemet",
+            "Készítsen storyboardot"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "közvetlen termékmagyarázat",
+          "body": "Hozz magaddal egy nyilvános termékoldalt, és határozd meg a kreatív irányt. Archer szemléltető tájékoztatót készít a bejelentkezés előtt.",
+          "urlLabel": "Nyilvános weboldal URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Közönség",
+          "objectiveLabel": "Objektív",
+          "ctaLabel": "cselekvésre ösztönzés",
+          "durationLabel": "Tartam",
+          "styleLabel": "vizuális stílus",
+          "previewLabel": "irányított előnézet",
+          "previewHeading": "Az első kampányirány",
+          "campaignDirectionLabel": "kampányirány",
+          "storyboardLabel": "minta storyboard",
+          "deliverablesLabel": "Várható teljesítések",
+          "submitLabel": "Tekintse meg az irányt",
+          "generateLabel": "Készítsd el a magyarázómat",
+          "voiceLabel": "próbáld ki a hang bemutatót",
+          "editLabel": "szerkeszt",
+          "disclaimer": "Csak szemléltető előnézet. Archer nem ellenőrizte ezt a weboldalt és nem jelenítette meg a médiát. A bizonyítékokkal alátámasztott rögzítés és a generáció a bejelentkezés után kezdődik.",
+          "loginNotice": "Jelentkezzen be, hogy az Archer megvizsgálja a nyilvános termékoldalt, és létrehozza a termékmagyarázatot egy privát munkaterületen.",
+          "invalidUrlCopy": "Adjon meg egy nyilvános HTTP vagy HTTPS webhely URL-jét. A magánhálózatok és a helyi címek nem támogatottak.",
+          "expiredCopy": "Ez a kampány átadása lejárt. Térjen vissza az Archerhez, és készítsen egy új előzetest.",
+          "sampleDirection": "Egy filmes átalakuláson keresztül tárja fel a terméket, a feszültségből a tiszta, emlékezetes nyeremény felé haladva.",
+          "sampleMessage": "Változtassa a termék legerősebb ígéretét olyan történetté, amelyet a közönség egy nézetben megérthet.",
+          "sampleTone": "Magabiztos, precíz, filmes",
+          "sampleVisualLanguage": "szobrászati fény, tapintható részletek, céltudatos kameramozgás",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "a feszültség",
+              "body": "Nyissa meg a közönség valódi problémáját egy letartóztató képben."
+            },
+            {
+              "number": "02",
+              "title": "a leleplezés",
+              "body": "Mutassa be a terméket fordulópontként, ne jellemzőlistaként."
+            },
+            {
+              "number": "03",
+              "title": "A bizonyíték",
+              "body": "Mutassa meg az alapvető értéket egy tömör vizuális bemutatón keresztül."
+            },
+            {
+              "number": "04",
+              "title": "A meghívó",
+              "body": "Egy akcióra és egy tiszta márkás végkeretre szálljon."
+            }
+          ],
+          "deliverables": [
+            "rövidzárlat",
+            "Storyboard és VoiceOver Direction",
+            "Mesterfilm társadalmi levágásokkal"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "A Sparktól a kampányig.",
+        "mutedHeading": "Három egyszerű felvonás",
+        "learnLabel": "Tudj meg többet",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Írni",
+            "description": "Írja le kampányát egyetlen felszólításban.",
+            "visualKind": "write",
+            "prompt": "Indítson el mozifilmes kampányt egy új performanszcipőért az esőáztatta Tokióban.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "esőáztatta teljesítménykampány referencia"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Teljesítménycipő kampányreferencia"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokiói kampányreferencia"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Alkot",
+            "description": "Az Archer azonnal létrehozza a filmes kampányát.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Filmes kampánykeretek generálódnak"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Részvény",
+            "description": "Jóváhagyni, exportálni 4K-ban, és megosztani mindenhol.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Befejezett íjász kampány készen áll az exportra"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Fedezze fel hatalmas",
+        "chipLabel": "Videó-",
+        "mutedHeading": "modellek. Minden egy helyen",
+        "items": [
+          "rövidzárlat",
+          "forgatókönyv",
+          "vizuális nemzedék",
+          "beszédhang",
+          "hangtervezés",
+          "végleges szerkesztés",
+          "társadalmi leépítések",
+          "4k export"
+        ]
+      },
+      "showcase": {
+        "heading": "Archerrel készült kampányok",
+        "items": [
+          {
+            "label": "Filmes hirdetés",
+            "prompt": "Egy szoborszerű illatpalack, amely a Silver Mist-en keresztül bukkan fel, luxus kampányfilm",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "luxus illatkampány"
+          },
+          {
+            "label": "Film előzetes",
+            "prompt": "Egy magányos űrhajós kel át egy elárasztott városon, miközben hajnal áttör a látképen",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "űrhajós film"
+          },
+          {
+            "label": "termékmagyarázó",
+            "prompt": "A precíziós óra egy sötét stúdióban áll össze, minden mechanizmus mozgásban van",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "precíziós óra magyarázó"
+          },
+          {
+            "label": "társasági kampány",
+            "prompt": "Egy új elektromos jármű átvág egy filmes sivatagi vihart a Blue Hour-ban",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "elektromos jármű Társadalmi film"
+          }
+        ]
+      },
+      "features": {
+        "heading": "mindent, amire szüksége van a kampány elkészítéséhez",
+        "body": "Röviden, generálás, szerkesztés és indítás – mindez egy helyen.",
+        "ctaLabel": "Kezdje ingyen",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "kampány formátumok",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Filmes rókaportré"
+          },
+          {
+            "kind": "metric",
+            "title": "törzs kivitelezés",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Filmes portré meleg fényben"
+          },
+          {
+            "kind": "wide",
+            "title": "Bármilyen stílus",
+            "body": "PhotoReal, animált, termékvezérelt – Ön választja ki a világot.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "íjász filmes kampány kreatív"
+          },
+          {
+            "kind": "feature",
+            "title": "egy rövid",
+            "body": "Archer egyetlen ötletet visz át minden jeleneten, vágáson és csatornán keresztül.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "teniszkampány felülről fényképezve"
+          },
+          {
+            "kind": "feature",
+            "title": "Azonnali levágások",
+            "body": "Változtasson egy mesterfilmet indításra kész közösségi szerkesztéssé.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Filmes járműkampány egy kanyonban"
+          },
+          {
+            "kind": "video",
+            "title": "többmodell",
+            "body": "Minden felvételhez használja a megfelelő vizuális, hang- és mozgásmodellt.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "filmszínvonal"
+          },
+          {
+            "kind": "metric",
+            "title": "alkotóelem",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Mozi Mountain Campaign"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "egy munkaterület.",
+        "accentHeading": "Minden kampányhoz készült",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Otthon",
+          "Alkot",
+          "Könyvtár",
+          "hadjáratok",
+          "Beállításokat"
+        ],
+        "bannerLabel": "Új · Termékmagyarázó",
+        "bannerTitle": "Változtasson bármelyik webhelyet csiszolt bemutatófilmmé.",
+        "bannerBody": "Készítse el a rövidfilmet, a storyboardot, a felvételeket, a beszédhangot, a szerkesztést és a levágásokat egy irányított folyamatba.",
+        "projectHeading": "kampányaim",
+        "projectBody": "12 projekt · 3 gyártásban",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "éter – filmbemutató"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "zátony – márkatörténet"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne – Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Együttműködik",
+            "body": "Hívja meg csapatát, tekintse át a storyboardokat, és hagyja jóvá együtt a végső vágást."
+          },
+          {
+            "label": "Szervez",
+            "body": "Tartsa a tájékoztatót, a referenciákat, a generációkat és az exportálást egyetlen tiszta kampányközpontban."
+          },
+          {
+            "label": "Bárhol",
+            "body": "Létrehozás asztali számítógépen, táblagépen vagy mobilon – Archer mozgásban tartja a történetet."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Ismerje meg mesterséges intelligencia kampányigazgatóját",
+        "heading": "találkozni Archerrel.",
+        "mutedHeading": "Adj minden ötletnek egy világot.",
+        "body": "Archer egy terméket, premisszát vagy bevezetést koherens filmes kampánysá alakít, majd minden jeleneten és csatornán keresztül egy vonalban tartja a történetet.",
+        "points": [
+          {
+            "number": "01",
+            "label": "éles kreatív ösztönök"
+          },
+          {
+            "number": "02",
+            "label": "végétől a végéig gyártás"
+          },
+          {
+            "number": "03",
+            "label": "Mindig a márkán"
+          }
+        ],
+        "ctaLabel": "Beszélj Archerrel",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer készen áll",
+        "statusBody": "Mondd el neki, mit szeretnél elindítani"
+      },
+      "journal": {
+        "heading": "Íjászon belül",
+        "body": "Megjegyzések a mesterséges intelligencia filmkészítéshez, kampányokhoz és kreatív irányításhoz.",
+        "allStoriesLabel": "Minden történet",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer kampány munkaterület",
+            "category": "Termék",
+            "date": "Aug 18, 2026",
+            "title": "A termékoldaltól a csiszolt magyarázóig egyetlen kreatív folyamatban",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "íjász filmes kampányvilág",
+            "category": "Stúdió",
+            "date": "Aug 06, 2026",
+            "title": "Miért kezdődnek még mindig egy nézőpontból a legerősebb mesterséges intelligencia kampányok?",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "A kampány itt kezdődik",
+        "ctaLabel": "Kezdje ingyen",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmszínvonal"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "kampány légköri keret"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "kampány világkeret"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Story Frame márka"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "pótkocsi zárókeret"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Hozzon létre filmes kampányokat az AI erejével.",
+        "groups": [
+          {
+            "label": "Navigáció",
+            "links": [
+              {
+                "label": "Termék",
+                "target": "product"
+              },
+              {
+                "label": "kirakat",
+                "target": "showcase"
+              },
+              {
+                "label": "képességek",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Teremt",
+            "links": [
+              {
+                "label": "Filmes hirdetés",
+                "target": "start"
+              },
+              {
+                "label": "Film előzetes",
+                "target": "start"
+              },
+              {
+                "label": "termékmagyarázó",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Összekapcsol",
+            "links": [
+              {
+                "label": "Érintkezés",
+                "target": "contact"
+              },
+              {
+                "label": "Folyóirat",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Az Ön mesterséges intelligencia kampányigazgatója.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

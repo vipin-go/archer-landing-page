@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "アーチャーに会いましょう"
+    },
+    "badge": "AI キャンペーン ディレクター",
+    "headline": "AI の力でシネマティック キャンペーンを作成します",
+    "subheadline": "製品、前提、またはローンチを、クリエイティブ ブリーフやストーリーボードからマスター フィルムやソーシャル カットダウンまで、1 つの一貫したキャンペーンに変えます。",
+    "ctaLabel": "アーチャーと話してください",
+    "secondaryCtaLabel": "それがどのように機能するかをご覧ください",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "こんにちは、アーチャーです。 何を立ち上げているか教えてください。そうすれば、語る価値のあるストーリーを見つけます。"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "オンライン · 通常、すぐに返信します",
+      "inputPlaceholder": "公開製品の URL を貼り付け…",
+      "suggestedPrompts": [
+        "私の打ち上げを形作ってください",
+        "私のキャンペーン角度を見つけてください",
+        "ストーリーボードを作ります"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "アーチャー シネマティック キャンペーン"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "射手",
+        "navItems": [
+          {
+            "label": "プロダクト",
+            "target": "product"
+          },
+          {
+            "label": "ショーケース",
+            "target": "showcase"
+          },
+          {
+            "label": "機能",
+            "target": "capabilities"
+          },
+          {
+            "label": "ジャーナル",
+            "target": "journal"
+          },
+          {
+            "label": "アーチャーに会いましょう",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "ログインします",
+        "meetLabel": "アーチャーに会いましょう",
+        "announcementLabel": "新しい",
+        "announcementTitle": "製品説明が利用可能になりました",
+        "headingLines": [
+          "シネマティックを作成します",
+          "とのキャンペーン"
+        ],
+        "mutedHeadingLine": "AIの力",
+        "primaryCtaLabel": "アーチャーと話してください",
+        "secondaryCtaLabel": "それがどのように機能するかをご覧ください",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI キャンペーン ディレクター",
+          "statusLabel": "オンライン · 通常、すぐに返信します",
+          "openingMessage": "こんにちは、アーチャーです。 何を立ち上げているか教えてください。そうすれば、語る価値のあるストーリーを見つけます。",
+          "inputPlaceholder": "公開製品の URL を貼り付け…",
+          "suggestions": [
+            "私の打ち上げを形作ってください",
+            "私のキャンペーン角度を見つけてください",
+            "ストーリーボードを作ります"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "製品説明担当者に指示してください",
+          "body": "公開製品ページを持ち込んで、クリエイティブな方向性を設定します。 Archer は、サインインする前に、説明の概要を準備します。",
+          "urlLabel": "公開 Web サイトの URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "観客",
+          "objectiveLabel": "目的",
+          "ctaLabel": "アクションの呼び出し",
+          "durationLabel": "存続",
+          "styleLabel": "ビジュアル スタイル",
+          "previewLabel": "ガイド付きプレビュー",
+          "previewHeading": "最初のキャンペーンの方向性",
+          "campaignDirectionLabel": "キャンペーンの方向性",
+          "storyboardLabel": "ストーリーボードのサンプル",
+          "deliverablesLabel": "期待される成果物",
+          "submitLabel": "方向をプレビューします",
+          "generateLabel": "私の説明を作成します",
+          "voiceLabel": "音声デモを試してください",
+          "editLabel": "ブリーフを編集",
+          "disclaimer": "例示的なプレビューのみ。 Archer は、この Web サイトを調べたり、メディアをレンダリングしたりしていません。 証拠に裏打ちされたキャプチャと生成は、サインイン後に開始されます。",
+          "loginNotice": "サインインして、Archer にパブリック プロダクト ページを検査してもらい、プライベート ワークスペースで製品説明を作成します。",
+          "invalidUrlCopy": "Enter a public HTTP or HTTPS website URL. プライベート ネットワークとローカル アドレスはサポートされていません。",
+          "expiredCopy": "このキャンペーンの引き継ぎは期限切れです。 Archer に戻り、新しいプレビューを準備します。",
+          "sampleDirection": "緊張から明確で記憶に残る見返りに移行する 1 つの映画の変革を通じて製品を明らかにします。",
+          "sampleMessage": "製品の最強の約束を、視聴者が 1 回の視聴で理解できるストーリーに変えます。",
+          "sampleTone": "自信があり、正確で、映画のようです",
+          "sampleVisualLanguage": "彫刻的な光、触覚の詳細、意図的なカメラの動き",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "緊張",
+              "body": "1 つの魅力的な画像で、聴衆の本当の問題について説明します。"
+            },
+            {
+              "number": "02",
+              "title": "明らかにします",
+              "body": "機能リストではなく、ターニング ポイントとして製品を導入します。"
+            },
+            {
+              "number": "03",
+              "title": "証拠",
+              "body": "簡潔なビジュアル デモンストレーションでコア バリューを示します。"
+            },
+            {
+              "number": "04",
+              "title": "招待状",
+              "body": "1 つのアクションとクリーンなブランドのエンド フレームに着陸します。"
+            }
+          ],
+          "deliverables": [
+            "キャンペーン ブリーフ",
+            "ストーリーボードとナレーションの方向性",
+            "ソーシャル カットダウンのあるマスター フィルム"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "スパークからキャンペーンへ。",
+        "mutedHeading": "3 つの単純な行為",
+        "learnLabel": "詳細をご覧ください",
+        "acts": [
+          {
+            "number": "01",
+            "title": "書く",
+            "description": "キャンペーンを 1 つのプロンプトで説明してください。",
+            "visualKind": "write",
+            "prompt": "雨に濡れた東京で新しいパフォーマンス シューズの映画キャンペーンを開始します。",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "雨に濡れたパフォーマンス キャンペーン リファレンス"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "パフォーマンス シューズ キャンペーン リファレンス"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "東京キャンペーンリファレンス"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "生成します",
+            "description": "Archer は、あなたの映画キャンペーンを即座に作成します。",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "シネマティック キャンペーン フレームが生成されています"
+            }
+          },
+          {
+            "number": "03",
+            "title": "シェア",
+            "description": "承認し、4K でエクスポートし、どこでも共有します。",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "アーチャー キャンペーンを終了しました。エクスポートの準備が整いました"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "強力な を発見してください",
+        "chipLabel": "ビデオ",
+        "mutedHeading": "モデル。 すべてが 1 か所にあります",
+        "items": [
+          "キャンペーン ブリーフ",
+          "ストーリーボード",
+          "ビジュアル ジェネレーション",
+          "ナレーション",
+          "サウンドデザイン",
+          "最終編集",
+          "社会的削減",
+          "4K エクスポート"
+        ]
+      },
+      "showcase": {
+        "heading": "Archer で作成されたキャンペーン",
+        "items": [
+          {
+            "label": "映画の広告",
+            "prompt": "シルバー ミスト、豪華なキャンペーン フィルムを通して登場する彫刻的なフレグランス ボトル",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "贅沢なフレグランス キャンペーン"
+          },
+          {
+            "label": "映画予告",
+            "prompt": "夜明けがスカイラインを突破すると、一人の宇宙飛行士が浸水した街を横断します",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "映画の宇宙飛行士の予告編"
+          },
+          {
+            "label": "製品説明",
+            "prompt": "精密時計は暗いスタジオで組み立てられ、すべてのメカニズムが動いています",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "精密時計の説明者"
+          },
+          {
+            "label": "ソーシャル キャンペーン",
+            "prompt": "新しい電気自動車がブルーアワーでの映画のような砂漠の嵐を乗り切ります",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "電気自動車のソーシャル フィルム"
+          }
+        ]
+      },
+      "features": {
+        "heading": "キャンペーンを行うために必要なものすべて",
+        "body": "ブリーフ、生成、編集、起動 — すべて 1 か所で行います。",
+        "ctaLabel": "無料で始めます",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "キャンペーン形式",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "シネマティック フォックスのポートレート"
+          },
+          {
+            "kind": "metric",
+            "title": "マスター エクスポート",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "暖かい光の中での映画のような肖像画"
+          },
+          {
+            "kind": "wide",
+            "title": "どんなスタイルでも",
+            "body": "フォトリアル、アニメーション、製品主導 — あなたは世界を選ぶ。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "アーチャー シネマティック キャンペーン クリエイティブ"
+          },
+          {
+            "kind": "feature",
+            "title": "簡単に 1 つ",
+            "body": "Archer は、すべてのシーン、カット、チャンネルで 1 つのアイデアを持ちます。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "上から撮影したテニスキャンペーン"
+          },
+          {
+            "kind": "feature",
+            "title": "インスタント カットダウン",
+            "body": "1 つのマスター フィルムを、ローンチ準備完了のソーシャル エディットに変えます。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "キャニオンでのシネマティック ビークル キャンペーン"
+          },
+          {
+            "kind": "video",
+            "title": "マルチモデル",
+            "body": "すべてのショットに適切なビジュアル、ボイス、モーション モデルを使用します。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "シネマティック プロダクト シーケンス"
+          },
+          {
+            "kind": "metric",
+            "title": "クリエイティブな勢い",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "シネマティック マウンテン キャンペーン"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "1 つのワークスペース。",
+        "accentHeading": "キャンペーンごとに構築されています",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "家",
+          "生成します",
+          "図書館",
+          "キャンペーン",
+          "設定"
+        ],
+        "bannerLabel": "新しい · 製品説明",
+        "bannerTitle": "あらゆる Web サイトを洗練された打ち上げ映画に変えましょう。",
+        "bannerBody": "1 つのガイド付きフローで、簡潔なストーリーボード、ショット、ナレーション、編集、およびカットダウンを作成します。",
+        "projectHeading": "私のキャンペーン",
+        "projectBody": "12 プロジェクト · 3 生産中",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "エーテル — フィルムを打ち上げます"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "リーフ — ブランド ストーリー"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — トレーラー"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "協力してください",
+            "body": "チームを招待し、ストーリーボードを確認し、ファイナル カットを一緒に承認します。"
+          },
+          {
+            "label": "作る",
+            "body": "ブリーフ、参照、世代、エクスポートを 1 つのクリーン キャンペーン ハブに保管してください。"
+          },
+          {
+            "label": "どこでも",
+            "body": "デスクトップ、タブレット、またはモバイルで作成 — Archer はストーリーを動かし続けます。"
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "AI キャンペーン ディレクターに会いましょう",
+        "heading": "アーチャーに会いましょう。",
+        "mutedHeading": "すべてのアイデアに世界を与えます。",
+        "body": "Archer は、製品、前提、またはローンチを首尾一貫した映画キャンペーンに変えます。その後、すべてのシーンとチャンネルでストーリーを調整します。",
+        "points": [
+          {
+            "number": "01",
+            "label": "鋭い創造的な本能"
+          },
+          {
+            "number": "02",
+            "label": "エンドツーエンドの制作"
+          },
+          {
+            "number": "03",
+            "label": "常にブランドにあります"
+          }
+        ],
+        "ctaLabel": "アーチャーと話してください",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "アーチャーは準備ができています",
+        "statusBody": "何を立ち上げたいかを彼に伝えてください"
+      },
+      "journal": {
+        "heading": "アーチャーの内側",
+        "body": "AI 映画製作、キャンペーン、クリエイティブ ディレクションに関するメモ。",
+        "allStoriesLabel": "すべての物語",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "アーチャー キャンペーン ワークスペース",
+            "category": "プロダクト",
+            "date": "Aug 18, 2026",
+            "title": "製品ページから洗練された説明まで、1 つのクリエイティブ フローで",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "アーチャー シネマティック キャンペーン ワールド",
+            "category": "スタジオ",
+            "date": "Aug 06, 2026",
+            "title": "最も強力な AI キャンペーンが依然として視点から始まる理由",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "あなたのキャンペーンはここから始まります",
+        "ctaLabel": "無料で始めます",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "シネマティック プロダクト フレーム"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "キャンペーンの雰囲気のフレーム"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "キャンペーン ワールド フレーム"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "ブランド ストーリー フレーム"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "トレーラークロージングフレーム"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "AI の力で映画のようなキャンペーンを作成します。",
+        "groups": [
+          {
+            "label": "航法",
+            "links": [
+              {
+                "label": "プロダクト",
+                "target": "product"
+              },
+              {
+                "label": "ショーケース",
+                "target": "showcase"
+              },
+              {
+                "label": "機能",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "作る",
+            "links": [
+              {
+                "label": "映画の広告",
+                "target": "start"
+              },
+              {
+                "label": "映画予告",
+                "target": "start"
+              },
+              {
+                "label": "製品説明",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "コネクト",
+            "links": [
+              {
+                "label": "接触",
+                "target": "contact"
+              },
+              {
+                "label": "ジャーナル",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 アーチャー。",
+        "closingStatement": "あなたの AI キャンペーン ディレクター。",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

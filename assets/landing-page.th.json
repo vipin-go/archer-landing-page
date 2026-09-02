@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "th",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "พบกับอาร์เชอร์"
+    },
+    "badge": "ผู้อำนวยการแคมเปญ AI",
+    "headline": "สร้างแคมเปญภาพยนตร์ด้วยพลังของ AI",
+    "subheadline": "เปลี่ยนผลิตภัณฑ์ สถานที่ หรือเปิดตัวเป็นแคมเปญที่สอดคล้องกัน ตั้งแต่บทสรุปเชิงสร้างสรรค์และสตอรี่บอร์ด ไปจนถึงภาพยนตร์ระดับปรมาจารย์และการลดทอนทางสังคม",
+    "ctaLabel": "คุยกับอาร์เชอร์",
+    "secondaryCtaLabel": "ดูว่ามันทำงานอย่างไร",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "สวัสดี ฉันชื่ออาร์เชอร์ บอกฉันว่าคุณกำลังเปิดตัวอะไรและฉันจะพบเรื่องราวที่ควรค่าแก่การบอกเล่า"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "ออนไลน์ · มักจะตอบกลับทันที",
+      "inputPlaceholder": "วาง URL ผลิตภัณฑ์สาธารณะ…",
+      "suggestedPrompts": [
+        "รูปร่างการเปิดตัวของฉัน",
+        "ค้นหามุมแคมเปญของฉัน",
+        "สร้างสตอรี่บอร์ด"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "แคมเปญภาพยนตร์อาร์เชอร์"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "ธนู",
+        "navItems": [
+          {
+            "label": "ผลผลิต",
+            "target": "product"
+          },
+          {
+            "label": "ตู้",
+            "target": "showcase"
+          },
+          {
+            "label": "ความสามารถ",
+            "target": "capabilities"
+          },
+          {
+            "label": "วารสาร",
+            "target": "journal"
+          },
+          {
+            "label": "พบกับอาร์เชอร์",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "เข้าสู่ระบบ",
+        "meetLabel": "พบกับอาร์เชอร์",
+        "announcementLabel": "ใหม่",
+        "announcementTitle": "ตัวอธิบายผลิตภัณฑ์พร้อมใช้งานแล้ว",
+        "headingLines": [
+          "สร้างภาพยนตร์",
+          "แคมเปญกับ"
+        ],
+        "mutedHeadingLine": "พลังของ AI",
+        "primaryCtaLabel": "คุยกับอาร์เชอร์",
+        "secondaryCtaLabel": "ดูว่ามันทำงานอย่างไร",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "ผู้อำนวยการแคมเปญ AI",
+          "statusLabel": "ออนไลน์ · มักจะตอบกลับทันที",
+          "openingMessage": "สวัสดี ฉันชื่ออาร์เชอร์ บอกฉันว่าคุณกำลังเปิดตัวอะไรและฉันจะพบเรื่องราวที่ควรค่าแก่การบอกเล่า",
+          "inputPlaceholder": "วาง URL ผลิตภัณฑ์สาธารณะ…",
+          "suggestions": [
+            "รูปร่างการเปิดตัวของฉัน",
+            "ค้นหามุมแคมเปญของฉัน",
+            "สร้างสตอรี่บอร์ด"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "กำกับตัวอธิบายผลิตภัณฑ์",
+          "body": "นำหน้าผลิตภัณฑ์สาธารณะและกำหนดทิศทางที่สร้างสรรค์ อาร์เชอร์จะเตรียมบทสรุปภาพประกอบก่อนลงชื่อเข้าใช้",
+          "urlLabel": "URL เว็บไซต์สาธารณะ",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "ผู้ฟัง",
+          "objectiveLabel": "วัตถุประสงค์",
+          "ctaLabel": "เรียกร้องให้ดำเนินการ",
+          "durationLabel": "ระยะเวลา",
+          "styleLabel": "ลักษณะภาพ",
+          "previewLabel": "ตัวอย่างคำแนะนำ",
+          "previewHeading": "ทิศทางแคมเปญแรก",
+          "campaignDirectionLabel": "ทิศทางแคมเปญ",
+          "storyboardLabel": "ตัวอย่างสตอรี่บอร์ด",
+          "deliverablesLabel": "ผลงานที่คาดหวัง",
+          "submitLabel": "ดูตัวอย่างทิศทาง",
+          "generateLabel": "สร้างตัวอธิบายของฉัน",
+          "voiceLabel": "ลองเสียงสาธิต",
+          "editLabel": "แก้ไขบทสรุป",
+          "disclaimer": "ตัวอย่างตัวอย่างเท่านั้น Archer ไม่ได้ตรวจสอบเว็บไซต์นี้หรือนำเสนอสื่อ การจับกุมและการสร้างหลักฐานที่ได้รับการสนับสนุนจากหลักฐานเริ่มต้นหลังจากลงชื่อเข้าใช้",
+          "loginNotice": "ลงชื่อเข้าใช้เพื่อให้ Archer ตรวจสอบหน้าผลิตภัณฑ์สาธารณะและสร้างตัวอธิบายผลิตภัณฑ์ของคุณในพื้นที่ทำงานส่วนตัว",
+          "invalidUrlCopy": "ป้อน URL เว็บไซต์ HTTP หรือ HTTPS สาธารณะ ไม่รองรับเครือข่ายส่วนตัวและที่อยู่ท้องถิ่น",
+          "expiredCopy": "แฮนด์ออฟแคมเปญนี้หมดอายุแล้ว กลับไปที่ Archer และเตรียมตัวอย่างใหม่",
+          "sampleDirection": "เปิดเผยผลิตภัณฑ์ผ่านการเปลี่ยนแปลงในโรงภาพยนตร์เพียงครั้งเดียว โดยเปลี่ยนจากความตึงเครียดเป็นผลตอบแทนที่ชัดเจนและน่าจดจำ",
+          "sampleMessage": "เปลี่ยนคำมั่นสัญญาที่แข็งแกร่งที่สุดของผลิตภัณฑ์ให้เป็นเรื่องราวที่ผู้ชมสามารถเข้าใจได้ในการดูครั้งเดียว",
+          "sampleTone": "มั่นใจ แม่นยำ ภาพยนตร์",
+          "sampleVisualLanguage": "แสงประติมากรรม รายละเอียดสัมผัส การเคลื่อนไหวของกล้องอย่างมีจุดมุ่งหมาย",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "ความตึงเครียด",
+              "body": "เปิดประเด็นที่แท้จริงของผู้ชมในภาพที่จับกุมเพียงภาพเดียว"
+            },
+            {
+              "number": "02",
+              "title": "การเปิดเผย",
+              "body": "แนะนำผลิตภัณฑ์เป็นจุดเปลี่ยนไม่ใช่รายการคุณลักษณะ"
+            },
+            {
+              "number": "03",
+              "title": "หลักฐาน",
+              "body": "แสดงค่าหลักผ่านการสาธิตด้วยภาพที่กระชับ"
+            },
+            {
+              "number": "04",
+              "title": "การเชื้อเชิญ",
+              "body": "ลงจอดบนหนึ่งการกระทำและกรอบท้ายที่สะอาดหมดจด"
+            }
+          ],
+          "deliverables": [
+            "สรุปแคมเปญ",
+            "กระดานเรื่องราวและทิศทางการพากย์เสียง",
+            "ภาพยนตร์ต้นแบบที่มีการตัดทอนทางสังคม"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "จากจุดประกายสู่แคมเปญ",
+        "mutedHeading": "สามการกระทำง่ายๆ",
+        "learnLabel": "เรียนรู้เพิ่มเติม",
+        "acts": [
+          {
+            "number": "01",
+            "title": "เขียน",
+            "description": "อธิบายแคมเปญของคุณในพรอมต์เดียว",
+            "visualKind": "write",
+            "prompt": "เปิดตัวแคมเปญภาพยนตร์สำหรับรองเท้าประสิทธิภาพใหม่ในโตเกียวที่เปียกโชก",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "ข้อมูลอ้างอิงแคมเปญประสิทธิภาพที่เปียกฝน"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "การอ้างอิงแคมเปญรองเท้าประสิทธิภาพ"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "การอ้างอิงแคมเปญโตเกียว"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "สร้าง",
+            "description": "Archer สร้างแคมเปญภาพยนตร์ของคุณทันที",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "กำลังสร้างเฟรมแคมเปญภาพยนตร์"
+            }
+          },
+          {
+            "number": "03",
+            "title": "หุ้น",
+            "description": "อนุมัติ ส่งออกใน 4K และแชร์ทุกที่",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "แคมเปญ Archer สำเร็จรูปพร้อมส่งออก"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "ค้นพบพลัง",
+        "chipLabel": "วีดีโอ",
+        "mutedHeading": "แบบจำลอง ทั้งหมดในที่เดียว",
+        "items": [
+          "สรุปแคมเปญ",
+          "สตอรี่บอร์ด",
+          "การสร้างภาพ",
+          "เสียงรัว",
+          "การออกแบบเสียง",
+          "การแก้ไขขั้นสุดท้าย",
+          "การลดหย่อนสังคม",
+          "ส่งออก 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "แคมเปญที่ทำกับนักธนู",
+        "items": [
+          {
+            "label": "โฆษณาภาพยนตร์",
+            "prompt": "ขวดน้ำหอมประติมากรรมโผล่ผ่านหมอกสีเงิน, ฟิล์มแคมเปญสุดหรู",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "แคมเปญน้ำหอมสุดหรู"
+          },
+          {
+            "label": "ตัวอย่างหนัง",
+            "prompt": "นักบินอวกาศคนเดียวข้ามเมืองที่ถูกน้ำท่วมเมื่อรุ่งอรุณข้ามเส้นขอบฟ้า",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "ตัวอย่างภาพยนตร์นักบินอวกาศ"
+          },
+          {
+            "label": "ตัวอธิบายสินค้า",
+            "prompt": "นาฬิกาที่แม่นยำประกอบตัวเองในสตูดิโอมืด ทุกกลไกที่เคลื่อนไหว",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "ตัวอธิบายนาฬิกาความแม่นยำ"
+          },
+          {
+            "label": "แคมเปญเพื่อสังคม",
+            "prompt": "รถยนต์ไฟฟ้าคันใหม่ตัดผ่านพายุทะเลทรายในโรงภาพยนตร์ที่ Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "ฟิล์มโซเชียลรถยนต์ไฟฟ้า"
+          }
+        ]
+      },
+      "features": {
+        "heading": "ทุกสิ่งที่คุณต้องการเพื่อสร้างแคมเปญ",
+        "body": "สั้น ๆ สร้าง แก้ไข และเปิดตัว — ทั้งหมดในที่เดียว",
+        "ctaLabel": "เริ่มฟรี",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "รูปแบบแคมเปญ",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "ภาพสุนัขจิ้งจอก"
+          },
+          {
+            "kind": "metric",
+            "title": "ส่งออกต้นแบบ",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "ภาพเหมือนภาพยนตร์ในแสงอบอุ่น"
+          },
+          {
+            "kind": "wide",
+            "title": "ทุกสไตล์",
+            "body": "Photoreal, แอนิเมชั่น, นำผลิตภัณฑ์ - คุณเลือกโลก",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "ครีเอทีฟโฆษณาของ Archer ภาพยนตร์"
+          },
+          {
+            "kind": "feature",
+            "title": "หนึ่งบทสรุป",
+            "body": "อาร์เชอร์มีแนวคิดเดียวผ่านทุกฉาก การตัด และช่อง",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "แคมเปญเทนนิสที่ถ่ายภาพจากเบื้องบน"
+          },
+          {
+            "kind": "feature",
+            "title": "ลดทันที",
+            "body": "เปลี่ยนภาพยนตร์หลักหนึ่งเรื่องให้เป็นการตัดต่อทางสังคมที่พร้อมเปิดตัว",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "แคมเปญยานพาหนะภาพยนตร์ในหุบเขา"
+          },
+          {
+            "kind": "video",
+            "title": "หลายรุ่น",
+            "body": "ใช้โมเดลภาพ เสียง และการเคลื่อนไหวที่ถูกต้องสำหรับทุกช็อต",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "ลำดับผลิตภัณฑ์ภาพยนตร์"
+          },
+          {
+            "kind": "metric",
+            "title": "โมเมนตัมสร้างสรรค์",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "แคมเปญภูเขาภาพยนตร์"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "หนึ่งพื้นที่ทำงาน",
+        "accentHeading": "สร้างขึ้นสำหรับทุกแคมเปญ",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "บ้าน",
+          "สร้าง",
+          "ห้องสมุด",
+          "การรณรงค์",
+          "การตั้ง"
+        ],
+        "bannerLabel": "ใหม่ · ตัวอธิบายผลิตภัณฑ์",
+        "bannerTitle": "เปลี่ยนเว็บไซต์ใด ๆ ให้เป็นภาพยนตร์เปิดตัวที่ขัดเกลา",
+        "bannerBody": "สร้างบทสรุป สตอรี่บอร์ด ช็อต เสียงพากย์ แก้ไข และคัทดาวน์ในโฟลว์แบบมีคำแนะนำเดียว",
+        "projectHeading": "แคมเปญของฉัน",
+        "projectBody": "12 โครงการ · 3 ในการผลิต",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "อีเธอร์ — เปิดตัวภาพยนตร์"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "แนวปะการัง — เรื่องราวของแบรนด์"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "น็อคเทิร์น — เทรลเลอร์"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "ร่วมมือ",
+            "body": "เชิญทีมของคุณ ตรวจสอบสตอรี่บอร์ด และอนุมัติการตัดขั้นสุดท้ายร่วมกัน"
+          },
+          {
+            "label": "จัดระเบียบ",
+            "body": "เก็บบทสรุป ข้อมูลอ้างอิง รุ่น และการส่งออกในฮับแคมเปญที่สะอาดเพียงแห่งเดียว"
+          },
+          {
+            "label": "ในที่ใดๆ",
+            "body": "สร้างบนเดสก์ท็อป แท็บเล็ต หรือมือถือ — Archer ช่วยให้เรื่องราวเคลื่อนไหว"
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "พบกับผู้อำนวยการแคมเปญ AI ของคุณ",
+        "heading": "พบกับอาร์เชอร์",
+        "mutedHeading": "ให้ทุกความคิดโลก",
+        "body": "Archer เปลี่ยนผลิตภัณฑ์ สถานที่ หรือเปิดตัวเป็นแคมเปญภาพยนตร์ที่สอดคล้องกัน จากนั้นจะจัดวางเรื่องราวให้อยู่ในแนวเดียวกันทุกฉากและทุกช่อง",
+        "points": [
+          {
+            "number": "01",
+            "label": "สัญชาตญาณความคิดสร้างสรรค์ที่คมชัด"
+          },
+          {
+            "number": "02",
+            "label": "การผลิตแบบครบวงจร"
+          },
+          {
+            "number": "03",
+            "label": "อยู่ในแบรนด์เสมอ"
+          }
+        ],
+        "ctaLabel": "คุยกับอาร์เชอร์",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "อาร์เชอร์พร้อมแล้ว",
+        "statusBody": "บอกเขาว่าคุณต้องการเปิดตัวอะไร"
+      },
+      "journal": {
+        "heading": "ธนูภายใน",
+        "body": "หมายเหตุเกี่ยวกับการสร้างภาพยนตร์ AI แคมเปญ และทิศทางที่สร้างสรรค์",
+        "allStoriesLabel": "เรื่องทั้งหมด",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "พื้นที่ทำงานของแคมเปญ Archer",
+            "category": "ผลผลิต",
+            "date": "Aug 18, 2026",
+            "title": "จากหน้าผลิตภัณฑ์ไปจนถึงตัวอธิบายที่ขัดเกลาในโฟลว์สร้างสรรค์เดียว",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "อาร์เชอร์ ภาพยนตร์ แคมเปญ โลก",
+            "category": "ห้องทำงาน",
+            "date": "Aug 06, 2026",
+            "title": "ทำไมแคมเปญ AI ที่แข็งแกร่งที่สุดยังคงเริ่มต้นด้วยมุมมอง",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "แคมเปญของคุณเริ่มต้นที่นี่",
+        "ctaLabel": "เริ่มฟรี",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "กรอบรูปสินค้า"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "กรอบบรรยากาศแคมเปญ"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "กรอบโลกของแคมเปญ"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "โครงเรื่องของแบรนด์"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "กรอบปิดรถเทรลเลอร์"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "สร้างแคมเปญภาพยนตร์ด้วยพลังของ AI",
+        "groups": [
+          {
+            "label": "การเดินเรือ",
+            "links": [
+              {
+                "label": "ผลผลิต",
+                "target": "product"
+              },
+              {
+                "label": "ตู้",
+                "target": "showcase"
+              },
+              {
+                "label": "ความสามารถ",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "สร้าง",
+            "links": [
+              {
+                "label": "โฆษณาภาพยนตร์",
+                "target": "start"
+              },
+              {
+                "label": "ตัวอย่างหนัง",
+                "target": "start"
+              },
+              {
+                "label": "ตัวอธิบายสินค้า",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "ต่อ",
+            "links": [
+              {
+                "label": "ติดต่อ",
+                "target": "contact"
+              },
+              {
+                "label": "วารสาร",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 อาร์เชอร์",
+        "closingStatement": "ผู้อำนวยการแคมเปญ AI ของคุณ",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

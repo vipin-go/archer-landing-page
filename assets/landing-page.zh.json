@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "zh",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "遇见阿切尔"
+    },
+    "badge": "人工智能竞选总监",
+    "headline": "利用 AI 的力量创建电影广告活动",
+    "subheadline": "将产品、前提或推出一个连贯的活动——从创意简报和故事板到主电影和社会削减。",
+    "ctaLabel": "与弓箭手交谈",
+    "secondaryCtaLabel": "看看它是如何工作的",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "嗨，我是弓箭手。 告诉我你要推出的是什么，我会发现这个故事值得讲述。"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "在线 · 通常会立即回复",
+      "inputPlaceholder": "粘贴公共产品网址…",
+      "suggestedPrompts": [
+        "塑造我的发射",
+        "查找我的竞选角度",
+        "构建一个故事板"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "阿切尔电影运动"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "射手",
+        "navItems": [
+          {
+            "label": "产品",
+            "target": "product"
+          },
+          {
+            "label": "橱窗",
+            "target": "showcase"
+          },
+          {
+            "label": "能力",
+            "target": "capabilities"
+          },
+          {
+            "label": "日志",
+            "target": "journal"
+          },
+          {
+            "label": "遇见阿切尔",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "登录",
+        "meetLabel": "遇见阿切尔",
+        "announcementLabel": "新",
+        "announcementTitle": "产品解释器现已推出",
+        "headingLines": [
+          "创建电影",
+          "与"
+        ],
+        "mutedHeadingLine": "人工智能的力量",
+        "primaryCtaLabel": "与弓箭手交谈",
+        "secondaryCtaLabel": "看看它是如何工作的",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "人工智能竞选总监",
+          "statusLabel": "在线 · 通常会立即回复",
+          "openingMessage": "嗨，我是弓箭手。 告诉我你要推出的是什么，我会发现这个故事值得讲述。",
+          "inputPlaceholder": "粘贴公共产品网址…",
+          "suggestions": [
+            "塑造我的发射",
+            "查找我的竞选角度",
+            "构建一个故事板"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "直接产品解释器",
+          "body": "带上公共产品页面并设置创意方向。 Archer 将在登录前准备一份说明性简报。",
+          "urlLabel": "公共网站网址",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "观众",
+          "objectiveLabel": "目标",
+          "ctaLabel": "呼吁采取行动",
+          "durationLabel": "为期",
+          "styleLabel": "视觉风格",
+          "previewLabel": "引导预览",
+          "previewHeading": "第一个活动方向",
+          "campaignDirectionLabel": "竞选方向",
+          "storyboardLabel": "示例故事板",
+          "deliverablesLabel": "预期可交付成果",
+          "submitLabel": "预览方向",
+          "generateLabel": "创建我的解释器",
+          "voiceLabel": "尝试语音演示",
+          "editLabel": "编辑简介",
+          "disclaimer": "仅说明性预览。 Archer 没有检查本网站或渲染媒体。 证据支持的捕获和生成在登录后开始。",
+          "loginNotice": "登录以让 Archer 检查公共产品页面并在私有工作空间中创建您的产品解释器。",
+          "invalidUrlCopy": "输入公共 HTTP 或 HTTPS 网站 URL。 不支持专用网络和本地地址。",
+          "expiredCopy": "此活动切换已过期。 返回 Archer 并准备新的预览。",
+          "sampleDirection": "通过一种电影转型，从紧张到清晰、令人难忘的回报中展示产品。",
+          "sampleMessage": "将产品的最强大承诺转化为观众在一次观看中可以理解的故事。",
+          "sampleTone": "自信、精确、电影化",
+          "sampleVisualLanguage": "雕塑之光，触觉细节，有目的的相机动作",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "紧张",
+              "body": "在一张引人注目的图像中公开观众的真正问题。"
+            },
+            {
+              "number": "02",
+              "title": "揭示",
+              "body": "引入产品作为转折点，而不是功能列表。"
+            },
+            {
+              "number": "03",
+              "title": "证明",
+              "body": "通过简洁的视觉演示展示核心价值。"
+            },
+            {
+              "number": "04",
+              "title": "邀请",
+              "body": "落在一项行动和一个干净的品牌端框架上。"
+            }
+          ],
+          "deliverables": [
+            "竞选简介",
+            "故事板和配音方向",
+            "与社会减少的大师级电影"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "从火花到竞选。",
+        "mutedHeading": "三个简单的行为",
+        "learnLabel": "学到更多",
+        "acts": [
+          {
+            "number": "01",
+            "title": "写",
+            "description": "在一个提示中描述您的广告系列。",
+            "visualKind": "write",
+            "prompt": "在雨水浸透的东京推出一款新的性能鞋的电影活动。",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "雨水浸透的业绩活动参考"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "性能鞋活动参考"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "东京竞选参考"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "产生",
+            "description": "Archer 立即创建您的电影广告系列。",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "正在生成的电影活动框架"
+            }
+          },
+          {
+            "number": "03",
+            "title": "分享",
+            "description": "批准，以 4K 的形式导出，并在任何地方共享。",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "完成的弓箭手战役准备出口"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "发现强大的",
+        "chipLabel": "视频",
+        "mutedHeading": "模型。 一站式",
+        "items": [
+          "竞选简介",
+          "故事板",
+          "视觉生成",
+          "画外音",
+          "声音设计",
+          "最终编辑",
+          "社会减少",
+          "4K 出口"
+        ]
+      },
+      "showcase": {
+        "heading": "与 Archer 进行的活动",
+        "items": [
+          {
+            "label": "电影广告",
+            "prompt": "银雾中出现的雕塑香水瓶，豪华竞选电影",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "豪华香水运动"
+          },
+          {
+            "label": "电影预告片",
+            "prompt": "一个孤独的宇航员穿越一个被淹没的城市，黎明破晓",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "电影宇航员预告片"
+          },
+          {
+            "label": "产品解释器",
+            "prompt": "精密手表在黑暗的工作室中组装起来，每个机构都在运动中",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "精密手表解释器"
+          },
+          {
+            "label": "社交活动",
+            "prompt": "一辆新的电动汽车在蓝色小时突破了一场电影沙漠风暴",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "电动汽车社交电影"
+          }
+        ]
+      },
+      "features": {
+        "heading": "制作活动所需的一切",
+        "body": "简介、生成、编辑和启动——合二为一。",
+        "ctaLabel": "免费开始",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "活动格式",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "电影狐狸肖像"
+          },
+          {
+            "kind": "metric",
+            "title": "主出口",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "温暖光线下的电影肖像"
+          },
+          {
+            "kind": "wide",
+            "title": "任何风格",
+            "body": "照片真实、动画、产品主导——你选择了世界。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "阿切尔电影运动创意"
+          },
+          {
+            "kind": "feature",
+            "title": "一份简介",
+            "body": "Archer 在每个场景、剪辑和通道中都带着一个想法。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "从上面拍摄的网球运动"
+          },
+          {
+            "kind": "feature",
+            "title": "即时削减",
+            "body": "将一部大师片转化为准备就绪的社交编辑。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "峡谷中的电影车辆运动"
+          },
+          {
+            "kind": "video",
+            "title": "多模型",
+            "body": "为每个镜头使用正确的视觉、语音和运动模型。",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "电影产品序列"
+          },
+          {
+            "kind": "metric",
+            "title": "创造力",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "电影山地运动"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "一种工作空间。",
+        "accentHeading": "为每个活动打造",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "家",
+          "产生",
+          "图书馆",
+          "活动",
+          "设置"
+        ],
+        "bannerLabel": "新增 · 产品解释器",
+        "bannerTitle": "将任何网站变成精美的发射片。",
+        "bannerBody": "在一种引导流程中构建简介、故事板、镜头、画外音、编辑和剪辑。",
+        "projectHeading": "我的广告系列",
+        "projectBody": "12 项目 · 3 个在生产中",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "以太 — 发射片"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "REEF — 品牌故事"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "夜曲——预告片"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "合作",
+            "body": "邀请您的团队，查看故事板，并一起批准最终剪辑。"
+          },
+          {
+            "label": "组织",
+            "body": "将简报、参考资料、世代和出口保存在一个干净的活动中心。"
+          },
+          {
+            "label": "无论何处",
+            "body": "在台式机、平板电脑或移动设备上创建 — Archer 使故事保持动态。"
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "认识您的 AI 活动总监",
+        "heading": "遇见阿切尔。",
+        "mutedHeading": "给每个想法一个世界。",
+        "body": "Archer 将产品、前提或推出到一个连贯的电影活动中——然后通过每个场景和频道保持故事的一致性。",
+        "points": [
+          {
+            "number": "01",
+            "label": "敏锐的创造性本能"
+          },
+          {
+            "number": "02",
+            "label": "端到端生产"
+          },
+          {
+            "number": "03",
+            "label": "永远在品牌上"
+          }
+        ],
+        "ctaLabel": "与弓箭手交谈",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "弓箭手准备好了",
+        "statusBody": "告诉他你想发射什么"
+      },
+      "journal": {
+        "heading": "弓箭手内",
+        "body": "关于人工智能电影制作、活动和创意方向的注意事项。",
+        "allStoriesLabel": "所有故事",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "弓箭手竞选工作空间",
+            "category": "产品",
+            "date": "Aug 18, 2026",
+            "title": "从产品页面到精致的解释器一式创意流程",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "阿切尔电影运动世界",
+            "category": "工作室",
+            "date": "Aug 06, 2026",
+            "title": "为什么最强大的 AI 活动仍然从一个观点开始",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "您的广告系列从这里开始",
+        "ctaLabel": "免费开始",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "电影产品框架"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "竞选氛围框架"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "竞选世界框架"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "品牌故事框架"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "拖车关闭框架"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "利用 AI 的强大功能创建电影活动。",
+        "groups": [
+          {
+            "label": "导航",
+            "links": [
+              {
+                "label": "产品",
+                "target": "product"
+              },
+              {
+                "label": "橱窗",
+                "target": "showcase"
+              },
+              {
+                "label": "能力",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "创建",
+            "links": [
+              {
+                "label": "电影广告",
+                "target": "start"
+              },
+              {
+                "label": "电影预告片",
+                "target": "start"
+              },
+              {
+                "label": "产品解释器",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "连",
+            "links": [
+              {
+                "label": "联系",
+                "target": "contact"
+              },
+              {
+                "label": "日志",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 阿切尔。",
+        "closingStatement": "您的 AI 活动总监。",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

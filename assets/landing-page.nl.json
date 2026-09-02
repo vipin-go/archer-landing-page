@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "nl",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "Ontmoet boogschutter"
+    },
+    "badge": "AI-campagnedirecteur",
+    "headline": "Creëer filmische campagnes met de kracht van AI",
+    "subheadline": "Verander een product, premisse of lanceren in één coherente campagne - van de creatieve opdracht en storyboard tot de hoofdfilm en sociale ondergang.",
+    "ctaLabel": "Praat met boogschutter",
+    "secondaryCtaLabel": "Kijk hoe het werkt",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hallo, ik ben Archer. Vertel me wat je lanceert en ik zal het verhaal vinden dat het waard is om te vertellen."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "online · meestal direct antwoordt",
+      "inputPlaceholder": "Plak een openbare product-URL...",
+      "suggestedPrompts": [
+        "Vorm mijn lancering",
+        "Vind mijn campagnehoek",
+        "Bouw een storyboard"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Archer Cinematic-campagnes"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Boogschutter",
+        "navItems": [
+          {
+            "label": "Product",
+            "target": "product"
+          },
+          {
+            "label": "Vitrine",
+            "target": "showcase"
+          },
+          {
+            "label": "capaciteiten",
+            "target": "capabilities"
+          },
+          {
+            "label": "Tijdschrift",
+            "target": "journal"
+          },
+          {
+            "label": "Ontmoet boogschutter",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Log in",
+        "meetLabel": "Ontmoet boogschutter",
+        "announcementLabel": "Nieuw",
+        "announcementTitle": "Product Explainer is nu beschikbaar",
+        "headingLines": [
+          "filmisch maken",
+          "campagnes met de"
+        ],
+        "mutedHeadingLine": "kracht van ai",
+        "primaryCtaLabel": "Praat met boogschutter",
+        "secondaryCtaLabel": "Kijk hoe het werkt",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "AI-campagnedirecteur",
+          "statusLabel": "online · meestal direct antwoordt",
+          "openingMessage": "Hallo, ik ben Archer. Vertel me wat je lanceert en ik zal het verhaal vinden dat het waard is om te vertellen.",
+          "inputPlaceholder": "Plak een openbare product-URL...",
+          "suggestions": [
+            "Vorm mijn lancering",
+            "Vind mijn campagnehoek",
+            "Bouw een storyboard"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Direct een productuitleg",
+          "body": "Breng een openbare productpagina mee en stel de creatieve richting in. Archer zal een illustratieve opdracht voorbereiden voordat hij zich aanmeldt.",
+          "urlLabel": "Openbare website-URL",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Gehoor",
+          "objectiveLabel": "Objectief",
+          "ctaLabel": "oproep tot actie",
+          "durationLabel": "Duur",
+          "styleLabel": "visuele stijl",
+          "previewLabel": "Begeleide preview",
+          "previewHeading": "Een eerste campagnerichting",
+          "campaignDirectionLabel": "Campagnerichting",
+          "storyboardLabel": "Voorbeeld storyboard",
+          "deliverablesLabel": "Verwachte resultaten",
+          "submitLabel": "Bekijk een voorbeeld van de richting",
+          "generateLabel": "maak mijn uitleg",
+          "voiceLabel": "Probeer spraakdemo",
+          "editLabel": "Kort bewerken",
+          "disclaimer": "Alleen illustratieve preview. Archer heeft deze website of gerenderde media niet geïnspecteerd. Evidence-backed capture en generatie beginnen na aanmelding.",
+          "loginNotice": "Meld u aan om Archer de openbare productpagina te laten inspecteren en uw productuitlegger te maken in een privéwerkruimte.",
+          "invalidUrlCopy": "Voer een openbare URL voor HTTP- of HTTPS-website in. Particuliere netwerken en lokale adressen worden niet ondersteund.",
+          "expiredCopy": "Deze overdracht van de campagne is verlopen. Keer terug naar Archer en bereid een nieuwe preview voor.",
+          "sampleDirection": "Onthul het product door middel van één filmische transformatie, die van spanning naar een duidelijke, gedenkwaardige uitbetaling gaat.",
+          "sampleMessage": "Verander de sterkste belofte van het product in een verhaal dat het publiek in één bezichtiging kan begrijpen.",
+          "sampleTone": "Zelfverzekerd, nauwkeurig, filmisch",
+          "sampleVisualLanguage": "Sculpturale licht, tactiele details, doelgerichte camerabeweging",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "De spanning",
+              "body": "Open over het echte probleem van het publiek in één pakkend beeld."
+            },
+            {
+              "number": "02",
+              "title": "de onthulling",
+              "body": "Introduceer het product als het keerpunt, niet als een lijst met functies."
+            },
+            {
+              "number": "03",
+              "title": "Het bewijs",
+              "body": "Toon de kernwaarde door middel van een beknopte visuele demonstratie."
+            },
+            {
+              "number": "04",
+              "title": "De uitnodiging",
+              "body": "Land op één actie en een schoon eindframe van het merk."
+            }
+          ],
+          "deliverables": [
+            "Campagnelijst",
+            "Storyboard en voice-over richting",
+            "Masterfilm met sociale bezuinigingen"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Van vonk tot campagne.",
+        "mutedHeading": "Drie eenvoudige handelingen",
+        "learnLabel": "Meer leren",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Schrijven",
+            "description": "Beschrijf uw campagne in één enkele prompt.",
+            "visualKind": "write",
+            "prompt": "lanceer een filmische campagne voor een nieuwe performanceschoen in door het regen doordrenkte Tokyo.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Referentie voor prestatiecampagnes met regen doordrenkt"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Referentie voor prestatieschoenencampagne"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Tokyo campaign reference"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Voortbrengen",
+            "description": "Archer maakt direct uw filmcampagne.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Cinematische campagneframes worden gegenereerd"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Delen",
+            "description": "Goedkeuren, exporteren in 4K en overal delen.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Voltooide Archer-campagne klaar om te exporteren"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Ontdek krachtig",
+        "chipLabel": "Video-",
+        "mutedHeading": "modellen. Alles op één plek",
+        "items": [
+          "Campagnelijst",
+          "Storyboards",
+          "visuele generatie",
+          "voice-over",
+          "geluidsontwerp",
+          "Laatste bewerking",
+          "Sociale bezuinigingen",
+          "4K-export"
+        ]
+      },
+      "showcase": {
+        "heading": "Campagnes gemaakt met Archer",
+        "items": [
+          {
+            "label": "filmische advertentie",
+            "prompt": "Een sculpturale geurfles die opkomt door zilvermist, luxe campagnefilm",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Luxe geurcampagne"
+          },
+          {
+            "label": "filmtrailer",
+            "prompt": "Een eenzame astronaut doorkruist een overstroomde stad terwijl de dageraad door de skyline breekt",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Cinematische Astronaut-trailer"
+          },
+          {
+            "label": "Productuitleg",
+            "prompt": "Een precisiehorloge assembleert zichzelf in een donkere studio, elk mechanisme in beweging",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Precisie horloge-uitleg"
+          },
+          {
+            "label": "Sociale campagne",
+            "prompt": "Een nieuw elektrisch voertuig snijdt door een filmische woestijnstorm op Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "Sociale film van elektrische voertuigen"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Alles wat je nodig hebt om de campagne te maken",
+        "body": "Kort, genereren, bewerken en starten - allemaal op één plek.",
+        "ctaLabel": "Gratis beginnen",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Campagneformaten",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "filmische vos portret"
+          },
+          {
+            "kind": "metric",
+            "title": "Master-export",
+            "metric": "4k",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Filmisch portret in warm licht"
+          },
+          {
+            "kind": "wide",
+            "title": "Elke stijl",
+            "body": "Fotorealistisch, geanimeerd, product-LED - jij kiest de wereld.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign Creative"
+          },
+          {
+            "kind": "feature",
+            "title": "een korte",
+            "body": "Archer draagt een enkel idee door elke scène, snit en kanaal.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Tenniscampagne gefotografeerd van bovenaf"
+          },
+          {
+            "kind": "feature",
+            "title": "Directe bezuinigingen",
+            "body": "Verander één masterfilm in launch-ready sociale bewerkingen.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Cinematic voertuigcampagne in een canyon"
+          },
+          {
+            "kind": "video",
+            "title": "multimodel",
+            "body": "Gebruik het juiste visuele, stem- en bewegingsmodel voor elke opname.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Filmische productreeks"
+          },
+          {
+            "kind": "metric",
+            "title": "Creatief momentum",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Cinematic Mountain-campagne"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "Eén werkruimte.",
+        "accentHeading": "Gebouwd voor elke campagne",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Huis-",
+          "Voortbrengen",
+          "Bibliotheek-",
+          "campagnes",
+          "instellingen"
+        ],
+        "bannerLabel": "Nieuwe · productuitleg",
+        "bannerTitle": "Maak van elke website een gepolijste lanceringsfilm.",
+        "bannerBody": "Bouw het korte, storyboard, opnamen, voice-over, bewerking en cutdowns in één begeleide stroom.",
+        "projectHeading": "Mijn campagnes",
+        "projectBody": "12 projecten · 3 in productie",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether - Launch-film"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "Reef - Merkverhaal"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne - Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Samenwerken",
+            "body": "Nodig uw team uit, beoordeel storyboards en keur de definitieve snit samen."
+          },
+          {
+            "label": "Organiseren",
+            "body": "Houd de instructie, referenties, generaties en exports in één schone campagnehub."
+          },
+          {
+            "label": "Overal",
+            "body": "Maak op desktop, tablet of mobiel - Archer houdt het verhaal in beweging."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Maak kennis met uw AI-campagnedirecteur",
+        "heading": "Boogschutter ontmoeten.",
+        "mutedHeading": "Geef elk idee een wereld.",
+        "body": "Archer verandert een product, premisse of lancering in een coherente filmcampagne - vervolgens houdt het verhaal op één lijn door elke scène en elke scène.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Scherpe creatieve instincten"
+          },
+          {
+            "number": "02",
+            "label": "End-to-end productie"
+          },
+          {
+            "number": "03",
+            "label": "Altijd op merk"
+          }
+        ],
+        "ctaLabel": "Praat met boogschutter",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Boogschutter is klaar",
+        "statusBody": "Vertel hem wat je wilt lanceren"
+      },
+      "journal": {
+        "heading": "Binnenboogschutter",
+        "body": "Opmerkingen over AI-filmmaken, campagnes en creatieve richting.",
+        "allStoriesLabel": "Alle verhalen",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Archer-campagnewerkruimte",
+            "category": "Product",
+            "date": "Aug 18, 2026",
+            "title": "Van productpagina naar gepolijste uitleg in één creatieve stroom",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Archer Cinematic Campaign World",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Waarom de sterkste AI-campagnes nog steeds beginnen met een standpunt",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Uw campagne begint hier",
+        "ctaLabel": "Gratis beginnen",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Cinematisch productframe"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Campagne sfeer frame"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Campagnewereldframe"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Merkverhaalframe"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Aanhangwagen sluitend frame"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Creëer filmische campagnes met de kracht van AI.",
+        "groups": [
+          {
+            "label": "Navigatie",
+            "links": [
+              {
+                "label": "Product",
+                "target": "product"
+              },
+              {
+                "label": "Vitrine",
+                "target": "showcase"
+              },
+              {
+                "label": "capaciteiten",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Creëren",
+            "links": [
+              {
+                "label": "filmische advertentie",
+                "target": "start"
+              },
+              {
+                "label": "filmtrailer",
+                "target": "start"
+              },
+              {
+                "label": "Productuitleg",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Aansluiten",
+            "links": [
+              {
+                "label": "Contact",
+                "target": "contact"
+              },
+              {
+                "label": "Tijdschrift",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Boogschutter.",
+        "closingStatement": "Uw AI-campagnedirecteur.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}

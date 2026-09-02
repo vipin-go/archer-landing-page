@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "language": "id",
+  "regionKey": null,
+  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "landingPage": {
+    "design": {
+      "variant": "cinematic-campaigns",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "slate",
+        "primaryColor": "blue",
+        "secondaryColor": "slate",
+        "accentColor": "teal",
+        "fontFamily": "dm-sans"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "dark": {
+            "canvas": "#0a0a0a",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#ffffff",
+            "accent": "#5dd7ed",
+            "userBubble": "#f1f1f1"
+          },
+          "light": {
+            "canvas": "#f6f6f3",
+            "surface": "#ffffff",
+            "sidebar": "#0a0a0a",
+            "text": "#0a0a0a",
+            "accent": "#0b7285",
+            "userBubble": "#111111"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
+      "navItems": [],
+      "ctaLabel": "bertemu Archer"
+    },
+    "badge": "Direktur Kampanye AI",
+    "headline": "Buat kampanye sinematik dengan kekuatan AI",
+    "subheadline": "Ubah produk, premis, atau peluncuran menjadi satu kampanye yang koheren—dari brief kreatif dan storyboard hingga film master dan pemotongan sosial.",
+    "ctaLabel": "Bicaralah dengan Archer",
+    "secondaryCtaLabel": "Lihat Cara Kerjanya",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hai, saya Archer. Ceritakan apa yang Anda luncurkan dan saya akan menemukan kisah yang layak diceritakan."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Biasanya langsung membalas",
+      "inputPlaceholder": "Tempel URL produk publik…",
+      "suggestedPrompts": [
+        "Bentuk peluncuran saya",
+        "Temukan sudut kampanye saya",
+        "Membangun Papan Cerita"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "Kampanye Sinematik Archer"
+    },
+    "cinematicCampaigns": {
+      "hero": {
+        "wordmark": "Pemanah",
+        "navItems": [
+          {
+            "label": "Produk",
+            "target": "product"
+          },
+          {
+            "label": "Memamerkan",
+            "target": "showcase"
+          },
+          {
+            "label": "kemampuan",
+            "target": "capabilities"
+          },
+          {
+            "label": "Buku harian",
+            "target": "journal"
+          },
+          {
+            "label": "bertemu Archer",
+            "target": "meet-archer"
+          }
+        ],
+        "loginLabel": "Masuk",
+        "meetLabel": "bertemu Archer",
+        "announcementLabel": "Baru",
+        "announcementTitle": "Penjelasan produk sekarang tersedia",
+        "headingLines": [
+          "membuat sinematik",
+          "kampanye dengan"
+        ],
+        "mutedHeadingLine": "kekuatan AI",
+        "primaryCtaLabel": "Bicaralah dengan Archer",
+        "secondaryCtaLabel": "Lihat Cara Kerjanya",
+        "backgroundVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
+        },
+        "chat": {
+          "roleLabel": "Direktur Kampanye AI",
+          "statusLabel": "Online · Biasanya langsung membalas",
+          "openingMessage": "Hai, saya Archer. Ceritakan apa yang Anda luncurkan dan saya akan menemukan kisah yang layak diceritakan.",
+          "inputPlaceholder": "Tempel URL produk publik…",
+          "suggestions": [
+            "Bentuk peluncuran saya",
+            "Temukan sudut kampanye saya",
+            "Membangun Papan Cerita"
+          ]
+        },
+        "guidedDemo": {
+          "enabled": true,
+          "commandTrigger": "product-explainer-video",
+          "heading": "Arahkan Penjelasan Produk",
+          "body": "Bawa halaman produk publik dan atur arah kreatif. Archer akan menyiapkan ringkasan ilustratif sebelum masuk.",
+          "urlLabel": "URL situs web publik",
+          "urlPlaceholder": "https://your-product.com",
+          "audienceLabel": "Hadirin",
+          "objectiveLabel": "Tujuan",
+          "ctaLabel": "Ajakan bertindak",
+          "durationLabel": "Lamanya",
+          "styleLabel": "Gaya visual",
+          "previewLabel": "Pratinjau Terpandu",
+          "previewHeading": "Arah Kampanye Pertama",
+          "campaignDirectionLabel": "Arah kampanye",
+          "storyboardLabel": "Contoh Papan Cerita",
+          "deliverablesLabel": "Hasil yang diharapkan",
+          "submitLabel": "Pratinjau arah",
+          "generateLabel": "buat penjelasan saya",
+          "voiceLabel": "coba demo suara",
+          "editLabel": "Edit Ringkasan",
+          "disclaimer": "Pratinjau ilustrasi saja. Archer belum memeriksa situs web ini atau media yang dirender. Penangkapan dan generasi yang didukung bukti dimulai setelah masuk.",
+          "loginNotice": "Masuk untuk memungkinkan Archer memeriksa halaman produk publik dan membuat penjelas produk Anda di ruang kerja pribadi.",
+          "invalidUrlCopy": "Masukkan URL situs web HTTP atau HTTPS publik. Jaringan pribadi dan alamat lokal tidak didukung.",
+          "expiredCopy": "Handoff kampanye ini berakhir. Kembali ke Archer dan siapkan pratinjau baru.",
+          "sampleDirection": "Mengungkapkan produk melalui satu transformasi sinematik, beralih dari ketegangan ke hasil yang jelas dan berkesan.",
+          "sampleMessage": "Ubah janji terkuat produk menjadi cerita yang dapat dipahami audiens dalam satu tampilan.",
+          "sampleTone": "Percaya diri, tepat, sinematik",
+          "sampleVisualLanguage": "Cahaya pahatan, detail sentuhan, gerakan kamera yang bertujuan",
+          "storyboard": [
+            {
+              "number": "01",
+              "title": "ketegangan",
+              "body": "Terbuka pada masalah nyata penonton dalam satu gambar yang menarik."
+            },
+            {
+              "number": "02",
+              "title": "pengungkapan",
+              "body": "Perkenalkan produk sebagai titik balik, bukan daftar fitur."
+            },
+            {
+              "number": "03",
+              "title": "Buktinya",
+              "body": "Tunjukkan nilai inti melalui demonstrasi visual yang ringkas."
+            },
+            {
+              "number": "04",
+              "title": "Undangan",
+              "body": "mendarat di satu tindakan dan bingkai akhir bermerek yang bersih."
+            }
+          ],
+          "deliverables": [
+            "Ringkasan Kampanye",
+            "Papan cerita dan arah sulih suara",
+            "Master film dengan pemotongan sosial"
+          ]
+        }
+      },
+      "workflow": {
+        "heading": "Dari percikan ke kampanye.",
+        "mutedHeading": "Tiga tindakan sederhana",
+        "learnLabel": "Belajarlah lagi",
+        "acts": [
+          {
+            "number": "01",
+            "title": "Menulis",
+            "description": "Jelaskan kampanye Anda dalam satu perintah.",
+            "visualKind": "write",
+            "prompt": "Luncurkan kampanye sinematik untuk sepatu performa baru di Tokyo yang basah kuyup.",
+            "mediaItems": [
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+                "alt": "Referensi Kampanye Kinerja yang Dibasahi Hujan"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+                "alt": "Referensi kampanye sepatu kinerja"
+              },
+              {
+                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
+                "alt": "Referensi Kampanye Tokyo"
+              }
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Menghasilkan",
+            "description": "Archer membuat kampanye sinematik Anda secara instan.",
+            "visualKind": "generate",
+            "status": "Building your campaign…",
+            "progress": "84%",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Bingkai kampanye sinematik dihasilkan"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Bagikan",
+            "description": "Menyetujui, mengekspor dalam 4K, dan berbagi di mana-mana.",
+            "visualKind": "share",
+            "filename": "archer_launch_film.mp4",
+            "media": {
+              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+              "alt": "Selesai kampanye Archer siap untuk diekspor"
+            }
+          }
+        ]
+      },
+      "capabilities": {
+        "heading": "Temukan Kuat",
+        "chipLabel": "Tv",
+        "mutedHeading": "Model. Semua dalam satu tempat",
+        "items": [
+          "Ringkasan Kampanye",
+          "Papan Cerita",
+          "Generasi visual",
+          "Pengisi suara",
+          "Desain suara",
+          "Pengeditan Akhir",
+          "Pemotongan sosial",
+          "Ekspor 4K"
+        ]
+      },
+      "showcase": {
+        "heading": "Kampanye dibuat dengan Archer",
+        "items": [
+          {
+            "label": "iklan sinematik",
+            "prompt": "Botol Wewangian Patung Muncul Melalui Kabut Perak, Film Kampanye Mewah",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "alt": "Kampanye wewangian mewah"
+          },
+          {
+            "label": "Cuplikan film",
+            "prompt": "Seorang astronot sendirian melintasi kota yang tergenang saat fajar menyingsing di cakrawala",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "alt": "Trailer Astronot Sinematik"
+          },
+          {
+            "label": "Penjelasan produk",
+            "prompt": "Jam tangan presisi merakit dirinya sendiri di studio gelap, setiap mekanisme bergerak",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
+            "alt": "Penjelasan jam tangan presisi"
+          },
+          {
+            "label": "Kampanye Sosial",
+            "prompt": "Sebuah kendaraan listrik baru memotong badai gurun sinematik di Blue Hour",
+            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "alt": "film sosial kendaraan listrik"
+          }
+        ]
+      },
+      "features": {
+        "heading": "semua yang Anda butuhkan untuk membuat kampanye",
+        "body": "Singkat, buat, edit, dan luncurkan — semuanya di satu tempat.",
+        "ctaLabel": "Mulai gratis",
+        "items": [
+          {
+            "kind": "metric",
+            "title": "Format Kampanye",
+            "metric": "3",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Potret Rubah Sinematik"
+          },
+          {
+            "kind": "metric",
+            "title": "Ekspor Master",
+            "metric": "4K",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "alt": "Potret sinematik dalam cahaya hangat"
+          },
+          {
+            "kind": "wide",
+            "title": "gaya apapun",
+            "body": "Fotoreal, animasi, dipimpin produk — Anda memilih dunia.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Kreatif Kampanye Sinematik Archer"
+          },
+          {
+            "kind": "feature",
+            "title": "satu singkat",
+            "body": "Archer membawa satu ide melalui setiap adegan, potongan, dan saluran.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "alt": "Kampanye tenis difoto dari atas"
+          },
+          {
+            "kind": "feature",
+            "title": "Pemotongan instan",
+            "body": "Ubah One Master Film menjadi suntingan sosial yang siap diluncurkan.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Kampanye kendaraan sinematik di ngarai"
+          },
+          {
+            "kind": "video",
+            "title": "Multimodel",
+            "body": "Gunakan model visual, suara, dan gerak yang tepat untuk setiap bidikan.",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "alt": "Urutan produk sinematik"
+          },
+          {
+            "kind": "metric",
+            "title": "Momentum kreatif",
+            "metric": "24/7",
+            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Kampanye Gunung Sinematik"
+          }
+        ]
+      },
+      "workspace": {
+        "heading": "satu ruang kerja.",
+        "accentHeading": "Dibangun untuk setiap kampanye",
+        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "navItems": [
+          "Rumah",
+          "Menghasilkan",
+          "Perpustakaan",
+          "Kampanye",
+          "pengaturan"
+        ],
+        "bannerLabel": "Baru · Penjelasan Produk",
+        "bannerTitle": "Ubah situs web apa pun menjadi film peluncuran yang dipoles.",
+        "bannerBody": "Bangun brief, storyboard, shot, sulih suara, edit, dan pemotongan dalam satu alur terpandu.",
+        "projectHeading": "Kampanye saya",
+        "projectBody": "12 proyek · 3 dalam produksi",
+        "projects": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+            "title": "Aether — Peluncuran Film"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+            "title": "karang — kisah merek"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
+            "title": "Nocturne — Trailer"
+          }
+        ],
+        "benefits": [
+          {
+            "label": "Berkolaborasi",
+            "body": "Undang tim Anda, tinjau papan cerita, dan setujui potongan terakhir bersama-sama."
+          },
+          {
+            "label": "Mengatur",
+            "body": "Simpan brief, referensi, generasi, dan ekspor dalam satu pusat kampanye yang bersih."
+          },
+          {
+            "label": "Di manapun",
+            "body": "Buat di desktop, tablet, atau seluler — Archer membuat cerita terus bergerak."
+          }
+        ]
+      },
+      "meetArcher": {
+        "kicker": "Temui Direktur Kampanye AI Anda",
+        "heading": "bertemu Archer.",
+        "mutedHeading": "Berikan setiap ide dunia.",
+        "body": "Archer mengubah produk, premis, atau peluncuran menjadi kampanye sinematik yang koheren—kemudian membuat cerita tetap selaras melalui setiap adegan dan saluran.",
+        "points": [
+          {
+            "number": "01",
+            "label": "Naluri kreatif yang tajam"
+          },
+          {
+            "number": "02",
+            "label": "Produksi ujung ke ujung"
+          },
+          {
+            "number": "03",
+            "label": "Selalu pada merek"
+          }
+        ],
+        "ctaLabel": "Bicaralah dengan Archer",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "statusTitle": "Archer sudah siap",
+        "statusBody": "Katakan padanya apa yang ingin Anda luncurkan"
+      },
+      "journal": {
+        "heading": "Di dalam Archer",
+        "body": "Catatan tentang pembuatan film AI, kampanye, dan arahan kreatif.",
+        "allStoriesLabel": "Semua cerita",
+        "items": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
+            "alt": "Ruang kerja kampanye Archer",
+            "category": "Produk",
+            "date": "Aug 18, 2026",
+            "title": "Dari halaman produk hingga penjelasan yang dipoles dalam satu aliran kreatif",
+            "target": "product"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "dunia kampanye sinematik pemanah",
+            "category": "Studio",
+            "date": "Aug 06, 2026",
+            "title": "Mengapa kampanye AI terkuat masih dimulai dengan sudut pandang",
+            "target": "showcase"
+          }
+        ]
+      },
+      "closing": {
+        "heading": "Kampanye Anda dimulai di sini",
+        "ctaLabel": "Mulai gratis",
+        "filmstrip": [
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "alt": "Bingkai Produk Sinematik"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+            "alt": "Bingkai suasana kampanye"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+            "alt": "Bingkai Dunia Kampanye"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "alt": "Bingkai cerita merek"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "alt": "Bingkai penutup trailer"
+          }
+        ]
+      },
+      "footer": {
+        "tagline": "Buat kampanye sinematik dengan kekuatan AI.",
+        "groups": [
+          {
+            "label": "Navigasi",
+            "links": [
+              {
+                "label": "Produk",
+                "target": "product"
+              },
+              {
+                "label": "Memamerkan",
+                "target": "showcase"
+              },
+              {
+                "label": "kemampuan",
+                "target": "capabilities"
+              }
+            ]
+          },
+          {
+            "label": "Membuat",
+            "links": [
+              {
+                "label": "iklan sinematik",
+                "target": "start"
+              },
+              {
+                "label": "Cuplikan film",
+                "target": "start"
+              },
+              {
+                "label": "Penjelasan produk",
+                "target": "product"
+              }
+            ]
+          },
+          {
+            "label": "Menghubungkan",
+            "links": [
+              {
+                "label": "Kontak",
+                "target": "contact"
+              },
+              {
+                "label": "Buku harian",
+                "target": "journal"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Archer.",
+        "closingStatement": "Direktur Kampanye AI Anda.",
+        "contactEmail": "hello@gabrieloperator.com"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.047Z"
+}
