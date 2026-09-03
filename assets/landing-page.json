@@ -53,465 +53,491 @@
       "brandMark": "image",
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
       "navItems": [],
-      "ctaLabel": "Meet Archer"
+      "ctaLabel": "Book a pilot"
     },
-    "badge": "AI Campaign Director",
-    "headline": "Create cinematic campaigns with the power of AI",
-    "subheadline": "Turn a product, premise, or launch into one coherent campaign—from the creative brief and storyboard to the master film and social cutdowns.",
-    "ctaLabel": "Talk to Archer",
-    "secondaryCtaLabel": "See how it works",
+    "badge": "Real footage. One approval. On time.",
+    "headline": "Your event footage, back as branded clips before the doors open.",
+    "subheadline": "Send real phone footage from each venue. Archer edits, brands, captions, and resizes it for Reels, TikTok, Shorts, and Snapchat, then routes one approval before the event deadline.",
+    "ctaLabel": "Book a four-week pilot",
+    "secondaryCtaLabel": "See the workflow",
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Hi, I’m Archer. Tell me what you’re launching and I’ll find the story worth telling."
+        "text": "Send one real post or clip and tell me which platform it needs to fit."
       }
     ],
     "heroChat": {
-      "statusLabel": "Online · usually replies instantly",
-      "inputPlaceholder": "Paste a public product URL…",
+      "statusLabel": "Editing support available",
+      "inputPlaceholder": "Ask about a one-post editing demo...",
       "suggestedPrompts": [
-        "Shape my launch",
-        "Find my campaign angle",
-        "Build a storyboard"
+        "Repurpose one Instagram post",
+        "Plan this week's event clips",
+        "Scope a multi-venue pilot"
       ]
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-      "alt": "Archer cinematic campaigns"
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
+      "alt": "Archer production tracker for on-time hospitality event promos"
     },
     "cinematicCampaigns": {
       "hero": {
         "wordmark": "Archer",
         "navItems": [
           {
-            "label": "Product",
-            "target": "product"
+            "label": "Workflow",
+            "target": "workflow"
           },
           {
-            "label": "Showcase",
+            "label": "Delivery",
+            "target": "delivery"
+          },
+          {
+            "label": "Real work",
             "target": "showcase"
           },
           {
-            "label": "Capabilities",
-            "target": "capabilities"
+            "label": "Production tracker",
+            "target": "tracker"
           },
           {
-            "label": "Journal",
-            "target": "journal"
-          },
-          {
-            "label": "Meet Archer",
-            "target": "meet-archer"
+            "label": "Pilot",
+            "target": "pilot"
           }
         ],
         "loginLabel": "Log in",
-        "meetLabel": "Meet Archer",
-        "announcementLabel": "New",
-        "announcementTitle": "Product Explainer is now available",
+        "pilotLabel": "Book a pilot",
+        "eyebrow": "Event-promo production for hospitality teams",
         "headingLines": [
-          "Create cinematic",
-          "campaigns with the"
+          "Your event footage,",
+          "back as branded clips"
         ],
-        "mutedHeadingLine": "power of AI",
-        "primaryCtaLabel": "Talk to Archer",
-        "secondaryCtaLabel": "See how it works",
-        "backgroundVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
-        },
-        "chat": {
-          "roleLabel": "AI Campaign Director",
-          "statusLabel": "Online · usually replies instantly",
-          "openingMessage": "Hi, I’m Archer. Tell me what you’re launching and I’ll find the story worth telling.",
-          "inputPlaceholder": "Paste a public product URL…",
+        "mutedHeadingLine": "before the doors open.",
+        "body": "Send real phone footage from each venue. Archer edits, brands, captions, and resizes it for Reels, TikTok, Shorts, and Snapchat, then routes one approval before the event deadline.",
+        "primaryCtaLabel": "Book a four-week pilot",
+        "secondaryCtaLabel": "See the workflow",
+        "intake": {
+          "eyebrow": "Concierge intake preview",
+          "title": "Scope this week's event promos",
+          "body": "A clear handoff for real footage, venue branding, platforms, and the deadline that matters.",
+          "uploadLabel": "Real phone footage",
+          "uploadHint": "Secure transfer opens after the pilot is scoped",
+          "transferNote": "This is an intake preview, not an anonymous upload. Secure footage transfer begins only after we agree the pilot scope.",
+          "eventLabel": "Event",
+          "eventValue": "This week's priority",
+          "deadlineLabel": "Doors open",
+          "deadlineValue": "Friday · 19:00",
+          "platformLabel": "Delivery",
           "suggestions": [
-            "Shape my launch",
-            "Find my campaign angle",
-            "Build a storyboard"
-          ]
-        },
-        "guidedDemo": {
-          "enabled": true,
-          "commandTrigger": "product-explainer-video",
-          "heading": "Direct a Product Explainer",
-          "body": "Bring a public product page and set the creative direction. Archer will prepare an illustrative brief before sign-in.",
-          "urlLabel": "Public website URL",
-          "urlPlaceholder": "https://your-product.com",
-          "audienceLabel": "Audience",
-          "objectiveLabel": "Objective",
-          "ctaLabel": "Call to action",
-          "durationLabel": "Duration",
-          "styleLabel": "Visual style",
-          "previewLabel": "Guided preview",
-          "previewHeading": "A first campaign direction",
-          "campaignDirectionLabel": "Campaign direction",
-          "storyboardLabel": "Sample storyboard",
-          "deliverablesLabel": "Expected deliverables",
-          "submitLabel": "Preview the direction",
-          "generateLabel": "Create my explainer",
-          "voiceLabel": "Try voice demo",
-          "editLabel": "Edit brief",
-          "disclaimer": "Illustrative preview only. Archer has not inspected this website or rendered media. Evidence-backed capture and generation begin after sign-in.",
-          "loginNotice": "Sign in to let Archer inspect the public product page and create your Product Explainer in a private workspace.",
-          "invalidUrlCopy": "Enter a public HTTP or HTTPS website URL. Private networks and local addresses are not supported.",
-          "expiredCopy": "This campaign handoff expired. Return to Archer and prepare a fresh preview.",
-          "sampleDirection": "Reveal the product through one cinematic transformation, moving from tension to a clear, memorable payoff.",
-          "sampleMessage": "Turn the product’s strongest promise into a story the audience can understand in one viewing.",
-          "sampleTone": "Confident, precise, cinematic",
-          "sampleVisualLanguage": "Sculptural light, tactile details, purposeful camera motion",
-          "storyboard": [
-            {
-              "number": "01",
-              "title": "The tension",
-              "body": "Open on the audience’s real problem in one arresting image."
-            },
-            {
-              "number": "02",
-              "title": "The reveal",
-              "body": "Introduce the product as the turning point, not a feature list."
-            },
-            {
-              "number": "03",
-              "title": "The proof",
-              "body": "Show the core value through a concise visual demonstration."
-            },
-            {
-              "number": "04",
-              "title": "The invitation",
-              "body": "Land on one action and a clean branded end frame."
-            }
-          ],
-          "deliverables": [
-            "Campaign brief",
-            "Storyboard and voiceover direction",
-            "Master film with social cutdowns"
+            "Send this week's footage",
+            "Set my event deadline",
+            "Add my venue's brand kit"
           ]
         }
       },
       "workflow": {
-        "heading": "From spark to campaign.",
-        "mutedHeading": "Three simple acts",
-        "learnLabel": "Learn more",
-        "acts": [
+        "eyebrow": "Send, brand, approve",
+        "heading": "Send real footage. Get the promo out before the event.",
+        "body": "A three-step concierge workflow built around your team's calendar, brand rules, and approval chain.",
+        "steps": [
           {
             "number": "01",
-            "title": "Write",
-            "description": "Describe your campaign in a single prompt.",
-            "visualKind": "write",
-            "prompt": "Launch a cinematic campaign for a new performance shoe in rain-soaked Tokyo.",
-            "mediaItems": [
-              {
-                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
-                "alt": "Rain-soaked performance campaign reference"
-              },
-              {
-                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
-                "alt": "Performance shoe campaign reference"
-              },
-              {
-                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
-                "alt": "Tokyo campaign reference"
-              }
+            "title": "Send",
+            "description": "Share the real phone footage your venue team already captured.",
+            "visualKind": "send",
+            "details": [
+              "Actual dishes, rooms, crowds, and events",
+              "One folder per venue or event",
+              "Deadline included at handoff"
             ]
           },
           {
             "number": "02",
-            "title": "Generate",
-            "description": "Archer creates your cinematic campaign instantly.",
-            "visualKind": "generate",
-            "status": "Building your campaign…",
-            "progress": "84%",
-            "media": {
-              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
-              "alt": "Cinematic campaign frames being generated"
-            }
+            "title": "Brand",
+            "description": "Archer cleans, edits, captions, and resizes without replacing what was filmed.",
+            "visualKind": "brand",
+            "details": [
+              "Venue-specific brand kit",
+              "Platform-native 9:16 cuts",
+              "No regenerated subjects or scenes"
+            ]
           },
           {
             "number": "03",
-            "title": "Share",
-            "description": "Approve, export in 4K, and share everywhere.",
-            "visualKind": "share",
-            "filename": "archer_launch_film.mp4",
-            "media": {
-              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
-              "alt": "Finished Archer campaign ready to export"
-            }
+            "title": "Approve",
+            "description": "One named approver reviews a single link while Archer owns the clock.",
+            "visualKind": "approve",
+            "details": [
+              "One consolidated approval",
+              "Agreed revision window",
+              "Final delivery before doors open"
+            ]
           }
         ]
       },
-      "capabilities": {
-        "heading": "Discover powerful",
-        "chipLabel": "Video",
-        "mutedHeading": "models. All in one place",
-        "items": [
-          "Campaign brief",
-          "Storyboards",
-          "Visual generation",
-          "Voiceover",
-          "Sound design",
-          "Final edit",
-          "Social cutdowns",
-          "4K export"
-        ]
+      "delivery": {
+        "eyebrow": "One event, four feeds",
+        "heading": "Four platform-native cuts. One deadline.",
+        "body": "Each delivery is framed vertically, checked against the venue brand, and tied to the same event deadline.",
+        "platforms": [
+          {
+            "platform": "instagram-reels",
+            "label": "Instagram Reels",
+            "aspectRatio": "9:16",
+            "note": "Branded vertical edit"
+          },
+          {
+            "platform": "tiktok",
+            "label": "TikTok",
+            "aspectRatio": "9:16",
+            "note": "Fast platform-native cut"
+          },
+          {
+            "platform": "youtube-shorts",
+            "label": "YouTube Shorts",
+            "aspectRatio": "9:16",
+            "note": "Clear short-form story"
+          },
+          {
+            "platform": "snapchat",
+            "label": "Snapchat",
+            "aspectRatio": "9:16",
+            "note": "Full-screen event promo"
+          }
+        ],
+        "guarantee": {
+          "label": "Deadline ownership",
+          "heading": "The clip is only useful before the event.",
+          "body": "Before editing starts, we agree the event deadline, named approver, delivery window, and revision window."
+        }
       },
       "showcase": {
-        "heading": "Campaigns made with Archer",
+        "eyebrow": "Honest proof",
+        "heading": "Real work only.",
+        "body": "No generated food, synthetic rooms, invented crowds, or fictional client campaigns.",
+        "notice": "Pilot deliveries will appear here after client approval. Until then, we will not fill this space with fabricated examples.",
         "items": [
           {
-            "label": "Cinematic Ad",
-            "prompt": "A sculptural fragrance bottle emerging through silver mist, luxury campaign film",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
-            "alt": "Luxury fragrance campaign"
+            "eventLabel": "DJ night",
+            "venueType": "Riyadh lounge",
+            "beforeLabel": "Phone footage",
+            "afterLabel": "Branded 9:16",
+            "statusLabel": "Structure only · not client work"
           },
           {
-            "label": "Movie Trailer",
-            "prompt": "A lone astronaut crosses a flooded city as dawn breaks through the skyline",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
-            "alt": "Cinematic astronaut trailer"
+            "eventLabel": "Fight night",
+            "venueType": "Multi-venue sports bar",
+            "beforeLabel": "Venue clips",
+            "afterLabel": "Four cutdowns",
+            "statusLabel": "Structure only · not client work"
           },
           {
-            "label": "Product Explainer",
-            "prompt": "A precision watch assembles itself in a dark studio, every mechanism in motion",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
-            "alt": "Precision watch explainer"
-          },
-          {
-            "label": "Social Campaign",
-            "prompt": "A new electric vehicle cuts through a cinematic desert storm at blue hour",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
-            "alt": "Electric vehicle social film"
+            "eventLabel": "Seasonal entertainment",
+            "venueType": "Restaurant group",
+            "beforeLabel": "Weekly folder",
+            "afterLabel": "Approved promo",
+            "statusLabel": "Structure only · not client work"
           }
         ]
       },
       "features": {
-        "heading": "Everything you need to make the campaign",
-        "body": "Brief, generate, edit, and launch — all in one place.",
-        "ctaLabel": "Start for free",
+        "eyebrow": "Why teams use Archer",
+        "heading": "Capacity for every venue without replacing your editor.",
+        "body": "Archer extends the production team around repeatable, deadline-sensitive promo work.",
+        "ctaLabel": "Scope the pilot",
         "items": [
           {
-            "kind": "metric",
-            "title": "Campaign formats",
-            "metric": "3",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
-            "alt": "Cinematic fox portrait"
+            "kind": "brand",
+            "title": "Brand consistency",
+            "body": "Keep every venue's colors, type, end cards, captions, and tone in a reusable kit."
           },
           {
-            "kind": "metric",
-            "title": "Master export",
-            "metric": "4K",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
-            "alt": "Cinematic portrait in warm light"
+            "kind": "approval",
+            "title": "Approval turnaround",
+            "body": "Route one consolidated review to one named approver instead of chasing a group chat."
           },
           {
-            "kind": "wide",
-            "title": "Any style",
-            "body": "Photoreal, animated, product-led — you choose the world.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-            "alt": "Archer cinematic campaign creative"
+            "kind": "deadline",
+            "title": "Deadline ownership",
+            "body": "Plan backward from doors open, with delivery and revision windows agreed before editing."
           },
           {
-            "kind": "feature",
-            "title": "One brief",
-            "body": "Archer carries a single idea through every scene, cut, and channel.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
-            "alt": "Tennis campaign photographed from above"
+            "kind": "formats",
+            "title": "Platform resizing",
+            "body": "Deliver deliberate 9:16 versions for Reels, TikTok, Shorts, and Snapchat."
           },
           {
-            "kind": "feature",
-            "title": "Instant cutdowns",
-            "body": "Turn one master film into launch-ready social edits.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
-            "alt": "Cinematic vehicle campaign in a canyon"
+            "kind": "real-footage",
+            "title": "Real footage only",
+            "body": "Clean, edit, caption, and brand the footage you shot. Never synthesize the venue or event."
           },
           {
-            "kind": "video",
-            "title": "Multi-model",
-            "body": "Use the right visual, voice, and motion model for every shot.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
-            "alt": "Cinematic product sequence"
-          },
-          {
-            "kind": "metric",
-            "title": "Creative momentum",
-            "metric": "24/7",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
-            "alt": "Cinematic mountain campaign"
+            "kind": "overflow",
+            "title": "Editor capacity expansion",
+            "body": "Absorb repeatable promo volume so your editor can protect higher-value creative work."
           }
         ]
       },
-      "workspace": {
-        "heading": "One workspace.",
-        "accentHeading": "Built for every campaign",
-        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
-        "navItems": [
-          "Home",
-          "Generate",
-          "Library",
-          "Campaigns",
-          "Settings"
-        ],
-        "bannerLabel": "New · Product Explainer",
-        "bannerTitle": "Turn any website into a polished launch film.",
-        "bannerBody": "Build the brief, storyboard, shots, voiceover, edit, and cutdowns in one guided flow.",
-        "projectHeading": "My campaigns",
-        "projectBody": "12 projects · 3 in production",
-        "projects": [
+      "tracker": {
+        "eyebrow": "Multi-venue control",
+        "heading": "Every venue, event, approval, and deadline in one view.",
+        "body": "An operational tracker keeps the weekly production queue visible without pretending to be a live client dashboard.",
+        "sampleLabel": "Illustrative pilot tracker",
+        "sampleDisclaimer": "Example workflow · not live client data",
+        "events": [
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
-            "title": "Aether — Launch film"
+            "venue": "Venue North",
+            "event": "Thursday live set",
+            "deadline": "Thu · 16:00",
+            "status": "footage-received",
+            "statusLabel": "Footage received"
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
-            "title": "Reef — Brand story"
+            "venue": "Venue Central",
+            "event": "Friday DJ night",
+            "deadline": "Fri · 15:00",
+            "status": "in-production",
+            "statusLabel": "In production"
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
-            "title": "Nocturne — Trailer"
+            "venue": "Venue Marina",
+            "event": "Fight night",
+            "deadline": "Fri · 18:00",
+            "status": "pending-approval",
+            "statusLabel": "Pending approval"
+          },
+          {
+            "venue": "Venue East",
+            "event": "Saturday brunch",
+            "deadline": "Sat · 09:00",
+            "status": "approved",
+            "statusLabel": "Approved"
+          },
+          {
+            "venue": "Venue West",
+            "event": "Weekend entertainment",
+            "deadline": "Sat · 14:00",
+            "status": "delivered",
+            "statusLabel": "Delivered"
           }
         ],
         "benefits": [
           {
-            "label": "Collaborate",
-            "body": "Invite your team, review storyboards, and approve the final cut together."
+            "label": "One weekly queue",
+            "body": "See what arrived, what is moving, and what needs a decision."
           },
           {
-            "label": "Organize",
-            "body": "Keep briefs, references, generations, and exports in one clean campaign hub."
+            "label": "One accountable approver",
+            "body": "Make ownership visible before a deadline becomes a fire drill."
           },
           {
-            "label": "Anywhere",
-            "body": "Create on desktop, tablet, or mobile — Archer keeps the story moving."
+            "label": "One delivery clock",
+            "body": "Tie every platform cut to the event, not an open-ended content calendar."
           }
         ]
       },
       "meetArcher": {
-        "kicker": "Meet your AI campaign director",
+        "kicker": "Meet your event-promo operator",
         "heading": "Meet Archer.",
-        "mutedHeading": "Give every idea a world.",
-        "body": "Archer turns a product, premise, or launch into a coherent cinematic campaign—then keeps the story aligned through every scene and channel.",
+        "mutedHeading": "Your editor's deadline backup.",
+        "body": "Archer takes repeatable event-promo editing off your team's critical path. Your editor keeps creative ownership. Archer adds the capacity, brand discipline, and deadline follow-through.",
         "points": [
           {
             "number": "01",
-            "label": "Sharp creative instincts"
+            "label": "On-time event delivery"
           },
           {
             "number": "02",
-            "label": "End-to-end production"
+            "label": "Venue-by-venue consistency"
           },
           {
             "number": "03",
-            "label": "Always on brand"
+            "label": "One approver, one link"
           }
         ],
-        "ctaLabel": "Talk to Archer",
+        "ctaLabel": "Scope a pilot",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
-        "statusTitle": "Archer is ready",
-        "statusBody": "Tell him what you want to launch"
+        "statusTitle": "Deadline covered",
+        "statusBody": "Real footage · approval ready"
       },
-      "journal": {
-        "heading": "Inside Archer",
-        "body": "Notes on AI filmmaking, campaigns, and creative direction.",
-        "allStoriesLabel": "All stories",
+      "fit": {
+        "eyebrow": "A focused service",
+        "heading": "Who this is not for.",
+        "body": "Archer is designed for a specific operational problem, so the boundaries are as important as the promise.",
         "items": [
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
-            "alt": "Archer campaign workspace",
-            "category": "Product",
-            "date": "Aug 18, 2026",
-            "title": "From product page to polished explainer in one creative flow",
-            "target": "product"
+            "label": "Not for",
+            "title": "Synthetic venue content",
+            "body": "Archer does not invent dishes, rooms, crowds, performers, or events that were not captured."
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-            "alt": "Archer cinematic campaign world",
-            "category": "Studio",
-            "date": "Aug 06, 2026",
-            "title": "Why the strongest AI campaigns still begin with a point of view",
-            "target": "showcase"
+            "label": "Probably not for",
+            "title": "Occasional single-location posting",
+            "body": "A one-off post can use the editing demo, but it does not need the deadline-driven concierge service."
+          },
+          {
+            "label": "Built for",
+            "title": "Multi-venue hospitality teams",
+            "body": "Agencies and groups already collecting real footage across restaurants, bars, lounges, and nightlife venues."
           }
         ]
       },
-      "closing": {
-        "heading": "Your campaign starts here",
-        "ctaLabel": "Start for free",
-        "filmstrip": [
+      "pilot": {
+        "eyebrow": "Paid four-week concierge pilot",
+        "heading": "Prove the deadline workflow on real events.",
+        "body": "Choose the venues and event calendar, name one approver, and agree delivery and revision windows before the first footage arrives.",
+        "primaryCtaLabel": "Book a pilot conversation",
+        "bookingUrl": "https://calendar.app.google/iqrTNCKcJ723dqhq6",
+        "secondaryCtaLabel": "Try a one-post edit demo",
+        "secondaryPrompt": "I want the one-post editing demo. I will share one of my existing Instagram posts for platform-native repurposing.",
+        "demoNote": "The one-post demo shows editing capability. It is not the deadline-driven, multi-venue product experience.",
+        "steps": [
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
-            "alt": "Cinematic product frame"
+            "number": "01",
+            "title": "Choose the pilot venues",
+            "body": "Define the weekly event volume, brand kits, and platform mix."
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
-            "alt": "Campaign atmosphere frame"
+            "number": "02",
+            "title": "Name one approver",
+            "body": "Keep feedback consolidated and ownership clear."
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-            "alt": "Campaign world frame"
-          },
-          {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
-            "alt": "Brand story frame"
-          },
-          {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
-            "alt": "Trailer closing frame"
+            "number": "03",
+            "title": "Agree the clock",
+            "body": "Set delivery and revision windows around real event deadlines."
           }
         ]
       },
       "footer": {
-        "tagline": "Create cinematic campaigns with the power of AI.",
+        "tagline": "Real hospitality footage, branded and delivered before the event deadline.",
         "groups": [
           {
-            "label": "Navigation",
+            "label": "Service",
             "links": [
               {
-                "label": "Product",
-                "target": "product"
+                "label": "Workflow",
+                "target": "workflow"
               },
               {
-                "label": "Showcase",
+                "label": "Delivery",
+                "target": "delivery"
+              },
+              {
+                "label": "Real work",
                 "target": "showcase"
-              },
-              {
-                "label": "Capabilities",
-                "target": "capabilities"
               }
             ]
           },
           {
-            "label": "Create",
+            "label": "Operations",
             "links": [
               {
-                "label": "Cinematic Ad",
-                "target": "start"
+                "label": "Production tracker",
+                "target": "tracker"
               },
               {
-                "label": "Movie Trailer",
-                "target": "start"
+                "label": "Meet Archer",
+                "target": "meet-archer"
               },
               {
-                "label": "Product Explainer",
-                "target": "product"
+                "label": "Who it is for",
+                "target": "fit"
               }
             ]
           },
           {
-            "label": "Connect",
+            "label": "Start",
             "links": [
+              {
+                "label": "Four-week pilot",
+                "target": "pilot"
+              },
               {
                 "label": "Contact",
                 "target": "contact"
-              },
-              {
-                "label": "Journal",
-                "target": "journal"
               }
             ]
           }
         ],
         "copyright": "© 2026 Archer.",
-        "closingStatement": "Your AI campaign director.",
+        "closingStatement": "Your editor's deadline backup.",
         "contactEmail": "hello@gabrieloperator.com"
+      },
+      "presentationMedia": {
+        "notice": "Cinematic visuals are decorative, not client footage or pilot deliverables.",
+        "heroVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
+        },
+        "workflowThumbnails": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png"
+        ],
+        "workflowImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
+        "showcaseVideos": [
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
+            "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
+            "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
+            "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
+          }
+        ],
+        "featureMedia": [
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
+            "kind": "video",
+            "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "kind": "image"
+          }
+        ],
+        "workspaceBackground": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "workspaceProjects": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png"
+        ],
+        "filmstrip": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png"
+        ],
+        "fitImages": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
+        ]
       }
     },
     "localization": {
@@ -522,268 +548,64 @@
         "autoDetectCountryLanguage": true,
         "generatedTranslations": [
           {
-            "language": "es",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.es.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "de",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.de.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "ja",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.ja.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "fr",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.fr.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "pt",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.pt.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "ru",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.ru.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "it",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.it.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "nl",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.nl.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "pl",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.pl.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "tr",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.tr.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "zh",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.zh.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "fa",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.fa.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "vi",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.vi.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "cs",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.cs.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.id.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.ko.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.uk.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.hu.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.ar.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.sv.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
             "assetPath": "assets/landing-page.ro.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "el",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.el.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "da",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.da.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "fi",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.fi.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "he",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.he.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "sk",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.sk.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "th",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.th.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "bg",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.bg.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "hr",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.hr.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "nb",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.nb.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "lt",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.lt.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "sr",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.sr.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "sl",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.sl.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "ca",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.ca.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "et",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.et.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "no",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.no.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
-          },
-          {
-            "language": "lv",
-            "regionKey": null,
-            "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
-            "assetPath": "assets/landing-page.lv.json",
-            "generatedAt": "2026-09-01T15:39:42.047Z"
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-02T18:25:27.525Z"
           }
         ]
       },
       "regionalPages": []
     }
-  },
-  "commitMessage": "Add Archer cinematic campaigns landing page"
+  }
 }

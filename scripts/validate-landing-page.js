@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const nodePath = require('path');
+const { createHash } = require('crypto');
 
 const ALLOWED_ICONS = new Set([
   'heart', 'shield-check', 'sparkles', 'chat', 'users', 'lock', 'check', 'star',
@@ -26,11 +27,62 @@ const SAFE_GOOGLE_FONT = /^[A-Za-z0-9][A-Za-z0-9 .'-]{0,79}$/;
 const BRAND_COLOR_KEYS = ['canvas', 'surface', 'sidebar', 'text', 'accent', 'userBubble'];
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const IMAGE_EXTENSION = /\.(?:avif|gif|jpe?g|png|svg|webp)(?:[?#]|$)/i;
+const VIDEO_EXTENSION = /\.(?:m4v|mov|mp4|webm)(?:[?#]|$)/i;
 const SAFE_APP_IMAGE_PATH = /^\/(?:assets|landing-pages)\/[a-z0-9][a-z0-9/_-]*\.(?:avif|gif|jpe?g|png|svg|webp)(?:[?#]|$)/i;
 const REGION_KEY = /^[a-z0-9][a-z0-9-]{0,63}$/;
 const COUNTRY_CODE = /^[A-Z]{2}$/;
 const SOURCE_REVISION = /^[a-f0-9]{64}$/;
 const LANGUAGE_CODES = new Set('aa ab ae af ak am an ar as av ay az ba be bg bh bi bm bn bo br bs ca ce ch co cr cs cu cv cy da de dv dz ee el en eo es et eu fa ff fi fj fo fr fy ga gd gl gn gu gv ha he hi ho hr ht hu hy hz ia id ie ig ii ik io is it iu ja jv ka kg ki kj kk kl km kn ko kr ks ku kv kw ky la lb lg li ln lo lt lu lv mg mh mi mk ml mn mr ms mt my na nb nd ne ng nl nn no nr nv ny oc oj om or os pa pi pl ps pt qu rm rn ro ru rw sa sc sd se sg sh si sk sl sm sn so sq sr ss st su sv sw ta te tg th ti tk tl tn to tr ts tt tw ty ug uk ur uz ve vi vo wa wo xh yi yo za zh zu'.split(' '));
+
+const stableValue = (value) => {
+  if (Array.isArray(value)) return value.map(stableValue);
+  if (!value || typeof value !== 'object') return value;
+  return Object.fromEntries(Object.keys(value).sort().map((key) => [key, stableValue(value[key])]));
+};
+const sourceRevision = (value) => createHash('sha256').update(JSON.stringify(stableValue(value ?? null))).digest('hex');
+const withoutLocalization = (page) => {
+  const copy = JSON.parse(JSON.stringify(page));
+  delete copy.localization;
+  return copy;
+};
+const selectEmbedCopy = (chatConfigPath) => {
+  if (!chatConfigPath || !fs.existsSync(chatConfigPath)) return {};
+  const config = JSON.parse(fs.readFileSync(chatConfigPath, 'utf8'));
+  const published = config?.publishedConfig && typeof config.publishedConfig === 'object' ? config.publishedConfig : {};
+  const embed = published.chatEmbedConfig && typeof published.chatEmbedConfig === 'object'
+    ? published.chatEmbedConfig
+    : config?.chatEmbedConfig && typeof config.chatEmbedConfig === 'object'
+      ? config.chatEmbedConfig
+      : {};
+  return {
+    ...(typeof embed.heroTitle === 'string' ? { heroTitle: embed.heroTitle } : {}),
+    ...(typeof embed.heroSubtitle === 'string' ? { heroSubtitle: embed.heroSubtitle } : {}),
+    ...(Array.isArray(embed.openingStatements) ? { openingStatements: embed.openingStatements } : {}),
+    ...(embed.about && typeof embed.about === 'object' && !Array.isArray(embed.about) ? { about: embed.about } : {}),
+    ...(embed.conversion && typeof embed.conversion === 'object' && !Array.isArray(embed.conversion) ? { conversion: embed.conversion } : {}),
+  };
+};
+
+function currentSourceRevisions(landingPage, regionKey, chatConfigPath) {
+  const regional = Array.isArray(landingPage?.localization?.regionalPages)
+    ? landingPage.localization.regionalPages.find((entry) => entry?.key === regionKey)
+    : null;
+  const page = regionKey && regional?.page ? regional.page : withoutLocalization(landingPage);
+  const market = regional?.marketContext;
+  const withContext = (chatEmbedConfig) => market
+    ? {
+        landingPage: page,
+        chatEmbedConfig,
+        sourceLanguage: regional.sourceLanguage || landingPage?.localization?.translation?.sourceLanguage || 'en',
+        locale: market.locale,
+        translationContextRevision: market.contextRevision,
+      }
+    : { landingPage: page, chatEmbedConfig };
+  return new Set([
+    sourceRevision(withContext(selectEmbedCopy(chatConfigPath))),
+    sourceRevision(withContext({})),
+  ]);
+}
 
 function fail(message) {
   throw new Error(message);
@@ -238,6 +290,10 @@ function validateLogisticsPortal(landingPage) {
   });
   get('hero.rehearsal.intakeSteps').forEach((item, index) => { if (!['done', 'warning', 'pending'].includes(item?.state)) fail(`landingPage.logisticsPortal.hero.rehearsal.intakeSteps[${index}].state is unsupported`); });
   get('platform.fields').forEach((item, index) => { if (!['verified', 'review'].includes(item?.status)) fail(`landingPage.logisticsPortal.platform.fields[${index}].status is unsupported`); });
+  get('process.steps').forEach((item, index) => {
+    if (!isDirectImageSource(item?.image)) fail(`landingPage.logisticsPortal.process.steps[${index}].image must be a direct HTTPS or bundled application image URL`);
+    if (typeof item?.alt !== 'string' || !item.alt.trim()) fail(`landingPage.logisticsPortal.process.steps[${index}].alt is required`);
+  });
   if (!EMAIL.test(get('pilot.email'))) fail('landingPage.logisticsPortal.pilot.email must be valid');
   const forbidden = new Set(['component', 'componentName', 'javascript', 'script', 'css', 'tailwind', 'route', 'query', 'html']);
   const inspect = (value, path) => {
@@ -310,73 +366,106 @@ function validateCinematicCampaigns(landingPage) {
     return value;
   };
   [
-    'hero.wordmark', 'hero.loginLabel', 'hero.meetLabel', 'hero.announcementLabel', 'hero.announcementTitle',
-    'hero.mutedHeadingLine', 'hero.primaryCtaLabel', 'hero.secondaryCtaLabel', 'hero.backgroundVideo.src',
-    'hero.backgroundVideo.poster', 'hero.chat.roleLabel', 'hero.chat.statusLabel', 'hero.chat.openingMessage',
-    'hero.chat.inputPlaceholder', 'hero.guidedDemo.commandTrigger', 'hero.guidedDemo.heading', 'hero.guidedDemo.body',
-    'hero.guidedDemo.urlLabel', 'hero.guidedDemo.urlPlaceholder', 'hero.guidedDemo.audienceLabel',
-    'hero.guidedDemo.objectiveLabel', 'hero.guidedDemo.ctaLabel', 'hero.guidedDemo.durationLabel',
-    'hero.guidedDemo.styleLabel', 'hero.guidedDemo.previewLabel', 'hero.guidedDemo.previewHeading',
-    'hero.guidedDemo.campaignDirectionLabel', 'hero.guidedDemo.storyboardLabel',
-    'hero.guidedDemo.deliverablesLabel', 'hero.guidedDemo.submitLabel', 'hero.guidedDemo.generateLabel',
-    'hero.guidedDemo.voiceLabel', 'hero.guidedDemo.editLabel', 'hero.guidedDemo.disclaimer',
-    'hero.guidedDemo.loginNotice', 'hero.guidedDemo.invalidUrlCopy', 'hero.guidedDemo.expiredCopy',
-    'hero.guidedDemo.sampleDirection', 'hero.guidedDemo.sampleMessage', 'hero.guidedDemo.sampleTone',
-    'hero.guidedDemo.sampleVisualLanguage', 'workflow.heading', 'workflow.mutedHeading', 'workflow.learnLabel',
-    'capabilities.heading', 'capabilities.chipLabel', 'capabilities.mutedHeading', 'showcase.heading',
-    'features.heading', 'features.body', 'features.ctaLabel', 'workspace.heading', 'workspace.accentHeading',
-    'workspace.backgroundImage', 'workspace.bannerLabel', 'workspace.bannerTitle', 'workspace.bannerBody',
-    'workspace.projectHeading', 'workspace.projectBody', 'meetArcher.kicker', 'meetArcher.heading',
+    'hero.wordmark', 'hero.loginLabel', 'hero.pilotLabel', 'hero.eyebrow', 'hero.mutedHeadingLine',
+    'hero.body', 'hero.primaryCtaLabel', 'hero.secondaryCtaLabel', 'hero.intake.eyebrow',
+    'hero.intake.title', 'hero.intake.body', 'hero.intake.uploadLabel', 'hero.intake.uploadHint',
+    'hero.intake.transferNote', 'hero.intake.eventLabel', 'hero.intake.eventValue',
+    'hero.intake.deadlineLabel', 'hero.intake.deadlineValue', 'hero.intake.platformLabel',
+    'workflow.eyebrow', 'workflow.heading', 'workflow.body', 'delivery.eyebrow', 'delivery.heading',
+    'delivery.body', 'delivery.guarantee.label', 'delivery.guarantee.heading', 'delivery.guarantee.body',
+    'showcase.eyebrow', 'showcase.heading', 'showcase.body', 'showcase.notice', 'features.eyebrow',
+    'features.heading', 'features.body', 'features.ctaLabel', 'tracker.eyebrow', 'tracker.heading',
+    'tracker.body', 'tracker.sampleLabel', 'tracker.sampleDisclaimer', 'meetArcher.kicker', 'meetArcher.heading',
     'meetArcher.mutedHeading', 'meetArcher.body', 'meetArcher.ctaLabel', 'meetArcher.characterImage',
-    'meetArcher.statusTitle', 'meetArcher.statusBody', 'journal.heading', 'journal.body',
-    'journal.allStoriesLabel', 'closing.heading', 'closing.ctaLabel', 'footer.tagline', 'footer.copyright',
-    'footer.closingStatement', 'footer.contactEmail',
+    'meetArcher.statusTitle', 'meetArcher.statusBody', 'fit.eyebrow', 'fit.heading', 'fit.body',
+    'pilot.eyebrow', 'pilot.heading', 'pilot.body', 'pilot.primaryCtaLabel', 'pilot.bookingUrl',
+    'pilot.secondaryCtaLabel', 'pilot.secondaryPrompt', 'pilot.demoNote', 'footer.tagline',
+    'footer.copyright', 'footer.closingStatement', 'footer.contactEmail',
   ].forEach(requireString);
   [
-    ['hero.navItems', 5], ['hero.headingLines', 2], ['hero.chat.suggestions', 3],
-    ['hero.guidedDemo.storyboard', 4], ['hero.guidedDemo.deliverables', 3], ['workflow.acts', 3],
-    ['capabilities.items', 8], ['showcase.items', 4], ['features.items', 7], ['workspace.projects', 3],
-    ['workspace.benefits', 3], ['meetArcher.points', 3], ['journal.items', 2], ['closing.filmstrip', 5],
-    ['footer.groups', 3],
+    ['hero.navItems', 5], ['hero.headingLines', 2], ['hero.intake.suggestions', 3],
+    ['workflow.steps', 3], ['delivery.platforms', 4], ['showcase.items', 3], ['features.items', 6],
+    ['tracker.events', 5], ['tracker.benefits', 3], ['meetArcher.points', 3], ['fit.items', 3],
+    ['pilot.steps', 3], ['footer.groups', 3],
   ].forEach(([path, count]) => requireExactArray(path, count));
-  if (get('hero.guidedDemo.enabled') !== true) fail('landingPage.cinematicCampaigns.hero.guidedDemo.enabled must be true');
-  if (!/^\/?[a-z0-9][a-z0-9-]{0,63}$/.test(get('hero.guidedDemo.commandTrigger'))) {
-    fail('landingPage.cinematicCampaigns.hero.guidedDemo.commandTrigger must be a registered slash command trigger');
-  }
-  requireExactArray('workflow.acts', 3).forEach((act, index) => {
-    if (!['write', 'generate', 'share'].includes(act?.visualKind)) fail(`landingPage.cinematicCampaigns.workflow.acts[${index}].visualKind must be write, generate, or share`);
+  [
+    ['hero.navItems', ['label', 'target']], ['workflow.steps', ['number', 'title', 'description', 'visualKind']],
+    ['delivery.platforms', ['platform', 'label', 'aspectRatio', 'note']],
+    ['showcase.items', ['eventLabel', 'venueType', 'beforeLabel', 'afterLabel', 'statusLabel']],
+    ['features.items', ['kind', 'title', 'body']], ['tracker.events', ['venue', 'event', 'deadline', 'status', 'statusLabel']],
+    ['tracker.benefits', ['label', 'body']], ['meetArcher.points', ['number', 'label']],
+    ['fit.items', ['label', 'title', 'body']], ['pilot.steps', ['number', 'title', 'body']], ['footer.groups', ['label']],
+  ].forEach(([path, fields]) => get(path).forEach((item, index) => fields.forEach((field) => {
+    if (typeof item?.[field] !== 'string' || !item[field].trim()) fail(`landingPage.cinematicCampaigns.${path}[${index}].${field} is required`);
+  })));
+  ['hero.headingLines', 'hero.intake.suggestions'].forEach((path) => {
+    if (get(path).some((item) => typeof item !== 'string' || !item.trim())) fail(`landingPage.cinematicCampaigns.${path} requires non-empty text`);
   });
-  requireExactArray('features.items', 7).forEach((item, index) => {
-    if (!['metric', 'wide', 'feature', 'video'].includes(item?.kind)) fail(`landingPage.cinematicCampaigns.features.items[${index}].kind must be metric, wide, feature, or video`);
+  const workflowKinds = new Set(['send', 'brand', 'approve']);
+  const platformIds = new Set(['instagram-reels', 'tiktok', 'youtube-shorts', 'snapchat']);
+  const featureKinds = new Set(['brand', 'approval', 'deadline', 'formats', 'real-footage', 'overflow']);
+  requireExactArray('workflow.steps', 3).forEach((step, index) => {
+    if (!workflowKinds.delete(step?.visualKind)) fail(`landingPage.cinematicCampaigns.workflow.steps[${index}].visualKind must be unique: send, brand, or approve`);
+    if (!Array.isArray(step?.details) || step.details.length !== 3 || step.details.some((detail) => typeof detail !== 'string' || !detail.trim())) fail(`landingPage.cinematicCampaigns.workflow.steps[${index}].details must contain exactly 3 non-empty items`);
   });
+  requireExactArray('delivery.platforms', 4).forEach((item, index) => {
+    if (!platformIds.delete(item?.platform)) fail(`landingPage.cinematicCampaigns.delivery.platforms[${index}].platform must be supported and unique`);
+    if (item?.aspectRatio !== '9:16') fail(`landingPage.cinematicCampaigns.delivery.platforms[${index}].aspectRatio must be 9:16`);
+  });
+  requireExactArray('features.items', 6).forEach((item, index) => {
+    if (!featureKinds.delete(item?.kind)) fail(`landingPage.cinematicCampaigns.features.items[${index}].kind must be supported and unique`);
+  });
+  const requiredStatuses = new Set(['footage-received', 'in-production', 'pending-approval', 'approved', 'delivered']);
+  requireExactArray('tracker.events', 5).forEach((item, index) => {
+    if (!requiredStatuses.delete(item?.status)) fail(`landingPage.cinematicCampaigns.tracker.events[${index}].status must be one of the five unique production statuses`);
+  });
+  if (requiredStatuses.size) fail('landingPage.cinematicCampaigns.tracker.events must include each production status exactly once');
   if (!EMAIL.test(get('footer.contactEmail'))) fail('landingPage.cinematicCampaigns.footer.contactEmail must be a valid email');
-  const cinematicTargets = new Set(['product', 'showcase', 'capabilities', 'workspace', 'meet-archer', 'journal', 'start', 'hero-chat', 'contact']);
-  for (const [path, items] of [['hero.navItems', get('hero.navItems')], ['journal.items', get('journal.items')]]) {
-    items.forEach((item, index) => {
-      if (!cinematicTargets.has(item?.target)) fail(`landingPage.cinematicCampaigns.${path}[${index}].target is not supported`);
+  let bookingUrl;
+  try { bookingUrl = new URL(get('pilot.bookingUrl')); } catch { fail('landingPage.cinematicCampaigns.pilot.bookingUrl must be a valid HTTPS URL'); }
+  if (bookingUrl.protocol !== 'https:') fail('landingPage.cinematicCampaigns.pilot.bookingUrl must be a valid HTTPS URL');
+  if (!isDirectImageSource(get('meetArcher.characterImage'))) fail('landingPage.cinematicCampaigns.meetArcher.characterImage must be a direct HTTPS or approved application image URL');
+  if (root.presentationMedia !== undefined) {
+    const media = root.presentationMedia;
+    const issue = (path, message) => fail(`landingPage.cinematicCampaigns.presentationMedia.${path}: ${message}`);
+    const checkAsset = (value, path, video = false) => {
+      let valid = false;
+      try {
+        valid = typeof value === 'string' && new URL(value).protocol === 'https:'
+          && (video ? VIDEO_EXTENSION : IMAGE_EXTENSION).test(value);
+      } catch { /* Invalid URL is reported below. */ }
+      if (!valid) issue(path, `Use a direct HTTPS ${video ? 'video' : 'image'} URL.`);
+    };
+    if (typeof media?.notice !== 'string' || !media.notice.trim()) issue('notice', 'Label cinematic media as decorative, not client proof.');
+    checkAsset(media?.heroVideo?.src, 'heroVideo.src', true);
+    checkAsset(media?.heroVideo?.poster, 'heroVideo.poster');
+    checkAsset(media?.workflowImage, 'workflowImage');
+    checkAsset(media?.workspaceBackground, 'workspaceBackground');
+    const slots = { workflowThumbnails: 3, showcaseVideos: 3, featureMedia: 7, workspaceProjects: 3, filmstrip: 5, fitImages: 2 };
+    Object.entries(slots).forEach(([key, count]) => {
+      const values = media?.[key];
+      if (!Array.isArray(values) || values.length !== count) issue(key, `Use exactly ${count} decorative assets.`);
+      values.forEach((value, index) => {
+        if (key === 'showcaseVideos' || key === 'featureMedia') {
+          const asset = value && typeof value === 'object' ? value : {};
+          if (key === 'featureMedia' && !['image', 'video'].includes(asset.kind)) issue(`${key}[${index}].kind`, 'Choose image or video.');
+          const video = key === 'showcaseVideos' || asset.kind === 'video';
+          checkAsset(asset.src, `${key}[${index}].src`, video);
+          if (video) checkAsset(asset.poster, `${key}[${index}].poster`);
+        } else checkAsset(value, `${key}[${index}]`);
+      });
     });
   }
+  const cinematicTargets = new Set(['workflow', 'delivery', 'showcase', 'features', 'tracker', 'meet-archer', 'fit', 'pilot', 'hero-intake', 'contact']);
+  get('hero.navItems').forEach((item, index) => {
+    if (!cinematicTargets.has(item?.target) || item?.target === 'contact') fail(`landingPage.cinematicCampaigns.hero.navItems[${index}].target is not supported`);
+  });
   get('footer.groups').forEach((group, groupIndex) => group?.links?.forEach((link, index) => {
     if (!cinematicTargets.has(link?.target)) fail(`landingPage.cinematicCampaigns.footer.groups[${groupIndex}].links[${index}].target is not supported`);
   }));
-  const mediaPaths = [
-    ['hero.backgroundVideo.src', 'video'], ['hero.backgroundVideo.poster', 'image'],
-    ['workspace.backgroundImage', 'image'], ['meetArcher.characterImage', 'image'],
-  ];
-  get('showcase.items').forEach((item, index) => { mediaPaths.push([`showcase.items.${index}.video`, 'video']); if (item.poster) mediaPaths.push([`showcase.items.${index}.poster`, 'image']); });
-  get('workflow.acts').forEach((item, index) => {
-    if (item.media?.src) mediaPaths.push([`workflow.acts.${index}.media.src`, 'image']);
-    item.mediaItems?.forEach((mediaItem, mediaIndex) => mediaPaths.push([`workflow.acts.${index}.mediaItems.${mediaIndex}.src`, 'image']));
+  ['capabilities', 'workspace', 'journal', 'closing'].forEach((key) => {
+    if (Object.prototype.hasOwnProperty.call(root, key)) fail(`landingPage.cinematicCampaigns.${key} is a retired generated-campaign section`);
   });
-  get('features.items').forEach((item, index) => mediaPaths.push([`features.items.${index}.media`, item.kind === 'video' ? 'video' : 'image']));
-  get('workspace.projects').forEach((item, index) => mediaPaths.push([`workspace.projects.${index}.image`, 'image']));
-  get('journal.items').forEach((item, index) => mediaPaths.push([`journal.items.${index}.image`, 'image']));
-  get('closing.filmstrip').forEach((item, index) => mediaPaths.push([`closing.filmstrip.${index}.image`, 'image']));
-  for (const [path, kind] of mediaPaths) {
-    const value = get(path);
-    const extension = kind === 'video' ? /\.(?:m4v|mov|mp4|webm)(?:[?#]|$)/i : /\.(?:avif|gif|jpe?g|png|svg|webp)(?:[?#]|$)/i;
-    if (typeof value !== 'string' || !/^https:\/\//i.test(value) || !extension.test(value)) fail(`landingPage.cinematicCampaigns.${path} must be a direct HTTPS ${kind} URL`);
-  }
   const forbiddenKeys = new Set(['component', 'componentName', 'javascript', 'script', 'css', 'tailwind', 'route', 'query', 'html']);
   const inspect = (value, path) => {
     if (Array.isArray(value)) return value.forEach((item, index) => inspect(item, `${path}[${index}]`));
@@ -624,19 +713,6 @@ function validateLogisticsPortalCommand(landingPage, chatConfigPath) {
   if (workflowKey && workflowKey !== 'workflow.emil.rehearse-filing') fail('The Emil rehearsal command must reference workflow.emil.rehearse-filing');
 }
 
-function validateCinematicCommand(landingPage, chatConfigPath) {
-  const demo = landingPage?.cinematicCampaigns?.hero?.guidedDemo;
-  if (demo?.enabled !== true || !chatConfigPath) return;
-  const chatConfig = JSON.parse(fs.readFileSync(chatConfigPath, 'utf8'));
-  const commands = chatConfig?.publishedConfig?.agentTopology?.slashCommands;
-  if (!Array.isArray(commands)) fail(`${chatConfigPath} must define publishedConfig.agentTopology.slashCommands for an enabled cinematic demo`);
-  const trigger = String(demo.commandTrigger || '').trim().replace(/^\/+/, '').toLowerCase();
-  const command = commands.find((item) => item?.enabled !== false && String(item?.trigger || '').trim().replace(/^\/+/, '').toLowerCase() === trigger);
-  if (!command || command.execution?.type !== 'operator_action') {
-    fail(`landingPage.cinematicCampaigns.hero.guidedDemo.commandTrigger must reference an enabled operator_action command in ${chatConfigPath}`);
-  }
-}
-
 function validateRecruitingCommand(landingPage, chatConfigPath) {
   const triggerValue = landingPage?.recruitingOperations?.leads?.commandTrigger;
   if (!triggerValue || !chatConfigPath) return;
@@ -726,11 +802,22 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
           if (generatedKeys.has(generatedKey)) fail(`${path} duplicates a generated region/language pair`);
           generatedKeys.add(generatedKey);
           if (!SOURCE_REVISION.test(generated.sourceRevision || '')) fail(`${path}.sourceRevision must be a SHA-256 revision`);
+          if (!currentSourceRevisions(landingPage, generated.regionKey || null, chatConfigPath).has(generated.sourceRevision)) {
+            fail(`${path}.sourceRevision is stale; run the incremental landing-page translation refresh before publishing`);
+          }
           const hasInlinePage = Boolean(generated.page && typeof generated.page === 'object' && !Array.isArray(generated.page));
           const hasAssetPath = generated.assetPath !== undefined;
-          const expectedAssetPath = `assets/landing-page${generated.regionKey ? `.${generated.regionKey}` : ''}.${String(generated.language || '').toLowerCase()}.json`;
+          const generatedRegion = Array.isArray(localization.regionalPages)
+            ? localization.regionalPages.find((region) => region?.key === generated.regionKey)
+            : null;
+          const marketScoped = Boolean(generatedRegion?.marketContext);
+          const expectedAssetPath = marketScoped
+            ? `assets/markets/${generated.regionKey}/landing-page.${String(generated.language || '').toLowerCase()}.json`
+            : `assets/landing-page${generated.regionKey ? `.${generated.regionKey}` : ''}.${String(generated.language || '').toLowerCase()}.json`;
+          const legacyRegionalAssetPath = `assets/landing-page${generated.regionKey ? `.${generated.regionKey}` : ''}.${String(generated.language || '').toLowerCase()}.json`;
           if (hasInlinePage && hasAssetPath) fail(`${path} must use either an inline legacy page or one language asset, not both`);
-          if (hasAssetPath && generated.assetPath !== expectedAssetPath) fail(`${path}.assetPath must be ${expectedAssetPath}`);
+          if (hasAssetPath && generated.assetPath !== expectedAssetPath && generated.assetPath !== legacyRegionalAssetPath) fail(`${path}.assetPath must be ${expectedAssetPath}`);
+          if (marketScoped && generated.translationContextRevision !== generatedRegion.marketContext.contextRevision) fail(`${path}.translationContextRevision must match the market context revision`);
           if (!hasInlinePage && !hasAssetPath) fail(`${path} must include a language asset path`);
           if (hasInlinePage && generated.page.localization !== undefined) fail(`${path}.page.localization is not allowed`);
           if (hasInlinePage && generated.chatEmbedConfig !== undefined && (!generated.chatEmbedConfig || typeof generated.chatEmbedConfig !== 'object' || Array.isArray(generated.chatEmbedConfig))) fail(`${path}.chatEmbedConfig must be an object`);
@@ -740,9 +827,18 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
             const assetFilePath = nodePath.join(nodePath.resolve(nodePath.dirname(definitionFilePath), '..'), generated.assetPath);
             if (!fs.existsSync(assetFilePath)) fail(`${path}.assetPath does not exist: ${generated.assetPath}`);
             const asset = JSON.parse(fs.readFileSync(assetFilePath, 'utf8'));
-            if (asset.schemaVersion !== 1) fail(`${generated.assetPath}.schemaVersion must be 1`);
+            if (asset.schemaVersion !== 1 && asset.schemaVersion !== 2) fail(`${generated.assetPath}.schemaVersion must be 1 or 2`);
+            if (generated.assetSchemaVersion !== undefined && generated.assetSchemaVersion !== asset.schemaVersion) fail(`${generated.assetPath}.schemaVersion must match ${path}.assetSchemaVersion`);
             if (asset.language !== generated.language || (asset.regionKey || null) !== (generated.regionKey || null) || asset.sourceRevision !== generated.sourceRevision) {
               fail(`${generated.assetPath} metadata must match ${path}`);
+            }
+            if (asset.schemaVersion === 2) {
+              if ((asset.translationContextRevision || null) !== (generated.translationContextRevision || null)) fail(`${generated.assetPath}.translationContextRevision must match ${path}`);
+              if (!Array.isArray(asset.translationIndex) || asset.translationIndex.some((entry) => (
+                !entry || typeof entry !== 'object' || !Array.isArray(entry.path) || entry.path.length === 0
+                || entry.path.some((part) => typeof part !== 'string' && !Number.isInteger(part))
+                || !SOURCE_REVISION.test(entry.sourceHash || '')
+              ))) fail(`${generated.assetPath}.translationIndex must contain valid path and sourceHash entries`);
             }
             if (!asset.landingPage || typeof asset.landingPage !== 'object' || Array.isArray(asset.landingPage)) fail(`${generated.assetPath}.landingPage must be a complete page object`);
             if (asset.landingPage.localization !== undefined) fail(`${generated.assetPath}.landingPage.localization is not allowed`);
@@ -770,6 +866,28 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
           countryCodes.add(countryCode);
         });
         if (!LANGUAGE_CODES.has(region.defaultLanguage || '')) fail(`${path}.defaultLanguage must come from the shared language catalogue`);
+        if (region.sourceLanguage !== undefined && !LANGUAGE_CODES.has(region.sourceLanguage || '')) fail(`${path}.sourceLanguage must come from the shared language catalogue`);
+        if (region.marketContext !== undefined) {
+          const market = region.marketContext;
+          if (!market || typeof market !== 'object' || Array.isArray(market)) fail(`${path}.marketContext must be an object`);
+          try {
+            if (!market.locale || new Intl.Locale(market.locale).toString() !== market.locale) throw new Error();
+          } catch {
+            fail(`${path}.marketContext.locale must be a canonical BCP-47 locale`);
+          }
+          const expectedSourcePath = `assets/markets/${region.key}/landing-page.json`;
+          if (market.sourceAssetPath !== expectedSourcePath) fail(`${path}.marketContext.sourceAssetPath must be ${expectedSourcePath}`);
+          if (!SOURCE_REVISION.test(market.contextRevision || '')) fail(`${path}.marketContext.contextRevision must be a SHA-256 revision`);
+          if (!Array.isArray(market.protectedTerms) || market.protectedTerms.some((term) => typeof term !== 'string' || !term.trim()) || new Set(market.protectedTerms).size !== market.protectedTerms.length) fail(`${path}.marketContext.protectedTerms must contain unique non-empty strings`);
+          if (market.evidence !== undefined && (!Array.isArray(market.evidence) || market.evidence.some((item) => !item || typeof item.title !== 'string' || !item.title.trim() || typeof item.url !== 'string' || !/^https:\/\//i.test(item.url)))) fail(`${path}.marketContext.evidence must contain title and HTTPS URL entries`);
+          if (definitionFilePath) {
+            const marketAssetPath = nodePath.join(nodePath.resolve(nodePath.dirname(definitionFilePath), '..'), market.sourceAssetPath);
+            if (!fs.existsSync(marketAssetPath)) fail(`${path}.marketContext.sourceAssetPath does not exist: ${market.sourceAssetPath}`);
+            const marketAsset = JSON.parse(fs.readFileSync(marketAssetPath, 'utf8'));
+            if (marketAsset.schemaVersion !== 1 || marketAsset.countryCode !== region.key.toUpperCase() || marketAsset.contextRevision !== market.contextRevision) fail(`${market.sourceAssetPath} metadata must match ${path}.marketContext`);
+            if (JSON.stringify(stableValue(marketAsset.landingPage)) !== JSON.stringify(stableValue(region.page))) fail(`${market.sourceAssetPath}.landingPage must exactly match ${path}.page`);
+          }
+        }
         if (!region.page || typeof region.page !== 'object' || Array.isArray(region.page)) fail(`${path}.page must be a complete landing page object`);
         if (region.page.localization !== undefined) fail(`${path}.page.localization is not allowed; regional pages cannot recursively localize`);
         validateLandingPageModel(region.page, chatConfigPath, definitionFilePath);
@@ -1272,7 +1390,6 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
   }
   validateCaptureCommand(landingPage, chatConfigPath);
   validateLogisticsPortalCommand(landingPage, chatConfigPath);
-  validateCinematicCommand(landingPage, chatConfigPath);
   validateRecruitingCommand(landingPage, chatConfigPath);
   validateGroceryCommand(landingPage, chatConfigPath);
   validateEventIntroductionCommand(landingPage, chatConfigPath);
