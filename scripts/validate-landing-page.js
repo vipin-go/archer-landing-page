@@ -459,7 +459,8 @@ function validateCinematicCampaigns(landingPage) {
         if (key === 'showcaseVideos' || key === 'featureMedia') {
           const asset = value && typeof value === 'object' ? value : {};
           if (key === 'featureMedia' && !['image', 'video'].includes(asset.kind)) issue(`${key}[${index}].kind`, 'Choose image or video.');
-          const video = key === 'showcaseVideos' || asset.kind === 'video';
+          if (key === 'showcaseVideos' && asset.kind !== undefined && !['image', 'video'].includes(asset.kind)) issue(`${key}[${index}].kind`, 'Choose image or video.');
+          const video = key === 'showcaseVideos' ? asset.kind !== 'image' : asset.kind === 'video';
           checkAsset(asset.src, `${key}[${index}].src`, video);
           if (video) checkAsset(asset.poster, `${key}[${index}].poster`);
         } else checkAsset(value, `${key}[${index}]`);

@@ -167,6 +167,8 @@
           "workflowThumbnails": 3,
           "workflowImage": 1,
           "showcaseVideos": 3,
+          "showcaseMediaKinds": ["image", "video"],
+          "showcaseImagePurpose": "clearly labelled static start-frame placeholder until a matching motion clip is supplied",
           "featureMedia": 7,
           "featureMediaKinds": ["image", "video"],
           "workspaceBackground": 1,
