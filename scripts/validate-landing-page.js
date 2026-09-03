@@ -356,6 +356,10 @@ function validateCinematicCampaigns(landingPage) {
     fail('landingPage.cinematicCampaigns is required when design.variant is "cinematic-campaigns"');
   }
   const get = (path) => path.split('.').reduce((value, key) => value && typeof value === 'object' ? value[key] : undefined, root);
+  const voiceCtaLabel = get('meetArcher.voiceCtaLabel');
+  if (voiceCtaLabel !== undefined && (typeof voiceCtaLabel !== 'string' || !voiceCtaLabel.trim() || voiceCtaLabel.length > 80)) {
+    fail('landingPage.cinematicCampaigns.meetArcher.voiceCtaLabel must be a non-empty string of at most 80 characters');
+  }
   for (const section of ['fit', 'pilot']) {
     const showSection = get(`${section}.showSection`);
     if (showSection !== undefined && typeof showSection !== 'boolean') {

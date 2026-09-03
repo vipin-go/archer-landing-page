@@ -53,7 +53,7 @@
       "brandMark": "image",
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
       "navItems": [],
-      "ctaLabel": "Book a pilot"
+      "ctaLabel": "Meet Archer"
     },
     "badge": "Real footage. One approval. On time.",
     "headline": "Your event footage, back as branded clips before the doors open.",
@@ -355,10 +355,11 @@
             "label": "One approver, one link"
           }
         ],
-        "ctaLabel": "Scope a pilot",
+        "ctaLabel": "Book a Pilot",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
         "statusTitle": "Deadline covered",
-        "statusBody": "Real footage · approval ready"
+        "statusBody": "Real footage · approval ready",
+        "voiceCtaLabel": "Talk to Archer"
       },
       "fit": {
         "eyebrow": "A focused service",
@@ -552,66 +553,66 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           },
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-03T11:33:03.163Z"
+            "generatedAt": "2026-09-03T12:02:23.485Z"
           }
         ]
       },

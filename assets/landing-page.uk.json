@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "uk",
   "regionKey": null,
-  "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+  "sourceRevision": "da3b8c377a17bc9acf8f19fd10b6e545c8576716de440b8ac862c0f8cd7dc14a",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -54,7 +54,7 @@
       "brandMark": "image",
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
       "navItems": [],
-      "ctaLabel": "Замовте пілот"
+      "ctaLabel": "Знайомтеся з Archer"
     },
     "badge": "Реальні кадри. одне схвалення. вчасно.",
     "headline": "Ваші кадри події, як фірмові кліпи перед відкриттям дверей.",
@@ -356,10 +356,11 @@
             "label": "Один затверджувач, одне посилання"
           }
         ],
-        "ctaLabel": "Область пілота",
+        "ctaLabel": "Замовити пілотний проєкт",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
         "statusTitle": "Термін покритий",
-        "statusBody": "Реальні кадри · Готове затвердження"
+        "statusBody": "Реальні кадри · Готове затвердження",
+        "voiceCtaLabel": "Поговорити з Archer"
       },
       "fit": {
         "eyebrow": "зосереджена послуга",
@@ -440,7 +441,7 @@
                 "target": "tracker"
               },
               {
-                "label": "Зустрічайте Archer",
+                "label": "Знайомтеся з Archer",
                 "target": "meet-archer"
               },
               {
@@ -551,7 +552,7 @@
         "header",
         "ctaLabel"
       ],
-      "sourceHash": "95997df5c40828b38183608102c096ac0c05fd52c95c805727a0a9445b8d7e92"
+      "sourceHash": "8f3a0515de657899294d522f24f2d9c183edea507bddf80052c382f00fe6c33e"
     },
     {
       "path": [
@@ -2007,7 +2008,7 @@
         "meetArcher",
         "ctaLabel"
       ],
-      "sourceHash": "1a914db39e3af43baedc9e829ebab2ab1ec8a50f705273ad71b37abf869fd99b"
+      "sourceHash": "694a9e93a4b18048b334c9ba881de14c92fdd53f17dc751ad73b45ffc6525236"
     },
     {
       "path": [
@@ -2026,6 +2027,15 @@
         "statusBody"
       ],
       "sourceHash": "f7e3368b50fd9eb1933f646c787a08090c1a4725e6513f386fdfea09b055da58"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "c6cef9e17f8b586a788242817fd6c5a5ec6690c65045095a3368cdf0fa6ac992"
     },
     {
       "path": [
@@ -2456,5 +2466,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-03T11:33:03.163Z"
+  "generatedAt": "2026-09-03T12:02:23.485Z"
 }

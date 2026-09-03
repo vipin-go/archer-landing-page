@@ -346,6 +346,16 @@ exists in both child and parent, and the runtime needs only the selected locale 
 
 ## Validation
 
+For `cinematic-campaigns`, `header.ctaLabel` labels the Meet Archer scroll link.
+`meetArcher.ctaLabel` opens the authored HTTPS `pilot.bookingUrl` directly.
+Optional `meetArcher.voiceCtaLabel` (1–80 characters) adds the existing public voice
+demo confirmation launcher when that demo is enabled. It never starts audio silently.
+The parent Persona's `landingPageVoiceConfig.pilotBookingEnabled: true` opts the
+guest demo into the bounded `open_pilot_booking` action. Its destination is resolved
+from the published pilot URL, never model arguments. The browser verifies that URL
+against the visible booking link, reports popup failures honestly, and ends a successful
+handoff only after the farewell turn and queued audio finish. No appointment is booked.
+
 Run:
 
 ```bash
