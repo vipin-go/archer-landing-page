@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+  "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -381,7 +381,8 @@
             "title": "다중 장소 환대 팀",
             "body": "레스토랑, 바, 라운지 및 유흥 장소에서 이미 실제 영상을 수집하고 있는 대행사 및 그룹."
           }
-        ]
+        ],
+        "showSection": false
       },
       "pilot": {
         "eyebrow": "유급 4주 컨시어지 파일럿",
@@ -408,7 +409,8 @@
             "title": "시계에 동의합니다",
             "body": "실제 이벤트 마감일을 기준으로 배송 및 개정 창을 설정합니다."
           }
-        ]
+        ],
+        "showSection": false
       },
       "footer": {
         "tagline": "이벤트 마감일 전에 브랜드 및 전달되는 실제 환대 영상.",
@@ -2454,5 +2456,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-02T18:25:27.525Z"
+  "generatedAt": "2026-09-03T11:33:03.163Z"
 }

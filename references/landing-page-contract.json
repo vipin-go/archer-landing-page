@@ -147,6 +147,13 @@
         "meetArcherPoints": 3,
         "fitItems": 3,
         "pilotSteps": 3,
+        "optionalSectionVisibility": {
+          "fields": ["fit.showSection", "pilot.showSection"],
+          "type": "boolean",
+          "default": true,
+          "hiddenNavigation": "filtered",
+          "hiddenPilotCtas": "booking_url"
+        },
         "bookingUrlProtocol": "https",
         "generatedMediaRequired": false,
         "optionalPresentationMedia": {

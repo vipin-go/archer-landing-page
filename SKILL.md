@@ -223,6 +223,14 @@ features actually match what the persona does, rather than generic SaaS copy.
 
 ## Git-backed landing page repositories
 
+For `cinematic-campaigns`, `fit.showSection` and `pilot.showSection` are optional
+booleans (default `true`). Set them to `false` to remove those closing sections
+without changing the retained hero or other sections. Their navigation links are
+filtered automatically. When the pilot section is hidden, the remaining pilot
+buttons open `pilot.bookingUrl` directly. Keep the bounded content and booking
+fields for compatibility; these flags control visibility only, not styling or
+assistant behavior.
+
 ### Required translation file layout
 
 Every newly generated or updated cache uses split locale files by default:

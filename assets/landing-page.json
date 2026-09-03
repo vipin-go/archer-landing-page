@@ -380,7 +380,8 @@
             "title": "Multi-venue hospitality teams",
             "body": "Agencies and groups already collecting real footage across restaurants, bars, lounges, and nightlife venues."
           }
-        ]
+        ],
+        "showSection": false
       },
       "pilot": {
         "eyebrow": "Paid four-week concierge pilot",
@@ -407,7 +408,8 @@
             "title": "Agree the clock",
             "body": "Set delivery and revision windows around real event deadlines."
           }
-        ]
+        ],
+        "showSection": false
       },
       "footer": {
         "tagline": "Real hospitality footage, branded and delivered before the event deadline.",
@@ -550,58 +552,66 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-02T18:25:27.525Z"
+            "generatedAt": "2026-09-03T11:33:03.163Z"
+          },
+          {
+            "language": "nl",
+            "regionKey": null,
+            "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
+            "assetPath": "assets/landing-page.nl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-03T11:33:03.163Z"
           }
         ]
       },

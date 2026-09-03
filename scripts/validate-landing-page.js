@@ -356,6 +356,12 @@ function validateCinematicCampaigns(landingPage) {
     fail('landingPage.cinematicCampaigns is required when design.variant is "cinematic-campaigns"');
   }
   const get = (path) => path.split('.').reduce((value, key) => value && typeof value === 'object' ? value[key] : undefined, root);
+  for (const section of ['fit', 'pilot']) {
+    const showSection = get(`${section}.showSection`);
+    if (showSection !== undefined && typeof showSection !== 'boolean') {
+      fail(`landingPage.cinematicCampaigns.${section}.showSection must be a boolean`);
+    }
+  }
   const requireString = (path) => {
     const value = get(path);
     if (typeof value !== 'string' || !value.trim()) fail(`landingPage.cinematicCampaigns.${path} is required`);

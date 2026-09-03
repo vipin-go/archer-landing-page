@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "id",
   "regionKey": null,
-  "sourceRevision": "2aff4eb22013d5bc91f0ce5039eb9b73ab28061d9a60a50d66785b2c5623f5dc",
+  "sourceRevision": "9a84985e4b8ef99df06324fcb5d85ba61b5d09af0e5d73f4c53178c0ffa58c78",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -381,7 +381,8 @@
             "title": "Tim Perhotelan Multi-Tempat",
             "body": "Agen dan grup sudah mengumpulkan rekaman nyata di restoran, bar, lounge, dan tempat kehidupan malam."
           }
-        ]
+        ],
+        "showSection": false
       },
       "pilot": {
         "eyebrow": "Pilot pramutamu empat minggu",
@@ -408,7 +409,8 @@
             "title": "Setuju jamnya",
             "body": "Atur jendela pengiriman dan revisi di sekitar tenggat waktu acara nyata."
           }
-        ]
+        ],
+        "showSection": false
       },
       "footer": {
         "tagline": "Rekaman keramahan nyata, bermerek dan dikirimkan sebelum batas waktu acara.",
@@ -2454,5 +2456,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-02T18:25:27.525Z"
+  "generatedAt": "2026-09-03T11:33:03.163Z"
 }
