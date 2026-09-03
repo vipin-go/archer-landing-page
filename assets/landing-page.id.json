@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "id",
   "regionKey": null,
-  "sourceRevision": "ece29e5180b55a39765b31f66f42582e0b6024ff8f8c74b703b048d9c85d0c81",
+  "sourceRevision": "524e15af6fc57f568905eb6e2533e410ffb97ae3c0c66ace7aad92ca3a87e3ba",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -483,15 +483,15 @@
         "showcaseVideos": [
           {
             "kind": "image",
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-dj-night-start.png"
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-dj-night-v2-start.png"
           },
           {
             "kind": "image",
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-fight-night-start.png"
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-fight-night-v2-start.png"
           },
           {
             "kind": "image",
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-seasonal-start.png"
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-seasonal-v2-start.png"
           }
         ],
         "featureMedia": [
@@ -2466,5 +2466,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-03T18:17:38.758Z"
+  "generatedAt": "2026-09-03T18:39:52.195Z"
 }

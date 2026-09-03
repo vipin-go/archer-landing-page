@@ -5,21 +5,21 @@ Use each listed start/end pair as the first and last reference frame for a **thr
 
 ## DJ night — Phone footage to branded 9:16
 
-- Start: `media/showcase-dj-night-start.png`
-- End: `media/showcase-dj-night-end.png`
+- Start: `media/showcase-dj-night-v2-start.png`
+- End: `media/showcase-dj-night-v2-end.png`
 
-Use the supplied start image as frame 0 and the supplied end image as the exact final frame at 3 seconds. Make one seamless, premium post-production moment: hold the camera almost still with subtle natural hand and desk parallax; let the cyan/violet 9:16 preview softly bloom; sweep the abstract timeline playhead forward; then have the two small vertical delivery cards rise gently into their end-frame positions. Preserve the phone, hand, cable, blank lanyard, desk layout, black surfaces and lighting. No camera cut, no new objects, no readable text, numbers, logos, performers, crowds, venue, food, drinks, or brands.
+Use the supplied start image as frame 0 and the supplied end image as the exact final frame at 3 seconds. Create one seamless live-event moment with an almost locked camera and a very slight cinematic push-in. The DJ looks up and raises one hand as the beat lands; the crowd's movement and energy lift naturally; cyan and magenta lights sweep gently through the haze; and the foreground phone continues recording the same scene. Preserve the rooftop lounge, skyline, DJ, guest identities, booth, phone, framing and realistic anatomy. No scene cut, new main people, readable text, logos, watermarks, venue branding, branded bottles, duplicated people, extra fingers or floating graphics.
 
 ## Fight night — Venue clips to four cutdowns
 
-- Start: `media/showcase-fight-night-start.png`
-- End: `media/showcase-fight-night-end.png`
+- Start: `media/showcase-fight-night-v2-start.png`
+- End: `media/showcase-fight-night-v2-end.png`
 
-Use the supplied start image as frame 0 and the supplied end image as the exact final frame at 3 seconds. Create a controlled red-and-blue abstract editing transition: keep the camera locked with only a subtle cinematic push-in; animate the thin white circle into a refined light arc; let restrained red and blue light trails pass across the blank vertical cards; and move the nonverbal timeline playhead to the end. Preserve the phone, keyboard, card geometry, tabletop and lighting exactly. No cuts, no new objects, no readable text, numbers, logos, athletes, fight footage, crowd, bar, food, drinks, venue or people.
+Use the supplied start image as frame 0 and the supplied end image as the exact final frame at 3 seconds. Keep the camera nearly locked with a subtle push toward the screens. Advance the generic fight-night moment naturally: the athletes respectfully separate at the end of the round, red and blue screen light intensifies, and several guests rise or lift a hand in a believable restrained celebration. Preserve the sports-bar interior, screen layout, guests, server, tables, lighting and identities. No scene cut, new main people, readable text, logos, watermarks, broadcaster graphics, team marks, blood, injury, branded bottles, duplicated people or distorted hands.
 
 ## Seasonal entertainment — Weekly folder to approved promo
 
-- Start: `media/showcase-seasonal-start.png`
-- End: `media/showcase-seasonal-end.png`
+- Start: `media/showcase-seasonal-v2-start.png`
+- End: `media/showcase-seasonal-v2-end.png`
 
-Use the supplied start image as frame 0 and the supplied end image as the exact final frame at 3 seconds. Make an elegant overhead workflow transformation: preserve the locked overhead camera and every object in the frame; let warm amber/deep-red light travel slowly across the scheduling blocks; turn on the phone's abstract vertical preview; and let the three blank contact-sheet cards resolve into their end-frame amber/crimson gradients in a single gentle sequence. End exactly on the supplied final frame. No cuts, no new objects, no readable text, numbers, logos, people, restaurant imagery, food, drinks, crowd, venue or client branding.
+Use the supplied start image as frame 0 and the supplied end image as the exact final frame at 3 seconds. Create one elegant live-performance moment with a gentle push toward the saxophonist. She reaches a musical flourish; nearby guests turn, smile and begin restrained applause; the staff member's phone stays trained on the stage; and the amber lights brighten slightly with a soft burgundy glow. Preserve the terrace, performer and guest identities, seasonal decor, tables, phone, framing and realistic anatomy. No scene cut, new main people, readable text, logos, watermarks, restaurant branding, branded bottles, exaggerated decorations, duplicated people, distorted hands or floating graphics.
