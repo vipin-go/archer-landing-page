@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "bee83784c06c01187aa8697fbf5e916d60f028341cf02f581a9b142daeb4ebe3",
+  "sourceRevision": "a1362f8f91bafc1392c5bfd2c22b15cf58b553f1aa59fbce9dc5f1ea95fc321b",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -496,32 +496,31 @@
         ],
         "featureMedia": [
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-brand-consistency-v2.png",
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-approval-turnaround-v2.png",
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-deadline-ownership-v2.png",
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-platform-resizing-v2.png",
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-real-footage-v2.png",
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
-            "kind": "video",
-            "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png"
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-editor-capacity-v2.png",
+            "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v2.png",
             "kind": "image"
           }
         ],
@@ -2466,5 +2465,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-03T19:01:59.875Z"
+  "generatedAt": "2026-09-03T19:30:22.318Z"
 }
