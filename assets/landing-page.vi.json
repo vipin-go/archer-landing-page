@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "vi",
   "regionKey": null,
-  "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+  "sourceRevision": "8595e959b2341df436119cc243d11f68f394fa3456b4c892924317e26e31fb6e",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -507,8 +507,8 @@
       "presentationMedia": {
         "notice": "Hình ảnh điện ảnh chỉ mang tính trang trí, không phải video của khách hàng hoặc kết quả thử nghiệm.",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v1.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-deadline-start-v2.png"
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v2.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v2-poster.jpg"
         },
         "workflowThumbnails": [
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-dj-v2.png",
@@ -2821,5 +2821,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T09:38:03.012Z"
+  "generatedAt": "2026-09-04T10:14:03.544Z"
 }
