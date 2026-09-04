@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ro",
   "regionKey": null,
-  "sourceRevision": "a1362f8f91bafc1392c5bfd2c22b15cf58b553f1aa59fbce9dc5f1ea95fc321b",
+  "sourceRevision": "9ae91b2b8e3f0da898be462201cbb0b522e617d96a6b17d7ddaaf3c4c48550c0",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -524,11 +524,11 @@
             "kind": "image"
           }
         ],
-        "workspaceBackground": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+        "workspaceBackground": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-workspace-background-v2.png",
         "workspaceProjects": [
-          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
-          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
-          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png"
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-venue-north-live-set-v2.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-venue-central-dj-night-v2.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-venue-marina-fight-night-v2.png"
         ],
         "filmstrip": [
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
@@ -2465,5 +2465,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-03T19:30:22.318Z"
+  "generatedAt": "2026-09-04T02:56:32.743Z"
 }
