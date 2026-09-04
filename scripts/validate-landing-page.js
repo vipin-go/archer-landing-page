@@ -391,7 +391,25 @@ function validateCinematicCampaigns(landingPage) {
     'pilot.eyebrow', 'pilot.heading', 'pilot.body', 'pilot.primaryCtaLabel', 'pilot.bookingUrl',
     'pilot.secondaryCtaLabel', 'pilot.secondaryPrompt', 'pilot.demoNote', 'footer.tagline',
     'footer.copyright', 'footer.closingStatement', 'footer.contactEmail',
+    'hero.instagramCampaign.urlPlaceholder', 'hero.instagramCampaign.analyzeLabel',
+    'hero.instagramCampaign.analyzingLabel', 'hero.instagramCampaign.brandReviewHeading',
+    'hero.instagramCampaign.brandReviewBody', 'hero.instagramCampaign.observedLabel',
+    'hero.instagramCampaign.inferredLabel', 'hero.instagramCampaign.sourceManifestLabel',
+    'hero.instagramCampaign.approveBrandLabel', 'hero.instagramCampaign.eventHeading',
+    'hero.instagramCampaign.eventBody', 'hero.instagramCampaign.eventPlaceholder',
+    'hero.instagramCampaign.eventNameLabel', 'hero.instagramCampaign.venueLabel',
+    'hero.instagramCampaign.dateTimeLabel', 'hero.instagramCampaign.offerLabel',
+    'hero.instagramCampaign.audienceLabel', 'hero.instagramCampaign.eventCtaLabel',
+    'hero.instagramCampaign.saveEventLabel', 'hero.instagramCampaign.generateHeading',
+    'hero.instagramCampaign.generateBody', 'hero.instagramCampaign.confirmGenerateLabel',
+    'hero.instagramCampaign.generatingLabel', 'hero.instagramCampaign.imageReviewHeading',
+    'hero.instagramCampaign.downloadLabel', 'hero.instagramCampaign.revisionPlaceholder',
+    'hero.instagramCampaign.reviseLabel', 'hero.instagramCampaign.approveImagesLabel',
+    'hero.instagramCampaign.createVideoLabel', 'hero.instagramCampaign.loginNotice',
+    'hero.instagramCampaign.cancelLabel', 'hero.instagramCampaign.errorCopy',
   ].forEach(requireString);
+  if (get('hero.instagramCampaign.enabled') !== true) fail('landingPage.cinematicCampaigns.hero.instagramCampaign.enabled must be true');
+  if (!/^\/?instagram-campaign$/.test(String(get('hero.instagramCampaign.commandTrigger') || '').trim())) fail('landingPage.cinematicCampaigns.hero.instagramCampaign.commandTrigger must be instagram-campaign');
   [
     ['hero.navItems', 5], ['hero.headingLines', 2], ['hero.intake.suggestions', 3],
     ['workflow.steps', 3], ['delivery.platforms', 4], ['showcase.items', 3], ['features.items', 6],
@@ -733,6 +751,23 @@ function validateRecruitingCommand(landingPage, chatConfigPath) {
   const trigger = String(triggerValue).trim().replace(/^\/+/, '').toLowerCase();
   const command = commands.find((item) => item?.enabled !== false && String(item?.trigger || '').trim().replace(/^\/+/, '').toLowerCase() === trigger);
   if (!command || command.execution?.type !== 'operator_action') fail(`landingPage.recruitingOperations.leads.commandTrigger must reference an enabled operator_action command in ${chatConfigPath}`);
+}
+
+function validateInstagramCampaignCommand(landingPage, chatConfigPath) {
+  const demo = landingPage?.cinematicCampaigns?.hero?.instagramCampaign;
+  if (demo?.enabled !== true || !chatConfigPath) return;
+  const chatConfig = JSON.parse(fs.readFileSync(chatConfigPath, 'utf8'));
+  const commands = chatConfig?.publishedConfig?.agentTopology?.slashCommands;
+  if (!Array.isArray(commands)) fail(`${chatConfigPath} must define publishedConfig.agentTopology.slashCommands for Archer`);
+  const trigger = String(demo.commandTrigger || '').trim().replace(/^\/+/, '').toLowerCase();
+  const command = commands.find((item) => item?.enabled !== false && String(item?.trigger || '').trim().replace(/^\/+/, '').toLowerCase() === trigger);
+  const workflowKey = String(command?.execution?.workflowRef?.resourceKey || '');
+  if (
+    !command
+    || command.execution?.type !== 'operator_action'
+    || trigger !== 'instagram-campaign'
+    || workflowKey !== 'workflow.archer.instagram-campaign-v2'
+  ) fail(`landingPage.cinematicCampaigns.hero.instagramCampaign.commandTrigger must reference the enabled workflow.archer.instagram-campaign-v2 operator_action command in ${chatConfigPath}`);
 }
 
 function validateGroceryCommand(landingPage, chatConfigPath) {
@@ -1401,6 +1436,7 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
   }
   validateCaptureCommand(landingPage, chatConfigPath);
   validateLogisticsPortalCommand(landingPage, chatConfigPath);
+  validateInstagramCampaignCommand(landingPage, chatConfigPath);
   validateRecruitingCommand(landingPage, chatConfigPath);
   validateGroceryCommand(landingPage, chatConfigPath);
   validateEventIntroductionCommand(landingPage, chatConfigPath);

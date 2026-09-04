@@ -146,6 +146,16 @@
         "trackerBenefits": 3,
         "meetArcherPoints": 3,
         "meetArcherVoiceCtaLabel": { "optional": true, "type": "string", "minLength": 1, "maxLength": 80, "action": "confirm_public_voice_demo" },
+        "instagramCampaign": {
+          "path": "hero.instagramCampaign",
+          "requires": ["enabled", "commandTrigger", "localizedUiCopy"],
+          "commandTrigger": "instagram-campaign",
+          "commandExecutionType": "operator_action",
+          "workflowResourceKey": "workflow.archer.instagram-campaign-v2",
+          "publicStages": ["brand_review", "event_brief", "image_review", "confirmed"],
+          "anonymousRuntime": "three_images_then_authentication",
+          "limitsOwnedBy": "platform"
+        },
         "headerCta": { "labelField": "header.ctaLabel", "target": "meet-archer" },
         "fitItems": 3,
         "pilotSteps": 3,

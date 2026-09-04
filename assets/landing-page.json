@@ -67,11 +67,11 @@
       }
     ],
     "heroChat": {
-      "statusLabel": "Editing support available",
-      "inputPlaceholder": "Ask about a one-post editing demo...",
+      "statusLabel": "Instagram campaign preview available",
+      "inputPlaceholder": "Paste a public restaurant Instagram URL...",
       "suggestedPrompts": [
-        "Repurpose one Instagram post",
-        "Plan this week's event clips",
+        "Build a brand kit from Instagram",
+        "Create three event campaign images",
         "Scope a multi-venue pilot"
       ]
     },
@@ -116,22 +116,58 @@
         "body": "Send real phone footage from each venue. Archer edits, brands, captions, and resizes it for Reels, TikTok, Shorts, and Snapchat, then routes one approval before the event deadline.",
         "primaryCtaLabel": "Book a four-week pilot",
         "secondaryCtaLabel": "See the workflow",
+        "instagramCampaign": {
+          "enabled": true,
+          "commandTrigger": "instagram-campaign",
+          "urlPlaceholder": "Paste a public Instagram URL…",
+          "analyzeLabel": "Build my brand kit",
+          "analyzingLabel": "Reading public brand signals…",
+          "brandReviewHeading": "Review the brand identity",
+          "brandReviewBody": "Edit inferred details before anything is generated.",
+          "observedLabel": "Observed",
+          "inferredLabel": "Inferred",
+          "sourceManifestLabel": "Verified source assets",
+          "approveBrandLabel": "Approve brand identity",
+          "eventHeading": "Describe the event",
+          "eventBody": "Plain English is fine. Archer asks only for missing essentials.",
+          "eventPlaceholder": "Friday DJ night at the Marina venue, 9pm, table bookings open…",
+          "eventNameLabel": "Event name",
+          "venueLabel": "Venue",
+          "dateTimeLabel": "Date and time",
+          "offerLabel": "Offer",
+          "audienceLabel": "Audience",
+          "eventCtaLabel": "Call to action",
+          "saveEventLabel": "Check event brief",
+          "generateHeading": "Generate three real images",
+          "generateBody": "Two 4:5 feed images and one 9:16 Story, using only approved restaurant assets and abstract graphic treatments.",
+          "confirmGenerateLabel": "Confirm and generate images",
+          "generatingLabel": "Creating the three-image pack…",
+          "imageReviewHeading": "Your Instagram image pack",
+          "downloadLabel": "Download",
+          "revisionPlaceholder": "One revision: describe the change…",
+          "reviseLabel": "Revise once",
+          "approveImagesLabel": "Approve images",
+          "createVideoLabel": "Create a video",
+          "loginNotice": "Sign in to turn the approved image into a six-second video, connect Instagram, schedule, or publish.",
+          "cancelLabel": "Start over",
+          "errorCopy": "Archer could not complete this preview. Try another public Instagram URL."
+        },
         "intake": {
-          "eyebrow": "Concierge intake preview",
-          "title": "Scope this week's event promos",
-          "body": "A clear handoff for real footage, venue branding, platforms, and the deadline that matters.",
-          "uploadLabel": "Real phone footage",
-          "uploadHint": "Secure transfer opens after the pilot is scoped",
-          "transferNote": "This is an intake preview, not an anonymous upload. Secure footage transfer begins only after we agree the pilot scope.",
-          "eventLabel": "Event",
-          "eventValue": "This week's priority",
-          "deadlineLabel": "Doors open",
-          "deadlineValue": "Friday · 19:00",
-          "platformLabel": "Delivery",
+          "eyebrow": "Instagram campaign preview",
+          "title": "Start with the restaurant's public Instagram",
+          "body": "Archer reads accessible brand signals, labels observations and inferences, and turns an approved event brief into three downloadable images.",
+          "uploadLabel": "Public Instagram URL",
+          "uploadHint": "Profile, post, carousel, or Reel",
+          "transferNote": "Public assets only. Archer never bypasses private profiles, login walls, CAPTCHA, or unavailable media.",
+          "eventLabel": "Brand identity",
+          "eventValue": "Observed + inferred, editable",
+          "deadlineLabel": "Image pack",
+          "deadlineValue": "Two feed images + one Story",
+          "platformLabel": "Then",
           "suggestions": [
-            "Send this week's footage",
-            "Set my event deadline",
-            "Add my venue's brand kit"
+            "Paste restaurant Instagram",
+            "Review the brand identity",
+            "Describe the event"
           ]
         }
       },
@@ -212,31 +248,31 @@
         }
       },
       "showcase": {
-        "eyebrow": "Honest proof",
-        "heading": "Real work only.",
-        "body": "No generated food, synthetic rooms, invented crowds, or fictional client campaigns.",
-        "notice": "Pilot deliveries will appear here after client approval. Until then, we will not fill this space with fabricated examples.",
+        "eyebrow": "Style preview",
+        "heading": "This is the style.",
+        "body": "AI-generated previews illustrating Archer's visual direction — not footage from an actual client or venue.",
+        "notice": "These are illustrative style previews, not real pilot deliveries. Approved client work will replace them here once available.",
         "items": [
           {
             "eventLabel": "DJ night",
             "venueType": "Riyadh lounge",
             "beforeLabel": "Phone footage",
             "afterLabel": "Branded 9:16",
-            "statusLabel": "Structure only · not client work"
+            "statusLabel": "AI-generated preview · illustrative only"
           },
           {
             "eventLabel": "Fight night",
             "venueType": "Multi-venue sports bar",
             "beforeLabel": "Venue clips",
             "afterLabel": "Four cutdowns",
-            "statusLabel": "Structure only · not client work"
+            "statusLabel": "AI-generated preview · illustrative only"
           },
           {
             "eventLabel": "Seasonal entertainment",
             "venueType": "Restaurant group",
             "beforeLabel": "Weekly folder",
             "afterLabel": "Approved promo",
-            "statusLabel": "Structure only · not client work"
+            "statusLabel": "AI-generated preview · illustrative only"
           }
         ]
       },
@@ -550,68 +586,300 @@
         "autoDetectCountryLanguage": true,
         "generatedTranslations": [
           {
-            "language": "id",
+            "language": "es",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.id.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
-            "language": "ko",
+            "language": "de",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.ko.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
-            "language": "uk",
+            "language": "ja",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.uk.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
-            "language": "hu",
+            "language": "fr",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.hu.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
-            "language": "ar",
+            "language": "pt",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.ar.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
-            "language": "sv",
+            "language": "ru",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.sv.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
-            "language": "ro",
+            "language": "it",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
-            "assetPath": "assets/landing-page.ro.json",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           },
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T04:16:23.379Z"
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "pl",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.pl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "tr",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.tr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "zh",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.zh.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "fa",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.fa.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "vi",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.vi.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "cs",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.cs.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "id",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.id.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "ko",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.ko.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "uk",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.uk.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "hu",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.hu.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "ar",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.ar.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "sv",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.sv.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "ro",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.ro.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "el",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.el.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "da",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.da.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "fi",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.fi.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "he",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.he.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "sk",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.sk.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "th",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.th.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "bg",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.bg.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "hr",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.hr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "nb",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.nb.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "lt",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.lt.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "sr",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.sr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "sl",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.sl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "ca",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.ca.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "et",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.et.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "no",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.no.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
+          },
+          {
+            "language": "lv",
+            "regionKey": null,
+            "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
+            "assetPath": "assets/landing-page.lv.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-09-04T09:38:03.012Z"
           }
         ]
       },

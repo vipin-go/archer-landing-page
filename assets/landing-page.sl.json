@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "language": "sl",
   "regionKey": null,
-  "sourceRevision": "a709bbd390e15eba2596169ad937d5257c089631c37319bf0b9c07b5f5078302",
+  "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -56,465 +56,2770 @@
       "navItems": [],
       "ctaLabel": "Spoznajte Archerja"
     },
-    "badge": "Direktor kampanje AI",
-    "headline": "Ustvarite kinematografske kampanje z močjo AI",
-    "subheadline": "Izdelek, premiso ali lansiranje spremenite v eno skladno kampanjo – od ustvarjalnega poročila in zgodb do glavnega filma in družbenih izrezov.",
-    "ctaLabel": "Pogovorite se z Archerjem",
-    "secondaryCtaLabel": "Poglejte, kako deluje",
+    "badge": "Resnični posnetki. Eno odobritev. Pravočasno.",
+    "headline": "Vaši posnetki dogodkov, vrnjeni kot blagovno znamkani izrezki, preden se odprejo vrata.",
+    "subheadline": "Pošljite resnične telefonske posnetke iz vsakega lokala. Archer jih uredi, blagovno označi, podnaslovi in prilagodi velikost za Reels, TikTok, Shorts in Snapchat, nato pa usmeri eno odobritev pred rokom dogodka.",
+    "ctaLabel": "Rezervirajte štiritedenski pilotni projekt",
+    "secondaryCtaLabel": "Oglejte si potek dela",
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Živjo, jaz sem Archer. Povejte mi, kaj začenjate, in ugotovil bom, da je zgodba vredna povedati."
+        "text": "Pošljite eno resnično objavo ali izrezek in povejte, za katero platformo mora biti primeren."
       }
     ],
     "heroChat": {
-      "statusLabel": "Na spletu · Običajno odgovori takoj",
-      "inputPlaceholder": "Prilepite URL javnega izdelka …",
+      "statusLabel": "Predogled Instagram kampanje na voljo",
+      "inputPlaceholder": "Prilepite javni URL restavracije na Instagramu...",
       "suggestedPrompts": [
-        "Oblikujte moj zagon",
-        "Najdi moj kot oglaševalske akcije",
-        "Zgradite snemalno ploščo"
+        "Izdelajte komplet blagovne znamke iz Instagrama",
+        "Ustvarite tri slike za dogodek",
+        "Opredelite pilotni projekt za več lokacij"
       ]
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-      "alt": "Archer Cinematic Campaigns"
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
+      "alt": "Archerjev produkcijski sledilnik za pravočasne promocije gostinskih dogodkov"
     },
     "cinematicCampaigns": {
       "hero": {
-        "wordmark": "Lokostrelec",
+        "wordmark": "Archer",
         "navItems": [
           {
-            "label": "Izdelek",
-            "target": "product"
+            "label": "Potek dela",
+            "target": "workflow"
           },
           {
-            "label": "Predstavitev",
+            "label": "Dostava",
+            "target": "delivery"
+          },
+          {
+            "label": "Resnično delo",
             "target": "showcase"
           },
           {
-            "label": "Zmogljivosti",
-            "target": "capabilities"
+            "label": "Produkcijski sledilnik",
+            "target": "tracker"
           },
           {
-            "label": "Dnevnik",
-            "target": "journal"
-          },
-          {
-            "label": "Spoznajte Archerja",
-            "target": "meet-archer"
+            "label": "Pilotni projekt",
+            "target": "pilot"
           }
         ],
-        "loginLabel": "Prijavite",
-        "meetLabel": "Spoznajte Archerja",
-        "announcementLabel": "Nov",
-        "announcementTitle": "Pojasnilo izdelkov je zdaj na voljo",
+        "loginLabel": "Prijava",
+        "pilotLabel": "Rezervirajte pilotni projekt",
+        "eyebrow": "Produkcija promocij dogodkov za gostinske ekipe",
         "headingLines": [
-          "Ustvari kinematografsko",
-          "Kampanje z"
+          "Vaši posnetki dogodkov,",
+          "vrnjeni kot blagovno znamkani izrezki"
         ],
-        "mutedHeadingLine": "Moč AI",
-        "primaryCtaLabel": "Pogovorite se z Archerjem",
-        "secondaryCtaLabel": "Poglejte, kako deluje",
-        "backgroundVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-underwater.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png"
-        },
-        "chat": {
-          "roleLabel": "Direktor kampanje AI",
-          "statusLabel": "Na spletu · Običajno odgovori takoj",
-          "openingMessage": "Živjo, jaz sem Archer. Povejte mi, kaj začenjate, in ugotovil bom, da je zgodba vredna povedati.",
-          "inputPlaceholder": "Prilepite URL javnega izdelka …",
-          "suggestions": [
-            "Oblikujte moj zagon",
-            "Najdi moj kot oglaševalske akcije",
-            "Zgradite snemalno ploščo"
-          ]
-        },
-        "guidedDemo": {
+        "mutedHeadingLine": "preden se odprejo vrata.",
+        "body": "Pošljite resnične telefonske posnetke iz vsakega lokala. Archer jih uredi, blagovno označi, podnaslovi in prilagodi velikost za Reels, TikTok, Shorts in Snapchat, nato pa usmeri eno odobritev pred rokom dogodka.",
+        "primaryCtaLabel": "Rezervirajte štiritedenski pilotni projekt",
+        "secondaryCtaLabel": "Oglejte si potek dela",
+        "instagramCampaign": {
           "enabled": true,
-          "commandTrigger": "product-explainer-video",
-          "heading": "Neposredno razlagalec izdelka",
-          "body": "Prinesite javno stran izdelkov in nastavite ustvarjalno smer. Archer bo pred prijavo pripravil ilustrativno poročilo.",
-          "urlLabel": "URL javnega spletnega mesta",
-          "urlPlaceholder": "https://your-product.com",
+          "commandTrigger": "instagram-campaign",
+          "urlPlaceholder": "Prilepite javni URL Instagrama…",
+          "analyzeLabel": "Izdelaj moj komplet blagovne znamke",
+          "analyzingLabel": "Branje javnih signalov blagovne znamke…",
+          "brandReviewHeading": "Preglej identiteto blagovne znamke",
+          "brandReviewBody": "Uredite predpostavljene podrobnosti, preden se karkoli ustvari.",
+          "observedLabel": "Opazovano",
+          "inferredLabel": "Sklegano",
+          "sourceManifestLabel": "Potrjena izvorna sredstva",
+          "approveBrandLabel": "Odobri identiteto blagovne znamke",
+          "eventHeading": "Opišite dogodek",
+          "eventBody": "Navadna angleščina je povsem v redu. Archer vpraša le za manjkajoče bistvene stvari.",
+          "eventPlaceholder": "Petkova DJ noč v lokalu Marina, ob 21h, odprte rezervacije miz…",
+          "eventNameLabel": "Ime dogodka",
+          "venueLabel": "Lokal",
+          "dateTimeLabel": "Datum in čas",
+          "offerLabel": "Ponudba",
           "audienceLabel": "Občinstvo",
-          "objectiveLabel": "Objektiven",
-          "ctaLabel": "Poziv k dejanju",
-          "durationLabel": "Trajanje",
-          "styleLabel": "Vizualni slog",
-          "previewLabel": "Voden predogled",
-          "previewHeading": "Prva smer kampanje",
-          "campaignDirectionLabel": "Smer kampanje",
-          "storyboardLabel": "Vzorec snemalne plošče",
-          "deliverablesLabel": "Pričakovani rezultati",
-          "submitLabel": "Predogled smeri",
-          "generateLabel": "Ustvari moj razlagalec",
-          "voiceLabel": "Poskusite Voice Demo",
-          "editLabel": "Uredi kratko",
-          "disclaimer": "Samo ilustrativni predogled. Archer ni pregledal te spletne strani ali upodobljenih medijev. Zajemanje in generiranje, podprto z dokazi, se začneta po prijavi.",
-          "loginNotice": "Prijavite se, da Archerju omogočite, da pregleda stran javnega izdelka in ustvarite svoj razlaga izdelka v zasebnem delovnem prostoru.",
-          "invalidUrlCopy": "Vnesite javni URL spletnega mesta HTTP ali HTTPS. Zasebna omrežja in lokalni naslovi niso podprti.",
-          "expiredCopy": "Ta predaja oglaševalske akcije je potekla. Vrnite se k Archerju in pripravite nov predogled.",
-          "sampleDirection": "Razkrijte izdelek skozi eno kinematografsko preobrazbo, ki se iz napetosti premakne v jasno, nepozabno izplačilo.",
-          "sampleMessage": "Najmočnejšo obljubo izdelka spremenite v zgodbo, ki jo občinstvo lahko razume v enem ogledu.",
-          "sampleTone": "Samozavesten, natančen, filmski",
-          "sampleVisualLanguage": "Kiparska svetloba, otipne podrobnosti, namensko gibanje kamere",
-          "storyboard": [
-            {
-              "number": "01",
-              "title": "Napetost",
-              "body": "Odprite resnični problem občinstva v eni aretacijski podobi."
-            },
-            {
-              "number": "02",
-              "title": "Razkritje",
-              "body": "Predstavite izdelek kot prelomnico, ne kot seznam funkcij."
-            },
-            {
-              "number": "03",
-              "title": "Dokaz",
-              "body": "Pokažite temeljno vrednost z jedrnato vizualno demonstracijo."
-            },
-            {
-              "number": "04",
-              "title": "Vabilo",
-              "body": "Pristanite na enem dejanju in čistem končnem okvirju z blagovno znamko."
-            }
-          ],
-          "deliverables": [
-            "Povzetek kampanje",
-            "Snemalna plošča in glasovna smer",
-            "Glavni film z družbenimi izrezi"
+          "eventCtaLabel": "Poziv k dejanju",
+          "saveEventLabel": "Preveri povzetek dogodka",
+          "generateHeading": "Ustvari tri resnične slike",
+          "generateBody": "Dve sliki v razmerju 4:5 za objavo in ena 9:16 za Zgodbo, samo z odobrenimi sredstvi restavracije in abstraktnimi grafičnimi obdelavami.",
+          "confirmGenerateLabel": "Potrdi in ustvari slike",
+          "generatingLabel": "Ustvarjanje paketa treh slik…",
+          "imageReviewHeading": "Vaš paket slik za Instagram",
+          "downloadLabel": "Prenesi",
+          "revisionPlaceholder": "Ena revizija: opišite spremembo…",
+          "reviseLabel": "Revidiraj enkrat",
+          "approveImagesLabel": "Odobri slike",
+          "createVideoLabel": "Ustvari video",
+          "loginNotice": "Prijavite se, da odobreno sliko spremenite v šestsekundni video, povežete Instagram, načrtujete ali objavite.",
+          "cancelLabel": "Začni znova",
+          "errorCopy": "Archer tega predogleda ni mogel dokončati. Poskusite z drugim javnim URL-jem Instagrama."
+        },
+        "intake": {
+          "eyebrow": "Predogled Instagram kampanje",
+          "title": "Začnite z javnim Instagramom restavracije",
+          "body": "Archer bere dostopne signale blagovne znamke, označuje opažanja in sklepanja ter odobreni povzetek dogodka spremeni v tri slike za prenos.",
+          "uploadLabel": "Javni URL Instagrama",
+          "uploadHint": "Profil, objava, karusel ali Reel",
+          "transferNote": "Samo javna sredstva. Archer nikoli ne zaobide zasebnih profilov, prijavnih zidov, CAPTCHA ali nedostopnih vsebin.",
+          "eventLabel": "Identiteta blagovne znamke",
+          "eventValue": "Opaženo + sklegano, omogoča urejanje",
+          "deadlineLabel": "Paket slik",
+          "deadlineValue": "Dve sliki za objavo + ena Zgodba",
+          "platformLabel": "Nato",
+          "suggestions": [
+            "Prilepite Instagram restavracije",
+            "Preglej identiteto blagovne znamke",
+            "Opišite dogodek"
           ]
         }
       },
       "workflow": {
-        "heading": "Od Spark do Campaign.",
-        "mutedHeading": "Tri preprosta dejanja",
-        "learnLabel": "Naučiti se več",
-        "acts": [
+        "eyebrow": "Pošlji, blagovno označi, odobri",
+        "heading": "Pošljite resnične posnetke. Promocijo objavite pred dogodkom.",
+        "body": "Tristopenjski concierge potek dela, prilagojen koledarju vaše ekipe, pravilom blagovne znamke in verigi odobritev.",
+        "steps": [
           {
             "number": "01",
-            "title": "Pisati",
-            "description": "Opišite svojo oglaševalsko akcijo v enem pozivu.",
-            "visualKind": "write",
-            "prompt": "Začnite kinematografsko kampanjo za nov nastop v Tokiu, prepojenem z dežjem.",
-            "mediaItems": [
-              {
-                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-one.png",
-                "alt": "Referenca oglaševalske akcije za uspešnost, prepojena z dežjem"
-              },
-              {
-                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-two.png",
-                "alt": "Referenca oglaševalske akcije za čevlje"
-              },
-              {
-                "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-prompt-three.png",
-                "alt": "Sklic na tokijsko kampanjo"
-              }
+            "title": "Pošlji",
+            "description": "Delite resnične telefonske posnetke, ki jih je vaša ekipa v lokalih že posnela.",
+            "visualKind": "send",
+            "details": [
+              "Dejanske jedi, prostori, množice in dogodki",
+              "Ena mapa na lokal ali dogodek",
+              "Rok vključen ob predaji"
             ]
           },
           {
             "number": "02",
-            "title": "Povzročiti",
-            "description": "Archer takoj ustvari vašo kinematografsko kampanjo.",
-            "visualKind": "generate",
-            "status": "Building your campaign…",
-            "progress": "84%",
-            "media": {
-              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
-              "alt": "Ustvarjeni so okvirji kinematografske kampanje"
-            }
+            "title": "Blagovna znamka",
+            "description": "Archer očisti, uredi, podnaslovi in prilagodi velikost, ne da bi nadomestil posneto vsebino.",
+            "visualKind": "brand",
+            "details": [
+              "Komplet blagovne znamke za posamezen lokal",
+              "Izurezi 9:16, prilagojeni platformi",
+              "Brez regeneriranih subjektov ali prizorov"
+            ]
           },
           {
             "number": "03",
-            "title": "Delež",
-            "description": "Odobrite, izvozite v 4K in delite povsod.",
-            "visualKind": "share",
-            "filename": "archer_launch_film.mp4",
-            "media": {
-              "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-generation.png",
-              "alt": "Končana Archerjeva kampanja, pripravljena za izvoz"
-            }
+            "title": "Odobri",
+            "description": "En imenovani odobritelj pregleda eno povezavo, Archer pa skrbi za uro.",
+            "visualKind": "approve",
+            "details": [
+              "Ena združena odobritev",
+              "Dogovorjeno okno za revizije",
+              "Končna dostava pred odprtjem vrat"
+            ]
           }
         ]
       },
-      "capabilities": {
-        "heading": "Odkrijte močno",
-        "chipLabel": "video",
-        "mutedHeading": "Modeli. Vse na enem mestu",
-        "items": [
-          "Povzetek kampanje",
-          "Snemalne plošče",
-          "Vizualna generacija",
-          "VoiceOver",
-          "Zvočna zasnova",
-          "Končno urejanje",
-          "Družbena zmanjšanja",
-          "Izvoz 4K"
-        ]
+      "delivery": {
+        "eyebrow": "En dogodek, štiri objave",
+        "heading": "Štirje izrezki, prilagojeni platformi. En rok.",
+        "body": "Vsaka dostava je kadrirana navpično, preverjena glede na blagovno znamko lokala in vezana na isti rok dogodka.",
+        "platforms": [
+          {
+            "platform": "instagram-reels",
+            "label": "Instagram Reels",
+            "aspectRatio": "9:16",
+            "note": "Blagovno znamkan navpični izrezek"
+          },
+          {
+            "platform": "tiktok",
+            "label": "TikTok",
+            "aspectRatio": "9:16",
+            "note": "Hiter izrezek, prilagojen platformi"
+          },
+          {
+            "platform": "youtube-shorts",
+            "label": "YouTube Shorts",
+            "aspectRatio": "9:16",
+            "note": "Jasna kratka zgodba"
+          },
+          {
+            "platform": "snapchat",
+            "label": "Snapchat",
+            "aspectRatio": "9:16",
+            "note": "Promocija dogodka čez celoten zaslon"
+          }
+        ],
+        "guarantee": {
+          "label": "Lastništvo roka",
+          "heading": "Izrezek je uporaben le pred dogodkom.",
+          "body": "Pred začetkom urejanja se dogovorimo o roku dogodka, imenovanem odobritelju, oknu za dostavo in oknu za revizije."
+        }
       },
       "showcase": {
-        "heading": "Kampanje, narejene z Archerjem",
+        "eyebrow": "Predogled sloga",
+        "heading": "To je slog.",
+        "body": "Predogledi, ustvarjeni z umetno inteligenco, ki ponazarjajo Archerjevo vizualno usmeritev — niso posnetki dejanskega naročnika ali lokacije.",
+        "notice": "To so ponazoritveni predogledi slogov in ne prave pilotske dobave. Odobreno naročnikovo delo jih bo zamenjalo tukaj, ko bo na voljo.",
         "items": [
           {
-            "label": "kinematografski oglas",
-            "prompt": "Kiparska steklenička dišav, ki se pojavlja skozi srebrno meglo, luksuzni film kampanje",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-cinematic-ad.mp4",
-            "alt": "Luksuzna kampanja dišav"
+            "eventLabel": "DJ noč",
+            "venueType": "Lounge v Rijadu",
+            "beforeLabel": "Telefonski posnetki",
+            "afterLabel": "Blagovno znamkan 9:16",
+            "statusLabel": "Predogled, ustvarjen z umetno inteligenco · le ponazorilno"
           },
           {
-            "label": "Napovednik filma",
-            "prompt": "Osamljeni astronavt prečka poplavljeno mesto, ko se zora prebije skozi obzorje",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-movie-trailer.mp4",
-            "alt": "Napovednik kinematografskega astronavta"
+            "eventLabel": "Borilna noč",
+            "venueType": "Športni bar na več lokacijah",
+            "beforeLabel": "Izrezki iz lokala",
+            "afterLabel": "Štirje izrezki",
+            "statusLabel": "Predogled, ustvarjen z umetno inteligenco · le ponazorilno"
           },
           {
-            "label": "Pojasnilo izdelka",
-            "prompt": "Natančna ura se sestavi v temnem studiu, vsak mehanizem v gibanju",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-product-explainer.mp4",
-            "alt": "Natančni razlagalnik ure"
-          },
-          {
-            "label": "Socialna kampanja",
-            "prompt": "Novo električno vozilo seka skozi kinematografsko puščavsko nevihto ob Blue Hour",
-            "video": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-social-campaign.mp4",
-            "alt": "Električno vozilo Socialni film"
+            "eventLabel": "Sezonska zabava",
+            "venueType": "Restavracijska skupina",
+            "beforeLabel": "Tedenska mapa",
+            "afterLabel": "Odobrena promocija",
+            "statusLabel": "Predogled, ustvarjen z umetno inteligenco · le ponazorilno"
           }
         ]
       },
       "features": {
-        "heading": "Vse, kar potrebujete za kampanjo",
-        "body": "Kratko, ustvarite, uredite in zaženite – vse na enem mestu.",
-        "ctaLabel": "Začnite brezplačno",
+        "eyebrow": "Zakaj ekipe uporabljajo Archer",
+        "heading": "Zmogljivost za vsak lokal, ne da bi zamenjali vašega urednika.",
+        "body": "Archer razširi produkcijsko ekipo za ponovljivo, rokom vezano promocijsko delo.",
+        "ctaLabel": "Opredelite pilotni projekt",
         "items": [
           {
-            "kind": "metric",
-            "title": "Formati oglaševalskih akcij",
-            "metric": "3",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
-            "alt": "Kinematografski lisičji portret"
+            "kind": "brand",
+            "title": "Ujemanje blagovne znamke",
+            "body": "Ohranite barve, tipografijo, zaključne kartice, podnaslove in ton vsakega lokala v kompletu za ponovno uporabo."
           },
           {
-            "kind": "metric",
-            "title": "Glavni izvoz",
-            "metric": "4K",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-master-export.png",
-            "alt": "Kinematografski portret v topli svetlobi"
+            "kind": "approval",
+            "title": "Hitrost odobritve",
+            "body": "Usmerite enoten pregled k enemu imenovanemu odobritelju, namesto da lovite skupinski klepet."
           },
           {
-            "kind": "wide",
-            "title": "kateri koli slog",
-            "body": "Photoreal, animirani, z izdelkom vodeni – izberete svet.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-            "alt": "Archer kinematografska akcija"
+            "kind": "deadline",
+            "title": "Lastništvo roka",
+            "body": "Načrtujte vzvratno od odprtja vrat, z dogovorjenimi okni za dostavo in revizije pred urejanjem."
           },
           {
-            "kind": "feature",
-            "title": "En kratek",
-            "body": "Archer nosi eno samo idejo skozi vsak prizor, rez in kanal.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-one-brief.png",
-            "alt": "Teniška kampanja, fotografirana od zgoraj"
+            "kind": "formats",
+            "title": "Prilagajanje velikosti za platforme",
+            "body": "Dostavite premišljene različice 9:16 za Reels, TikTok, Shorts in Snapchat."
           },
           {
-            "kind": "feature",
-            "title": "Takojšnja zmanjšanja",
-            "body": "Spremenite en glavni film v družabne montaže, pripravljene za zagon.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
-            "alt": "Kampanja kinematografskih vozil v kanjonu"
+            "kind": "real-footage",
+            "title": "Samo resnični posnetki",
+            "body": "Očistite, uredite, podnaslovite in blagovno označite posnete vsebine. Nikoli ne sintetizirajte lokala ali dogodka."
           },
           {
-            "kind": "video",
-            "title": "Večmodel",
-            "body": "Za vsak posnetek uporabite pravi model vizualnega, glasu in gibanja.",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-multi-model.mp4",
-            "alt": "Zaporedje kinematografskih izdelkov"
-          },
-          {
-            "kind": "metric",
-            "title": "Kreativni zagon",
-            "metric": "24/7",
-            "media": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
-            "alt": "Kinematografska gorska kampanja"
+            "kind": "overflow",
+            "title": "Razširitev zmogljivosti urednika",
+            "body": "Prevzame ponovljivo količino promocij, da vaš urednik lahko zaščiti bolj ustvarjalno delo."
           }
         ]
       },
-      "workspace": {
-        "heading": "En delovni prostor.",
-        "accentHeading": "Zasnovan za vsako akcijo",
-        "backgroundImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
-        "navItems": [
-          "Dom",
-          "Povzročiti",
-          "Knjižnica",
-          "Kampanje",
-          "Nastavitve"
-        ],
-        "bannerLabel": "Novo · Pojasnilo izdelka",
-        "bannerTitle": "Spremenite katero koli spletno mesto v poliran predstavitveni film.",
-        "bannerBody": "Zgradite kratek, snemalno ploščo, posnetke, glasovno predvajanje, urejanje in zmanjšanje v enem vodenem toku.",
-        "projectHeading": "Moje kampanje",
-        "projectBody": "12 projektov · 3 v proizvodnji",
-        "projects": [
+      "tracker": {
+        "eyebrow": "Nadzor nad več lokacijami",
+        "heading": "Vsak lokal, dogodek, odobritev in rok na enem mestu.",
+        "body": "Operativni sledilnik ohranja tedensko produkcijsko čakalno vrsto vidno, ne da bi se pretvarjal, da je živa nadzorna plošča strank.",
+        "sampleLabel": "Ilustrativni pilotni sledilnik",
+        "sampleDisclaimer": "Primer poteka dela · niso živi podatki strank",
+        "events": [
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-aether.png",
-            "title": "Aether – lansiranje filma"
+            "venue": "Lokal North",
+            "event": "Četrtkov živi nastop",
+            "deadline": "Čet · 16:00",
+            "status": "footage-received",
+            "statusLabel": "Posnetki prejeti"
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-reef.png",
-            "title": "Reef — zgodba o blagovni znamki"
+            "venue": "Lokal Central",
+            "event": "Petkova DJ noč",
+            "deadline": "Pet · 15:00",
+            "status": "in-production",
+            "statusLabel": "V produkciji"
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/project-nocturne.png",
-            "title": "Nocturne — Prikolica"
+            "venue": "Lokal Marina",
+            "event": "Borilna noč",
+            "deadline": "Pet · 18:00",
+            "status": "pending-approval",
+            "statusLabel": "Čaka na odobritev"
+          },
+          {
+            "venue": "Lokal East",
+            "event": "Sobotni brunch",
+            "deadline": "Sob · 09:00",
+            "status": "approved",
+            "statusLabel": "Odobreno"
+          },
+          {
+            "venue": "Lokal West",
+            "event": "Vikend zabava",
+            "deadline": "Sob · 14:00",
+            "status": "delivered",
+            "statusLabel": "Dostavljeno"
           }
         ],
         "benefits": [
           {
-            "label": "Sodelovati",
-            "body": "Povabite svojo ekipo, preglejte snemalne plošče in skupaj odobrite končni rez."
+            "label": "Ena tedenska čakalna vrsta",
+            "body": "Poglejte, kaj je prispelo, kaj se premika in kaj potrebuje odločitev."
           },
           {
-            "label": "Organizirati",
-            "body": "Hranite poročila, reference, generacije in izvoz v enem čistem središču kampanje."
+            "label": "En odgovorni odobritelj",
+            "body": "Lastništvo naj bo vidno, preden rok postane nujna zadeva."
           },
           {
-            "label": "Kjerkoli",
-            "body": "Ustvari na namizju, tabličnem računalniku ali mobilnem telefonu – Archer ohranja zgodbo v gibanju."
+            "label": "Ena ura za dostavo",
+            "body": "Povežite vsak izrezek za platformo z dogodkom, ne z odprtim koledarjem vsebin."
           }
         ]
       },
       "meetArcher": {
-        "kicker": "Spoznajte svojega direktorja kampanje AI",
+        "kicker": "Spoznajte svojega operaterja promocij dogodkov",
         "heading": "Spoznajte Archerja.",
-        "mutedHeading": "Vsaki ideji dajte svet.",
-        "body": "Archer spremeni izdelek, premiso ali lansiranje v skladno kinematografsko kampanjo – nato ohranja zgodbo poravnano skozi vsak prizor in kanal.",
+        "mutedHeading": "Rezervna podpora za roke vašega urednika.",
+        "body": "Archer prevzame ponovljivo urejanje promocij dogodkov s kritične poti vaše ekipe. Vaš urednik ohranja ustvarjalno lastništvo. Archer doda zmogljivost, disciplino blagovne znamke in doslednost pri rokih.",
         "points": [
           {
             "number": "01",
-            "label": "Ostri ustvarjalni nagoni"
+            "label": "Pravočasna dostava za dogodke"
           },
           {
             "number": "02",
-            "label": "Proizvodnja od konca do konca"
+            "label": "Ujemanje med lokali"
           },
           {
             "number": "03",
-            "label": "Vedno na blagovni znamki"
+            "label": "En odobritelj, ena povezava"
           }
         ],
-        "ctaLabel": "Pogovorite se z Archerjem",
+        "ctaLabel": "Rezervirajte pilotni projekt",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
-        "statusTitle": "Archer je pripravljen",
-        "statusBody": "Povejte mu, kaj želite zagnati"
+        "statusTitle": "Rok pokrit",
+        "statusBody": "Resnični posnetki · pripravljeni za odobritev",
+        "voiceCtaLabel": "Pogovorite se z Archerjem"
       },
-      "journal": {
-        "heading": "Znotraj Archerja",
-        "body": "Opombe o ustvarjanju filmov AI, kampanjah in kreativni režiji.",
-        "allStoriesLabel": "Vse zgodbe",
+      "fit": {
+        "eyebrow": "Osredotočena storitev",
+        "heading": "Komu to ni namenjeno.",
+        "body": "Archer je zasnovan za specifičen operativni problem, zato so meje prav tako pomembne kot obljuba.",
         "items": [
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/journal-product-explainer.webp",
-            "alt": "Delovni prostor kampanje Archer",
-            "category": "Izdelek",
-            "date": "Aug 18, 2026",
-            "title": "Od strani izdelka do izpopolnjenega razlagalca v enem ustvarjalnem toku",
-            "target": "product"
+            "label": "Ni za",
+            "title": "Sintetična vsebina lokala",
+            "body": "Archer ne izumlja jedi, prostorov, množic, izvajalcev ali dogodkov, ki niso bili posneti."
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-            "alt": "Svet kinematografske kampanje Archer",
-            "category": "Studio",
-            "date": "Aug 06, 2026",
-            "title": "Zakaj se najmočnejše kampanje AI še vedno začnejo s stališčem",
-            "target": "showcase"
+            "label": "Verjetno ni za",
+            "title": "Občasne objave na eni lokaciji",
+            "body": "Za enkratno objavo lahko uporabite demo urejanje, vendar ne potrebuje concierge storitve, vezane na roke."
+          },
+          {
+            "label": "Zasnovano za",
+            "title": "Gostinske ekipe z več lokacijami",
+            "body": "Agencije in skupine, ki že zdaj zbirajo pravo posneto gradivo v restavracijah, barjih, lounge-ih in prostorih za nočno življenje."
           }
-        ]
+        ],
+        "showSection": false
       },
-      "closing": {
-        "heading": "Vaša akcija se začne tukaj",
-        "ctaLabel": "Začnite brezplačno",
-        "filmstrip": [
+      "pilot": {
+        "eyebrow": "Plačani štiritedenski konciržni pilot",
+        "heading": "Dokazite delovni potek ob rokih na pravih dogodkih.",
+        "body": "Izberite lokacije in koledar dogodkov, poimenujte enega odobrivalca in se strinjte o oknih za dostavo in revizije, preden pride prvo posneto gradivo.",
+        "primaryCtaLabel": "Rezervirajte pogovor o pilotu",
+        "bookingUrl": "https://calendar.app.google/iqrTNCKcJ723dqhq6",
+        "secondaryCtaLabel": "Poskusite demo urejanja enega prispevka",
+        "secondaryPrompt": "Želim demo urejanja enega prispevka. Delil bom enega od svojih obstoječih Instagramovih prispevkov za ponovni uporabo, primeren za platformo.",
+        "demoNote": "Demo urejanja enega prispevka prikazuje sposobnost urejanja. To ni izkušnja s produktom, ki ga poganjajo rokovi in več lokacij.",
+        "steps": [
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
-            "alt": "Okvir kinematografskega izdelka"
+            "number": "01",
+            "title": "Izberite pilotne lokacije",
+            "body": "Določite tedenski obseg dogodkov, brendirane pakete in mešanco platform."
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
-            "alt": "Okvir atmosfere kampanje"
+            "number": "02",
+            "title": "Poimenujte enega odobrivalca",
+            "body": "Ohranite povratne informacije združene in lastništvo jasno."
           },
           {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
-            "alt": "Svetovni okvir kampanje"
-          },
-          {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
-            "alt": "Okvir zgodbe blagovne znamke"
-          },
-          {
-            "image": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png",
-            "alt": "Okvir za zapiranje prikolice"
+            "number": "03",
+            "title": "Dogovorite se o uri",
+            "body": "Nastavite okna za dostavo in revizije okoli pravih dogodkovnih rokov."
           }
-        ]
+        ],
+        "showSection": false
       },
       "footer": {
-        "tagline": "Ustvarite kinematografske kampanje z močjo AI.",
+        "tagline": "Pravi gostinski posnetki, znamčno označeni in dostavljeni pred rokom dogodka.",
         "groups": [
           {
-            "label": "Navigacija",
+            "label": "Storitev",
             "links": [
               {
-                "label": "Izdelek",
-                "target": "product"
+                "label": "Potek dela",
+                "target": "workflow"
               },
               {
-                "label": "Predstavitev",
+                "label": "Dostava",
+                "target": "delivery"
+              },
+              {
+                "label": "Resnično delo",
                 "target": "showcase"
-              },
-              {
-                "label": "Zmogljivosti",
-                "target": "capabilities"
               }
             ]
           },
           {
-            "label": "Ustvariti",
+            "label": "Operacije",
             "links": [
               {
-                "label": "kinematografski oglas",
-                "target": "start"
+                "label": "Produkcijski sledilnik",
+                "target": "tracker"
               },
               {
-                "label": "Napovednik filma",
-                "target": "start"
+                "label": "Spoznajte Archerja",
+                "target": "meet-archer"
               },
               {
-                "label": "Pojasnilo izdelka",
-                "target": "product"
+                "label": "Za koga je namenjeno",
+                "target": "fit"
               }
             ]
           },
           {
-            "label": "Povežite se",
+            "label": "Začetek",
             "links": [
               {
-                "label": "Stik",
+                "label": "Štiritedenski pilot",
+                "target": "pilot"
+              },
+              {
+                "label": "Kontakt",
                 "target": "contact"
-              },
-              {
-                "label": "Dnevnik",
-                "target": "journal"
               }
             ]
           }
         ],
         "copyright": "© 2026 Archer.",
-        "closingStatement": "Your AI campaign director.",
+        "closingStatement": "Rezervna podpora za roke vašega urednika.",
         "contactEmail": "hello@gabrieloperator.com"
+      },
+      "presentationMedia": {
+        "notice": "Kinomatični vizualni elementi so okrasni, ne posnetki strankah ali pilotni izhodki.",
+        "heroVideo": {
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v1.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-deadline-start-v2.png"
+        },
+        "workflowThumbnails": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-dj-v2.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-fight-v2.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-seasonal-v2.png"
+        ],
+        "workflowImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-hospitality-event-v2.png",
+        "showcaseVideos": [
+          {
+            "kind": "image",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-dj-night-v2-start.png"
+          },
+          {
+            "kind": "image",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-fight-night-v2-start.png"
+          },
+          {
+            "kind": "image",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/showcase-seasonal-v2-start.png"
+          }
+        ],
+        "featureMedia": [
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-brand-consistency-v2.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-approval-turnaround-v2.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-deadline-ownership-v2.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-platform-resizing-v2.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-real-footage-v2.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-editor-capacity-v2.png",
+            "kind": "image"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v2.png",
+            "kind": "image"
+          }
+        ],
+        "workspaceBackground": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-workspace-background-v2.png",
+        "workspaceProjects": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-venue-north-live-set-v2.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-venue-central-dj-night-v2.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/tracker-venue-marina-fight-night-v2.png"
+        ],
+        "filmstrip": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-campaign-formats.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/filmstrip-atmosphere.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-social-cutdowns.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-creative-momentum.png"
+        ],
+        "fitImages": [
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
+          "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
+        ]
       }
     }
   },
-  "generatedAt": "2026-09-01T15:39:42.047Z"
+  "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "ctaLabel"
+      ],
+      "sourceHash": "8f3a0515de657899294d522f24f2d9c183edea507bddf80052c382f00fe6c33e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "badge"
+      ],
+      "sourceHash": "129f273472001aa49b3ef04b9cf92203b785be012fda33b0ba00731f8555b27f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headline"
+      ],
+      "sourceHash": "15372b3f79c8b024ffa0b517eb10efcf2d020220d0a61c6acfcfeaf7d1f33b91"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "859dc4486eb42b72f38e506819e98641b6bcc6cec0c9c7a6d07c0a7e17c97413"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "891414058142f47713eeef9d78cb187e2b40ad38dec191f94615c9f37e5d5637"
+    },
+    {
+      "path": [
+        "landingPage",
+        "secondaryCtaLabel"
+      ],
+      "sourceHash": "cd7d731ce76a703dd8a997f35989d6cf4dddc86d1224a648039050a77bd145f2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        0,
+        "text"
+      ],
+      "sourceHash": "8c92e4a83bce35ae798c939aa0f13529eee7a26bd2a74c9843076573b0e12938"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "e08e2d16e9b0dc7c184595b4818832881ebaf367dc88736eaec75d3bb85293c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "ad897494ff6c35e6762439d4f857f941c6e802753ea5f684963b641ed6bbc86d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "f6afa1c0d0f7f9a7640504bdf65992cfbfed08c6fccd8207ae803b91e96a09f3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "db26117b0c28c9fd236cf5a5ca99f8cca276d20d9108712748cef53ea147cdff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        2
+      ],
+      "sourceHash": "822726a80ebeddfbcdece729907e139d24f2b17a6973c3771579e9e30c05728c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "seoImage",
+        "alt"
+      ],
+      "sourceHash": "4cc79a303ea82eca931d1095b00dcbcbf9dd765dea24e0923c4220be5c7df988"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "2e2d5c5649b718b542fae80e72768b9cfcfea9bcfa51ecc25bf6f3ce532eb5b3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "52bfe584a5fc450539e2aa651b990fa2415060492a243816ab2994292089c6fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "57248d6e1af3e74af8b8267908ad808c14297c6e1215bf19fd00e145b8319ac8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "navItems",
+        3,
+        "label"
+      ],
+      "sourceHash": "e2ef99b24a10d8aad2b67da89ee552141e69d8f4ace2801f5158bf4ebd741b36"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "navItems",
+        4,
+        "label"
+      ],
+      "sourceHash": "383e2d946278a872c3723cb83a961d8c4809df7110628cca0ba1a808267b3561"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "loginLabel"
+      ],
+      "sourceHash": "c189840cf7e2d6f6fdeefde1ac59dfdf50bb75642eb569b4e38a5614d6f12ac2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "pilotLabel"
+      ],
+      "sourceHash": "95997df5c40828b38183608102c096ac0c05fd52c95c805727a0a9445b8d7e92"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "eyebrow"
+      ],
+      "sourceHash": "5d5026689ed7012cab2debdf623a07167b163745d00c8e9ab13c03f1b05499cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "4db8255174c5882b865eee8f959a72c14f174ef6bd747e08045d855a4623a18f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "fa6315e085dc3d93f4f3c2862adcfebaaa799f2420f8045fc16419c85dd8d38b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "mutedHeadingLine"
+      ],
+      "sourceHash": "736a17129a7fedc39730c89142e21d0f5c94dc7be0c3dc66dbdd7e71dbbf0110"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "body"
+      ],
+      "sourceHash": "859dc4486eb42b72f38e506819e98641b6bcc6cec0c9c7a6d07c0a7e17c97413"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "891414058142f47713eeef9d78cb187e2b40ad38dec191f94615c9f37e5d5637"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "secondaryCtaLabel"
+      ],
+      "sourceHash": "cd7d731ce76a703dd8a997f35989d6cf4dddc86d1224a648039050a77bd145f2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "urlPlaceholder"
+      ],
+      "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "analyzeLabel"
+      ],
+      "sourceHash": "6d33bc45fd6777c6b155f577edc2f2f490a148e0b21df80b0b59218c31c2431a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "analyzingLabel"
+      ],
+      "sourceHash": "cae33ee98dc2092caf035d3fa10c5039f4310b617c6f3f78c6c0abf3856fbf6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReviewHeading"
+      ],
+      "sourceHash": "d7a5900984dca216e698ad91da337c394426c562c898869e7e5b29b8ec0c1e41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReviewBody"
+      ],
+      "sourceHash": "6ffbedd6c17955ab77498b2fa58127aa47c1b47016637615fc46571455668f8b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "observedLabel"
+      ],
+      "sourceHash": "64fa8a14a90feef5d86951352195391dfead1194f932aaed0755021c504e2a15"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "inferredLabel"
+      ],
+      "sourceHash": "d461cbb490668b91c8a9dffc9884dc81291623e07cd31f4dde964f25e5fd7571"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceManifestLabel"
+      ],
+      "sourceHash": "fd5977138d2aea02d41a584f6dcdd38c9df0fac30a3ed421644b77651ead58b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "approveBrandLabel"
+      ],
+      "sourceHash": "ec845d6a48b51f005235bc6450e1cf4a6ce0d6de8ed4032b22962d8ca48f98ff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventHeading"
+      ],
+      "sourceHash": "1c5d597c79ab7b55b0f692d279d61a100845a866ab94fbd27af28f9733b14b27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventBody"
+      ],
+      "sourceHash": "a91325c826df6555ba6ce40efd2cf548f5dfb985f22b7fd47f6abd7407f1727a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventPlaceholder"
+      ],
+      "sourceHash": "008a14ce69d4ac450fbd20557bb0b784b1dea11a3d15c01665219b3533db9116"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventNameLabel"
+      ],
+      "sourceHash": "25bc9efedfb71cbfb65a2a20c6abd79f6bda23b21d1621eafa61f509a5e9a376"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "venueLabel"
+      ],
+      "sourceHash": "aea1b15df626f337de5eb359dd6f7651b9f25a39ddb515b6ab765e1167456d87"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "dateTimeLabel"
+      ],
+      "sourceHash": "a079c3bbe23a42537bea423cc5dcc1ba112a8fc5d216f6bd6d4a94620d619080"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "offerLabel"
+      ],
+      "sourceHash": "0cf57c63eb976556a273198f34e8816a586471aefa434f80dab8b77667c0a981"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "audienceLabel"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventCtaLabel"
+      ],
+      "sourceHash": "c48cd231858e1cec880d3e4312dda6754485be04e0e0770c7ad5ff7ea9ed1e71"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "saveEventLabel"
+      ],
+      "sourceHash": "7fedf1abc43e1ab2c47194ef4f0e7317286cc1e1c43f576a8f2a6d14cf01250c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generateHeading"
+      ],
+      "sourceHash": "1d5957a34b214667a854183433750538bc2a2b36294a168cf921e1242c2e8dc9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generateBody"
+      ],
+      "sourceHash": "85b129a917b4aa4570bc955de28d7137be936ed65942c7ae61094c2b798c23d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "confirmGenerateLabel"
+      ],
+      "sourceHash": "d67d72ba8a303802b332af4044da90977562d41a3a7b679a495ed3902493affc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generatingLabel"
+      ],
+      "sourceHash": "99baacb9e0bf2d60374797b07f53a4358172aedfecbfce207a93daa7e882b74d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imageReviewHeading"
+      ],
+      "sourceHash": "fddeedf739fdec957d4a8413c07cb3987566b479563a44b48a7c248e565f211e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "downloadLabel"
+      ],
+      "sourceHash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "revisionPlaceholder"
+      ],
+      "sourceHash": "13cc37d57fb7eb871383451eaebbb5d7f8b1e53b4d0fef1f3e99bd4bcfa9ff89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "reviseLabel"
+      ],
+      "sourceHash": "4a51e1f3bad7663ea0b2db707d4d70efed313469a7b4ca1420f1d56a6c774bbf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "approveImagesLabel"
+      ],
+      "sourceHash": "2f896c0aeb19de299515c66270d60270e09556153a910e82fcadd2931927f0d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "createVideoLabel"
+      ],
+      "sourceHash": "4a7a722f995c95d49559b2e86c948dfb5166b2663850da87f2bb2277727ef67d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "loginNotice"
+      ],
+      "sourceHash": "996c796385985b947a373b00864d6f2acb90471964801f49570f97ac92f09627"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "cancelLabel"
+      ],
+      "sourceHash": "5eed7e9fc8f3cd68976a11190ece0e6c4518436e90e0cd8c9a6602c09512d2e5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "errorCopy"
+      ],
+      "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "eyebrow"
+      ],
+      "sourceHash": "c176cdd330c72a94ddacc460475465a396fef11e56e123c563d9c546f20c20ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "title"
+      ],
+      "sourceHash": "28486cc0b426793bfd176587816a847023c9f93de8ded0f1c5aca4f24181b60c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "body"
+      ],
+      "sourceHash": "663335b89417dbdf981f8f97bd3036d163b4e6e2dc8309004a2a3a6b26842457"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "uploadLabel"
+      ],
+      "sourceHash": "abdd948d8cdca1442b5beac1217d4b88dde2c00fe487f321d4e8c05aced6ff6c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "uploadHint"
+      ],
+      "sourceHash": "dbea5f648dd44a5c73d8c908e420d7897bb4d85196b34358d8347195667253cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "transferNote"
+      ],
+      "sourceHash": "af5cd8df24bffd7116c0b6b3620cbd9f514759e82dfb12d6e9ca124daf9826e4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "eventLabel"
+      ],
+      "sourceHash": "5eb28597809b824f88b71c81b0b98270d1c3d56299275d68f4f11213ac345d3f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "eventValue"
+      ],
+      "sourceHash": "e928fc1aee60146911794776e70780814e77726f10b12881f86a42f43e089ee4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "deadlineLabel"
+      ],
+      "sourceHash": "a0ead9c243910ad9d6306d46a1893d1e4aee4f5e40a1f4e2bd7a55dddf1c2878"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "deadlineValue"
+      ],
+      "sourceHash": "54018a4f92a73a8371782cbef8f9bdfb5f825d952448ac519a03c770af3e63de"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "platformLabel"
+      ],
+      "sourceHash": "0597f441dcca7c9bb0a79da4d94d03c523c031a3384009afff47ac1fd1a72b95"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "suggestions",
+        0
+      ],
+      "sourceHash": "4ba46de21c957ad2f6ca3e2d7f3e949bafd940f37ba7708d9bc72096c0c3ccb1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "suggestions",
+        1
+      ],
+      "sourceHash": "d7a5900984dca216e698ad91da337c394426c562c898869e7e5b29b8ec0c1e41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "intake",
+        "suggestions",
+        2
+      ],
+      "sourceHash": "1c5d597c79ab7b55b0f692d279d61a100845a866ab94fbd27af28f9733b14b27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "eyebrow"
+      ],
+      "sourceHash": "d17ca2ad8dce4daf0bfb6be8d9d55cd467cd554147406853014818aeafcb0cb9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "heading"
+      ],
+      "sourceHash": "5a199dc6fd120e57932f015ab2ba2f287b9f147517e7f1478a431cb7ca99efe6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "body"
+      ],
+      "sourceHash": "8df92590b1f90e6ca2edb4bbd08cf7af63f96e69a3b0db615b4054e09364d981"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        0,
+        "description"
+      ],
+      "sourceHash": "ce6a2b8dc4d4c773059b968b02d61edc57de83b7a978f40d8ecf8e36f0f974ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        0,
+        "details",
+        0
+      ],
+      "sourceHash": "321e27e8314bda07122e1c6697e1fb4eabaa223730c829c974309c0bd847b281"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        0,
+        "details",
+        1
+      ],
+      "sourceHash": "b65b34ac1e8635051e5ce9343d633c02315ae40ff25c93dc7373a3e98a8d8ee7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        0,
+        "details",
+        2
+      ],
+      "sourceHash": "db75fecb882609704b5b150387881050418a270b6352ed13fb8788112e6da9cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "090ed4316f1d99fd01dabfa175ba107c9cf9bb0f7c0a3feaa0b47d5bd3443fd3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        1,
+        "description"
+      ],
+      "sourceHash": "0fe312104e2c2a192f1ac8cc9640c5d9c1eb1c82a037bbb10184aa792642f99f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        1,
+        "details",
+        0
+      ],
+      "sourceHash": "e2aec38165213530d166006a88ec1c342ff42588c2b7697d71cb251ed063306d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        1,
+        "details",
+        1
+      ],
+      "sourceHash": "c5683222c92c152c6737bd9cfa6073f4a500093c20e5b6e84d77957577c744b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        1,
+        "details",
+        2
+      ],
+      "sourceHash": "5c939acbbaf8301a20d301128aef4015eb5783185f98c9ff3020af3b00e5c0cf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "6007acbe30b2cd98703e83350ea665c06009fcd51f26dd73b309294235f45f21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        2,
+        "description"
+      ],
+      "sourceHash": "496d42db61fd3e19773b9ccfdd743dbcb48d7dfdfaf5ea9793f73d667f93119b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        2,
+        "details",
+        0
+      ],
+      "sourceHash": "588c0720ae6e4cae0379c9381756d53f36769ca99ecb533f65f9794d3b68f665"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        2,
+        "details",
+        1
+      ],
+      "sourceHash": "87a9fa272399f0f380ef980c9e508a58e5eee72721a6d003c1979435be34dc4c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "workflow",
+        "steps",
+        2,
+        "details",
+        2
+      ],
+      "sourceHash": "b04ca4182b8894c7fc5e2dfff3ddded695419a17c8dbcd2d094cd911e9007dcf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "eyebrow"
+      ],
+      "sourceHash": "1ac357d14105fab5317495994779c6e8be4327db3687a2e0e78343507f83e53b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "heading"
+      ],
+      "sourceHash": "3544b90291d612b373e1502344ea23f0a1d39273ca828b251c6faf2def4f82ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "body"
+      ],
+      "sourceHash": "66cfed04b0c6dc0c7dfdfb04458e71957b7dfc50ccc0c89a787c06fd3021869a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "platforms",
+        0,
+        "note"
+      ],
+      "sourceHash": "1466395be4cadad2eccb1bfb95e763ec250c2734e97ef57690c09641fe44e021"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "platforms",
+        1,
+        "note"
+      ],
+      "sourceHash": "a7a327feff7ae3cdd36fe92502257fa9a931340c069f0bf0e97071b206e624b9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "platforms",
+        2,
+        "note"
+      ],
+      "sourceHash": "0e9fbf2a497885bef4305ec9cb9db00bb400652edb1fe512d7017c870bb065de"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "platforms",
+        3,
+        "note"
+      ],
+      "sourceHash": "387a8517821be5fcbddc788717b3cfb5c67a401ed9376b2e812796444a3e789e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "guarantee",
+        "label"
+      ],
+      "sourceHash": "b159a9c51dac9e151f2749ce69ff7b5ae838f88cb43590dc9683a9b87298a3ca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "guarantee",
+        "heading"
+      ],
+      "sourceHash": "27f94cc89b07bdbdd586ba893dab32e0cfbf405fb5ccb0db6e667562a21ade94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "delivery",
+        "guarantee",
+        "body"
+      ],
+      "sourceHash": "c859c89c2b4523cbef4eacf756d38f4346538e155abe5cfd826ee7ecaf7256fe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "eyebrow"
+      ],
+      "sourceHash": "c27dc0721c26edd8eabc57cf6c4006aa575dac99806cb6b2305997936acb217b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "heading"
+      ],
+      "sourceHash": "4ff002dd9dcb04f528f1709809ec862451c7ac85183139c3539312a4f417fe17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "body"
+      ],
+      "sourceHash": "dfe991242d085125c666b811cf09c592254ac3b1bfeda00cc5447257c6c4389b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "notice"
+      ],
+      "sourceHash": "0b78e86c25913b8b6b581d5e38b18dc5301e671232ea4100c314db745b5285d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        0,
+        "eventLabel"
+      ],
+      "sourceHash": "0b366ac932934c903bf8834c817bf497341abe9fbda22b4ed757f20a23caa4c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        0,
+        "venueType"
+      ],
+      "sourceHash": "c2dc09483fee9765bb5ea7f85217eba637822aed7cc628290fb0a908f0023a18"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        0,
+        "beforeLabel"
+      ],
+      "sourceHash": "7994c44f557b1e80fdad69af004bccc6579c595b7b5d118fd65ee77974c52cd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        0,
+        "afterLabel"
+      ],
+      "sourceHash": "2ac80d93dcfd15f6b90c0ab3d854dc60f7876a0c7dc9c94c0f241e787c5c862d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        0,
+        "statusLabel"
+      ],
+      "sourceHash": "8386daf7f7f6b2d9897029c87b26e76129c1b473f5980d71037305ca35ba976d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        1,
+        "eventLabel"
+      ],
+      "sourceHash": "65a6d8455ab3309d6785117e6d3a4d391d104c48ef1360fb96005aaf9d699023"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        1,
+        "venueType"
+      ],
+      "sourceHash": "0504165fcd32c8e4db0bdece83aa88b3255b115f35d365169acb7fdd7bf05ded"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        1,
+        "beforeLabel"
+      ],
+      "sourceHash": "6f438725a1f8dc60155f2ff9b6a54376217acef28650a9e5f9488659f8645652"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        1,
+        "afterLabel"
+      ],
+      "sourceHash": "4ceca97ebf167513a4a1c72b91e619b245959df2b2d0841ad743090c68d81771"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        1,
+        "statusLabel"
+      ],
+      "sourceHash": "8386daf7f7f6b2d9897029c87b26e76129c1b473f5980d71037305ca35ba976d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        2,
+        "eventLabel"
+      ],
+      "sourceHash": "c7335bf7e1f32b480814980805312be4078dbe591e03e703a1afc0007122f1a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        2,
+        "venueType"
+      ],
+      "sourceHash": "0454e12e51ad121733053a36bb3492e8b0e4dbc560b8ba902287b2de3059eabb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        2,
+        "beforeLabel"
+      ],
+      "sourceHash": "3e7bd00d5a39c2ddd8307f26a59f1446f05dea04dc9986928b2982c148a908dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        2,
+        "afterLabel"
+      ],
+      "sourceHash": "67e2ddf068db971cf16a4fef6571bf92586c22da2b0c40b57b31859578da4792"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "showcase",
+        "items",
+        2,
+        "statusLabel"
+      ],
+      "sourceHash": "8386daf7f7f6b2d9897029c87b26e76129c1b473f5980d71037305ca35ba976d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "eyebrow"
+      ],
+      "sourceHash": "afa0679ac4bde9d9ceff181cfbb01ef6989720fdb9f00a3e75c749936e969704"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "heading"
+      ],
+      "sourceHash": "4ec4a1ed09f43aab8eff0e699022e273b08e1f2a57a7ed3a7206ff3d09b6d57e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "body"
+      ],
+      "sourceHash": "d9565141a4d0fcc38f8c91e4b91ad56fc710563b38747074b7971ae1c18d8db6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "ctaLabel"
+      ],
+      "sourceHash": "fd711601424fd7d7161f5140e98b771df18b693654aa8ce18df968b4d510566d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "4be4a13c06f4bdb086b45198c11aba98a21b51e970d0223963573e23fea8ed56"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "0cc011a507471e2b88ae3238737de0553ab8ccf69b7697c6af4432477cce3485"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "73a8d6b05d5d4c59c8a0a5d63c1bee040674523cfe2cb282f89baf377242848f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "f1d73227a1ec5bfbfe97b7723dfd7124fe175913f0686d32539f488325094cf0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "b159a9c51dac9e151f2749ce69ff7b5ae838f88cb43590dc9683a9b87298a3ca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "9d7ba6f32f1e2fa84f0ca5f9655d826a7786160db63a9ed8bf244222e2f21996"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "8bfc00897bd6119acae76365eac96ce8dcf3804661ea811db4f4fd3a82a65bed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "85edd0992245260d666d9ba0282ed3398c79724a13a1125d1592fb51b147e3d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        4,
+        "title"
+      ],
+      "sourceHash": "987687f2f51ea5924e6bc608cc7ba52911b2359f61e46939c6949d8ab96c8c87"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        4,
+        "body"
+      ],
+      "sourceHash": "eb2740813706ebe09db2ad567c019161a02f7246781d299820e53f794329d3ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        5,
+        "title"
+      ],
+      "sourceHash": "b8beb6ff62c989c9cc443608f1fc32693e0df7aafe4988a30c4086143b16bfab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "features",
+        "items",
+        5,
+        "body"
+      ],
+      "sourceHash": "54194712cc496cd636b06efe9d2bd8ac446a5ab4e753384f5153264482c65632"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "eyebrow"
+      ],
+      "sourceHash": "bb117316be6c079a632a2cfaa8e6e8e489c310089269aa9349c4fd8f48cb856c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "heading"
+      ],
+      "sourceHash": "17d13c278844005acd8c32914810baf3f306c5eb780fe687804ecc00376827f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "body"
+      ],
+      "sourceHash": "8bf2be11812a6b1313bb70162d3de594ce4bdcb4d4f4e71c98d5f8697c0846a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "sampleLabel"
+      ],
+      "sourceHash": "87d543abb6ed3d5faea550310bb8b41f3700b8c87a6328cc83a89271baf52609"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "sampleDisclaimer"
+      ],
+      "sourceHash": "bca5b86b2af86dc8bda92bd16e191324af646d33f4c99455bb5f337ca5e455c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        0,
+        "venue"
+      ],
+      "sourceHash": "cea8b5289498e37fbfc007fe7616783da10611e4edff4d86245bd3ae21f52300"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        0,
+        "event"
+      ],
+      "sourceHash": "55565769a704dd1957e26cafb12234eb719cc4779e44897330a1bd129a4db5e9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        0,
+        "deadline"
+      ],
+      "sourceHash": "571a00931b343abed88153247f82a0be647c457ab6e16d0d4890b4b58cc6a45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        0,
+        "statusLabel"
+      ],
+      "sourceHash": "ccf4cb1b74414e08aa909331e33401d2a8a4e94bd2db37dbaf094cf23d66e70f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        1,
+        "venue"
+      ],
+      "sourceHash": "0e1a682bc98a6268cb6368774f1d030cb44d99ba0606f22a7f23d01f2ba82ddd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        1,
+        "event"
+      ],
+      "sourceHash": "9a32a7daa1d2dab60079b50500328832306d01d7e51ad7c3ac9561f31549768c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        1,
+        "deadline"
+      ],
+      "sourceHash": "f88c940e0b6f536747e349280ae7419587fc317ad930e5bdc50b3ed59eb7f933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        1,
+        "statusLabel"
+      ],
+      "sourceHash": "c4b56e06767d7c781c192a02347531ff9e0f9833c2d8695aa1f6185e9c856d13"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        2,
+        "venue"
+      ],
+      "sourceHash": "0f8a8c4c4fa59eddc5a8c03c400604dfc79e5a0d537832c1cbad30ebc184c8cc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        2,
+        "event"
+      ],
+      "sourceHash": "65a6d8455ab3309d6785117e6d3a4d391d104c48ef1360fb96005aaf9d699023"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        2,
+        "deadline"
+      ],
+      "sourceHash": "04776ff6d2677e0767ed3cd81de8d447a8ccc5cb4bbd978bea4b19875f08c0e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        2,
+        "statusLabel"
+      ],
+      "sourceHash": "bb33a7f41817b38d13854b7f47501050851951e77bba690419fc75be5cd5a372"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        3,
+        "venue"
+      ],
+      "sourceHash": "eaf2bf640d740cb2c6f60b93622944fa271fc7052caf43a3ebb756b2677a7836"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        3,
+        "event"
+      ],
+      "sourceHash": "b1b24c06100ec19cb406346333acef699c728496a12271830761c458f0570200"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        3,
+        "deadline"
+      ],
+      "sourceHash": "6976e262cf1def74a4d6e174d8572d9b2b0372358583c1d086daf74ef4a2558c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        3,
+        "statusLabel"
+      ],
+      "sourceHash": "87b42e40c2a290e01d87b721bf381c3c5e259d1eb0a4660e41fdbf8bc73f7ddd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        4,
+        "venue"
+      ],
+      "sourceHash": "490bb079210211f0766134291f7a708521c209d6ffcbaf6ed1001698ff5f46e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        4,
+        "event"
+      ],
+      "sourceHash": "214152066bebbc2f088c8b809ce2e7e51d83fc6686da25c4b192c16762f2e41e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        4,
+        "deadline"
+      ],
+      "sourceHash": "7ec3fe6d752c21e7550175f1a86c888b5447efb31fccb092510913f835720ea8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "events",
+        4,
+        "statusLabel"
+      ],
+      "sourceHash": "906115657390f3675639f46a572eee069155214169a45be4046933527a95c67b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "benefits",
+        0,
+        "label"
+      ],
+      "sourceHash": "b5c3293538ee62aabcae5b3b313a8b948fa7a7ca980bb305d84427022dde6abf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "benefits",
+        0,
+        "body"
+      ],
+      "sourceHash": "cd4c349b1f3a1f8d9b24d7093b35f54068091f06441230d7c6f8266455e5de65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "benefits",
+        1,
+        "label"
+      ],
+      "sourceHash": "ca62d03a4b24d510c9c3718c4fd3af7dd82909184fbd218df2941234692647c8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "benefits",
+        1,
+        "body"
+      ],
+      "sourceHash": "2e2e87186be73ce434943c78a049567cab50e54ee460f033c14b63350b1c6c04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "benefits",
+        2,
+        "label"
+      ],
+      "sourceHash": "5e878a3f732e5aa2c4e97ca9fdbc7ab363e21292f8dd8f3ce2ccec62cec1ebb5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "tracker",
+        "benefits",
+        2,
+        "body"
+      ],
+      "sourceHash": "a1b6ee5a767184222f04ca5c2a8d9110ed97f2675a86ff57b31632d9e233c21b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "kicker"
+      ],
+      "sourceHash": "2b97ca1704bff45cdc497ccde7402d3645c912219adce59ba9a524feac87edff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "heading"
+      ],
+      "sourceHash": "98ed34d9550eece8002ad7a8a7c420cb7ac94d3531ce2c9bc992863db28bb06a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "mutedHeading"
+      ],
+      "sourceHash": "003d00160abdb9e8156e5893c41b6039c3d80c58147e9c34bb7067897626dd57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "body"
+      ],
+      "sourceHash": "e3763be737a41d5ec9c8e1df75a3bbc526e6fb7c36b0363f54a204813d5b6435"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "points",
+        0,
+        "label"
+      ],
+      "sourceHash": "407145f507f0d5ef4fa1abb7d493db3d4b86fbc07a5804bf5a6b4c13d16baa78"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "points",
+        1,
+        "label"
+      ],
+      "sourceHash": "c0071d92291faae4bb23de18d48a4d3e41cec2fb81ac38ef0fd168e30b635cce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "points",
+        2,
+        "label"
+      ],
+      "sourceHash": "3480241223dfce4895030808c17a622ca7c5b3e12f195a868a90468fe4423920"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "ctaLabel"
+      ],
+      "sourceHash": "694a9e93a4b18048b334c9ba881de14c92fdd53f17dc751ad73b45ffc6525236"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "statusTitle"
+      ],
+      "sourceHash": "d5994157435c540a5aa65285c1050fd1d495c3b7175cde703b594d4967131046"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "statusBody"
+      ],
+      "sourceHash": "f7e3368b50fd9eb1933f646c787a08090c1a4725e6513f386fdfea09b055da58"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "meetArcher",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "c6cef9e17f8b586a788242817fd6c5a5ec6690c65045095a3368cdf0fa6ac992"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "eyebrow"
+      ],
+      "sourceHash": "ca6732267e366964cb73232d937c5c67915e9c0c66ed68fb5716428f3bc838e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "heading"
+      ],
+      "sourceHash": "7696783821dfda5c30cbdfc0ce0bd2485ccf9c25080f164ddfdc5044aa7736cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "body"
+      ],
+      "sourceHash": "fb2dab258a286f8199ff7b9f43067aef764035fa3d948a5552f4c100b47e275b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        0,
+        "label"
+      ],
+      "sourceHash": "9eed17bb0c55e0dd26747c4fb06b83afe9a559ba6844ba70be7213075cf1d099"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "d36cf9cd05fba5e4ab13e53d736b6dba9329c1df1294bb19e13f8d0e0b8b1eab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "c9a7a099087af48eb608483cbfd3b4d38f3c2e870bc97d63d84f5c1f316bdd1d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        1,
+        "label"
+      ],
+      "sourceHash": "09b501de1e1f7b7c61b3f1a26f11479916f5599ffcd72f14ad01a9fc815da528"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "eb607cea3ed41740c0ceb5f8b25a32e924f634a9174d2a1ceacddf79f73e464e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "5ec8413beaca533f437ba56cb7a3885ee9698a1eab1f278678b9a6708b5135f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        2,
+        "label"
+      ],
+      "sourceHash": "0ae12b05cf0fd9ca25b2d10d4b4f31711a4e92ae36db50b1fe4cf0b7ade83ad8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "784e47bc4a69d71905644cbb46824f3a2b7d33223d1a07bfb61efd7ef7e25d52"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "fit",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "4393f620987245d4719b2e1efe114f0663e09abd36a471bac5a87ba8196f3812"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "eyebrow"
+      ],
+      "sourceHash": "a32a17a478c87a22d46d01a197287b655608d094d5a1c532098924f0421d9799"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "heading"
+      ],
+      "sourceHash": "95fd85c63cb63e8e08020a04914aff3affbc24ddefe3c6379930371df5ce7f6e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "body"
+      ],
+      "sourceHash": "257907b4fc273b125dd98cd527ecd69e43d1d823fce714e5563b2ac6d77e9a75"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "196113f7cc2685b41b8b2b29457b02bc057c6822172ea610ed110587ad83f7c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "secondaryCtaLabel"
+      ],
+      "sourceHash": "668590cc09679da34db41c258ab37c8e455392fe23092fc7814fa8aba2de8aa4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "secondaryPrompt"
+      ],
+      "sourceHash": "40b397955f4c510b7b76318033976fc0c1cb9163ab42846fe2b02a7df7ba18be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "demoNote"
+      ],
+      "sourceHash": "59c03b724a4be8e51e3b0ff3a6d7df67bd685cba061cb21cd5023e53aced6da5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "2456abf79f6110004c54c2b6f8437a2eace7df76e1c24b9b8350148116ab634c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "55aded1bb20c69b754622e31e89281f201caa1e3c0e26fefc9e8bbf961c66bee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "3a69dda36cf2581f367c9d062267c7b82d3c00b87bd3f16ea06b26d671028476"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "1c25973ab51d772798e3bf7e305a95b66c4a81093a5ee8b839e1d2ec71d14993"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "d52ebeb0399e09b59bce6b6197449f33aad00bb64d53328782fa0a013c900595"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "pilot",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "2870905224cc55dcac68d467dcca74ee1d33ec47964b9cc971b72578e0102776"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "3efc3acaf4496924245f22cfc5b60d426f7c939e24daa04fdb56a40f6db24cb6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        0,
+        "label"
+      ],
+      "sourceHash": "d677190e0a9990e7d5fa9e4c1bbde44271fb8959c4acb6d43e02ed991128b4bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        0,
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "2e2d5c5649b718b542fae80e72768b9cfcfea9bcfa51ecc25bf6f3ce532eb5b3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        0,
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "52bfe584a5fc450539e2aa651b990fa2415060492a243816ab2994292089c6fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        0,
+        "links",
+        2,
+        "label"
+      ],
+      "sourceHash": "57248d6e1af3e74af8b8267908ad808c14297c6e1215bf19fd00e145b8319ac8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        1,
+        "label"
+      ],
+      "sourceHash": "358cc201f87d9dc9defd3eac467a62fae720aa99a76be8b98e0fc9b3893a427d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        1,
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "e2ef99b24a10d8aad2b67da89ee552141e69d8f4ace2801f5158bf4ebd741b36"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        1,
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "8f3a0515de657899294d522f24f2d9c183edea507bddf80052c382f00fe6c33e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        1,
+        "links",
+        2,
+        "label"
+      ],
+      "sourceHash": "bcdecc549d07363cc6d79a4351786f6c1ca8e9fa7a70e2cbd12758f6df1239aa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        2,
+        "label"
+      ],
+      "sourceHash": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        2,
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "05c2e6715f83b8a597f997bb4c8f12b66c114c426dbb13f6902c9d80fab616d1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "groups",
+        2,
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "copyright"
+      ],
+      "sourceHash": "46b45361f321a53100f42011689dcbef91f8474709b6873c13eccc2a4a2764bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "footer",
+        "closingStatement"
+      ],
+      "sourceHash": "003d00160abdb9e8156e5893c41b6039c3d80c58147e9c34bb7067897626dd57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "presentationMedia",
+        "notice"
+      ],
+      "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
+    }
+  ],
+  "generatedAt": "2026-09-04T09:38:03.012Z"
 }

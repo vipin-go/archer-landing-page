@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
+  "sourceRevision": "cd6656dae55dd8d011884849ddc8dfac639346d1862fb047d2a40bda0b89d743",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -68,11 +68,11 @@
       }
     ],
     "heroChat": {
-      "statusLabel": "Bewerkingondersteuning beschikbaar",
-      "inputPlaceholder": "Vraag naar een demo voor één postbewerking...",
+      "statusLabel": "Instagram-campagnepreview beschikbaar",
+      "inputPlaceholder": "Plak een publiek restaurant Instagram URL...",
       "suggestedPrompts": [
-        "Hergebruik één Instagram-post",
-        "Plan de event-clips van deze week",
+        "Bouw een brand kit van Instagram",
+        "Maak drie evenementenkampagnebeelden",
         "Scope een pilot voor meerdere locaties"
       ]
     },
@@ -117,22 +117,58 @@
         "body": "Verstuur echte telefoonbeelden van elke locatie. Archer bewerkt, brandt, ondertitelt en past de grootte aan voor Reels, TikTok, Shorts en Snapchat, en stuurt vervolgens één goedkeuring voordat de deadline van het evenement verstrijkt.",
         "primaryCtaLabel": "Boek een pilot van vier weken",
         "secondaryCtaLabel": "Bekijk de workflow",
+        "instagramCampaign": {
+          "enabled": true,
+          "commandTrigger": "instagram-campaign",
+          "urlPlaceholder": "Plak een publiek Instagram URL…",
+          "analyzeLabel": "Bouw mijn brand kit",
+          "analyzingLabel": "Lees publieke merk signalen…",
+          "brandReviewHeading": "Beoordeel de merkidentiteit",
+          "brandReviewBody": "Bewerk ingevoerde details voordat er iets gegenereerd wordt.",
+          "observedLabel": "Observatie",
+          "inferredLabel": "Inferentieel",
+          "sourceManifestLabel": "Geverifieerde bronnen",
+          "approveBrandLabel": "Merkidentiteit goedkeuren",
+          "eventHeading": "Beschrijf het evenement",
+          "eventBody": "Alledaags Engels is prima. Archer vraagt alleen essentiële ontbrekende zaken.",
+          "eventPlaceholder": "Vrijdag DJ-avond op de Marina locatie, 21:00, tafelreservaties open…",
+          "eventNameLabel": "Evenementnaam",
+          "venueLabel": "Locatie",
+          "dateTimeLabel": "Datum en tijd",
+          "offerLabel": "Aanbod",
+          "audienceLabel": "Publiek",
+          "eventCtaLabel": "Oproep tot actie",
+          "saveEventLabel": "Controleer evenementbrief",
+          "generateHeading": "Genereer drie echte afbeeldingen",
+          "generateBody": "Twee 4:5 feed afbeeldingen en één 9:16 Story, met alleen goedgekeurde restaurant assets en abstracte grafische behandelingen.",
+          "confirmGenerateLabel": "Bevestig en genereer afbeeldingen",
+          "generatingLabel": "Drie afbeeldingen pakket maken…",
+          "imageReviewHeading": "Uw Instagram beeldmateriaalpakket",
+          "downloadLabel": "Downloaden",
+          "revisionPlaceholder": "Eén correctie: beschrijf de change…",
+          "reviseLabel": "Eens herwerken",
+          "approveImagesLabel": "Bevestig afbeeldingen",
+          "createVideoLabel": "Maak een video",
+          "loginNotice": "Meld dich aan om de goedgekeurde afbeelding om te zien in een zesseconden video, verbind Instagram, schema of publiceer.",
+          "cancelLabel": "Opnieuw beginnen",
+          "errorCopy": "Archer kon deze preview niet compleet maken. Probeer een ander publiek Instagram URL."
+        },
         "intake": {
-          "eyebrow": "Voorbeeld van intake",
-          "title": "Scope de event-promo's van deze week",
-          "body": "Een duidelijke overdracht voor echte beelden, locatiebranding, platforms en de deadline die ertoe doet.",
-          "uploadLabel": "Echte telefoonbeelden",
-          "uploadHint": "Beveiligde overdracht opent na het scopingsproces van de pilot",
-          "transferNote": "Dit is een intakevoorbeeld, geen anonieme upload. Beveiligde beeldoverdracht begint pas nadat we het pilot-scope hebben afgesproken.",
-          "eventLabel": "Evenement",
-          "eventValue": "Prioriteit van deze week",
-          "deadlineLabel": "Deuren open",
-          "deadlineValue": "Vrijdag · 19:00",
-          "platformLabel": "Levering",
+          "eyebrow": "Instagram campagne preview",
+          "title": "Begin met het publieke Instagram van de restaurant",
+          "body": "Archer leest toegankelijke merk signalen, markeert observaties en inferences, en zet een goedgekeurd evenementen brief om in drie downloadbare afbeeldingen.",
+          "uploadLabel": "Publiek Instagram URL",
+          "uploadHint": "Profiel, post, carrousel of Reel",
+          "transferNote": "Alleen publieke assets. Archer omzeilt nooit profielen privé, inlogschermen, CAPTCHA of onbeschikbaar media.",
+          "eventLabel": "Merkidentiteit",
+          "eventValue": "Observatie + inferentieel, bewerkbaar",
+          "deadlineLabel": "Afbeeldingspakket",
+          "deadlineValue": "Twee feed afbeeldingen + één Story",
+          "platformLabel": "Toen",
           "suggestions": [
-            "Verstuur de beelden van deze week",
-            "Stel mijn event-deadline in",
-            "Voeg de brand kit van mijn locatie toe"
+            "Plak restaurant Instagram",
+            "Beoordeel de merkidentiteit",
+            "Beschrijf het evenement"
           ]
         }
       },
@@ -213,31 +249,31 @@
         }
       },
       "showcase": {
-        "eyebrow": "Eerlijk bewijs",
-        "heading": "Alleen echt werk.",
-        "body": "Geen gegenereerd eten, synthetische kamers, verzonnen menigten of fictieve klantcampagnes.",
-        "notice": "Pilot-leveringen verschijnen hier na goedkeuring door de klant. Tot dan vullen we deze ruimte niet met gefabriceerde voorbeelden.",
+        "eyebrow": "Stijlvoorbeeld",
+        "heading": "Dit is de stijl.",
+        "body": "AI-gegenereerde previews die de visuele richting van Archer illustreren — geen beelden van een echte klant of locatie.",
+        "notice": "Dit zijn illustratieve stijlvoorbeelden, geen echte pilotleveringen. Goedgekeurd werk van klanten vervangt ze hier zodra het beschikbaar is.",
         "items": [
           {
             "eventLabel": "DJ-avond",
             "venueType": "Riyadh lounge",
             "beforeLabel": "Telefoonbeelden",
             "afterLabel": "Merkgebonden 9:16",
-            "statusLabel": "Alleen structuur · geen klantwerk"
+            "statusLabel": "Door AI gegenereerde preview · uitsluitend illustratief"
           },
           {
             "eventLabel": "Vechtavond",
             "venueType": "Sportbar met meerdere locaties",
             "beforeLabel": "Locatieclips",
             "afterLabel": "Vier cuts",
-            "statusLabel": "Alleen structuur · geen klantwerk"
+            "statusLabel": "Door AI gegenereerde preview · uitsluitend illustratief"
           },
           {
             "eventLabel": "Seizoensgebonden entertainment",
             "venueType": "Restaurantgroep",
             "beforeLabel": "Wekelijkse map",
             "afterLabel": "Goedgekeurde promo",
-            "statusLabel": "Alleen structuur · geen klantwerk"
+            "statusLabel": "Door AI gegenereerde preview · uitsluitend illustratief"
           }
         ]
       },
@@ -603,7 +639,7 @@
         "heroChat",
         "statusLabel"
       ],
-      "sourceHash": "ffb9abf108b58a059f5336b87d1e167392b040983954d11b4473a721a9c8900c"
+      "sourceHash": "e08e2d16e9b0dc7c184595b4818832881ebaf367dc88736eaec75d3bb85293c2"
     },
     {
       "path": [
@@ -611,7 +647,7 @@
         "heroChat",
         "inputPlaceholder"
       ],
-      "sourceHash": "408ee2f43c05fb666549b8789973be57462f4c08b8f12abb0b03218590f67c64"
+      "sourceHash": "ad897494ff6c35e6762439d4f857f941c6e802753ea5f684963b641ed6bbc86d"
     },
     {
       "path": [
@@ -620,7 +656,7 @@
         "suggestedPrompts",
         0
       ],
-      "sourceHash": "ed6cca9000badfa1879f0db1cc184e4352907a3a14790a73cf9e86bfe8ad8574"
+      "sourceHash": "f6afa1c0d0f7f9a7640504bdf65992cfbfed08c6fccd8207ae803b91e96a09f3"
     },
     {
       "path": [
@@ -629,7 +665,7 @@
         "suggestedPrompts",
         1
       ],
-      "sourceHash": "a968e2d89933e9774bee6fe4b5f70757fd6fd6066ccb79b77624d328d5c50299"
+      "sourceHash": "db26117b0c28c9fd236cf5a5ca99f8cca276d20d9108712748cef53ea147cdff"
     },
     {
       "path": [
@@ -791,10 +827,330 @@
         "landingPage",
         "cinematicCampaigns",
         "hero",
+        "instagramCampaign",
+        "urlPlaceholder"
+      ],
+      "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "analyzeLabel"
+      ],
+      "sourceHash": "6d33bc45fd6777c6b155f577edc2f2f490a148e0b21df80b0b59218c31c2431a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "analyzingLabel"
+      ],
+      "sourceHash": "cae33ee98dc2092caf035d3fa10c5039f4310b617c6f3f78c6c0abf3856fbf6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReviewHeading"
+      ],
+      "sourceHash": "d7a5900984dca216e698ad91da337c394426c562c898869e7e5b29b8ec0c1e41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReviewBody"
+      ],
+      "sourceHash": "6ffbedd6c17955ab77498b2fa58127aa47c1b47016637615fc46571455668f8b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "observedLabel"
+      ],
+      "sourceHash": "64fa8a14a90feef5d86951352195391dfead1194f932aaed0755021c504e2a15"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "inferredLabel"
+      ],
+      "sourceHash": "d461cbb490668b91c8a9dffc9884dc81291623e07cd31f4dde964f25e5fd7571"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceManifestLabel"
+      ],
+      "sourceHash": "fd5977138d2aea02d41a584f6dcdd38c9df0fac30a3ed421644b77651ead58b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "approveBrandLabel"
+      ],
+      "sourceHash": "ec845d6a48b51f005235bc6450e1cf4a6ce0d6de8ed4032b22962d8ca48f98ff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventHeading"
+      ],
+      "sourceHash": "1c5d597c79ab7b55b0f692d279d61a100845a866ab94fbd27af28f9733b14b27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventBody"
+      ],
+      "sourceHash": "a91325c826df6555ba6ce40efd2cf548f5dfb985f22b7fd47f6abd7407f1727a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventPlaceholder"
+      ],
+      "sourceHash": "008a14ce69d4ac450fbd20557bb0b784b1dea11a3d15c01665219b3533db9116"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventNameLabel"
+      ],
+      "sourceHash": "25bc9efedfb71cbfb65a2a20c6abd79f6bda23b21d1621eafa61f509a5e9a376"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "venueLabel"
+      ],
+      "sourceHash": "aea1b15df626f337de5eb359dd6f7651b9f25a39ddb515b6ab765e1167456d87"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "dateTimeLabel"
+      ],
+      "sourceHash": "a079c3bbe23a42537bea423cc5dcc1ba112a8fc5d216f6bd6d4a94620d619080"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "offerLabel"
+      ],
+      "sourceHash": "0cf57c63eb976556a273198f34e8816a586471aefa434f80dab8b77667c0a981"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "audienceLabel"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "eventCtaLabel"
+      ],
+      "sourceHash": "c48cd231858e1cec880d3e4312dda6754485be04e0e0770c7ad5ff7ea9ed1e71"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "saveEventLabel"
+      ],
+      "sourceHash": "7fedf1abc43e1ab2c47194ef4f0e7317286cc1e1c43f576a8f2a6d14cf01250c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generateHeading"
+      ],
+      "sourceHash": "1d5957a34b214667a854183433750538bc2a2b36294a168cf921e1242c2e8dc9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generateBody"
+      ],
+      "sourceHash": "85b129a917b4aa4570bc955de28d7137be936ed65942c7ae61094c2b798c23d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "confirmGenerateLabel"
+      ],
+      "sourceHash": "d67d72ba8a303802b332af4044da90977562d41a3a7b679a495ed3902493affc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generatingLabel"
+      ],
+      "sourceHash": "99baacb9e0bf2d60374797b07f53a4358172aedfecbfce207a93daa7e882b74d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imageReviewHeading"
+      ],
+      "sourceHash": "fddeedf739fdec957d4a8413c07cb3987566b479563a44b48a7c248e565f211e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "downloadLabel"
+      ],
+      "sourceHash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "revisionPlaceholder"
+      ],
+      "sourceHash": "13cc37d57fb7eb871383451eaebbb5d7f8b1e53b4d0fef1f3e99bd4bcfa9ff89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "reviseLabel"
+      ],
+      "sourceHash": "4a51e1f3bad7663ea0b2db707d4d70efed313469a7b4ca1420f1d56a6c774bbf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "approveImagesLabel"
+      ],
+      "sourceHash": "2f896c0aeb19de299515c66270d60270e09556153a910e82fcadd2931927f0d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "createVideoLabel"
+      ],
+      "sourceHash": "4a7a722f995c95d49559b2e86c948dfb5166b2663850da87f2bb2277727ef67d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "loginNotice"
+      ],
+      "sourceHash": "996c796385985b947a373b00864d6f2acb90471964801f49570f97ac92f09627"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "cancelLabel"
+      ],
+      "sourceHash": "5eed7e9fc8f3cd68976a11190ece0e6c4518436e90e0cd8c9a6602c09512d2e5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "errorCopy"
+      ],
+      "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
         "intake",
         "eyebrow"
       ],
-      "sourceHash": "5c03049da6ff92e7770d4689ffe3693144a114df86c3bdeedd87415f75dea05a"
+      "sourceHash": "c176cdd330c72a94ddacc460475465a396fef11e56e123c563d9c546f20c20ce"
     },
     {
       "path": [
@@ -804,7 +1160,7 @@
         "intake",
         "title"
       ],
-      "sourceHash": "db0b5aff03be803c358b68f7363ccd3ff2869b2cd3917537fcaabd57a9e71523"
+      "sourceHash": "28486cc0b426793bfd176587816a847023c9f93de8ded0f1c5aca4f24181b60c"
     },
     {
       "path": [
@@ -814,7 +1170,7 @@
         "intake",
         "body"
       ],
-      "sourceHash": "e5d9c43aabc46b0e8d3c95d806cbd8fc50aba0ebcb62aea75bfc3269cbdb8262"
+      "sourceHash": "663335b89417dbdf981f8f97bd3036d163b4e6e2dc8309004a2a3a6b26842457"
     },
     {
       "path": [
@@ -824,7 +1180,7 @@
         "intake",
         "uploadLabel"
       ],
-      "sourceHash": "67f45d6539ca5d02ae3f69245ac5c1f87bcd1968aa594aed15297e9f280647d6"
+      "sourceHash": "abdd948d8cdca1442b5beac1217d4b88dde2c00fe487f321d4e8c05aced6ff6c"
     },
     {
       "path": [
@@ -834,7 +1190,7 @@
         "intake",
         "uploadHint"
       ],
-      "sourceHash": "fcdd376dc5f1bf03eed9dcc18c99778205c31b6134ee77463d91a20410eba50a"
+      "sourceHash": "dbea5f648dd44a5c73d8c908e420d7897bb4d85196b34358d8347195667253cb"
     },
     {
       "path": [
@@ -844,7 +1200,7 @@
         "intake",
         "transferNote"
       ],
-      "sourceHash": "bd98c54ad63832a1cfd3c70db93fe028dae047abb0ece576d28ffb6246a044e6"
+      "sourceHash": "af5cd8df24bffd7116c0b6b3620cbd9f514759e82dfb12d6e9ca124daf9826e4"
     },
     {
       "path": [
@@ -854,7 +1210,7 @@
         "intake",
         "eventLabel"
       ],
-      "sourceHash": "4e1f49a9c8ae8a158434e647c0c410352d718984a4fcd144d26cca3c394caa02"
+      "sourceHash": "5eb28597809b824f88b71c81b0b98270d1c3d56299275d68f4f11213ac345d3f"
     },
     {
       "path": [
@@ -864,7 +1220,7 @@
         "intake",
         "eventValue"
       ],
-      "sourceHash": "e772b62804e8772ffc169830124775a7c4f991b46b780db96ac8aa53be6bc15c"
+      "sourceHash": "e928fc1aee60146911794776e70780814e77726f10b12881f86a42f43e089ee4"
     },
     {
       "path": [
@@ -874,7 +1230,7 @@
         "intake",
         "deadlineLabel"
       ],
-      "sourceHash": "440d7243e6902e8693cc853a9d3317625454b617ea3f8fc901e4e631a8b734cb"
+      "sourceHash": "a0ead9c243910ad9d6306d46a1893d1e4aee4f5e40a1f4e2bd7a55dddf1c2878"
     },
     {
       "path": [
@@ -884,7 +1240,7 @@
         "intake",
         "deadlineValue"
       ],
-      "sourceHash": "6819d780df7a7bdec8720c9c19e7811e2871cac89607a24fc18e46445fd63b5f"
+      "sourceHash": "54018a4f92a73a8371782cbef8f9bdfb5f825d952448ac519a03c770af3e63de"
     },
     {
       "path": [
@@ -894,7 +1250,7 @@
         "intake",
         "platformLabel"
       ],
-      "sourceHash": "52bfe584a5fc450539e2aa651b990fa2415060492a243816ab2994292089c6fd"
+      "sourceHash": "0597f441dcca7c9bb0a79da4d94d03c523c031a3384009afff47ac1fd1a72b95"
     },
     {
       "path": [
@@ -905,7 +1261,7 @@
         "suggestions",
         0
       ],
-      "sourceHash": "4d485f11d725722a21831eac64cd38cd054fe8ce622ad4d81137894124bfb328"
+      "sourceHash": "4ba46de21c957ad2f6ca3e2d7f3e949bafd940f37ba7708d9bc72096c0c3ccb1"
     },
     {
       "path": [
@@ -916,7 +1272,7 @@
         "suggestions",
         1
       ],
-      "sourceHash": "262b3a9ea560d03b618fe9ada3faa44514044f29f6f0d7a916a49409e18afc6c"
+      "sourceHash": "d7a5900984dca216e698ad91da337c394426c562c898869e7e5b29b8ec0c1e41"
     },
     {
       "path": [
@@ -927,7 +1283,7 @@
         "suggestions",
         2
       ],
-      "sourceHash": "11c1c7861c66f39cdd9133b0b7f3d3f7f3cbfe861066b838fd736ed990ad86d6"
+      "sourceHash": "1c5d597c79ab7b55b0f692d279d61a100845a866ab94fbd27af28f9733b14b27"
     },
     {
       "path": [
@@ -1238,7 +1594,7 @@
         "showcase",
         "eyebrow"
       ],
-      "sourceHash": "c619b95d08aa76280b5f5ec5840686a1454a08cfa91f38d2124661b704d342bf"
+      "sourceHash": "c27dc0721c26edd8eabc57cf6c4006aa575dac99806cb6b2305997936acb217b"
     },
     {
       "path": [
@@ -1247,7 +1603,7 @@
         "showcase",
         "heading"
       ],
-      "sourceHash": "6ea5b1f5bbdc85ee31e7085f89304da177478d5d5ffe0650e98de570f6261647"
+      "sourceHash": "4ff002dd9dcb04f528f1709809ec862451c7ac85183139c3539312a4f417fe17"
     },
     {
       "path": [
@@ -1256,7 +1612,7 @@
         "showcase",
         "body"
       ],
-      "sourceHash": "547d29bf9e0097899b1641bfe4ca71a287b912093562917f855fd0b1f8a23d2f"
+      "sourceHash": "dfe991242d085125c666b811cf09c592254ac3b1bfeda00cc5447257c6c4389b"
     },
     {
       "path": [
@@ -1265,7 +1621,7 @@
         "showcase",
         "notice"
       ],
-      "sourceHash": "9ad188f5836d7d7b3adf67e1555cf13eaaa3fe3d29869d03e30e8a335e3c9c6b"
+      "sourceHash": "0b78e86c25913b8b6b581d5e38b18dc5301e671232ea4100c314db745b5285d4"
     },
     {
       "path": [
@@ -1320,7 +1676,7 @@
         0,
         "statusLabel"
       ],
-      "sourceHash": "c839d4e12732d95ddf8a74aa157f4939697e9b2f33fc71e617fe2b0119d3ae85"
+      "sourceHash": "8386daf7f7f6b2d9897029c87b26e76129c1b473f5980d71037305ca35ba976d"
     },
     {
       "path": [
@@ -1375,7 +1731,7 @@
         1,
         "statusLabel"
       ],
-      "sourceHash": "c839d4e12732d95ddf8a74aa157f4939697e9b2f33fc71e617fe2b0119d3ae85"
+      "sourceHash": "8386daf7f7f6b2d9897029c87b26e76129c1b473f5980d71037305ca35ba976d"
     },
     {
       "path": [
@@ -1430,7 +1786,7 @@
         2,
         "statusLabel"
       ],
-      "sourceHash": "c839d4e12732d95ddf8a74aa157f4939697e9b2f33fc71e617fe2b0119d3ae85"
+      "sourceHash": "8386daf7f7f6b2d9897029c87b26e76129c1b473f5980d71037305ca35ba976d"
     },
     {
       "path": [
@@ -2465,5 +2821,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T04:16:23.379Z"
+  "generatedAt": "2026-09-04T09:38:03.012Z"
 }
