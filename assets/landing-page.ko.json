@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+  "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -471,7 +471,7 @@
       "presentationMedia": {
         "notice": "시네마틱 비주얼은 장식용이며 고객 영상이나 파일럿 결과물이 아닙니다.",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-deadline-placeholder-v2.mp4",
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v1.mp4",
           "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-deadline-start-v2.png"
         },
         "workflowThumbnails": [
@@ -2465,5 +2465,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T03:22:35.356Z"
+  "generatedAt": "2026-09-04T04:16:23.379Z"
 }

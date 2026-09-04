@@ -470,7 +470,7 @@
       "presentationMedia": {
         "notice": "Cinematic visuals are decorative, not client footage or pilot deliverables.",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-deadline-placeholder-v2.mp4",
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v1.mp4",
           "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-deadline-start-v2.png"
         },
         "workflowThumbnails": [
@@ -552,66 +552,66 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           },
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "70cf82def75435d0186e3fa6ed53417e703a3f473247cf45ef40ed571ba1703d",
+            "sourceRevision": "2c7ea20343d36853eb519ba785e3709975ca3e87c95ecc3368d93ca661ea6f6a",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-04T03:22:35.356Z"
+            "generatedAt": "2026-09-04T04:16:23.379Z"
           }
         ]
       },
