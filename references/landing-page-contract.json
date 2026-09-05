@@ -149,12 +149,17 @@
         "instagramCampaign": {
           "path": "hero.instagramCampaign",
           "requires": ["enabled", "commandTrigger", "localizedUiCopy"],
+          "localizedUiCopyIncludes": ["welcomeMessage", "urlRequestMessage", "brandAndTypographyLabels", "imageFormatLabels", "errorGroups", "claimTranscriptMessages"],
           "commandTrigger": "instagram-campaign",
           "commandExecutionType": "operator_action",
           "workflowResourceKey": "workflow.archer.instagram-campaign-v2",
           "publicStages": ["brand_review", "event_brief", "image_review", "confirmed"],
           "anonymousRuntime": "three_images_then_authentication",
           "limitsOwnedBy": "platform"
+        },
+        "accessibilityCopy": {
+          "path": "accessibility",
+          "requires": ["mainNavigationLabel", "previousPreviewLabel", "nextPreviewLabel", "pausePreviewsLabel", "resumePreviewsLabel"]
         },
         "headerCta": { "labelField": "header.ctaLabel", "target": "meet-archer" },
         "fitItems": 3,

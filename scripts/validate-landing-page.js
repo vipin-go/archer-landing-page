@@ -376,6 +376,8 @@ function validateCinematicCampaigns(landingPage) {
     return value;
   };
   [
+    'accessibility.mainNavigationLabel', 'accessibility.previousPreviewLabel', 'accessibility.nextPreviewLabel',
+    'accessibility.pausePreviewsLabel', 'accessibility.resumePreviewsLabel',
     'hero.wordmark', 'hero.loginLabel', 'hero.pilotLabel', 'hero.eyebrow', 'hero.mutedHeadingLine',
     'hero.body', 'hero.primaryCtaLabel', 'hero.secondaryCtaLabel', 'hero.intake.eyebrow',
     'hero.intake.title', 'hero.intake.body', 'hero.intake.uploadLabel', 'hero.intake.uploadHint',
@@ -391,10 +393,17 @@ function validateCinematicCampaigns(landingPage) {
     'pilot.eyebrow', 'pilot.heading', 'pilot.body', 'pilot.primaryCtaLabel', 'pilot.bookingUrl',
     'pilot.secondaryCtaLabel', 'pilot.secondaryPrompt', 'pilot.demoNote', 'footer.tagline',
     'footer.copyright', 'footer.closingStatement', 'footer.contactEmail',
+    'hero.instagramCampaign.welcomeMessage', 'hero.instagramCampaign.urlRequestMessage',
     'hero.instagramCampaign.urlPlaceholder', 'hero.instagramCampaign.analyzeLabel',
     'hero.instagramCampaign.analyzingLabel', 'hero.instagramCampaign.brandReviewHeading',
     'hero.instagramCampaign.brandReviewBody', 'hero.instagramCampaign.observedLabel',
-    'hero.instagramCampaign.inferredLabel', 'hero.instagramCampaign.sourceManifestLabel',
+    'hero.instagramCampaign.inferredLabel', 'hero.instagramCampaign.instagramLabel',
+    'hero.instagramCampaign.restaurantFallbackLabel', 'hero.instagramCampaign.brandPaletteLabel',
+    'hero.instagramCampaign.brandColorLabel', 'hero.instagramCampaign.neutralRecommendationLabel',
+    'hero.instagramCampaign.profileImageLabel', 'hero.instagramCampaign.fontRecommendationLabel',
+    'hero.instagramCampaign.unverifiableTypographyCopy', 'hero.instagramCampaign.photographyFallback',
+    'hero.instagramCampaign.compositionFallback', 'hero.instagramCampaign.layoutFallback',
+    'hero.instagramCampaign.toneFallback', 'hero.instagramCampaign.sourceManifestLabel',
     'hero.instagramCampaign.approveBrandLabel', 'hero.instagramCampaign.eventHeading',
     'hero.instagramCampaign.eventBody', 'hero.instagramCampaign.eventPlaceholder',
     'hero.instagramCampaign.eventNameLabel', 'hero.instagramCampaign.venueLabel',
@@ -403,10 +412,20 @@ function validateCinematicCampaigns(landingPage) {
     'hero.instagramCampaign.saveEventLabel', 'hero.instagramCampaign.generateHeading',
     'hero.instagramCampaign.generateBody', 'hero.instagramCampaign.confirmGenerateLabel',
     'hero.instagramCampaign.generatingLabel', 'hero.instagramCampaign.imageReviewHeading',
+    'hero.instagramCampaign.imagePackSummary', 'hero.instagramCampaign.feedCoverLabel',
+    'hero.instagramCampaign.carouselSupportLabel', 'hero.instagramCampaign.storyLabel',
+    'hero.instagramCampaign.previewLabel',
     'hero.instagramCampaign.downloadLabel', 'hero.instagramCampaign.revisionPlaceholder',
     'hero.instagramCampaign.reviseLabel', 'hero.instagramCampaign.approveImagesLabel',
     'hero.instagramCampaign.createVideoLabel', 'hero.instagramCampaign.loginNotice',
     'hero.instagramCampaign.cancelLabel', 'hero.instagramCampaign.errorCopy',
+    'hero.instagramCampaign.invalidUrlError', 'hero.instagramCampaign.accessError',
+    'hero.instagramCampaign.activePreviewError', 'hero.instagramCampaign.limitError',
+    'hero.instagramCampaign.expiredError', 'hero.instagramCampaign.validationError',
+    'hero.instagramCampaign.generationError', 'hero.instagramCampaign.claimError',
+    'hero.instagramCampaign.brandReadyMessage', 'hero.instagramCampaign.brandApprovedMessage',
+    'hero.instagramCampaign.imagePackReadyMessage', 'hero.instagramCampaign.imagesApprovedMessage',
+    'hero.instagramCampaign.privateVideoOfferMessage',
   ].forEach(requireString);
   if (get('hero.instagramCampaign.enabled') !== true) fail('landingPage.cinematicCampaigns.hero.instagramCampaign.enabled must be true');
   if (!/^\/?instagram-campaign$/.test(String(get('hero.instagramCampaign.commandTrigger') || '').trim())) fail('landingPage.cinematicCampaigns.hero.instagramCampaign.commandTrigger must be instagram-campaign');

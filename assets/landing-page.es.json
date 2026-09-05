@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "es",
   "regionKey": null,
-  "sourceRevision": "754ec8d755578de684545ced1d4266b31a466a66229655f2aec324bdc8659634",
+  "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -64,7 +64,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Envía una publicación o clip real y dime en qué plataforma debe encajar."
+        "text": "Hola, soy Archer, tu editor de campañas para restaurantes. ¿Qué te gustaría crear?"
       }
     ],
     "heroChat": {
@@ -82,6 +82,13 @@
       "alt": "Seguimiento de producción de Archer para promociones de eventos de hostelería a tiempo"
     },
     "cinematicCampaigns": {
+      "accessibility": {
+        "mainNavigationLabel": "Navegación principal",
+        "previousPreviewLabel": "Vista previa anterior",
+        "nextPreviewLabel": "Vista previa siguiente",
+        "pausePreviewsLabel": "Pausar vistas previas",
+        "resumePreviewsLabel": "Reanudar vistas previas"
+      },
       "hero": {
         "wordmark": "Archer",
         "navItems": [
@@ -120,6 +127,8 @@
         "instagramCampaign": {
           "enabled": true,
           "commandTrigger": "instagram-campaign",
+          "welcomeMessage": "Hola, soy Archer, tu editor de campañas para restaurantes.",
+          "urlRequestMessage": "Comparte un perfil, publicación, carrusel o Reel público de Instagram de un restaurante para comenzar.",
           "urlPlaceholder": "Pega una URL pública de Instagram…",
           "analyzeLabel": "Crear mi kit de marca",
           "analyzingLabel": "Leyendo señales de marca públicas…",
@@ -127,10 +136,22 @@
           "brandReviewBody": "Edita los detalles inferidos antes de que se genere cualquier cosa.",
           "observedLabel": "Observado",
           "inferredLabel": "Inferido",
+          "instagramLabel": "Instagram",
+          "restaurantFallbackLabel": "Restaurante",
+          "brandPaletteLabel": "Paleta de marca de cinco colores",
+          "brandColorLabel": "Color de marca",
+          "neutralRecommendationLabel": "Recomendación neutral",
+          "profileImageLabel": "Imagen de perfil de Instagram",
+          "fontRecommendationLabel": "Recomendación de fuente",
+          "unverifiableTypographyCopy": "No se pudo acceder a ningún espécimen tipográfico verificable.",
+          "photographyFallback": "Usa únicamente la fotografía de origen aprobada.",
+          "compositionFallback": "Preserva la composición de los recursos aprobados.",
+          "layoutFallback": "Usa un diseño contenido y orientado a redes sociales.",
+          "toneFallback": "Usa el lenguaje de eventos aprobado del restaurante.",
           "sourceManifestLabel": "Activos de fuente verificados",
           "approveBrandLabel": "Aprobar identidad de marca",
           "eventHeading": "Describir el evento",
-          "eventBody": "El inglés sencillo está bien. Archer solo pregunta por lo esencial que falta.",
+          "eventBody": "El lenguaje sencillo está bien. Archer solo pregunta lo esencial que falte.",
           "eventPlaceholder": "Noche de DJ el viernes en la sede Marina, 9pm, reservas de mesa abiertas…",
           "eventNameLabel": "Nombre del evento",
           "venueLabel": "Sede",
@@ -144,6 +165,11 @@
           "confirmGenerateLabel": "Confirmar y generar imágenes",
           "generatingLabel": "Creando el paquete de tres imágenes…",
           "imageReviewHeading": "Tu paquete de imágenes de Instagram",
+          "imagePackSummary": "Dos imágenes de feed de 1080×1350 y una Historia de 1080×1920",
+          "feedCoverLabel": "Portada del feed",
+          "carouselSupportLabel": "Imagen de carrusel complementaria",
+          "storyLabel": "Imagen de Story",
+          "previewLabel": "Vista previa",
           "downloadLabel": "Descargar",
           "revisionPlaceholder": "Una revisión: describe el cambio…",
           "reviseLabel": "Revisar una vez",
@@ -151,7 +177,20 @@
           "createVideoLabel": "Crear un video",
           "loginNotice": "Inicia sesión para convertir la imagen aprobada en un video de seis segundos, conectar Instagram, programar o publicar.",
           "cancelLabel": "Empezar de nuevo",
-          "errorCopy": "Archer no pudo completar esta vista previa. Intenta con otra URL pública de Instagram."
+          "errorCopy": "Archer no pudo completar esta vista previa. Intenta con otra URL pública de Instagram.",
+          "invalidUrlError": "Introduce la URL completa de un perfil, publicación, carrusel o Reel público de Instagram.",
+          "accessError": "Instagram no pudo mostrar esa página pública. Prueba con otra URL pública.",
+          "activePreviewError": "Termina o reinicia primero la vista previa de la campaña actual de Instagram.",
+          "limitError": "Se alcanzó el límite de previsualizaciones públicas. Inicia sesión o inténtalo más tarde.",
+          "expiredError": "Esta vista previa de campaña de Instagram ha caducado. Comienza de nuevo.",
+          "validationError": "Revisa los detalles destacados de la campaña y vuelve a intentarlo.",
+          "generationError": "No se pudo generar el paquete de imágenes. Inténtalo de nuevo.",
+          "claimError": "Archer no pudo trasladar esta campaña a tu espacio de trabajo privado. Inténtalo de nuevo.",
+          "brandReadyMessage": "Encontré las señales públicas de marca. Revisa lo observado y lo inferido antes de crear nada.",
+          "brandApprovedMessage": "Identidad de marca aprobada. Describe el evento con un lenguaje sencillo.",
+          "imagePackReadyMessage": "Tu paquete de tres imágenes para Instagram está listo para revisar y descargar.",
+          "imagesApprovedMessage": "Imágenes aprobadas. Inicia sesión para crear un vídeo, conectar Instagram, programar o publicar.",
+          "privateVideoOfferMessage": "Tu paquete de imágenes aprobado ahora es privado. ¿Te gustaría un evento promo de seis segundos en 9:16 o prefieres terminar con el paquete de imágenes?"
         },
         "intake": {
           "eyebrow": "Vista previa de campaña de Instagram",
@@ -507,8 +546,8 @@
       "presentationMedia": {
         "notice": "Las imágenes cinematográficas son decorativas, no material de clientes ni entregables del piloto.",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4-poster.jpg"
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7-poster.jpg"
         },
         "workflowThumbnails": [
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-dj-v2.png",
@@ -556,7 +595,7 @@
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v2.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v3.png",
             "kind": "image"
           }
         ],
@@ -631,7 +670,7 @@
         0,
         "text"
       ],
-      "sourceHash": "8c92e4a83bce35ae798c939aa0f13529eee7a26bd2a74c9843076573b0e12938"
+      "sourceHash": "ccdfd1123ec1e6f4fc170db029f3bee21a688d3ffded8565c11f3878e0b0d60a"
     },
     {
       "path": [
@@ -683,6 +722,51 @@
         "alt"
       ],
       "sourceHash": "4cc79a303ea82eca931d1095b00dcbcbf9dd765dea24e0923c4220be5c7df988"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "mainNavigationLabel"
+      ],
+      "sourceHash": "eb355944b92d10582856f8aea34b3e319ba465b8aa4c294973cf53f665399a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "previousPreviewLabel"
+      ],
+      "sourceHash": "40c32625ec4d427d91a683b854499285ec3eb4134b3bcfcbc9dc77f2901e2bb6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "nextPreviewLabel"
+      ],
+      "sourceHash": "545344acec2a78baba37a0e8aea02cf6de0f3bd468dc5a60c6c005ea4218bbe4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "pausePreviewsLabel"
+      ],
+      "sourceHash": "85b03991aeb2d848b216a81902b2f0220be2ee41fca78472da0f9bb5df357ef8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "resumePreviewsLabel"
+      ],
+      "sourceHash": "56da46a1774c65cb724cb8efe2bcf46c3c4ece3df3336a0757c0e64c9d8617fe"
     },
     {
       "path": [
@@ -828,6 +912,26 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "welcomeMessage"
+      ],
+      "sourceHash": "3e5329631faf0179a791189a0842d92539dce16fe8f01e3a22e672a369e2ed79"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "urlRequestMessage"
+      ],
+      "sourceHash": "505643be6c0532a0cde281ee2ef7a14724abd9bd1ff8962d66e7693159894940"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "urlPlaceholder"
       ],
       "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
@@ -898,6 +1002,126 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "instagramLabel"
+      ],
+      "sourceHash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "restaurantFallbackLabel"
+      ],
+      "sourceHash": "1212ea9e20949ffca0acb019cf3967b4e192de6dd37aca1f16c382bee7e58d94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandPaletteLabel"
+      ],
+      "sourceHash": "031aded720d3d5bb23560618d64f90072b559259105175497086ed56914a8ba5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandColorLabel"
+      ],
+      "sourceHash": "33de979373189007c0dde8506cabbd0d9540b7edde9c5a86cfab85ce88637240"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "neutralRecommendationLabel"
+      ],
+      "sourceHash": "41e04cc210d05f6b89cd5a2c67092877978ad6a25fc3bdc872e5a74800f26671"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "profileImageLabel"
+      ],
+      "sourceHash": "e14cc2a4574a38dc035bfa2d53d8d34ec6861a783b7b7f81a546fa55a4cab179"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "fontRecommendationLabel"
+      ],
+      "sourceHash": "31a89f0b7e40cbc70dd893c02882dd79a2d13bfae51393024c2b474e9cb20c82"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "unverifiableTypographyCopy"
+      ],
+      "sourceHash": "6dc2ba4d13ab5dd66db1c8a575868184e8cc1ae02c6b9ac3c90dc2f318e4b8fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "photographyFallback"
+      ],
+      "sourceHash": "53cd568efcd8626f7f644bd37e5f07bea0e234443cf9ef3060040d7928fba9fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "compositionFallback"
+      ],
+      "sourceHash": "0e592d199149784c17758aec06bf9897c7560192a6110c4f50a2352f2a78afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "layoutFallback"
+      ],
+      "sourceHash": "a8794656167996cca90b4b2057abfdd7a38de276b18c49455126a162187986d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "toneFallback"
+      ],
+      "sourceHash": "d49fded969797873f3167bb518955d9c7c0dd84e558cabe020240893cb5ec55c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "sourceManifestLabel"
       ],
       "sourceHash": "fd5977138d2aea02d41a584f6dcdd38c9df0fac30a3ed421644b77651ead58b0"
@@ -930,7 +1154,7 @@
         "instagramCampaign",
         "eventBody"
       ],
-      "sourceHash": "a91325c826df6555ba6ce40efd2cf548f5dfb985f22b7fd47f6abd7407f1727a"
+      "sourceHash": "852212504712479d79307ea9e4985ed4ad773559bdd59751d6bbb05a149a0649"
     },
     {
       "path": [
@@ -1068,6 +1292,56 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "imagePackSummary"
+      ],
+      "sourceHash": "1a43d0055fa607280cd21cca9244e9d30accef30258f0f5c137c939a37f94eab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "feedCoverLabel"
+      ],
+      "sourceHash": "cce777ebb52d817497f1a2947e1f8b1945b37d4d36a47923924af7611ab1a8cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "carouselSupportLabel"
+      ],
+      "sourceHash": "f2e276955045be0ae21294a89ae153ee72fd64392f83003d736ce8abab54d8a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "storyLabel"
+      ],
+      "sourceHash": "39bba29c6a357a845527ee75ace19f54c803053fad973b7fc5feed366553c9a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "previewLabel"
+      ],
+      "sourceHash": "324b134f57c70c729ae3dc4d298bb451656717d70523e942c1ce667b8024ea07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "downloadLabel"
       ],
       "sourceHash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
@@ -1141,6 +1415,136 @@
         "errorCopy"
       ],
       "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "invalidUrlError"
+      ],
+      "sourceHash": "f61d44af851111526b2129c81af039436a536d196a0620bdf0015700af97e0ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "accessError"
+      ],
+      "sourceHash": "bab0449e2a0a4c9a7e0b809dc92e17ba8b20dd080676f68ff3577a5c36843f3c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "activePreviewError"
+      ],
+      "sourceHash": "77d8012ee34f1353f36914a6a9117ab2b8cf9864e67c58c0dc0322bc19678247"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "limitError"
+      ],
+      "sourceHash": "bf7e2e0b2006391cf1fbf43bd993f4bf5630a768e1f97d7a0466a7e053e91e55"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "expiredError"
+      ],
+      "sourceHash": "ae7410d8139e6a0ff2f3fac0added2ff84ac55d26dc37bb755c8cc762754a643"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "validationError"
+      ],
+      "sourceHash": "e3b607fc103bdd5c30aff109b5d9632dbd065bde7aeef9f5389142236a48218b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generationError"
+      ],
+      "sourceHash": "90012c1994c79481a3c446f31f4bd91b7773a5205cea57f05577f56d7154beac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "claimError"
+      ],
+      "sourceHash": "e57e5e6d06aac1f22de78d29216f6166324d8bd820f3ff69bd1335e47ece397c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReadyMessage"
+      ],
+      "sourceHash": "7ebb899e2bce034d0f9ef4b5e3d31e7afd9453abdba72d9c94f4ad5bc82fe820"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandApprovedMessage"
+      ],
+      "sourceHash": "679004ef576520db41d5c5e47beacd81c3f8dccc0a367444a721e30552576560"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagePackReadyMessage"
+      ],
+      "sourceHash": "24e7cc92444bfe1092429eb9a9a730ff445cf28b27b8223dcdf5273ae7f18149"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagesApprovedMessage"
+      ],
+      "sourceHash": "f92edfa8fbd58ea660997cc091c78a0ce7702d2247ca24c2f44d5dbe7637e064"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "privateVideoOfferMessage"
+      ],
+      "sourceHash": "f981105740a8925e52189def6fed0c3d16e4366614c4e9b24bce9f93a52c941d"
     },
     {
       "path": [
@@ -2821,5 +3225,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T10:39:25.651Z"
+  "generatedAt": "2026-09-05T07:41:02.868Z"
 }

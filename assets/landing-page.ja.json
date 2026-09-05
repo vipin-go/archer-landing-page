@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ja",
   "regionKey": null,
-  "sourceRevision": "754ec8d755578de684545ced1d4266b31a466a66229655f2aec324bdc8659634",
+  "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -54,34 +54,41 @@
       "brandMark": "image",
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
       "navItems": [],
-      "ctaLabel": "アーチャーに会う"
+      "ctaLabel": "Archerをご紹介します"
     },
-    "badge": "実際の映像。1回の承認。期限通り。",
-    "headline": "イベントの映像が、ドアが開く前にブランドクリップとして戻ってきます。",
-    "subheadline": "各会場から実際のスマホ映像を送信。アーチャーが編集、ブランド化、字幕付け、サイズ調整を行い、Reels、TikTok、Shorts、Snapchat用に調整。イベント期限前に1回の承認を経て配信。",
-    "ctaLabel": "4週間のパイロットを予約",
+    "badge": "本物の映像。承認は一度だけ。時間どおりに。",
+    "headline": "イベントの映像を、開場前にブランディング済みクリップとしてお返しします。",
+    "subheadline": "各会場からスマートフォンで撮影した実映像を送ってください。Archerが編集・ブランディング・字幕付け・サイズ調整を行い、Reels、TikTok、Shorts、Snapchat向けに用意して、イベント締切前に一度承認を取ります。",
+    "ctaLabel": "4週間のパイロットを予約する",
     "secondaryCtaLabel": "ワークフローを見る",
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "実際の投稿またはクリップを1つ送信し、どのプラットフォームに合わせる必要があるか教えてください。"
+        "text": "こんにちは、Archerです。レストランのキャンペーン編集を担当します。何を作成しましょうか？"
       }
     ],
     "heroChat": {
-      "statusLabel": "Instagramキャンペーンプレビューが利用可能",
+      "statusLabel": "Instagramキャンペーンのプレビューが利用可能",
       "inputPlaceholder": "公開のレストランInstagram URLを貼り付けてください...",
       "suggestedPrompts": [
-        "Instagramからブランドキットを構築",
-        "3つのイベントキャンペーン画像を作成",
-        "マルチベニューパイロットの範囲を定義"
+        "Instagramからブランドキットを作成",
+        "イベントキャンペーン用の画像を3点作成",
+        "複数会場のパイロットを計画する"
       ]
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
-      "alt": "アーチャー制作トラッカー：ホスピタリティイベントプロモを期限通りに"
+      "alt": "Archer制作トラッカー：ホスピタリティイベントのプロモを予定どおりに"
     },
     "cinematicCampaigns": {
+      "accessibility": {
+        "mainNavigationLabel": "メインナビゲーション",
+        "previousPreviewLabel": "前のプレビュー",
+        "nextPreviewLabel": "次のプレビュー",
+        "pausePreviewsLabel": "プレビューを一時停止",
+        "resumePreviewsLabel": "プレビューを再開"
+      },
       "hero": {
         "wordmark": "Archer",
         "navItems": [
@@ -90,11 +97,11 @@
             "target": "workflow"
           },
           {
-            "label": "配信",
+            "label": "納品",
             "target": "delivery"
           },
           {
-            "label": "実際の作業",
+            "label": "本物の仕事",
             "target": "showcase"
           },
           {
@@ -107,133 +114,165 @@
           }
         ],
         "loginLabel": "ログイン",
-        "pilotLabel": "パイロットを予約",
+        "pilotLabel": "パイロットを予約する",
         "eyebrow": "ホスピタリティチーム向けイベントプロモ制作",
         "headingLines": [
-          "あなたのイベント映像、",
-          "ブランドクリップとして戻ってきます"
+          "イベントの映像を、",
+          "ブランディング済みクリップとして"
         ],
-        "mutedHeadingLine": "ドアが開く前に。",
-        "body": "各会場から実際のスマホ映像を送信。アーチャーが編集、ブランド化、字幕付け、サイズ調整を行い、Reels、TikTok、Shorts、Snapchat用に調整。イベント期限前に1回の承認を経て配信。",
-        "primaryCtaLabel": "4週間のパイロットを予約",
+        "mutedHeadingLine": "開場前に。",
+        "body": "各会場からスマートフォンで撮影した実映像を送ってください。Archerが編集・ブランディング・字幕付け・サイズ調整を行い、Reels、TikTok、Shorts、Snapchat向けに用意して、イベント締切前に一度承認を取ります。",
+        "primaryCtaLabel": "4週間のパイロットを予約する",
         "secondaryCtaLabel": "ワークフローを見る",
         "instagramCampaign": {
           "enabled": true,
           "commandTrigger": "instagram-campaign",
-          "urlPlaceholder": "公開のInstagram URLを貼り付けてください…",
+          "welcomeMessage": "こんにちは、Archerです。レストランのキャンペーン編集担当です。",
+          "urlRequestMessage": "公開のレストランInstagramプロフィール、投稿、カルーセル、またはReelを共有して始めてください。",
+          "urlPlaceholder": "公開Instagram URLを貼り付けてください…",
           "analyzeLabel": "ブランドキットを作成",
-          "analyzingLabel": "公開ブランドシグナルを読み取り中…",
+          "analyzingLabel": "公開ブランドシグナルを読み取り中...",
           "brandReviewHeading": "ブランドアイデンティティを確認",
-          "brandReviewBody": "生成前に推測された詳細を編集",
-          "observedLabel": "観察された",
-          "inferredLabel": "推測された",
+          "brandReviewBody": "何も生成する前に、推測された詳細を編集してください。",
+          "observedLabel": "確認済み",
+          "inferredLabel": "推測",
+          "instagramLabel": "Instagram",
+          "restaurantFallbackLabel": "レストラン",
+          "brandPaletteLabel": "5色のブランドカラーパレット",
+          "brandColorLabel": "ブランドカラー",
+          "neutralRecommendationLabel": "ニュートラルカラーの推奨",
+          "profileImageLabel": "Instagramプロフィール画像",
+          "fontRecommendationLabel": "フォントの推奨",
+          "unverifiableTypographyCopy": "検証可能な書体見本はありませんでした。",
+          "photographyFallback": "承認済みのソース写真のみを使用してください。",
+          "compositionFallback": "承認済みソースアセットの構図を保持してください。",
+          "layoutFallback": "ソーシャルファーストの抑制的なレイアウトを使用してください。",
+          "toneFallback": "レストランの承認済みイベント言語を使用してください。",
           "sourceManifestLabel": "検証済みソースアセット",
           "approveBrandLabel": "ブランドアイデンティティを承認",
-          "eventHeading": "イベントを説明",
-          "eventBody": "平易な英語で構いません。アーチャーは欠けている必須項目のみを尋ねます。",
-          "eventPlaceholder": "マリーナ会場での金曜DJナイト、午後9時、テーブル予約開始…",
+          "eventHeading": "イベントを説明してください",
+          "eventBody": "わかりやすい言葉で大丈夫です。Archerは不足している要点のみを確認します。",
+          "eventPlaceholder": "金曜DJナイト、マリーナ会場、午後9時、テーブル予約受付中…",
           "eventNameLabel": "イベント名",
           "venueLabel": "会場",
-          "dateTimeLabel": "日付と時間",
-          "offerLabel": "オファー",
+          "dateTimeLabel": "日時",
+          "offerLabel": "特典",
           "audienceLabel": "対象者",
-          "eventCtaLabel": "行動喚起",
+          "eventCtaLabel": "CTA",
           "saveEventLabel": "イベントブリーフを確認",
-          "generateHeading": "3つの実際の画像を生成",
-          "generateBody": "承認済みレストランアセットと抽象的グラフィック処理のみを使用した、2つの4:5フィード画像と1つの9:16ストーリーズ",
+          "generateHeading": "3枚の実写画像を生成",
+          "generateBody": "承認済みレストランアセットと抽象グラフィック処理のみを使用し、4:5フィード画像2枚と9:16ストーリー1枚",
           "confirmGenerateLabel": "確認して画像を生成",
-          "generatingLabel": "3画像パックを作成中…",
-          "imageReviewHeading": "あなたのInstagram画像パック",
+          "generatingLabel": "3枚組画像パックを作成中…",
+          "imageReviewHeading": "Instagram画像パック",
+          "imagePackSummary": "フィード画像2枚（1080×1350）＋ストーリー1枚（1080×1920）",
+          "feedCoverLabel": "フィードカバー",
+          "carouselSupportLabel": "サムネイルカルーセル画像",
+          "storyLabel": "ストーリー画像",
+          "previewLabel": "プレビュー",
           "downloadLabel": "ダウンロード",
-          "revisionPlaceholder": "1回の修正：変更内容を説明してください…",
+          "revisionPlaceholder": "1回の修正：変更内容を記述…",
           "reviseLabel": "1回修正",
           "approveImagesLabel": "画像を承認",
-          "createVideoLabel": "ビデオを作成",
-          "loginNotice": "承認済み画像を6秒のビデオに変換するには、サインインしてInstagramを接続、スケジュール、または公開してください。",
-          "cancelLabel": "やり直す",
-          "errorCopy": "アーチャーはこのプレビューを完了できませんでした。別の公開Instagram URLをお試しください。"
+          "createVideoLabel": "動画を作成",
+          "loginNotice": "承認済み画像から6秒動画を作成し、Instagramに接続してスケジュールまたは公開するにはサインインしてください。",
+          "cancelLabel": "最初からやり直す",
+          "errorCopy": "Archerはこのプレビューを完了できませんでした。別の公開Instagram URLをお試しください。",
+          "invalidUrlError": "公開Instagramプロフィール、投稿、カルーセル、またはReelのURLを入力してください。",
+          "accessError": "Instagramからその公開ページを取得できませんでした。別の公開URLをお試しください。",
+          "activePreviewError": "現在のInstagramキャンペーンプレビューを完了または再起動してください。",
+          "limitError": "公開プレビューの上限に達しました。サインインするか、後でもう一度お試しください。",
+          "expiredError": "このInstagramキャンペーンプレビューは期限切れです。やり直してください。",
+          "validationError": "キャンペーンの詳細を確認して再試行してください。",
+          "generationError": "画像パックを生成できませんでした。もう一度お試しください。",
+          "claimError": "Archerはこのキャンペーンをプライベートワークスペースに移動できませんでした。もう一度お試しください。",
+          "brandReadyMessage": "公開ブランドシグナルを検出しました。何を観測し、何を推論したかを確認してから作成に進んでください。",
+          "brandApprovedMessage": "ブランドアイデンティティ承認済み。イベントを平易な言葉で説明してください。",
+          "imagePackReadyMessage": "Instagram 3枚組画像パックの確認・ダウンロードの準備ができました。",
+          "imagesApprovedMessage": "画像承認済み。動画作成、Instagram接続、スケジュール、または公開するにはサインインしてください。",
+          "privateVideoOfferMessage": "承認済み画像パックは現在プライベートです。6秒間の9:16イベントプロモーション動画はいかがですか？それとも画像パックのまま完了しますか？"
         },
         "intake": {
           "eyebrow": "Instagramキャンペーンプレビュー",
-          "title": "レストランの公開Instagramから始める",
-          "body": "アーチャーは公開ブランドシグナルを読み取り、観察と推測にラベルを付け、承認済みイベントブリーフから3つのダウンロード可能な画像を生成します。",
+          "title": "レストランの公開Instagramから開始",
+          "body": "Archerは公開ブランドシグナルを読み取り、観測と推論をラベル付けし、承認済みイベントブリーフから3枚のダウンロード可能な画像を生成します。",
           "uploadLabel": "公開Instagram URL",
           "uploadHint": "プロフィール、投稿、カルーセル、またはReel",
-          "transferNote": "公開アセットのみ。アーチャーはプライベートプロフィール、ログイン壁、CAPTCHA、または利用不可メディアを回避しません。",
+          "transferNote": "公開アセットのみ。Archerは非公開プロフィール、ログイン壁、CAPTCHA、または利用不可メディアにはアクセスしません。",
           "eventLabel": "ブランドアイデンティティ",
-          "eventValue": "観察 + 推測、編集可能",
+          "eventValue": "観測＋推論（編集可能）",
           "deadlineLabel": "画像パック",
-          "deadlineValue": "フィード画像2つ + ストーリーズ1つ",
-          "platformLabel": "それから",
+          "deadlineValue": "フィード画像2枚＋ストーリー1枚",
+          "platformLabel": "次へ",
           "suggestions": [
-            "レストランのInstagramを貼り付ける",
+            "レストランInstagramを貼り付け",
             "ブランドアイデンティティを確認",
-            "イベントを説明"
+            "イベントを説明してください"
           ]
         }
       },
       "workflow": {
-        "eyebrow": "送信、ブランド化、承認",
-        "heading": "実際のスマホ映像を送信。イベント前にプロモを配信。",
-        "body": "チームのカレンダー、ブランドルール、承認チェーンを中心とした3ステップのコンシェルジュワークフロー。",
+        "eyebrow": "送信・ブランド適用・承認",
+        "heading": "実写映像を送信。イベント前にプロモーションを公開。",
+        "body": "チームのスケジュール・ブランドルール・承認フローに基づく3ステップコンシェルジュワークフロー。",
         "steps": [
           {
             "number": "01",
             "title": "送信",
-            "description": "会場チームが既に撮影した実際のスマホ映像を共有してください。",
+            "description": "施設チームが既に撮影した実写映像を共有",
             "visualKind": "send",
             "details": [
-              "実際の料理、部屋、群衆、イベント",
-              "会場またはイベントごとに1つのフォルダー",
-              "引き渡し時に期限を含む"
+              "実際の料理、部屋、混雑、イベント",
+              "施設・イベントごとに1フォルダ",
+              "納品時に締切を明示"
             ]
           },
           {
             "number": "02",
             "title": "ブランド",
-            "description": "アーチャーは撮影されたものを置き換えることなく、クリーニング、編集、字幕付け、サイズ調整を行います。",
+            "description": "Archerは撮影内容を置き換えずに、整理・編集・キャプション・リサイズを行います。",
             "visualKind": "brand",
             "details": [
-              "会場固有のブランドキット",
-              "プラットフォームネイティブな9:16カット",
-              "再生成された被写体またはシーンなし"
+              "施設別ブランドキット",
+              "プラットフォームネイティブ9:16カット",
+              "再生成された被写体やシーンなし"
             ]
           },
           {
             "number": "03",
             "title": "承認",
-            "description": "1人の名前付き承認者が1つのリンクをレビューし、アーチャーがスケジュールを管理します。",
+            "description": "担当承認者が1つのリンクを確認し、Archerがタイム管理を担当",
             "visualKind": "approve",
             "details": [
-              "1つの統合承認",
-              "合意された修正ウィンドウ",
-              "ドアが開く前に最終納品"
+              "一元化された承認",
+              "合意済み修正期間",
+              "開店前の最終納品"
             ]
           }
         ]
       },
       "delivery": {
         "eyebrow": "1つのイベント、4つのフィード",
-        "heading": "4つのプラットフォームネイティブカット。1つの期限。",
-        "body": "各配信は縦長フレームで、会場ブランドと照合され、同じイベント期限に結びつけられます。",
+        "heading": "4つのプラットフォーム向けカット。1つの締切。",
+        "body": "各納品は縦型で構成され、会場ブランドに準拠し、同じイベント締切に紐付けられます。",
         "platforms": [
           {
             "platform": "instagram-reels",
             "label": "Instagram Reels",
             "aspectRatio": "9:16",
-            "note": "ブランド付き縦長編集"
+            "note": "ブランド縦型編集"
           },
           {
             "platform": "tiktok",
             "label": "TikTok",
             "aspectRatio": "9:16",
-            "note": "高速プラットフォームネイティブカット"
+            "note": "高速プラットフォーム向けカット"
           },
           {
             "platform": "youtube-shorts",
             "label": "YouTube Shorts",
             "aspectRatio": "9:16",
-            "note": "明確な短編ストーリーズ"
+            "note": "明確なショートフォームストーリー"
           },
           {
             "platform": "snapchat",
@@ -243,88 +282,88 @@
           }
         ],
         "guarantee": {
-          "label": "期限の所有権",
-          "heading": "このクリップはイベント開始前にのみ有用です。",
-          "body": "編集開始前に、イベント期限、名前付き承認者、納品ウィンドウ、修正ウィンドウについて合意します。"
+          "label": "締切の管理",
+          "heading": "クリップはイベント前にしか役立ちません。",
+          "body": "編集開始前に、イベント締切、担当承認者、納品期間、修正期間を合意します。"
         }
       },
       "showcase": {
         "eyebrow": "スタイルプレビュー",
         "heading": "これがスタイルです。",
-        "body": "Archerのビジュアルの方向性を示すAI生成のプレビューです。実際のクライアントや会場の映像ではありません。",
-        "notice": "これらは参考用のスタイルプレビューであり、実際の piloto 納品ではありません。承認されたクライアントの成果物が利用可能になり次第、こちらに差し替えられます。",
+        "body": "Archerのビジュアル方向性を示すAI生成プレビュー — 実際のクライアントや会場の映像ではありません。",
+        "notice": "これらは参考用のスタイルプレビューであり、実際のパイロット納品ではありません。承認済みクライアント作業が入手可能になり次第、こちらに差し替えられます。",
         "items": [
           {
             "eventLabel": "DJナイト",
             "venueType": "リヤドラウンジ",
-            "beforeLabel": "スマホ映像",
-            "afterLabel": "ブランド済み9:16",
-            "statusLabel": "AI生成プレビュー · イメージのみ"
+            "beforeLabel": "携帯電話映像",
+            "afterLabel": "ブランド縦型 9:16",
+            "statusLabel": "AI生成プレビュー · 参考用"
           },
           {
             "eventLabel": "ファイトナイト",
-            "venueType": "マルチベニュー スポーツバー",
+            "venueType": "多店舗スポーツバー",
             "beforeLabel": "会場クリップ",
             "afterLabel": "4つのカットダウン",
-            "statusLabel": "AI生成プレビュー · イメージのみ"
+            "statusLabel": "AI生成プレビュー · 参考用"
           },
           {
-            "eventLabel": "季節のエンターテイメント",
+            "eventLabel": "季節限定エンタメ",
             "venueType": "レストラングループ",
-            "beforeLabel": "週間フォルダー",
+            "beforeLabel": "週次フォルダ",
             "afterLabel": "承認済みプロモ",
-            "statusLabel": "AI生成プレビュー · イメージのみ"
+            "statusLabel": "AI生成プレビュー · 参考用"
           }
         ]
       },
       "features": {
-        "eyebrow": "チームがアーチャーを使用する理由",
-        "heading": "編集者を置き換えることなく、すべての会場に対応するキャパシティ",
-        "body": "アーチャーは、期限に敏感なプロモ作業を繰り返し可能な形で制作チームに拡張します。あなたの編集者は創造的所有権を保持し、アーチャーはキャパシティ、ブランド規律、期限遵守を追加します。",
-        "ctaLabel": "パイロットの範囲を定義",
+        "eyebrow": "Archerを選ぶ理由",
+        "heading": "編集者を置き換えずに、すべての会場に対応。",
+        "body": "Archerは、反復的で締切が厳しいプロモ作業を周辺する制作チームを拡張します。",
+        "ctaLabel": "パイロットの範囲設定",
         "items": [
           {
             "kind": "brand",
             "title": "ブランドの一貫性",
-            "body": "各会場の色、フォント、エンディングカード、字幕、トーンを再利用可能なキットに保持。"
+            "body": "各会場の色、フォント、エンドカード、キャプション、トーンをリユース可能なキットに保持。"
           },
           {
             "kind": "approval",
             "title": "承認ターンアラウンド",
-            "body": "グループチャットを追いかける代わりに、1人の名前付き承認者に1つの統合レビューをルーティング。"
+            "body": "グループチャットを追いかける代わりに、1人の担当承認者に一元化されたレビューをルーティング。"
           },
           {
             "kind": "deadline",
-            "title": "期限の所有権",
-            "body": "ドアが開く前に逆算して計画し、編集前に納期と修正ウィンドウを合意。"
+            "title": "締切の管理",
+            "body": "編集前に納品期間と修正期間を合意し、開店から逆算して計画。"
           },
           {
             "kind": "formats",
             "title": "プラットフォームリサイズ",
-            "body": "Reels、TikTok、Shorts、Snapchat用の意図的な9:16バージョンを配信。"
+            "body": "Reels、TikTok、Shorts、Snapchat向けの意図的な9:16バージョンを納品。"
           },
           {
             "kind": "real-footage",
-            "title": "実際の映像のみ",
-            "body": "あなたが撮影した映像をクリーニング、編集、字幕付け、ブランド化。会場やイベントを合成することは決してありません。"
+            "title": "実映像のみ",
+            "body": "撮影した映像を整理、編集、キャプション、ブランド化。会場やイベントを合成しない。"
           },
           {
             "kind": "overflow",
             "title": "編集者キャパシティ拡張",
-            "body": "反復的なプロモボリュームを吸収し、編集者がより高付加価値の創造的作業に集中できるようにします。"
+            "body": "反復的なプロモボリュームを吸収し、編集者がより価値の高いクリエイティブ作業を守れるように。"
           }
         ]
       },
       "tracker": {
-        "eyebrow": "マルチベニューコントロール",
-        "heading": "すべての会場、イベント、承認、期限を1つのビューで表示。",
-        "body": "運用トラッカーは、ライブクライアントダッシュボードを装わずに、週間制作キューを可視化します。",
-        "sampleLabel": "イラストレイトドパイロットトラッカー",
-        "sampleDisclaimer": "例のワークフロー · ライブクライアントデータではない",
+        "eyebrow": "多会場管理",
+        "heading": "すべての会場、イベント、承認、締切を1つのビューで。",
+        "body": "オペレーショナルトラッカーが週次制作キューを可視化し、ライブクライアントダッシュボードを装わない。",
+        "sampleLabel": "参考パイロットトラッカー",
+        "sampleDisclaimer": "例ワークフロー · ライブクライアントデータではありません",
         "events": [
           {
             "venue": "会場ノース",
-            "event": "木曜日のライブセット",
+            "event": "木曜ライブセット",
             "deadline": "木 · 16:00",
             "status": "footage-received",
             "statusLabel": "映像受領"
@@ -344,15 +383,15 @@
             "statusLabel": "承認待ち"
           },
           {
-            "venue": "会場イースト",
-            "event": "土曜ブランチ",
+            "venue": "会場 イースト",
+            "event": "土曜日のブランチ",
             "deadline": "土 · 09:00",
             "status": "approved",
             "statusLabel": "承認済み"
           },
           {
-            "venue": "会場ウェスト",
-            "event": "週末エンターテイメント",
+            "venue": "会場 ウェスト",
+            "event": "週末のエンターテインメント",
             "deadline": "土 · 14:00",
             "status": "delivered",
             "statusLabel": "配信済み"
@@ -360,97 +399,97 @@
         ],
         "benefits": [
           {
-            "label": "1週間のキュー",
-            "body": "到着したもの、進行中のもの、決定が必要なものを確認。"
+            "label": "週次キューは一つ",
+            "body": "届いたもの、進行中のもの、意思決定が必要なものを確認できます。"
           },
           {
-            "label": "1人の責任ある承認者",
-            "body": "期限が火事になる前に所有権を可視化。"
+            "label": "責任ある承認者は一人",
+            "body": "締め切りが火事になる前に、所有権を明確にします。"
           },
           {
-            "label": "1つの納期クロック",
-            "body": "すべてのプラットフォームカットをイベントに結びつけ、オープンエンドのコンテンツカレンダーには結びつけない。"
+            "label": "配信クロックは一つ",
+            "body": "プラットフォームごとのカットは、無期限のコンテンツカレンダーではなく、イベントに紐付けます。"
           }
         ]
       },
       "meetArcher": {
-        "kicker": "イベントプロモオペレーターに会う",
-        "heading": "アーチャーに会う",
-        "mutedHeading": "編集者の期限バックアップ",
-        "body": "アーチャーは反復可能なイベントプロモ編集をチームのクリティカルパスから外します。あなたの編集者は創造的所有権を保持。アーチャーはキャパシティ、ブランド規律、期限遵守を追加。",
+        "kicker": "イベントプロモのオペレーターをご紹介します",
+        "heading": "Archerをご紹介します。",
+        "mutedHeading": "編集者の締め切りをバックアップします。",
+        "body": "Archerは、反復的なイベントプロモ編集作業をチームのクリティカルパスから外します。編集者はクリエイティブの主導権を維持し、Archerがキャパシティ、ブランドの規律、締め切りの確実な遂行を担います。",
         "points": [
           {
             "number": "01",
-            "label": "期限通りのイベント納品"
+            "label": "オンタイムのイベント配信"
           },
           {
             "number": "02",
-            "label": "会場ごとのブランド一貫性"
+            "label": "会場ごとの一貫性"
           },
           {
             "number": "03",
-            "label": "1人の承認者、1つのリンク"
+            "label": "承認者一人、リンク一つ"
           }
         ],
         "ctaLabel": "パイロットを予約",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
-        "statusTitle": "期限カバー",
-        "statusBody": "実際の映像 · 承認準備完了",
-        "voiceCtaLabel": "アーチャーと話す"
+        "statusTitle": "締め切りも安心",
+        "statusBody": "実写映像 · 承認可能な状態",
+        "voiceCtaLabel": "Archerに相談する"
       },
       "fit": {
-        "eyebrow": "フォーカスされたサービス",
-        "heading": "このサービスは誰向けではないか。",
-        "body": "アーチャーは特定の運用問題のために設計されており、境界線は約束と同じくらい重要です。",
+        "eyebrow": "絞り込んだサービス",
+        "heading": "これは対象外の方向けです。",
+        "body": "Archerは特定の業務課題のために設計されているため、適用範囲も約束と同等に重要です。",
         "items": [
           {
-            "label": "対象外",
-            "title": "合成会場コンテンツ",
-            "body": "アーチャーは撮影されていない料理、部屋、群衆、パフォーマー、またはイベントを発明しません。"
+            "label": "対象外：",
+            "title": "合成された会場コンテンツ",
+            "body": "Archerは、実際には撮影されていない料理、部屋、人々、パフォーマー、イベントを捏造しません。"
           },
           {
-            "label": "おそらく対象外",
-            "title": "偶発的なシングルロケーション投稿",
-            "body": "一回限りの投稿は編集デモを使用できますが、期限駆動型コンシェルジュサービスは必要ありません。"
+            "label": "おそらく対象外：",
+            "title": "単一拠点での不定期投稿",
+            "body": "一回限りの投稿は編集デモを利用できますが、締め切り駆動型のコンシェルジュサービスまでは必要ありません。"
           },
           {
-            "label": "構築対象",
-            "title": "マルチベニュー ホスピタリティチーム",
-            "body": "レストラン、バー、ラウンジ、ナイトライフ施設で既に実際の映像を収集しているエージェンシーやグループがあります。"
+            "label": "対象：",
+            "title": "複数会場のホスピタリティチーム",
+            "body": "すでにレストラン、バー、ラウンジ、ナイトライフ会場で実写映像を収集している代理店やグループ。"
           }
         ],
         "showSection": false
       },
       "pilot": {
-        "eyebrow": "有料の4週間コンシェルジュパイロット",
-        "heading": "実際のイベントで締め切りワークフローを実証する",
-        "body": "会場とイベントカレンダーを選択し、承認者を1人指定し、最初の映像が届く前に納品と修正の期間を合意してください。",
-        "primaryCtaLabel": "パイロット会話の予約",
+        "eyebrow": "4週間の有償パイロット（コンシェルジュ）",
+        "heading": "実際のイベントで締め切りのワークフローを実証します。",
+        "body": "会場とイベントカレンダーを選び、承認者を一人指名し、最初の映像が届く前に配信と修正の枠を決定します。",
+        "primaryCtaLabel": "パイロット相談を予約",
         "bookingUrl": "https://calendar.app.google/iqrTNCKcJ723dqhq6",
-        "secondaryCtaLabel": "1投稿編集デモを試す",
-        "secondaryPrompt": "1投稿編集デモを希望します。プラットフォームネイティブな再利用のために、既存のInstagram投稿の1つを共有します。",
-        "demoNote": "1投稿デモは編集能力を示します。 これは、締め切り主導の、マルチ会場製品体験ではありません。",
+        "secondaryCtaLabel": "1投稿の編集デモを試す",
+        "secondaryPrompt": "1投稿の編集デモを希望します。既存のInstagram投稿を一つ共有し、プラットフォーム向けに再編集します。",
+        "demoNote": "1投稿デモは編集能力を示すものです。締め切り駆動型の複数会場向けプロダクト体験ではありません。",
         "steps": [
           {
             "number": "01",
-            "title": "パイロット会場を選択する",
-            "body": "週間のイベント量、ブランドキット、プラットフォームの組み合わせを定義する"
+            "title": "パイロット会場を選ぶ",
+            "body": "週次のイベント量、ブランドキット、プラットフォーム構成を定義します。"
           },
           {
             "number": "02",
-            "title": "承認者を1人指定する",
-            "body": "フィードバックを統合し、所有権を明確に保つ"
+            "title": "承認者を一人指名する",
+            "body": "フィードバックを一元化し、責任の所在を明確にします。"
           },
           {
             "number": "03",
-            "title": "時計の時間を合意する",
-            "body": "実際のイベントの締め切りに合わせて納品と修正の期間を設定する"
+            "title": "クロックを合意する",
+            "body": "実際のイベント締め切りに合わせて、配信と修正の枠を設定します。"
           }
         ],
         "showSection": false
       },
       "footer": {
-        "tagline": "実際のホスピタリティ映像を、イベントの締め切り前にブランディングして納品する",
+        "tagline": "実際のホスピタリティ映像を、ブランド適用済みで、イベント締め切り前に配信。",
         "groups": [
           {
             "label": "サービス",
@@ -460,37 +499,37 @@
                 "target": "workflow"
               },
               {
-                "label": "配信",
+                "label": "納品",
                 "target": "delivery"
               },
               {
-                "label": "実際の作業",
+                "label": "本物の仕事",
                 "target": "showcase"
               }
             ]
           },
           {
-            "label": "オペレーション",
+            "label": "運用",
             "links": [
               {
                 "label": "制作トラッカー",
                 "target": "tracker"
               },
               {
-                "label": "アーチャーに会う",
+                "label": "Archerをご紹介します",
                 "target": "meet-archer"
               },
               {
-                "label": "対象者",
+                "label": "対象となる方",
                 "target": "fit"
               }
             ]
           },
           {
-            "label": "開始する",
+            "label": "開始",
             "links": [
               {
-                "label": "4週間のパイロット",
+                "label": "4週間パイロット",
                 "target": "pilot"
               },
               {
@@ -501,14 +540,14 @@
           }
         ],
         "copyright": "© 2026 Archer.",
-        "closingStatement": "編集者の期限バックアップ",
+        "closingStatement": "編集者の締め切りをバックアップします。",
         "contactEmail": "hello@gabrieloperator.com"
       },
       "presentationMedia": {
-        "notice": "映画的な映像は装飾用であり、クライアントの映像やパイロット成果物ではありません。",
+        "notice": "シネマティック映像は演出用の装飾であり、クライアント映像やパイロットの成果物ではありません。",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4-poster.jpg"
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7-poster.jpg"
         },
         "workflowThumbnails": [
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-dj-v2.png",
@@ -556,7 +595,7 @@
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v2.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v3.png",
             "kind": "image"
           }
         ],
@@ -631,7 +670,7 @@
         0,
         "text"
       ],
-      "sourceHash": "8c92e4a83bce35ae798c939aa0f13529eee7a26bd2a74c9843076573b0e12938"
+      "sourceHash": "ccdfd1123ec1e6f4fc170db029f3bee21a688d3ffded8565c11f3878e0b0d60a"
     },
     {
       "path": [
@@ -683,6 +722,51 @@
         "alt"
       ],
       "sourceHash": "4cc79a303ea82eca931d1095b00dcbcbf9dd765dea24e0923c4220be5c7df988"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "mainNavigationLabel"
+      ],
+      "sourceHash": "eb355944b92d10582856f8aea34b3e319ba465b8aa4c294973cf53f665399a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "previousPreviewLabel"
+      ],
+      "sourceHash": "40c32625ec4d427d91a683b854499285ec3eb4134b3bcfcbc9dc77f2901e2bb6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "nextPreviewLabel"
+      ],
+      "sourceHash": "545344acec2a78baba37a0e8aea02cf6de0f3bd468dc5a60c6c005ea4218bbe4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "pausePreviewsLabel"
+      ],
+      "sourceHash": "85b03991aeb2d848b216a81902b2f0220be2ee41fca78472da0f9bb5df357ef8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "resumePreviewsLabel"
+      ],
+      "sourceHash": "56da46a1774c65cb724cb8efe2bcf46c3c4ece3df3336a0757c0e64c9d8617fe"
     },
     {
       "path": [
@@ -828,6 +912,26 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "welcomeMessage"
+      ],
+      "sourceHash": "3e5329631faf0179a791189a0842d92539dce16fe8f01e3a22e672a369e2ed79"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "urlRequestMessage"
+      ],
+      "sourceHash": "505643be6c0532a0cde281ee2ef7a14724abd9bd1ff8962d66e7693159894940"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "urlPlaceholder"
       ],
       "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
@@ -898,6 +1002,126 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "instagramLabel"
+      ],
+      "sourceHash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "restaurantFallbackLabel"
+      ],
+      "sourceHash": "1212ea9e20949ffca0acb019cf3967b4e192de6dd37aca1f16c382bee7e58d94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandPaletteLabel"
+      ],
+      "sourceHash": "031aded720d3d5bb23560618d64f90072b559259105175497086ed56914a8ba5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandColorLabel"
+      ],
+      "sourceHash": "33de979373189007c0dde8506cabbd0d9540b7edde9c5a86cfab85ce88637240"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "neutralRecommendationLabel"
+      ],
+      "sourceHash": "41e04cc210d05f6b89cd5a2c67092877978ad6a25fc3bdc872e5a74800f26671"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "profileImageLabel"
+      ],
+      "sourceHash": "e14cc2a4574a38dc035bfa2d53d8d34ec6861a783b7b7f81a546fa55a4cab179"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "fontRecommendationLabel"
+      ],
+      "sourceHash": "31a89f0b7e40cbc70dd893c02882dd79a2d13bfae51393024c2b474e9cb20c82"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "unverifiableTypographyCopy"
+      ],
+      "sourceHash": "6dc2ba4d13ab5dd66db1c8a575868184e8cc1ae02c6b9ac3c90dc2f318e4b8fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "photographyFallback"
+      ],
+      "sourceHash": "53cd568efcd8626f7f644bd37e5f07bea0e234443cf9ef3060040d7928fba9fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "compositionFallback"
+      ],
+      "sourceHash": "0e592d199149784c17758aec06bf9897c7560192a6110c4f50a2352f2a78afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "layoutFallback"
+      ],
+      "sourceHash": "a8794656167996cca90b4b2057abfdd7a38de276b18c49455126a162187986d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "toneFallback"
+      ],
+      "sourceHash": "d49fded969797873f3167bb518955d9c7c0dd84e558cabe020240893cb5ec55c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "sourceManifestLabel"
       ],
       "sourceHash": "fd5977138d2aea02d41a584f6dcdd38c9df0fac30a3ed421644b77651ead58b0"
@@ -930,7 +1154,7 @@
         "instagramCampaign",
         "eventBody"
       ],
-      "sourceHash": "a91325c826df6555ba6ce40efd2cf548f5dfb985f22b7fd47f6abd7407f1727a"
+      "sourceHash": "852212504712479d79307ea9e4985ed4ad773559bdd59751d6bbb05a149a0649"
     },
     {
       "path": [
@@ -1068,6 +1292,56 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "imagePackSummary"
+      ],
+      "sourceHash": "1a43d0055fa607280cd21cca9244e9d30accef30258f0f5c137c939a37f94eab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "feedCoverLabel"
+      ],
+      "sourceHash": "cce777ebb52d817497f1a2947e1f8b1945b37d4d36a47923924af7611ab1a8cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "carouselSupportLabel"
+      ],
+      "sourceHash": "f2e276955045be0ae21294a89ae153ee72fd64392f83003d736ce8abab54d8a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "storyLabel"
+      ],
+      "sourceHash": "39bba29c6a357a845527ee75ace19f54c803053fad973b7fc5feed366553c9a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "previewLabel"
+      ],
+      "sourceHash": "324b134f57c70c729ae3dc4d298bb451656717d70523e942c1ce667b8024ea07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "downloadLabel"
       ],
       "sourceHash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
@@ -1141,6 +1415,136 @@
         "errorCopy"
       ],
       "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "invalidUrlError"
+      ],
+      "sourceHash": "f61d44af851111526b2129c81af039436a536d196a0620bdf0015700af97e0ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "accessError"
+      ],
+      "sourceHash": "bab0449e2a0a4c9a7e0b809dc92e17ba8b20dd080676f68ff3577a5c36843f3c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "activePreviewError"
+      ],
+      "sourceHash": "77d8012ee34f1353f36914a6a9117ab2b8cf9864e67c58c0dc0322bc19678247"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "limitError"
+      ],
+      "sourceHash": "bf7e2e0b2006391cf1fbf43bd993f4bf5630a768e1f97d7a0466a7e053e91e55"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "expiredError"
+      ],
+      "sourceHash": "ae7410d8139e6a0ff2f3fac0added2ff84ac55d26dc37bb755c8cc762754a643"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "validationError"
+      ],
+      "sourceHash": "e3b607fc103bdd5c30aff109b5d9632dbd065bde7aeef9f5389142236a48218b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generationError"
+      ],
+      "sourceHash": "90012c1994c79481a3c446f31f4bd91b7773a5205cea57f05577f56d7154beac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "claimError"
+      ],
+      "sourceHash": "e57e5e6d06aac1f22de78d29216f6166324d8bd820f3ff69bd1335e47ece397c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReadyMessage"
+      ],
+      "sourceHash": "7ebb899e2bce034d0f9ef4b5e3d31e7afd9453abdba72d9c94f4ad5bc82fe820"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandApprovedMessage"
+      ],
+      "sourceHash": "679004ef576520db41d5c5e47beacd81c3f8dccc0a367444a721e30552576560"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagePackReadyMessage"
+      ],
+      "sourceHash": "24e7cc92444bfe1092429eb9a9a730ff445cf28b27b8223dcdf5273ae7f18149"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagesApprovedMessage"
+      ],
+      "sourceHash": "f92edfa8fbd58ea660997cc091c78a0ce7702d2247ca24c2f44d5dbe7637e064"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "privateVideoOfferMessage"
+      ],
+      "sourceHash": "f981105740a8925e52189def6fed0c3d16e4366614c4e9b24bce9f93a52c941d"
     },
     {
       "path": [
@@ -2821,5 +3225,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T10:39:25.651Z"
+  "generatedAt": "2026-09-05T07:41:02.868Z"
 }

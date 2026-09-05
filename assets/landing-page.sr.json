@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sr",
   "regionKey": null,
-  "sourceRevision": "754ec8d755578de684545ced1d4266b31a466a66229655f2aec324bdc8659634",
+  "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -54,34 +54,41 @@
       "brandMark": "image",
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
       "navItems": [],
-      "ctaLabel": "Upoznajte Archer-a"
+      "ctaLabel": "Upoznajte Archer"
     },
     "badge": "Pravi snimci. Jedno odobrenje. Na vreme.",
-    "headline": "Vaši snimci sa događaja vraćeni kao brendirani klipovi pre nego što se vrata otvore.",
-    "subheadline": "Pošaljite prave snimke sa telefona iz svakog objekta. Archer ih montira, brendira, dodaje titlove i prilagođava format za Reels, TikTok, Shorts i Snapchat, a zatim usmerava jedno odobrenje pre roka za događaj.",
-    "ctaLabel": "Zakažite pilot od četiri nedelje",
+    "headline": "Snimci s vašeg događaja vraćaju se kao brendirani klipovi pre otvaranja vrata.",
+    "subheadline": "Pošaljite prave snimke sa telefona iz svakog objekta. Archer ih montira, brendira, dodaje titlove i prilagođava veličinu za Reels, TikTok, Shorts i Snapchat, a zatim organizuje jedno odobrenje pre roka za događaj.",
+    "ctaLabel": "Zakažite četvoronedeljni pilot",
     "secondaryCtaLabel": "Pogledajte tok rada",
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Pošaljite jedan pravi post ili klip i recite mi za koju platformu treba da bude prilagođen."
+        "text": "Zdravo, ja sam Archer, editor kampanja vašeg restorana. Šta želite da kreirate?"
       }
     ],
     "heroChat": {
-      "statusLabel": "Instagram pregled kampanje dostupan",
+      "statusLabel": "Pregled Instagram kampanje je dostupan",
       "inputPlaceholder": "Nalepite javni Instagram URL restorana...",
       "suggestedPrompts": [
         "Napravite brend komplet sa Instagrama",
-        "Kreirajte tri promotivne slike za događaj",
+        "Kreirajte tri slike za kampanju događaja",
         "Definišite pilot za više objekata"
       ]
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
-      "alt": "Archer-ov traker produkcije za promotivne materijale ugostiteljskih događaja na vreme"
+      "alt": "Archer traker produkcije za promo materijale ugostiteljskih događaja na vreme"
     },
     "cinematicCampaigns": {
+      "accessibility": {
+        "mainNavigationLabel": "Glavna navigacija",
+        "previousPreviewLabel": "Prethodni pregled",
+        "nextPreviewLabel": "Sledeći pregled",
+        "pausePreviewsLabel": "Pauzirajte preglede",
+        "resumePreviewsLabel": "Nastavite preglede"
+      },
       "hero": {
         "wordmark": "Archer",
         "navItems": [
@@ -94,7 +101,7 @@
             "target": "delivery"
           },
           {
-            "label": "Pravi posao",
+            "label": "Pravi rad",
             "target": "showcase"
           },
           {
@@ -108,79 +115,111 @@
         ],
         "loginLabel": "Prijavite se",
         "pilotLabel": "Zakažite pilot",
-        "eyebrow": "Promocija događaja za ugostiteljske timove",
+        "eyebrow": "Produkcija promo materijala za ugostiteljske timove",
         "headingLines": [
-          "Vaši snimci sa događaja,",
-          "vraćeni kao brendirani klipovi"
+          "Snimci s vašeg događaja,",
+          "vraćaju se kao brendirani klipovi"
         ],
-        "mutedHeadingLine": "pre nego što se vrata otvore.",
-        "body": "Pošaljite prave snimke sa telefona iz svakog objekta. Archer ih montira, brendira, dodaje titlove i prilagođava format za Reels, TikTok, Shorts i Snapchat, a zatim usmerava jedno odobrenje pre roka za događaj.",
-        "primaryCtaLabel": "Zakažite pilot od četiri nedelje",
+        "mutedHeadingLine": "pre otvaranja vrata.",
+        "body": "Pošaljite prave snimke sa telefona iz svakog objekta. Archer ih montira, brendira, dodaje titlove i prilagođava veličinu za Reels, TikTok, Shorts i Snapchat, a zatim organizuje jedno odobrenje pre roka za događaj.",
+        "primaryCtaLabel": "Zakažite četvoronedeljni pilot",
         "secondaryCtaLabel": "Pogledajte tok rada",
         "instagramCampaign": {
           "enabled": true,
           "commandTrigger": "instagram-campaign",
+          "welcomeMessage": "Zdravo, ja sam Archer, editor kampanja vašeg restorana.",
+          "urlRequestMessage": "Podelite javni Instagram profil, objavu, karusel ili Reel restorana da biste počeli.",
           "urlPlaceholder": "Nalepite javni Instagram URL…",
           "analyzeLabel": "Napravi moj brend komplet",
-          "analyzingLabel": "Čitam javne brend signale…",
-          "brandReviewHeading": "Pregledajte brend identitet",
+          "analyzingLabel": "Čitam javne signale brenda...",
+          "brandReviewHeading": "Pregledajte identitet brenda",
           "brandReviewBody": "Izmenite izvedene detalje pre nego što se bilo šta generiše.",
           "observedLabel": "Uočeno",
           "inferredLabel": "Izvedeno",
+          "instagramLabel": "Instagram",
+          "restaurantFallbackLabel": "Restoran",
+          "brandPaletteLabel": "Paleta brenda od pet boja",
+          "brandColorLabel": "Boja brenda",
+          "neutralRecommendationLabel": "Preporuka za neutralnu boju",
+          "profileImageLabel": "Profilna slika na Instagramu",
+          "fontRecommendationLabel": "Preporuka fonta",
+          "unverifiableTypographyCopy": "Nije bio dostupan nijedan proverljiv uzorak fonta.",
+          "photographyFallback": "Koristite samo odobrenu izvornu fotografiju.",
+          "compositionFallback": "Očuvajte kompoziciju odobrenih izvornih resursa.",
+          "layoutFallback": "Koristite umereni raspored fokusiran na društvene mreže.",
+          "toneFallback": "Koristite odobreni jezik događaja restorana.",
           "sourceManifestLabel": "Verifikovani izvorni resursi",
-          "approveBrandLabel": "Odobrite brend identitet",
+          "approveBrandLabel": "Odobrite identitet brenda",
           "eventHeading": "Opišite događaj",
-          "eventBody": "Običan engleski je sasvim u redu. Archer traži samo neophodne detalje koji nedostaju.",
-          "eventPlaceholder": "Petak DJ veče u objektu Marina, 21h, rezervacije stolova otvorene…",
+          "eventBody": "Jednostavan jezik je dovoljan. Archer pita samo za nedostajuće bitne stvari.",
+          "eventPlaceholder": "DJ veče petkom u objektu Marina, 21h, rezervacije stolova su otvorene…",
           "eventNameLabel": "Naziv događaja",
           "venueLabel": "Objekat",
           "dateTimeLabel": "Datum i vreme",
           "offerLabel": "Ponuda",
           "audienceLabel": "Publika",
           "eventCtaLabel": "Poziv na akciju",
-          "saveEventLabel": "Proverite opis događaja",
+          "saveEventLabel": "Proverite kratak opis događaja",
           "generateHeading": "Generišite tri prave slike",
-          "generateBody": "Dve 4:5 slike za feed i jedna 9:16 Story, koristeći samo odobrene resurse restorana i apstraktne grafičke obrade.",
+          "generateBody": "Dve 4:5 slike za feed i jedna 9:16 Story, koristeći isključivo odobrena sredstva restorana i apstraktne grafičke obrade.",
           "confirmGenerateLabel": "Potvrdite i generišite slike",
-          "generatingLabel": "Kreiram paket od tri slike…",
+          "generatingLabel": "Kreiranje paketa od tri slike…",
           "imageReviewHeading": "Vaš Instagram paket slika",
+          "imagePackSummary": "Dve slike za feed 1080×1350 i jedna Story 1080×1920",
+          "feedCoverLabel": "Naslovna slika feeda",
+          "carouselSupportLabel": "Prateća slika karusela",
+          "storyLabel": "Story slika",
+          "previewLabel": "Pregled",
           "downloadLabel": "Preuzmi",
           "revisionPlaceholder": "Jedna revizija: opišite izmenu…",
           "reviseLabel": "Revidirajte jednom",
           "approveImagesLabel": "Odobrite slike",
           "createVideoLabel": "Kreirajte video",
-          "loginNotice": "Prijavite se da pretvorite odobrenu sliku u video od šest sekundi, povežete Instagram, zakažete ili objavite.",
-          "cancelLabel": "Počnite ispočetka",
-          "errorCopy": "Archer nije mogao da završi ovaj pregled. Probajte drugi javni Instagram URL."
+          "loginNotice": "Prijavite se da biste odobrenu sliku pretvorili u šestoskeundni video, povezali Instagram, zakazali ili objavili.",
+          "cancelLabel": "Počni ispočetka",
+          "errorCopy": "Archer nije mogao da završi ovaj pregled. Pokušajte sa drugim javnim Instagram URL-om.",
+          "invalidUrlError": "Unesite pun javni Instagram URL profila, objave, karusela ili Reel-a.",
+          "accessError": "Instagram nije mogao da prikaže tu javnu stranicu. Pokušajte sa drugim javnim URL-om.",
+          "activePreviewError": "Prvo završite ili ponovo pokrenite pregled trenutne Instagram kampanje.",
+          "limitError": "Dostignut je limit javnih pregleda. Prijavite se ili pokušajte ponovo kasnije.",
+          "expiredError": "Pregled ove Instagram kampanje je istekao. Počnite ponovo.",
+          "validationError": "Pregledajte istaknute detalje kampanje i pokušajte ponovo.",
+          "generationError": "Paket slika nije mogao biti generisan. Pokušajte ponovo.",
+          "claimError": "Archer nije mogao da premesti ovu kampanju u vaš privatni radni prostor. Pokušajte ponovo.",
+          "brandReadyMessage": "Pronašao sam javne brend signale. Pregledajte šta je primećeno, a šta zaključeno, pre nego što nešto kreiramo.",
+          "brandApprovedMessage": "Brend identitet odobren. Opišite događaj običnim jezikom.",
+          "imagePackReadyMessage": "Vaš Instagram paket od tri slike je spreman za pregled i preuzimanje.",
+          "imagesApprovedMessage": "Slike su odobrene. Prijavite se da biste kreirali video, povezali Instagram, zakazali ili objavili.",
+          "privateVideoOfferMessage": "Vaš odobreni paket slika je sada privatan. Želite li šestoskeundni 9:16 promo za događaj, ili biste radije završili sa paketom slika?"
         },
         "intake": {
-          "eyebrow": "Instagram pregled kampanje",
+          "eyebrow": "Pregled Instagram kampanje",
           "title": "Počnite sa javnim Instagramom restorana",
-          "body": "Archer čita dostupne brend signale, označava zapažanja i pretpostavke i pretvara odobreni opis događaja u tri slike za preuzimanje.",
+          "body": "Archer čita dostupne brend signale, označava zapažanja i pretpostavke, i pretvara odobreni kratak opis događaja u tri slike spremne za preuzimanje.",
           "uploadLabel": "Javni Instagram URL",
-          "uploadHint": "Profil, post, karusel ili Reel",
-          "transferNote": "Samo javni resursi. Archer nikada ne zaobilazi privatne profile, zidove za prijavu, CAPTCHA ili nedostupne medije.",
+          "uploadHint": "Profil, objava, karusel ili Reel",
+          "transferNote": "Samo javna sredstva. Archer nikada ne zaobilazi privatne profile, login zidove, CAPTCHA ili nedostupne medije.",
           "eventLabel": "Brend identitet",
-          "eventValue": "Uočeno + izvedeno, izmenljivo",
+          "eventValue": "Primećeno + pretpostavljeno, može se menjati",
           "deadlineLabel": "Paket slika",
           "deadlineValue": "Dve slike za feed + jedna Story",
           "platformLabel": "Zatim",
           "suggestions": [
             "Nalepite Instagram restorana",
-            "Pregledajte brend identitet",
+            "Pregledajte identitet brenda",
             "Opišite događaj"
           ]
         }
       },
       "workflow": {
-        "eyebrow": "Pošaljite, brendirajte, odobrite",
-        "heading": "Pošaljite prave snimke. Objavite promo pre događaja.",
-        "body": "Trostepeni koncijerni tok rada prilagođen kalendaru vašeg tima, brend pravilima i lancu odobrenja.",
+        "eyebrow": "Pošalji, brendiraj, odobri",
+        "heading": "Pošaljite pravi snimak. Objavi promo pre događaja.",
+        "body": "Trostepeni concierge tok rada prilagođen kalendaru vašeg tima, brend pravilima i lancu odobravanja.",
         "steps": [
           {
             "number": "01",
-            "title": "Pošaljite",
-            "description": "Podelite prave snimke sa telefona koje je vaš tim u objektu već zabeležio.",
+            "title": "Pošalji",
+            "description": "Podelite pravi snimak sa telefona koji je vaš tim u objektu već zabeležio.",
             "visualKind": "send",
             "details": [
               "Stvarna jela, prostorije, gužve i događaji",
@@ -191,168 +230,168 @@
           {
             "number": "02",
             "title": "Brend",
-            "description": "Archer čisti, montira, dodaje titlove i prilagođava format bez zamene onoga što je snimljeno.",
+            "description": "Archer čisti, montira, dodaje natpise i prilagođava veličinu bez zamene onoga što je snimljeno.",
             "visualKind": "brand",
             "details": [
-              "Brend komplet specifičan za objekat",
-              "Rezovi u formatu 9:16 za platformu",
+              "Brend kit specifičan za objekat",
+              "Rezovi 9:16 prilagođeni platformi",
               "Bez regenerisanih subjekata ili scena"
             ]
           },
           {
             "number": "03",
-            "title": "Odobrite",
+            "title": "Odobri",
             "description": "Jedan imenovani odobravač pregleda jedan link dok Archer drži sat.",
             "visualKind": "approve",
             "details": [
-              "Jedno objedinjeno odobrenje",
-              "Dogovoreni rok za reviziju",
-              "Konačna isporuka pre otvaranja vrata"
+              "Једно усклађено одобрење",
+              "Погодан рок за ревизију",
+              "Коначна испорука пре отварања врата"
             ]
           }
         ]
       },
       "delivery": {
-        "eyebrow": "Jedan događaj, četiri feeda",
-        "heading": "Četiri reza prilagođena platformi. Jedan rok.",
-        "body": "Svaka isporuka je kadrirana vertikalno, proverena u odnosu na brend objekta i vezana za isti rok za događaj.",
+        "eyebrow": "Један догађај, четири нити",
+        "heading": "Четири нативне верзије за платформе. Један рок.",
+        "body": "Свака испорука је оквирна за вертикални формат, проверена против бренда локације и повезана са истим роком.",
         "platforms": [
           {
             "platform": "instagram-reels",
             "label": "Instagram Reels",
             "aspectRatio": "9:16",
-            "note": "Brendirana vertikalna montaža"
+            "note": "Брендирана вертикална монтажа"
           },
           {
             "platform": "tiktok",
             "label": "TikTok",
             "aspectRatio": "9:16",
-            "note": "Brza platformski specifična montaža"
+            "note": "Брза нативна верзија за платформу"
           },
           {
             "platform": "youtube-shorts",
             "label": "YouTube Shorts",
             "aspectRatio": "9:16",
-            "note": "Jasna kratka priča"
+            "note": "Јасна кратка прича"
           },
           {
             "platform": "snapchat",
             "label": "Snapchat",
             "aspectRatio": "9:16",
-            "note": "Promo događaja preko celog ekrana"
+            "note": "Промо у полноекранском формату"
           }
         ],
         "guarantee": {
-          "label": "Preuzimanje rokova",
-          "heading": "Klip je koristan samo pre samog događaja.",
-          "body": "Pre početka montaže dogovaramo rok događaja, imenovanog odobravača, rok za isporuku i rok za revizije."
+          "label": "Одговорност за рок",
+          "heading": "Клип је корисан само пре догађаја.",
+          "body": "Пре почетка монтаже договоримо рок догађаја, именованог одобраваоца, прозор испоруке и ревизије."
         }
       },
       "showcase": {
-        "eyebrow": "Pregled stila",
+        "eyebrow": "Преглед стила",
         "heading": "Ово је стил.",
-        "body": "Прикази генерисани вештачком интелигенцијом који илуструју визуелни правац Archer-а — нису снимци стварног клијента или локације.",
-        "notice": "Ово су илустративни прегледи стилова, а не стварне пилот испоруке. Одобрени клијентски радови замениће их овде чим буду доступни.",
+        "body": "AI генерисани прегледи који илуструју визуелни правац Archer-а — нису снимци стварног клијента или локације.",
+        "notice": "Ово су илустративни прегледи стила, не прави пилотни испоруке. Одобрен рад клијента ће их заменити када буде доступан.",
         "items": [
           {
-            "eventLabel": "DJ noć",
-            "venueType": "Rijadski lounge",
-            "beforeLabel": "Materijal sa telefona",
-            "afterLabel": "Brendiran 9:16",
-            "statusLabel": "Приказ генерисан вештачком интелигенцијом · само илустративно"
+            "eventLabel": "DJ вечер",
+            "venueType": "Ријад лаунж",
+            "beforeLabel": "Снимак са телефона",
+            "afterLabel": "Брендирано 9:16",
+            "statusLabel": "AI генерисан преглед · само за илустрацију"
           },
           {
-            "eventLabel": "Borbena večer",
-            "venueType": "Sportski bar na više lokacija",
-            "beforeLabel": "Klipovi sa lokacije",
-            "afterLabel": "Četiri skraćene verzije",
-            "statusLabel": "Приказ генерисан вештачком интелигенцијом · само илустративно"
+            "eventLabel": "Ноктурну вечер",
+            "venueType": "Бар за спорт у више локација",
+            "beforeLabel": "Клипови локација",
+            "afterLabel": "Четири скраћене верзије",
+            "statusLabel": "AI генерисан преглед · само за илустрацију"
           },
           {
-            "eventLabel": "Sezonska zabava",
-            "venueType": "Restoranska grupa",
-            "beforeLabel": "Nedeljni folder",
-            "afterLabel": "Odobrena promocija",
-            "statusLabel": "Приказ генерисан вештачком интелигенцијом · само илустративно"
+            "eventLabel": "Сезонска забава",
+            "venueType": "Ресторанска група",
+            "beforeLabel": "Недељни фасцикл",
+            "afterLabel": "Одобрен промо",
+            "statusLabel": "AI генерисан преглед · само за илустрацију"
           }
         ]
       },
       "features": {
-        "eyebrow": "Zašto timovi koriste Archer",
-        "heading": "Kapacitet za svaku lokaciju bez zamene vašeg montažera.",
-        "body": "Archer proširuje produkcioni tim oko ponovljivih, rokovno osetljivih promo poslova.",
-        "ctaLabel": "Definišite pilot",
+        "eyebrow": "Зашто тимови користе Archer",
+        "heading": "Капацитет за сваку локацију без замене уредника.",
+        "body": "Archer проширује тим за производњу кроз поновљив, рок-осетљив промо рад.",
+        "ctaLabel": "Определите пилот",
         "items": [
           {
             "kind": "brand",
-            "title": "Konzistentnost brenda",
-            "body": "Zadržite boje, tipografiju, krajnje kartice, titlove i ton svake lokacije u kompletu za višekratnu upotrebu."
+            "title": "Конзистентност бренда",
+            "body": "Задржите боје, типографију, завршне картонске елементе, натписе и тон сваке локације у поновно употребљивом комплету."
           },
           {
             "kind": "approval",
-            "title": "Brzina odobrenja",
-            "body": "Pošaljite jednu objedinjenu recenziju jednom imenovanom odobravaču umesto jurenja po grupnom četu."
+            "title": "Време одобрења",
+            "body": "Пошаљите једно усклађено прегледање једном именованом одобраваоцу уместо да гоните групни разговор."
           },
           {
             "kind": "deadline",
-            "title": "Preuzimanje rokova",
-            "body": "Planirajte unazad od otvaranja vrata, sa dogovorenim rokovima isporuke i revizije pre montaże."
+            "title": "Одговорност за рок",
+            "body": "Планирајте уназад од отварања врата, са договореним роковима испоруке и ревизије пре монтаже."
           },
           {
             "kind": "formats",
-            "title": "PrilagoĎavanje veličine za platformu",
-            "body": "Isporučite promišljene 9:16 verzije za Reels, TikTok, Shorts i Snapchat."
+            "title": "Прилагођавање платформи",
+            "body": "Испоручите намерне 9:16 верзије за Reels, TikTok, Shorts и Snapchat."
           },
           {
             "kind": "real-footage",
-            "title": "Samo stvarni snimci",
-            "body": "Očistite, montirajte, dodajte titlove i brendirajte snimljeni materijal. Nikada ne sintetišite lokaciju ili događaj."
+            "title": "Само стварни снимци",
+            "body": "Чистите, монтирајте, доделите натписе и брендирајте снимке. Никада не синтетизујте локацију или догађај."
           },
           {
             "kind": "overflow",
-            "title": "Proširenje kapaciteta montažera",
-            "body": "Apsorbira ponovljivi promo obim kako bi vaš montažer mogao da zaštiti kreativniji rad veće vrednosti."
+            "title": "Проширење капацитета уредника",
+            "body": "Упопуните поновљив запремински промо рад да ваш уредник може да штити вреднији креативни рад."
           }
         ]
       },
       "tracker": {
-        "eyebrow": "Kontrola više lokacija",
-        "heading": "Svaka lokacija, događaj, odobrenje i rok na jednom mestu.",
-        "body": "Operativni tracker održava nedeljni produkcioni red vidljivim bez pretvaranja da je živa klijentska kontrolna tabla.",
-        "sampleLabel": "Ilustrativni pilot tracker",
-        "sampleDisclaimer": "Primer radnog toka · nisu živi klijentski podaci",
+        "eyebrow": "Контрола више локација",
+        "heading": "Свака локација, догађај, одобрење и рок у једном прегледу.",
+        "body": "Оперативни тракер држи недељни ред производње видљивим без претварања у живи клијентски дашборд.",
+        "sampleLabel": "Илустративни пилот тракер",
+        "sampleDisclaimer": "Пример радње · не живи подаци клијента",
         "events": [
           {
-            "venue": "Lokacija Sever",
-            "event": "Četvrtak live set",
-            "deadline": "Čet · 16:00",
+            "venue": "Локација Север",
+            "event": "Четвртак уживо",
+            "deadline": "Чет · 16:00",
             "status": "footage-received",
-            "statusLabel": "Materijal primljen"
+            "statusLabel": "Снимци примљени"
           },
           {
-            "venue": "Lokacija Central",
-            "event": "Petak DJ noć",
-            "deadline": "Pet · 15:00",
+            "venue": "Локација Центар",
+            "event": "Петак DJ вечер",
+            "deadline": "Пет · 15:00",
             "status": "in-production",
-            "statusLabel": "U produkciji"
+            "statusLabel": "У производњи"
           },
           {
-            "venue": "Lokacija Marina",
-            "event": "Borbena večer",
-            "deadline": "Pet · 18:00",
+            "venue": "Локација Марина",
+            "event": "Ноктурну вечер",
+            "deadline": "Пет · 18:00",
             "status": "pending-approval",
             "statusLabel": "Čeka odobrenje"
           },
           {
-            "venue": "Lokacija Istok",
-            "event": "Subota brunch",
+            "venue": "Venue East",
+            "event": "Subotnji brunch",
             "deadline": "Sub · 09:00",
             "status": "approved",
             "statusLabel": "Odobreno"
           },
           {
-            "venue": "Lokacija Zapad",
-            "event": "Zabava vikendom",
+            "venue": "Venue West",
+            "event": "Vikend zabava",
             "deadline": "Sub · 14:00",
             "status": "delivered",
             "statusLabel": "Isporučeno"
@@ -361,23 +400,23 @@
         "benefits": [
           {
             "label": "Jedan nedeljni red",
-            "body": "Pogledajte šta je stiglo, šta se kreće i šta čeka odluku."
+            "body": "Pogledajte šta je stiglo, šta se kreće i šta zahteva odluku."
           },
           {
-            "label": "Jedan odgovorni odobravač",
-            "body": "Učinite vlasništvo vidljivim pre nego što rok postane hitna intervencija."
+            "label": "Jedan odgovorni odobravatelj",
+            "body": "Učinite vlasništvo vidljivim pre nego što rok postane haotičan."
           },
           {
             "label": "Jedan sat za isporuku",
-            "body": "Povežite svaku platformsku montažu sa događajem, a ne sa beskonačnim kalendarom sadržaja."
+            "body": "Povežite svaki rez po platformi sa događajem, a ne sa otvorenim kalendarom sadržaja."
           }
         ]
       },
       "meetArcher": {
-        "kicker": "Upoznajte svog operatera za promo događaje",
-        "heading": "Upoznajte Archera.",
-        "mutedHeading": "Rezervna podrška za rokove vašeg montažera.",
-        "body": "Archer preuzima ponovljivu montažu promo materijala za događaje sa kritičnog puta vašeg tima. Vaš montažer zadržava kreativno vlasništvo. Archer donosi kapacitet, disciplinu brenda i poštovanje rokova.",
+        "kicker": "Upoznajte svog operatora za promociju događaja",
+        "heading": "Upoznajte Archer.",
+        "mutedHeading": "Rezervna varijanta za rok vašeg urednika.",
+        "body": "Archer skida ponovljivu montažu promocije događaja sa kritične putanje vašeg tima. Vaš urednik zadržava kreativno vlasništvo. Archer dodaje kapacitet, disciplinu brenda i poštovanje rokova.",
         "points": [
           {
             "number": "01",
@@ -389,7 +428,7 @@
           },
           {
             "number": "03",
-            "label": "Jedan odobravač, jedan link"
+            "label": "Jedan odobravatelj, jedan link"
           }
         ],
         "ctaLabel": "Zakažite pilot",
@@ -400,57 +439,57 @@
       },
       "fit": {
         "eyebrow": "Fokusirana usluga",
-        "heading": "Za koga ovo nije.",
+        "heading": "Kome ovo nije namenjeno.",
         "body": "Archer je dizajniran za specifičan operativni problem, pa su granice jednako važne kao i obećanje.",
         "items": [
           {
             "label": "Nije za",
-            "title": "Sintetični sadržaj lokacije",
-            "body": "Archer ne izmišlja jela, prostorije, gužve, izvođače ili događaje koji nisu zabeleženi."
+            "title": "Sintetički sadržaj lokala",
+            "body": "Archer ne izmišlja jela, prostorije, gužve, izvođače ili događaje koji nisu snimljeni."
           },
           {
             "label": "Verovatno nije za",
-            "title": "Povremeno objavljivanje na jednoj lokaciji",
-            "body": "Jednokratna objava može koristiti demo montažu, ali ne zahteva uslugu koncijerža vođenu rokovima."
+            "title": "Povremeno objavljivanje sa jedne lokacije",
+            "body": "Jednokratna objava može da koristi demo za montažu, ali joj ne treba usluga konsijerža vođena rokovima."
           },
           {
             "label": "Napravljeno za",
-            "title": "Ugostiteljske timove na više lokacija",
-            "body": "Agencije i skupine koje već prikupljaju stvarno snimanje iz restorana, barova, ložnika i noćnog života."
+            "title": "Timovi za ugostiteljstvo sa više lokacija",
+            "body": "Agencije i grupacije koje već prikupljaju stvarne snimke u restoranima, barovima, loungevima i noćnim klubovima."
           }
         ],
         "showSection": false
       },
       "pilot": {
-        "eyebrow": "Platni četverosjetni konzijentni pilot",
-        "heading": "Dokazite rokav za realne događaje.",
-        "body": "Odaberite lokacije i kalendar događaja, navedite jednog odobrenika i dogovorite rokove i prozore za reviziju prije dolaska prve snimke.",
-        "primaryCtaLabel": "Zakazaj konzijentni pilot",
+        "eyebrow": "Plaćeni četvoronedeljni konsijerž pilot",
+        "heading": "Dokažite radni tok vođen rokovima na stvarnim događajima.",
+        "body": "Izaberite lokacije i kalendar događaja, imenujte jednog odobravatelja i dogovorite rokove isporuke i izmena pre nego što stignu prvi snimci.",
+        "primaryCtaLabel": "Zakažite razgovor o pilotu",
         "bookingUrl": "https://calendar.app.google/iqrTNCKcJ723dqhq6",
-        "secondaryCtaLabel": "Pokusaj demo s jednom uređbom",
-        "secondaryPrompt": "Želim demo s jednom uređbom. Podijelit ću jedan od mojih postojećih Instagram postova za platformsku prilagođenu ponovnu upotrebu.",
-        "demoNote": "Demo s jednim postom pokazuje mogućnost uređivanja. Nije iskustvo multi-venuelnog produkta koji se kreće po rokavima.",
+        "secondaryCtaLabel": "Isprobajte demo montažu jedne objave",
+        "secondaryPrompt": "Želim demo montažu jedne objave. Podeliću jednu od svojih postojećih Instagram objava za prilagođavanje platformi.",
+        "demoNote": "Demo jedne objave pokazuje mogućnosti montaže. To nije iskustvo proizvoda vođenog rokovima za više lokacija.",
         "steps": [
           {
             "number": "01",
-            "title": "Odaberite lokacije za pilot",
-            "body": "Definirajte tjedni volumen događaja, brand kitove i platform mix."
+            "title": "Izaberite lokacije za pilot",
+            "body": "Definišite nedeljni obim događaja, brend komplete i miks platformi."
           },
           {
             "number": "02",
-            "title": "Name one approver",
-            "body": "Zadržavajte povratne informacije konsolidirane i jasno definisana vlasništvo."
+            "title": "Imenujte jednog odobravatelja",
+            "body": "Držite povratne informacije objedinjenim i vlasništvo jasnim."
           },
           {
             "number": "03",
-            "title": "Dogovorite rokove",
-            "body": "Postavite prozore za dostavu i reviziju oko realnih rokova događaja."
+            "title": "Dogovorite sat",
+            "body": "Postavite rokove isporuke i izmena oko stvarnih rokova događaja."
           }
         ],
         "showSection": false
       },
       "footer": {
-        "tagline": "Stvarna hospitality snimka, brendirana i dostavljena prije rokova događaja.",
+        "tagline": "Stvarni ugostiteljski snimci, brendirani i isporučeni pre roka događaja.",
         "groups": [
           {
             "label": "Usluga",
@@ -464,7 +503,7 @@
                 "target": "delivery"
               },
               {
-                "label": "Pravi posao",
+                "label": "Pravi rad",
                 "target": "showcase"
               }
             ]
@@ -477,20 +516,20 @@
                 "target": "tracker"
               },
               {
-                "label": "Upoznajte Archer-a",
+                "label": "Upoznajte Archer",
                 "target": "meet-archer"
               },
               {
-                "label": "Za koji je namijenjen",
+                "label": "Kome je namenjeno",
                 "target": "fit"
               }
             ]
           },
           {
-            "label": "Start",
+            "label": "Počnite",
             "links": [
               {
-                "label": "Četverosjetni pilot",
+                "label": "Četvoronedeljni pilot",
                 "target": "pilot"
               },
               {
@@ -501,14 +540,14 @@
           }
         ],
         "copyright": "© 2026 Archer.",
-        "closingStatement": "Rezervna podrška za rokove vašeg montažera.",
+        "closingStatement": "Rezervna varijanta za rok vašeg urednika.",
         "contactEmail": "hello@gabrieloperator.com"
       },
       "presentationMedia": {
-        "notice": "Kino vizualni su dekorativni, nisu snimke klijenta ili deliverables pilota.",
+        "notice": "Cinematografski vizuali su dekorativni i nisu klijentski snimci niti rezultati pilota.",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4-poster.jpg"
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7-poster.jpg"
         },
         "workflowThumbnails": [
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-dj-v2.png",
@@ -556,7 +595,7 @@
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v2.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v3.png",
             "kind": "image"
           }
         ],
@@ -631,7 +670,7 @@
         0,
         "text"
       ],
-      "sourceHash": "8c92e4a83bce35ae798c939aa0f13529eee7a26bd2a74c9843076573b0e12938"
+      "sourceHash": "ccdfd1123ec1e6f4fc170db029f3bee21a688d3ffded8565c11f3878e0b0d60a"
     },
     {
       "path": [
@@ -683,6 +722,51 @@
         "alt"
       ],
       "sourceHash": "4cc79a303ea82eca931d1095b00dcbcbf9dd765dea24e0923c4220be5c7df988"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "mainNavigationLabel"
+      ],
+      "sourceHash": "eb355944b92d10582856f8aea34b3e319ba465b8aa4c294973cf53f665399a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "previousPreviewLabel"
+      ],
+      "sourceHash": "40c32625ec4d427d91a683b854499285ec3eb4134b3bcfcbc9dc77f2901e2bb6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "nextPreviewLabel"
+      ],
+      "sourceHash": "545344acec2a78baba37a0e8aea02cf6de0f3bd468dc5a60c6c005ea4218bbe4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "pausePreviewsLabel"
+      ],
+      "sourceHash": "85b03991aeb2d848b216a81902b2f0220be2ee41fca78472da0f9bb5df357ef8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "resumePreviewsLabel"
+      ],
+      "sourceHash": "56da46a1774c65cb724cb8efe2bcf46c3c4ece3df3336a0757c0e64c9d8617fe"
     },
     {
       "path": [
@@ -828,6 +912,26 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "welcomeMessage"
+      ],
+      "sourceHash": "3e5329631faf0179a791189a0842d92539dce16fe8f01e3a22e672a369e2ed79"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "urlRequestMessage"
+      ],
+      "sourceHash": "505643be6c0532a0cde281ee2ef7a14724abd9bd1ff8962d66e7693159894940"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "urlPlaceholder"
       ],
       "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
@@ -898,6 +1002,126 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "instagramLabel"
+      ],
+      "sourceHash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "restaurantFallbackLabel"
+      ],
+      "sourceHash": "1212ea9e20949ffca0acb019cf3967b4e192de6dd37aca1f16c382bee7e58d94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandPaletteLabel"
+      ],
+      "sourceHash": "031aded720d3d5bb23560618d64f90072b559259105175497086ed56914a8ba5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandColorLabel"
+      ],
+      "sourceHash": "33de979373189007c0dde8506cabbd0d9540b7edde9c5a86cfab85ce88637240"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "neutralRecommendationLabel"
+      ],
+      "sourceHash": "41e04cc210d05f6b89cd5a2c67092877978ad6a25fc3bdc872e5a74800f26671"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "profileImageLabel"
+      ],
+      "sourceHash": "e14cc2a4574a38dc035bfa2d53d8d34ec6861a783b7b7f81a546fa55a4cab179"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "fontRecommendationLabel"
+      ],
+      "sourceHash": "31a89f0b7e40cbc70dd893c02882dd79a2d13bfae51393024c2b474e9cb20c82"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "unverifiableTypographyCopy"
+      ],
+      "sourceHash": "6dc2ba4d13ab5dd66db1c8a575868184e8cc1ae02c6b9ac3c90dc2f318e4b8fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "photographyFallback"
+      ],
+      "sourceHash": "53cd568efcd8626f7f644bd37e5f07bea0e234443cf9ef3060040d7928fba9fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "compositionFallback"
+      ],
+      "sourceHash": "0e592d199149784c17758aec06bf9897c7560192a6110c4f50a2352f2a78afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "layoutFallback"
+      ],
+      "sourceHash": "a8794656167996cca90b4b2057abfdd7a38de276b18c49455126a162187986d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "toneFallback"
+      ],
+      "sourceHash": "d49fded969797873f3167bb518955d9c7c0dd84e558cabe020240893cb5ec55c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "sourceManifestLabel"
       ],
       "sourceHash": "fd5977138d2aea02d41a584f6dcdd38c9df0fac30a3ed421644b77651ead58b0"
@@ -930,7 +1154,7 @@
         "instagramCampaign",
         "eventBody"
       ],
-      "sourceHash": "a91325c826df6555ba6ce40efd2cf548f5dfb985f22b7fd47f6abd7407f1727a"
+      "sourceHash": "852212504712479d79307ea9e4985ed4ad773559bdd59751d6bbb05a149a0649"
     },
     {
       "path": [
@@ -1068,6 +1292,56 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "imagePackSummary"
+      ],
+      "sourceHash": "1a43d0055fa607280cd21cca9244e9d30accef30258f0f5c137c939a37f94eab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "feedCoverLabel"
+      ],
+      "sourceHash": "cce777ebb52d817497f1a2947e1f8b1945b37d4d36a47923924af7611ab1a8cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "carouselSupportLabel"
+      ],
+      "sourceHash": "f2e276955045be0ae21294a89ae153ee72fd64392f83003d736ce8abab54d8a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "storyLabel"
+      ],
+      "sourceHash": "39bba29c6a357a845527ee75ace19f54c803053fad973b7fc5feed366553c9a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "previewLabel"
+      ],
+      "sourceHash": "324b134f57c70c729ae3dc4d298bb451656717d70523e942c1ce667b8024ea07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "downloadLabel"
       ],
       "sourceHash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
@@ -1141,6 +1415,136 @@
         "errorCopy"
       ],
       "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "invalidUrlError"
+      ],
+      "sourceHash": "f61d44af851111526b2129c81af039436a536d196a0620bdf0015700af97e0ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "accessError"
+      ],
+      "sourceHash": "bab0449e2a0a4c9a7e0b809dc92e17ba8b20dd080676f68ff3577a5c36843f3c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "activePreviewError"
+      ],
+      "sourceHash": "77d8012ee34f1353f36914a6a9117ab2b8cf9864e67c58c0dc0322bc19678247"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "limitError"
+      ],
+      "sourceHash": "bf7e2e0b2006391cf1fbf43bd993f4bf5630a768e1f97d7a0466a7e053e91e55"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "expiredError"
+      ],
+      "sourceHash": "ae7410d8139e6a0ff2f3fac0added2ff84ac55d26dc37bb755c8cc762754a643"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "validationError"
+      ],
+      "sourceHash": "e3b607fc103bdd5c30aff109b5d9632dbd065bde7aeef9f5389142236a48218b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generationError"
+      ],
+      "sourceHash": "90012c1994c79481a3c446f31f4bd91b7773a5205cea57f05577f56d7154beac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "claimError"
+      ],
+      "sourceHash": "e57e5e6d06aac1f22de78d29216f6166324d8bd820f3ff69bd1335e47ece397c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReadyMessage"
+      ],
+      "sourceHash": "7ebb899e2bce034d0f9ef4b5e3d31e7afd9453abdba72d9c94f4ad5bc82fe820"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandApprovedMessage"
+      ],
+      "sourceHash": "679004ef576520db41d5c5e47beacd81c3f8dccc0a367444a721e30552576560"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagePackReadyMessage"
+      ],
+      "sourceHash": "24e7cc92444bfe1092429eb9a9a730ff445cf28b27b8223dcdf5273ae7f18149"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagesApprovedMessage"
+      ],
+      "sourceHash": "f92edfa8fbd58ea660997cc091c78a0ce7702d2247ca24c2f44d5dbe7637e064"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "privateVideoOfferMessage"
+      ],
+      "sourceHash": "f981105740a8925e52189def6fed0c3d16e4366614c4e9b24bce9f93a52c941d"
     },
     {
       "path": [
@@ -2821,5 +3225,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T10:39:25.651Z"
+  "generatedAt": "2026-09-05T07:41:02.868Z"
 }

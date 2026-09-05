@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ar",
   "regionKey": null,
-  "sourceRevision": "754ec8d755578de684545ced1d4266b31a466a66229655f2aec324bdc8659634",
+  "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -56,37 +56,44 @@
       "navItems": [],
       "ctaLabel": "تعرّف على Archer"
     },
-    "badge": "لقطات حقيقية. اعتماد واحد. في الموعد.",
-    "headline": "لقطات فعاليتك، نعيدها إليك كمقاطع بهوية علامتك قبل فتح الأبواب.",
-    "subheadline": "أرسل لقطات حقيقية صُوّرت بالهاتف من كل موقع. يتولى Archer المونتاج وإضافة هوية العلامة والنصوص وضبط المقاسات لتناسب Reels وTikTok وShorts وSnapchat، ثم يرسلها للاعتماد مرة واحدة قبل موعد الفعالية.",
-    "ctaLabel": "احجز تجربة لأربعة أسابيع",
-    "secondaryCtaLabel": "شاهد آلية العمل",
+    "badge": "لقطات حقيقية. موافقة واحدة. في الوقت المحدد.",
+    "headline": "لقطات فعاليتك تعود إليك كمقاطع مميزة بعلامتك التجارية قبل افتتاح الأبواب.",
+    "subheadline": "أرسل لقطات حقيقية من الهاتف من كل موقع. Archer يحررها ويضع علامتك التجارية ويضيف لها ترجمات ويعدّل أحجامها لـ Reels وTikTok وShorts وSnapchat، ثم يُرتب موافقة واحدة قبل موعد الحدث.",
+    "ctaLabel": "احجز فترة تجريبية لأربعة أسابيع",
+    "secondaryCtaLabel": "شاهد سير العمل",
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "أرسل منشورًا أو مقطعًا حقيقيًا واحدًا، وحدد المنصة التي تريد تهيئته لها."
+        "text": "مرحبًا، أنا Archer، محرر حملاتك في المطعم. ماذا تريد أن تنشئ؟"
       }
     ],
     "heroChat": {
-      "statusLabel": "معاينة حملة إنستغرام متاحة",
-      "inputPlaceholder": "الصق رابط إنستغرام عام للمطعم...",
+      "statusLabel": "معاينة حملة Instagram متاحة",
+      "inputPlaceholder": "الصق رابط Instagram عام لمطعم...",
       "suggestedPrompts": [
-        "إنشاء مجموعة العلامة التجارية من إنستغرام",
+        "إنشاء مجموعة علامات تجارية من Instagram",
         "إنشاء ثلاث صور لحملة الحدث",
-        "حدد نطاق تجربة لعدة مواقع"
+        "تخطيط فترة تجريبية متعددة المواقع"
       ]
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
-      "alt": "لوحة متابعة إنتاج Archer لتسليم مقاطع فعاليات الضيافة في الموعد"
+      "alt": "متتبع إنتاج Archer للعروض الترويجية لفعاليات الضيافة في الوقت المحدد"
     },
     "cinematicCampaigns": {
+      "accessibility": {
+        "mainNavigationLabel": "التنقل الرئيسي",
+        "previousPreviewLabel": "المعاينة السابقة",
+        "nextPreviewLabel": "المعاينة التالية",
+        "pausePreviewsLabel": "إيقاف المعاينات مؤقتًا",
+        "resumePreviewsLabel": "استئناف المعاينات"
+      },
       "hero": {
         "wordmark": "Archer",
         "navItems": [
           {
-            "label": "آلية العمل",
+            "label": "سير العمل",
             "target": "workflow"
           },
           {
@@ -94,264 +101,296 @@
             "target": "delivery"
           },
           {
-            "label": "أعمال حقيقية",
+            "label": "عمل حقيقي",
             "target": "showcase"
           },
           {
-            "label": "متابعة الإنتاج",
+            "label": "متتبع الإنتاج",
             "target": "tracker"
           },
           {
-            "label": "التجربة الأولية",
+            "label": "تجريبي",
             "target": "pilot"
           }
         ],
         "loginLabel": "تسجيل الدخول",
-        "pilotLabel": "احجز تجربة أولية",
-        "eyebrow": "إنتاج مقاطع ترويجية للفعاليات لفرق الضيافة",
+        "pilotLabel": "احجز فترة تجريبية",
+        "eyebrow": "إنتاج العروض الترويجية للفعاليات لفِرق الضيافة",
         "headingLines": [
           "لقطات فعاليتك،",
-          "نعيدها إليك بهوية علامتك"
+          "تعود كمقاطع مميزة بعلامتك التجارية"
         ],
-        "mutedHeadingLine": "قبل فتح الأبواب.",
-        "body": "أرسل لقطات حقيقية صُوّرت بالهاتف من كل موقع. يتولى Archer المونتاج وإضافة هوية العلامة والنصوص وضبط المقاسات لتناسب Reels وTikTok وShorts وSnapchat، ثم يرسلها للاعتماد مرة واحدة قبل موعد الفعالية.",
-        "primaryCtaLabel": "احجز تجربة لأربعة أسابيع",
-        "secondaryCtaLabel": "شاهد آلية العمل",
+        "mutedHeadingLine": "قبل افتتاح الأبواب.",
+        "body": "أرسل لقطات حقيقية من الهاتف من كل موقع. Archer يحررها ويضع علامتك التجارية ويضيف لها ترجمات ويعدّل أحجامها لـ Reels وTikTok وShorts وSnapchat، ثم يُرتب موافقة واحدة قبل موعد الحدث.",
+        "primaryCtaLabel": "احجز فترة تجريبية لأربعة أسابيع",
+        "secondaryCtaLabel": "شاهد سير العمل",
         "instagramCampaign": {
           "enabled": true,
           "commandTrigger": "instagram-campaign",
-          "urlPlaceholder": "الصق رابط إنستغرام عام…",
-          "analyzeLabel": "إنشاء مجموعة العلامة التجارية الخاصة بي",
-          "analyzingLabel": "قراءة إشارات العلامة التجارية العامة…",
-          "brandReviewHeading": "مراجعة هوية العلامة التجارية",
-          "brandReviewBody": "قم بتعديل التفاصيل المستنتجة قبل إنشاء أي شيء.",
-          "observedLabel": "ملاحظ",
-          "inferredLabel": "مستنتج",
-          "sourceManifestLabel": "الأصول المصدرية المتحقق منها",
-          "approveBrandLabel": "الموافقة على هوية العلامة التجارية",
-          "eventHeading": "وصف الحدث",
-          "eventBody": "اللغة الإنجليزية البسيطة مقبولة. يطلب آرشر فقط الأساسيات المفقودة.",
-          "eventPlaceholder": "ليلة دي جي يوم الجمعة في مارينا فينو، الساعة 9 مساءً، حجوزات الطاولات مفتوحة...",
+          "welcomeMessage": "مرحبًا، أنا Archer، محرر حملاتك في المطعم.",
+          "urlRequestMessage": "شارك ملف Instagram عام لمطعم أو منشور أو كاروسيل أو Reel للبدء.",
+          "urlPlaceholder": "الصق رابط Instagram عام…",
+          "analyzeLabel": "إنشاء مجموعة علامتي التجارية",
+          "analyzingLabel": "جارٍ قراءة إشارات العلامة التجارية العامة...",
+          "brandReviewHeading": "راجع هوية العلامة التجارية",
+          "brandReviewBody": "حرر التفاصيل المستنتجة قبل إنشاء أي شيء.",
+          "observedLabel": "مُلاحظ",
+          "inferredLabel": "مُستنتج",
+          "instagramLabel": "Instagram",
+          "restaurantFallbackLabel": "مطعم",
+          "brandPaletteLabel": "لوحة ألوان العلامة التجارية بخمسة ألوان",
+          "brandColorLabel": "لون العلامة التجارية",
+          "neutralRecommendationLabel": "توصية الألوان المحايدة",
+          "profileImageLabel": "صورة ملف Instagram الشخصي",
+          "fontRecommendationLabel": "توصية الخط",
+          "unverifiableTypographyCopy": "لم يكن هناك أي نموذج خط يمكن التحقق منه.",
+          "photographyFallback": "استخدم فقط التصوير المعتمد.",
+          "compositionFallback": "حافظ على تكوين الأصول المعتمدة.",
+          "layoutFallback": "استخدم تخطيطًا بسيطًا يركز على وسائل التواصل الاجتماعي.",
+          "toneFallback": "استخدم لغة الحدث المعتمدة لدى المطعم.",
+          "sourceManifestLabel": "أصول المصدر التي تم التحقق منها",
+          "approveBrandLabel": "اعتماد هوية العلامة التجارية",
+          "eventHeading": "صف الحدث",
+          "eventBody": "اللغة البسيطة كافية. Archer يطلب فقط الأساسيات الناقصة.",
+          "eventPlaceholder": "ليلة دي جي يوم الجمعة في موقع مارينا، الساعة 9 مساءً، الحجوزات للطاولات مفتوحة...",
           "eventNameLabel": "اسم الحدث",
-          "venueLabel": "المكان",
+          "venueLabel": "الموقع",
           "dateTimeLabel": "التاريخ والوقت",
           "offerLabel": "العرض",
           "audienceLabel": "الجمهور",
-          "eventCtaLabel": "دعوة للعمل",
-          "saveEventLabel": "التحقق من ملخص الحدث",
-          "generateHeading": "إنشاء ثلاث صور حقيقية",
-          "generateBody": "صورتان بنسبة 4:5 للتغذية وصورة واحدة بنسبة 9:16 للقصة، باستخدام أصول المطعم المعتمدة فقط والمعالجات الرسومية المجردة.",
+          "eventCtaLabel": "دعوة لاتخاذ إجراء",
+          "saveEventLabel": "تحقق من الموجز الخاص بالحدث",
+          "generateHeading": "إنشاء ثلاثة صور حقيقية",
+          "generateBody": "صورتا خلاصة بحجم 4:5 وصورة قصيرة بحجم 9:16، باستخدام أصول المطعم المعتمدة فقط ومعالجات رسومية مجردة.",
           "confirmGenerateLabel": "تأكيد وإنشاء الصور",
-          "generatingLabel": "إنشاء حزمة الصور الثلاث…",
+          "generatingLabel": "جاري إنشاء حزمة الصور الثلاث…",
           "imageReviewHeading": "حزمة صور إنستغرام الخاصة بك",
+          "imagePackSummary": "صورتا خلاصة بحجم 1080×1350 وصورة قصيرة بحجم 1080×1920",
+          "feedCoverLabel": "غلاف الخلاصة",
+          "carouselSupportLabel": "صورة داعمة للعرض المتحرك",
+          "storyLabel": "صورة القصة",
+          "previewLabel": "معاينة",
           "downloadLabel": "تنزيل",
-          "revisionPlaceholder": "مراجعة واحدة: اشرح التغيير...",
-          "reviseLabel": "مراجعة واحدة",
-          "approveImagesLabel": "الموافقة على الصور",
-          "createVideoLabel": "إنشاء فيديو",
-          "loginNotice": "تسجيل الدخول لتحويل الصورة المعتمدة إلى فيديو مدته ست ثوانٍ، وربط إنستغرام، والجدولة، أو النشر.",
+          "revisionPlaceholder": "تنقيح واحد: صفّح التغيير…",
+          "reviseLabel": "تنقيح مرة واحدة",
+          "approveImagesLabel": "اعتماد الصور",
+          "createVideoLabel": "إنشاء مقطع فيديو",
+          "loginNotice": "سجّل الدخول لتحويل الصورة المعتمدة إلى مقطع فيديو مدته ستة ثوانٍ، أو قم بربط إنستغرام أو جدولته أو نشره.",
           "cancelLabel": "ابدأ من جديد",
-          "errorCopy": "لم يتمكن آرشر من إكمال هذه المعاينة. جرب رابط إنستغرام عام آخر."
+          "errorCopy": "تعذر على Archer إتمام هذه المعاينة. جرّب رابط إنستغرام عام آخر.",
+          "invalidUrlError": "أدخل رابط ملف تعريف عام أو منشور أو عرض متحرك أو ريلز على إنستغرام.",
+          "accessError": "تعذر على إنستغرام عرض تلك الصفحة العامة. جرّب رابط عام آخر.",
+          "activePreviewError": "أكمل أو أعد تشغيل معاينة حملة إنستغرام الحالية أولاً.",
+          "limitError": "تم الوصول إلى الحد الأقصى لمعاينات العرض العام. سجّل الدخول أو جرّب مرة أخرى لاحقاً.",
+          "expiredError": "انتهت صلاحية معاينة حملة إنستغرام هذه. ابدأ من جديد.",
+          "validationError": "راجع تفاصيل الحملة المحددة وحاول مرة أخرى.",
+          "generationError": "تعذر إنشاء حزمة الصور. يرجى المحاولة مرة أخرى.",
+          "claimError": "تعذر على Archer نقل هذه الحملة إلى مساحة العمل الخاصة بك. يرجى المحاولة مرة أخرى.",
+          "brandReadyMessage": "لقد وجدت إشارات العلامة التجارية العامة. راجع ما تم ملاحظته وما تم استنتاجه قبل أن ننشئ أي شيء.",
+          "brandApprovedMessage": "تم اعتماد الهوية التجارية. صِف الحدث بلغة واضحة.",
+          "imagePackReadyMessage": "حزمة صور إنستغرام الثلاثية الخاصة بك جاهزة للمراجعة والتنزيل.",
+          "imagesApprovedMessage": "تم اعتماد الصور. سجّل الدخول لإنشاء مقطع فيديو، أو ربط إنستغرام، أو الجدولة، أو النشر.",
+          "privateVideoOfferMessage": "أصبحت حزمة الصور المعتمدة الخاصة بك خاصة الآن. هل تريد ترويج حدث قصير مدته ستة ثوانٍ بحجم 9:16، أم تفضل الانتهاء بحزمة الصور؟"
         },
         "intake": {
           "eyebrow": "معاينة حملة إنستغرام",
-          "title": "ابدأ بمنشور عام للمطعم على إنستغرام",
-          "body": "يقرأ آرشر إشارات العلامة التجارية المتاحة، ويصنف الملاحظات والاستنتاجات، ويحول ملخص الحدث المعتمد إلى ثلاث صور قابلة للتنزيل.",
-          "uploadLabel": "رابط إنستغرام عام",
-          "uploadHint": "الملف الشخصي، المنشور، الكاروسيل، أو الريل",
-          "transferNote": "الأصول العامة فقط. لا يتجاوز آرشر أبدًا الملفات الشخصية الخاصة، أو جدران تسجيل الدخول، أو CAPTCHA، أو الوسائط غير المتاحة.",
-          "eventLabel": "هوية العلامة التجارية",
-          "eventValue": "ملاحظ + مستنتج، قابل للتعديل",
+          "title": "ابدأ بإنستغرام العام الخاص بالمطعم",
+          "body": "يقرأ Archer إشارات العلامة التجارية العامة، ويسمّي الملاحظات والاستنتاجات، ويحوّل موجز الحدث المعتمد إلى ثلاثة صور قابلة للتنزيل.",
+          "uploadLabel": "رابط إنستغرام العام",
+          "uploadHint": "ملف تعريف أو منشور أو عرض متحرك أو ريلز",
+          "transferNote": "أصول عامة فقط. لا يتجاوز Archer أبداً الملفات الشخصية الخاصة أو جدران تسجيل الدخول أو CAPTCHA أو الوسائط غير المتاحة.",
+          "eventLabel": "الهوية التجارية",
+          "eventValue": "ملاحظات + استنتاجات، قابلة للتحرير",
           "deadlineLabel": "حزمة الصور",
-          "deadlineValue": "صورتان للتغذية وصورة واحدة للقصة",
+          "deadlineValue": "صورتا خلاصة + صورة قصيرة",
           "platformLabel": "ثم",
           "suggestions": [
-            "الصق إنستغرام المطعم",
-            "مراجعة هوية العلامة التجارية",
-            "وصف الحدث"
+            "الصق إنستغرام الخاص بالمطعم",
+            "راجع هوية العلامة التجارية",
+            "صف الحدث"
           ]
         }
       },
       "workflow": {
-        "eyebrow": "أرسل، أضف الهوية، اعتمد",
-        "heading": "أرسل لقطات حقيقية. انشر المقطع الترويجي قبل الفعالية.",
-        "body": "خدمة بإدارة مخصصة من ثلاث خطوات تراعي جدول فريقك وإرشادات علامتك ومسار الاعتماد.",
+        "eyebrow": "إرسال، علامة تجارية، اعتماد",
+        "heading": "أرسل لقطات حقيقية. انشر الترويج قبل الحدث.",
+        "body": "سير عمل Concierge من ثلاث خطوات مبني حول تقويم فريقك وقواعد العلامة التجارية وسلسلة الموافقة.",
         "steps": [
           {
             "number": "01",
-            "title": "أرسل",
-            "description": "شارك اللقطات الحقيقية التي صوّرها فريق موقعك بالهاتف.",
+            "title": "إرسال",
+            "description": "شارك لقطات الهاتف الحقيقية التي التقطها فريق المكان بالفعل.",
             "visualKind": "send",
             "details": [
-              "أطباق وقاعات وحضور وفعاليات حقيقية",
-              "مجلد واحد لكل موقع أو فعالية",
-              "الموعد النهائي محدد عند تسليم الملفات"
+              "أطباق حقيقية وغرف وحشود وأحداث",
+              "مجلد واحد لكل مكان أو حدث",
+              "الموعد النهائي مدرج عند التسليم"
             ]
           },
           {
             "number": "02",
-            "title": "أضف الهوية",
-            "description": "يحسّن Archer اللقطات ويمنتجها ويضيف النصوص ويضبط المقاسات دون استبدال ما صُوّر.",
+            "title": "العلامة التجارية",
+            "description": "يقوم Archer بتنظيف وتحرير وتعليق وتغيير حجم الصور دون استبدال ما تم تصويره.",
             "visualKind": "brand",
             "details": [
-              "ملفات هوية خاصة بكل موقع",
-              "نسخ بنسبة 9:16 مهيأة لكل منصة",
-              "دون إعادة توليد العناصر أو المشاهد"
+              "حزمة العلامة التجارية الخاصة بالمكان",
+              "قصص بحجم 9:16 أصلية للمنصة",
+              "لا يتم إنشاء مواضيع أو مشاهد جديدة"
             ]
           },
           {
             "number": "03",
-            "title": "اعتمد",
-            "description": "يراجع مسؤول اعتماد محدد رابطًا واحدًا، بينما يتابع Archer الالتزام بالموعد.",
+            "title": "اعتماد",
+            "description": "يستعرض موافق واحد رابطاً واحداً بينما يتولى Archer إدارة الوقت.",
             "visualKind": "approve",
             "details": [
-              "اعتماد موحّد واحد",
-              "فترة تعديلات متفق عليها",
+              "موافقة موحدة",
+              "نافذة المراجعة المتفق عليها",
               "التسليم النهائي قبل فتح الأبواب"
             ]
           }
         ]
       },
       "delivery": {
-        "eyebrow": "فعالية واحدة، أربع منصات",
-        "heading": "أربع نسخ مهيأة للمنصات. موعد نهائي واحد.",
-        "body": "تُجهّز كل نسخة بإطار عمودي، وتُراجع وفق هوية الموقع، وتلتزم بالموعد النهائي نفسه للفعالية.",
+        "eyebrow": "حدث واحد، أربعة خلاصات",
+        "heading": "أربعة قطع مخصصة للمنصة. موعد نهائي واحد.",
+        "body": "يتم تسليم كل لقطة بشكل رأسي، وتُفحص ضد هوية العلامة التجارية للمكان، وترتبط بنفس موعد الحدث.",
         "platforms": [
           {
             "platform": "instagram-reels",
             "label": "Instagram Reels",
             "aspectRatio": "9:16",
-            "note": "مونتاج عمودي بهوية العلامة"
+            "note": "تحرير عمودي مُدرّب"
           },
           {
             "platform": "tiktok",
             "label": "TikTok",
             "aspectRatio": "9:16",
-            "note": "نسخة سريعة الإيقاع مهيأة للمنصة"
+            "note": "قطع سريع مخصص للمنصة"
           },
           {
             "platform": "youtube-shorts",
             "label": "YouTube Shorts",
             "aspectRatio": "9:16",
-            "note": "قصة قصيرة وواضحة"
+            "note": "قصة قصيرة واضحة"
           },
           {
             "platform": "snapchat",
             "label": "Snapchat",
             "aspectRatio": "9:16",
-            "note": "مقطع ترويجي يملأ الشاشة"
+            "note": "ترويج حدث كامل الشاشة"
           }
         ],
         "guarantee": {
-          "label": "مسؤولية الالتزام بالموعد",
-          "heading": "قيمة المقطع في وصوله قبل الفعالية.",
-          "body": "قبل بدء المونتاج، نتفق على موعد الفعالية ومسؤول الاعتماد وفترتي التسليم والتعديلات."
+          "label": "ملكية الموعد النهائي",
+          "heading": "اللقطات مفيدة فقط قبل الحدث.",
+          "body": "قبل بدء التحرير، نتفق على موعد الحدث، وصاحب الموافقة المسموح له، ونافذة التسليم، ونافذة المراجعة."
         }
       },
       "showcase": {
-        "eyebrow": "معاينة النمط",
-        "heading": "هذا هو النمط.",
-        "body": "معاينات تم إنشاؤها بواسطة الذكاء الاصطناعي لتوضيح الاتجاه البصري لـArcher — وليست لقطات من عميل أو موقع فعلي.",
-        "notice": "هذه معاينات أسلوب توضيحية وليست عمليات تسليم تجريبية حقيقية. سيتم استبدالها بأعمال العملاء المعتمدة بمجرد توفرها.",
+        "eyebrow": "معاينة الأسلوب",
+        "heading": "هذا هو الأسلوب.",
+        "body": "معاينات تم إنشاؤها بواسطة الذكاء الاصطناعي تُوضّح الاتجاه البصري لـ Archer — لقطات غير حقيقية من عميل أو مكان فعلي.",
+        "notice": "هذه معاينات أسلوب توضيحية، ليست تسليمات Pilot حقيقية. سيتم استبدال العمل المعتمد من قبل العميل هنا عند توفرها.",
         "items": [
           {
             "eventLabel": "ليلة دي جي",
-            "venueType": "لاونج في الرياض",
+            "venueType": "صالون الرياض",
             "beforeLabel": "لقطات بالهاتف",
-            "afterLabel": "هوية العلامة بنسبة 9:16",
-            "statusLabel": "معاينة تم إنشاؤها بواسطة الذكاء الاصطناعي · لأغراض توضيحية فقط"
+            "afterLabel": "ماركات التنسيق 9:16",
+            "statusLabel": "معاينة تم إنشاؤها بواسطة الذكاء الاصطناعي · للتوضيح فقط"
           },
           {
-            "eventLabel": "ليلة عرض النزال",
-            "venueType": "حانة رياضية متعددة الفروع",
-            "beforeLabel": "لقطات الموقع",
-            "afterLabel": "أربع نسخ مختصرة",
-            "statusLabel": "معاينة تم إنشاؤها بواسطة الذكاء الاصطناعي · لأغراض توضيحية فقط"
+            "eventLabel": "ليلة مباريات",
+            "venueType": "بار رياضي متعددvenues",
+            "beforeLabel": "لقطات المكان",
+            "afterLabel": "أربعة تقطيعات",
+            "statusLabel": "معاينة تم إنشاؤها بواسطة الذكاء الاصطناعي · للتوضيح فقط"
           },
           {
             "eventLabel": "ترفيه موسمي",
             "venueType": "مجموعة مطاعم",
-            "beforeLabel": "مجلد أسبوعي",
-            "afterLabel": "مقطع ترويجي معتمد",
-            "statusLabel": "معاينة تم إنشاؤها بواسطة الذكاء الاصطناعي · لأغراض توضيحية فقط"
+            "beforeLabel": "مجلّة أسبوعية",
+            "afterLabel": "ترويج已获批",
+            "statusLabel": "معاينة تم إنشاؤها بواسطة الذكاء الاصطناعي · للتوضيح فقط"
           }
         ]
       },
       "features": {
-        "eyebrow": "لماذا تختار الفرق Archer",
-        "heading": "قدرة إنتاجية لكل موقع، دون استبدال محرر الفيديو لديك.",
-        "body": "يدعم Archer فريق الإنتاج في الأعمال الترويجية المتكررة المرتبطة بمواعيد دقيقة.",
-        "ctaLabel": "حدد نطاق التجربة",
+        "eyebrow": "لماذا يستخدم الفرق Archer",
+        "heading": "سعة لكل Venue دون استبدال المحرر",
+        "body": "تمتد Archer الفريق الإنتاجي حول العمل الترويجي الذي يتم تكراره وحساس للمواعيد النهائية",
+        "ctaLabel": "تحديد نطاق Pilot",
         "items": [
           {
             "kind": "brand",
-            "title": "اتساق هوية العلامة",
-            "body": "احتفظ بألوان كل موقع وخطوطه وبطاقات الختام والنصوص وأسلوبه في ملفات قابلة لإعادة الاستخدام."
+            "title": "اتساق العلامة التجارية",
+            "body": "احتفظ بألوان كل Venue، والخطوط، وبطاقات النهاية، والتعليقات التوضيحية، والأسلوب في مجموعة قابلة لإعادة الاستخدام"
           },
           {
             "kind": "approval",
-            "title": "سرعة الاعتماد",
-            "body": "أرسل مراجعة موحدة إلى مسؤول اعتماد محدد بدلًا من ملاحقة الملاحظات في محادثة جماعية."
+            "title": "مدة turnaround للموافقة",
+            "body": "وجه مراجعة موحدة واحدة إلى موافق مسموح له بدلاً من مطاردة دردشة جماعية"
           },
           {
             "kind": "deadline",
-            "title": "مسؤولية الالتزام بالموعد",
-            "body": "خطّط انطلاقًا من وقت فتح الأبواب، واتفق على فترتي التسليم والتعديلات قبل المونتاج."
+            "title": "ملكية الموعد النهائي",
+            "body": "خطط للخلف من فتح الأبواب، مع نافذة التسليم ونافذة المراجعة المتفق عليها قبل البدء في التحرير"
           },
           {
             "kind": "formats",
-            "title": "تهيئة المقاسات للمنصات",
-            "body": "سلّم نسخًا مصممة بعناية بنسبة 9:16 لمنصات Reels وTikTok وShorts وSnapchat."
+            "title": "ضبط المقاس للمنصة",
+            "body": "سلّم نسخ 9:16 deliberate لـ Reels، TikTok، Shorts، و Snapchat"
           },
           {
             "kind": "real-footage",
             "title": "لقطات حقيقية فقط",
-            "body": "حسّن اللقطات التي صوّرتها، وأضف المونتاج والنصوص والهوية. دون اصطناع الموقع أو الفعالية."
+            "body": "نظّف، حرّر، أضف تعليقات توضيحية، وعلّم العلامة على اللقطات التي التقطتها. never synthesize the venue أو الحدث."
           },
           {
             "kind": "overflow",
-            "title": "دعم قدرة محرر الفيديو",
-            "body": "استوعب حجم العمل الترويجي المتكرر ليتمكن محرر الفيديو من التركيز على الأعمال الإبداعية الأعلى قيمة."
+            "title": "زيادة سعة المحرر",
+            "body": "امتصاص الحجم الترويجي القابل للتكرار بحيث يستطيع محررك حماية العمل الإبداعي الأعلى قيمة"
           }
         ]
       },
       "tracker": {
-        "eyebrow": "إدارة عدة مواقع",
-        "heading": "كل موقع وفعالية واعتماد وموعد نهائي في عرض واحد.",
-        "body": "تعرض لوحة المتابعة قائمة الإنتاج الأسبوعية بوضوح، دون الادعاء بأنها لوحة حية لبيانات العملاء.",
-        "sampleLabel": "نموذج توضيحي لمتابعة التجربة",
-        "sampleDisclaimer": "مثال لآلية العمل · ليست بيانات عملاء حية",
+        "eyebrow": "التحكم متعددvenues",
+        "heading": "كل Venue، حدث، موافقة، وموعد نهائي في عرض واحد",
+        "body": "متابع تشغيلي keeps the weekly production queue visible دونpretending to be a live client dashboard",
+        "sampleLabel": "متابع Pilot توضيحي",
+        "sampleDisclaimer": "مثال على سير العمل · ليس بيانات عميل حقيقية",
         "events": [
           {
-            "venue": "موقع الشمال",
-            "event": "عرض حي يوم الخميس",
-            "deadline": "الخميس · 16:00",
+            "venue": "Venue North",
+            "event": "عرض مباشر الخميس",
+            "deadline": "Thu · 16:00",
             "status": "footage-received",
             "statusLabel": "تم استلام اللقطات"
           },
           {
-            "venue": "موقع الوسط",
-            "event": "ليلة دي جي يوم الجمعة",
-            "deadline": "الجمعة · 15:00",
+            "venue": "Venue Central",
+            "event": "ليلة DJ الجمعة",
+            "deadline": "Fri · 15:00",
             "status": "in-production",
-            "statusLabel": "قيد الإنتاج"
+            "statusLabel": "جاري الإنتاج"
           },
           {
-            "venue": "موقع المرسى",
-            "event": "ليلة عرض النزال",
-            "deadline": "الجمعة · 18:00",
+            "venue": "Venue Marina",
+            "event": "ليلة مباريات",
+            "deadline": "Fri · 18:00",
             "status": "pending-approval",
-            "statusLabel": "بانتظار الاعتماد"
+            "statusLabel": "بانتظار الموافقة"
           },
           {
-            "venue": "موقع الشرق",
-            "event": "برانش السبت",
+            "venue": "الموقع الشرقي",
+            "event": "برانش يوم السبت",
             "deadline": "السبت · 09:00",
             "status": "approved",
-            "statusLabel": "معتمد"
+            "statusLabel": "تمت الموافقة"
           },
           {
-            "venue": "موقع الغرب",
+            "venue": "الموقع الغربي",
             "event": "ترفيه نهاية الأسبوع",
             "deadline": "السبت · 14:00",
             "status": "delivered",
@@ -360,103 +399,103 @@
         ],
         "benefits": [
           {
-            "label": "قائمة إنتاج أسبوعية واحدة",
-            "body": "تابع ما وصل، وما يجري العمل عليه، وما يحتاج إلى قرار."
+            "label": "قائمة انتظار أسبوعية واحدة",
+            "body": "شاهد ما وصل، وما هو قيد التنفيذ، وما يحتاج إلى قرار."
           },
           {
-            "label": "مسؤول اعتماد واحد",
-            "body": "وضّح المسؤوليات قبل أن يتحول الموعد النهائي إلى أزمة عاجلة."
+            "label": "مسؤول موافقة واحد ومساءل",
+            "body": "اجعل الملكية واضحة قبل أن يتحول الموعد النهائي إلى أزمة."
           },
           {
-            "label": "جدول تسليم واحد",
-            "body": "اربط كل نسخة بالفعالية، لا بجدول محتوى مفتوح المواعيد."
+            "label": "ساعة تسليم واحدة",
+            "body": "اربط كل مقطع على المنصة بالحدث، وليس بتقويم محتوى مفتوح بلا نهاية."
           }
         ]
       },
       "meetArcher": {
-        "kicker": "تعرّف على مسؤول إنتاج مقاطع فعالياتك",
+        "kicker": "تعرف على مشغّل ترويج الفعاليات لديك",
         "heading": "تعرّف على Archer.",
-        "mutedHeading": "دعم محررك للالتزام بالمواعيد.",
-        "body": "يتولى Archer مونتاج المقاطع الترويجية المتكررة لتخفيف الضغط عن فريقك. يحتفظ محررك بالقيادة الإبداعية، ويضيف Archer القدرة الإنتاجية والالتزام بالهوية ومتابعة المواعيد.",
+        "mutedHeading": "نسخة احتياطية لمواعيد المحرر لديك.",
+        "body": "يأخذ Archer أعمال تحرير ترويج الفعاليات المتكررة عن مسار العمل الحرج لفريقك. يحتفظ المحرر لديك بالملكية الإبداعية، ويضيف Archer القدرة، والانضباط في العلامة التجارية، والالتزام بالمواعيد النهائية.",
         "points": [
           {
             "number": "01",
-            "label": "تسليم مقاطع الفعاليات في الموعد"
+            "label": "تسليم الفعاليات في الوقت المحدد"
           },
           {
             "number": "02",
-            "label": "اتساق الهوية في كل موقع"
+            "label": "اتساق عبر المواقع"
           },
           {
             "number": "03",
-            "label": "مسؤول اعتماد واحد، رابط واحد"
+            "label": "مسؤول موافقة واحد، رابط واحد"
           }
         ],
-        "ctaLabel": "احجز تجربة تجريبية",
+        "ctaLabel": "احجز تجربة pilot",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
-        "statusTitle": "الموعد تحت المتابعة",
-        "statusBody": "لقطات حقيقية · جاهزة للاعتماد",
-        "voiceCtaLabel": "تحدّث مع Archer"
+        "statusTitle": "الموعد النهائي مغطى",
+        "statusBody": "لقطات حقيقية · جاهزة للموافقة",
+        "voiceCtaLabel": "تحدث مع Archer"
       },
       "fit": {
-        "eyebrow": "خدمة محددة الهدف",
-        "heading": "لمن لا تناسب هذه الخدمة؟",
-        "body": "صُمم Archer لمعالجة تحدٍّ تشغيلي محدد، لذا فإن حدود الخدمة لا تقل أهمية عن وعدها.",
+        "eyebrow": "خدمة مركّزة",
+        "heading": "لمن ليست هذه الخدمة.",
+        "body": "صُمّم Archer لحل مشكلة تشغيلية محددة، لذا فإن الحدود لا تقل أهمية عن الوعد.",
         "items": [
           {
-            "label": "لا تناسب",
-            "title": "المحتوى المصطنع للمواقع",
-            "body": "لا يختلق Archer أطباقًا أو قاعات أو حضورًا أو فنانين أو فعاليات لم تُصوّر."
+            "label": "غير مخصص لـ",
+            "title": "محتوى مواقع مُولَّد",
+            "body": "لا يخترع Archer أطباقًا أو غرفًا أو حشودًا أو فنانين أو فعاليات لم يتم التقاطها."
           },
           {
-            "label": "غالبًا لا تناسب",
-            "title": "النشر المتقطع لموقع واحد",
-            "body": "يمكن تجربة تعديل منشور منفرد عبر العرض التجريبي، لكنه لا يحتاج إلى الخدمة المُدارة المرتبطة بمواعيد الفعاليات."
+            "label": "على الأرجح غير مخصص لـ",
+            "title": "نشر عرضي في موقع واحد",
+            "body": "يمكن لمنشور لمرة واحدة استخدام عرض التحرير، لكنه لا يحتاج إلى خدمة الكونسيرج القائمة على المواعيد النهائية."
           },
           {
-            "label": "صُممت من أجل",
+            "label": "مخصص لـ",
             "title": "فرق الضيافة متعددة المواقع",
-            "body": "الوكالات والمجموعات التي تجمع بالفعل لقطات حقيقية من مطاعم وحانات ولاونجات ومواقع سهر متعددة."
+            "body": "وكالات ومجموعات تجمع بالفعل لقطات حقيقية عبر المطاعم والحانات وصالات الاستراحة وأماكن الحياة الليلية."
           }
         ],
         "showSection": false
       },
       "pilot": {
-        "eyebrow": "تجربة أولية مدفوعة لأربعة أسابيع بإدارة مخصصة",
-        "heading": "اختبر الالتزام بالمواعيد على فعاليات حقيقية.",
-        "body": "اختر المواقع وجدول الفعاليات، وحدد مسؤول اعتماد واحدًا، واتفق على فترتي التسليم والتعديلات قبل وصول أول دفعة لقطات.",
-        "primaryCtaLabel": "احجز مكالمة لمناقشة التجربة",
+        "eyebrow": "تجربة pilot كونسيرج مدفوعة لمدة أربعة أسابيع",
+        "heading": "أثبت سير عمل المواعيد النهائية على فعاليات حقيقية.",
+        "body": "اختر المواقع وتقويم الفعاليات، وعيّن مسؤول موافقة واحدًا، واتفق على نوافذ التسليم والمراجعة قبل وصول أول لقطات.",
+        "primaryCtaLabel": "احجز محادثة pilot",
         "bookingUrl": "https://calendar.app.google/iqrTNCKcJ723dqhq6",
-        "secondaryCtaLabel": "جرّب تعديل منشور واحد",
-        "secondaryPrompt": "أريد تجربة تعديل منشور واحد. سأشارك أحد منشوراتي الحالية على Instagram لإعادة تهيئته بما يناسب المنصة.",
-        "demoNote": "توضح تجربة المنشور الواحد إمكانات المونتاج فقط. وهي ليست تجربة الخدمة متعددة المواقع المرتبطة بمواعيد الفعاليات.",
+        "secondaryCtaLabel": "جرب عرض تحرير منشور واحد",
+        "secondaryPrompt": "أريد عرض التحرير لمنشور واحد. سأشارك إحدى منشوراتي الحالية على Instagram لإعادة توظيفها بما يتناسب مع المنصة.",
+        "demoNote": "يعرض عرض المنشور الواحد قدرة التحرير، وليس تجربة المنتج متعددة المواقع والقائمة على المواعيد النهائية.",
         "steps": [
           {
             "number": "01",
-            "title": "اختر مواقع التجربة",
-            "body": "حدد عدد الفعاليات الأسبوعية وملفات الهوية والمنصات المطلوبة."
+            "title": "اختر مواقع الـpilot",
+            "body": "حدد حجم الفعاليات الأسبوعي، وأطقم العلامة التجارية، ومزيج المنصات."
           },
           {
             "number": "02",
-            "title": "حدد مسؤول اعتماد واحدًا",
-            "body": "اجمع الملاحظات في مراجعة موحدة واجعل المسؤوليات واضحة."
+            "title": "عيّن مسؤول موافقة واحدًا",
+            "body": "حافظ على توحيد الملاحظات ووضوح الملكية."
           },
           {
             "number": "03",
-            "title": "اتفق على الجدول الزمني",
-            "body": "حدد فترتي التسليم والتعديلات وفق المواعيد الفعلية للفعاليات."
+            "title": "اتفق على الساعة",
+            "body": "حدد نوافذ التسليم والمراجعة حول مواعيد الفعاليات الحقيقية."
           }
         ],
         "showSection": false
       },
       "footer": {
-        "tagline": "لقطات حقيقية من مواقع الضيافة، بهوية علامتك، تُسلّم قبل موعد الفعالية.",
+        "tagline": "لقطات ضيافة حقيقية، بعلامتها التجارية، تُسلَّم قبل موعد الفعالية.",
         "groups": [
           {
             "label": "الخدمة",
             "links": [
               {
-                "label": "آلية العمل",
+                "label": "سير العمل",
                 "target": "workflow"
               },
               {
@@ -464,16 +503,16 @@
                 "target": "delivery"
               },
               {
-                "label": "أعمال حقيقية",
+                "label": "عمل حقيقي",
                 "target": "showcase"
               }
             ]
           },
           {
-            "label": "التشغيل",
+            "label": "العمليات",
             "links": [
               {
-                "label": "متابعة الإنتاج",
+                "label": "متتبع الإنتاج",
                 "target": "tracker"
               },
               {
@@ -481,7 +520,7 @@
                 "target": "meet-archer"
               },
               {
-                "label": "لمن تناسب الخدمة",
+                "label": "لمن هذه الخدمة",
                 "target": "fit"
               }
             ]
@@ -490,25 +529,25 @@
             "label": "ابدأ",
             "links": [
               {
-                "label": "تجربة لأربعة أسابيع",
+                "label": "تجربة pilot لمدة أربعة أسابيع",
                 "target": "pilot"
               },
               {
-                "label": "تواصل معنا",
+                "label": "تواصل",
                 "target": "contact"
               }
             ]
           }
         ],
         "copyright": "© 2026 Archer.",
-        "closingStatement": "دعم محررك للالتزام بالمواعيد.",
+        "closingStatement": "نسخة احتياطية لمواعيد المحرر لديك.",
         "contactEmail": "hello@gabrieloperator.com"
       },
       "presentationMedia": {
-        "notice": "المشاهد السينمائية للزينة فقط، وليست لقطات عملاء أو مخرجات التجربة.",
+        "notice": "المرئيات السينمائية للزينة، وليست لقطات عميل أو مخرجات pilot.",
         "heroVideo": {
-          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4.mp4",
-          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v4-poster.jpg"
+          "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7.mp4",
+          "poster": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/hero-hospitality-event-promo-loop-v7-poster.jpg"
         },
         "workflowThumbnails": [
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workflow-send-dj-v2.png",
@@ -556,7 +595,7 @@
             "kind": "image"
           },
           {
-            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v2.png",
+            "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/feature-before-event-v3.png",
             "kind": "image"
           }
         ],
@@ -631,7 +670,7 @@
         0,
         "text"
       ],
-      "sourceHash": "8c92e4a83bce35ae798c939aa0f13529eee7a26bd2a74c9843076573b0e12938"
+      "sourceHash": "ccdfd1123ec1e6f4fc170db029f3bee21a688d3ffded8565c11f3878e0b0d60a"
     },
     {
       "path": [
@@ -683,6 +722,51 @@
         "alt"
       ],
       "sourceHash": "4cc79a303ea82eca931d1095b00dcbcbf9dd765dea24e0923c4220be5c7df988"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "mainNavigationLabel"
+      ],
+      "sourceHash": "eb355944b92d10582856f8aea34b3e319ba465b8aa4c294973cf53f665399a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "previousPreviewLabel"
+      ],
+      "sourceHash": "40c32625ec4d427d91a683b854499285ec3eb4134b3bcfcbc9dc77f2901e2bb6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "nextPreviewLabel"
+      ],
+      "sourceHash": "545344acec2a78baba37a0e8aea02cf6de0f3bd468dc5a60c6c005ea4218bbe4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "pausePreviewsLabel"
+      ],
+      "sourceHash": "85b03991aeb2d848b216a81902b2f0220be2ee41fca78472da0f9bb5df357ef8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "accessibility",
+        "resumePreviewsLabel"
+      ],
+      "sourceHash": "56da46a1774c65cb724cb8efe2bcf46c3c4ece3df3336a0757c0e64c9d8617fe"
     },
     {
       "path": [
@@ -828,6 +912,26 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "welcomeMessage"
+      ],
+      "sourceHash": "3e5329631faf0179a791189a0842d92539dce16fe8f01e3a22e672a369e2ed79"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "urlRequestMessage"
+      ],
+      "sourceHash": "505643be6c0532a0cde281ee2ef7a14724abd9bd1ff8962d66e7693159894940"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "urlPlaceholder"
       ],
       "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
@@ -898,6 +1002,126 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "instagramLabel"
+      ],
+      "sourceHash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "restaurantFallbackLabel"
+      ],
+      "sourceHash": "1212ea9e20949ffca0acb019cf3967b4e192de6dd37aca1f16c382bee7e58d94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandPaletteLabel"
+      ],
+      "sourceHash": "031aded720d3d5bb23560618d64f90072b559259105175497086ed56914a8ba5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandColorLabel"
+      ],
+      "sourceHash": "33de979373189007c0dde8506cabbd0d9540b7edde9c5a86cfab85ce88637240"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "neutralRecommendationLabel"
+      ],
+      "sourceHash": "41e04cc210d05f6b89cd5a2c67092877978ad6a25fc3bdc872e5a74800f26671"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "profileImageLabel"
+      ],
+      "sourceHash": "e14cc2a4574a38dc035bfa2d53d8d34ec6861a783b7b7f81a546fa55a4cab179"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "fontRecommendationLabel"
+      ],
+      "sourceHash": "31a89f0b7e40cbc70dd893c02882dd79a2d13bfae51393024c2b474e9cb20c82"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "unverifiableTypographyCopy"
+      ],
+      "sourceHash": "6dc2ba4d13ab5dd66db1c8a575868184e8cc1ae02c6b9ac3c90dc2f318e4b8fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "photographyFallback"
+      ],
+      "sourceHash": "53cd568efcd8626f7f644bd37e5f07bea0e234443cf9ef3060040d7928fba9fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "compositionFallback"
+      ],
+      "sourceHash": "0e592d199149784c17758aec06bf9897c7560192a6110c4f50a2352f2a78afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "layoutFallback"
+      ],
+      "sourceHash": "a8794656167996cca90b4b2057abfdd7a38de276b18c49455126a162187986d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "toneFallback"
+      ],
+      "sourceHash": "d49fded969797873f3167bb518955d9c7c0dd84e558cabe020240893cb5ec55c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "sourceManifestLabel"
       ],
       "sourceHash": "fd5977138d2aea02d41a584f6dcdd38c9df0fac30a3ed421644b77651ead58b0"
@@ -930,7 +1154,7 @@
         "instagramCampaign",
         "eventBody"
       ],
-      "sourceHash": "a91325c826df6555ba6ce40efd2cf548f5dfb985f22b7fd47f6abd7407f1727a"
+      "sourceHash": "852212504712479d79307ea9e4985ed4ad773559bdd59751d6bbb05a149a0649"
     },
     {
       "path": [
@@ -1068,6 +1292,56 @@
         "cinematicCampaigns",
         "hero",
         "instagramCampaign",
+        "imagePackSummary"
+      ],
+      "sourceHash": "1a43d0055fa607280cd21cca9244e9d30accef30258f0f5c137c939a37f94eab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "feedCoverLabel"
+      ],
+      "sourceHash": "cce777ebb52d817497f1a2947e1f8b1945b37d4d36a47923924af7611ab1a8cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "carouselSupportLabel"
+      ],
+      "sourceHash": "f2e276955045be0ae21294a89ae153ee72fd64392f83003d736ce8abab54d8a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "storyLabel"
+      ],
+      "sourceHash": "39bba29c6a357a845527ee75ace19f54c803053fad973b7fc5feed366553c9a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "previewLabel"
+      ],
+      "sourceHash": "324b134f57c70c729ae3dc4d298bb451656717d70523e942c1ce667b8024ea07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
         "downloadLabel"
       ],
       "sourceHash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
@@ -1141,6 +1415,136 @@
         "errorCopy"
       ],
       "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "invalidUrlError"
+      ],
+      "sourceHash": "f61d44af851111526b2129c81af039436a536d196a0620bdf0015700af97e0ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "accessError"
+      ],
+      "sourceHash": "bab0449e2a0a4c9a7e0b809dc92e17ba8b20dd080676f68ff3577a5c36843f3c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "activePreviewError"
+      ],
+      "sourceHash": "77d8012ee34f1353f36914a6a9117ab2b8cf9864e67c58c0dc0322bc19678247"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "limitError"
+      ],
+      "sourceHash": "bf7e2e0b2006391cf1fbf43bd993f4bf5630a768e1f97d7a0466a7e053e91e55"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "expiredError"
+      ],
+      "sourceHash": "ae7410d8139e6a0ff2f3fac0added2ff84ac55d26dc37bb755c8cc762754a643"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "validationError"
+      ],
+      "sourceHash": "e3b607fc103bdd5c30aff109b5d9632dbd065bde7aeef9f5389142236a48218b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "generationError"
+      ],
+      "sourceHash": "90012c1994c79481a3c446f31f4bd91b7773a5205cea57f05577f56d7154beac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "claimError"
+      ],
+      "sourceHash": "e57e5e6d06aac1f22de78d29216f6166324d8bd820f3ff69bd1335e47ece397c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandReadyMessage"
+      ],
+      "sourceHash": "7ebb899e2bce034d0f9ef4b5e3d31e7afd9453abdba72d9c94f4ad5bc82fe820"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "brandApprovedMessage"
+      ],
+      "sourceHash": "679004ef576520db41d5c5e47beacd81c3f8dccc0a367444a721e30552576560"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagePackReadyMessage"
+      ],
+      "sourceHash": "24e7cc92444bfe1092429eb9a9a730ff445cf28b27b8223dcdf5273ae7f18149"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "imagesApprovedMessage"
+      ],
+      "sourceHash": "f92edfa8fbd58ea660997cc091c78a0ce7702d2247ca24c2f44d5dbe7637e064"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "privateVideoOfferMessage"
+      ],
+      "sourceHash": "f981105740a8925e52189def6fed0c3d16e4366614c4e9b24bce9f93a52c941d"
     },
     {
       "path": [
@@ -2821,5 +3225,5 @@
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
     }
   ],
-  "generatedAt": "2026-09-04T10:39:25.651Z"
+  "generatedAt": "2026-09-05T07:41:02.868Z"
 }
