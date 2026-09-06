@@ -2,6 +2,7 @@
 const fs = require('fs');
 const nodePath = require('path');
 const { createHash } = require('crypto');
+const { validateRoiCalculator } = require('./landing-page-roi');
 
 const ALLOWED_ICONS = new Set([
   'heart', 'shield-check', 'sparkles', 'chat', 'users', 'lock', 'check', 'star',
@@ -12,12 +13,12 @@ const ALLOWED_DESIGN_VARIANTS = new Set(['default', 'signature', 'banking', 'for
 const ALLOWED_BRAND_MARKS = new Set(['heart', 'image', 'initial']);
 const ALLOWED_NAV_TARGETS = new Set([
   'meet', 'about', 'capabilities', 'use-cases', 'trust',
-  'how-it-works', 'stories', 'faq', 'contact',
+  'how-it-works', 'stories', 'faq', 'contact', 'roi-calculator',
 ]);
-const GROCERY_TARGETS = new Set(['top', 'product', 'mobile', 'stories', 'features', 'about', 'contact', 'hero-chat']);
-const EVENT_INTRODUCTION_TARGETS = new Set(['top', 'about', 'how-it-works', 'pairings', 'faqs', 'waitlist', 'closing', 'hero-chat']);
-const HOME_INTRODUCTION_TARGETS = new Set(['top', 'audience', 'privacy', 'how-it-works', 'proposals', 'meet', 'hero-chat']);
-const LOGISTICS_PORTAL_TARGETS = new Set(['top', 'edge', 'control', 'workflows', 'pilot', 'simulation']);
+const GROCERY_TARGETS = new Set(['top', 'product', 'mobile', 'stories', 'features', 'about', 'contact', 'hero-chat', 'roi-calculator']);
+const EVENT_INTRODUCTION_TARGETS = new Set(['top', 'about', 'how-it-works', 'pairings', 'faqs', 'waitlist', 'closing', 'hero-chat', 'roi-calculator']);
+const HOME_INTRODUCTION_TARGETS = new Set(['top', 'audience', 'privacy', 'how-it-works', 'proposals', 'meet', 'hero-chat', 'roi-calculator']);
+const LOGISTICS_PORTAL_TARGETS = new Set(['top', 'edge', 'control', 'workflows', 'pilot', 'simulation', 'roi-calculator']);
 const ALLOWED_PALETTES = new Set(['coral', 'ocean', 'forest', 'purple', 'slate', 'research', 'maroon', 'stone', 'emerald', 'custom']);
 const ALLOWED_THEME_COLORS = new Set(['purple', 'indigo', 'blue', 'green', 'orange', 'pink', 'red', 'teal', 'gray', 'slate', 'maroon', 'stone', 'emerald']);
 const ALLOWED_THEME_MODES = new Set(['light', 'dark']);
@@ -428,6 +429,22 @@ function validateCinematicCampaigns(landingPage) {
     'hero.instagramCampaign.privateVideoOfferMessage',
   ].forEach(requireString);
   if (get('hero.instagramCampaign.enabled') !== true) fail('landingPage.cinematicCampaigns.hero.instagramCampaign.enabled must be true');
+  const sourceReview = get('hero.instagramCampaign.sourceReview');
+  if (sourceReview !== undefined) {
+    const keys = ["heading","body","identityLabel","permissionLabel","permissionQuestion","changeAccountLabel","selectionLabel","logoLabel","thumbnailLabel","originalLabel","profileLabel","captionLabel","altTextLabel","limitedHeading","noOfferLabel","languageNotice"];
+    const codes = ["login_wall","private_content","captcha","thumbnails_only","captions_unavailable","media_unavailable","time_limit"];
+    if (!sourceReview || typeof sourceReview !== 'object' || Array.isArray(sourceReview) || Object.keys(sourceReview).some(key => ![...keys, 'limitations'].includes(key))) fail('Use copy-only sourceReview fields');
+    for (const key of keys) {
+      requireString(`hero.instagramCampaign.sourceReview.${key}`);
+      if (sourceReview[key].length > 600) fail('Source-review copy exceeds 600 characters');
+    }
+    if (!sourceReview.limitations || Object.keys(sourceReview.limitations).some(code => !codes.includes(code))) fail('Invalid source-review limitation code');
+    if (sourceReview.permissionQuestion.split('{accountName}').length !== 2 || /[{}]/.test(sourceReview.permissionQuestion.replace('{accountName}', ''))) fail('Permission question needs exactly one literal {accountName} token');
+    for (const code of codes) {
+      requireString(`hero.instagramCampaign.sourceReview.limitations.${code}`);
+      if (sourceReview.limitations[code].length > 600) fail('Limitation copy exceeds 600 characters');
+    }
+  }
   if (!/^\/?instagram-campaign$/.test(String(get('hero.instagramCampaign.commandTrigger') || '').trim())) fail('landingPage.cinematicCampaigns.hero.instagramCampaign.commandTrigger must be instagram-campaign');
   [
     ['hero.navItems', 5], ['hero.headingLines', 2], ['hero.intake.suggestions', 3],
@@ -504,7 +521,7 @@ function validateCinematicCampaigns(landingPage) {
       });
     });
   }
-  const cinematicTargets = new Set(['workflow', 'delivery', 'showcase', 'features', 'tracker', 'meet-archer', 'fit', 'pilot', 'hero-intake', 'contact']);
+  const cinematicTargets = new Set(['workflow', 'delivery', 'showcase', 'features', 'tracker', 'meet-archer', 'fit', 'pilot', 'hero-intake', 'contact', 'roi-calculator']);
   get('hero.navItems').forEach((item, index) => {
     if (!cinematicTargets.has(item?.target) || item?.target === 'contact') fail(`landingPage.cinematicCampaigns.hero.navItems[${index}].target is not supported`);
   });
@@ -552,7 +569,7 @@ function validateRecruitingOperations(landingPage) {
     ['leads.columns', 4], ['leads.rows', 4], ['pillars.items', 5], ['principles.items', 3],
     ['faq.items', 5], ['closing.headingLines', 2], ['footer.links', 3],
   ].forEach(([path, count]) => requireExact(path, count));
-  const targets = new Set(['top', 'workflow', 'use-cases', 'why-lina', 'faq', 'contact', 'leads']);
+  const targets = new Set(['top', 'workflow', 'use-cases', 'why-lina', 'faq', 'contact', 'leads', 'roi-calculator']);
   [...get('hero.navItems'), ...get('footer.links')].forEach((item, index) => { if (!targets.has(item?.target)) fail(`landingPage.recruitingOperations navigation item ${index} has an unsupported target`); });
   get('features.items').forEach((item, index) => { if (!['signals', 'roles', 'integrations', 'approval'].includes(item?.visualKind)) fail(`landingPage.recruitingOperations.features.items[${index}].visualKind is not supported`); });
   get('workflow.activity').forEach((item, index) => { if (!['blue', 'green', 'amber', 'violet'].includes(item?.tone)) fail(`landingPage.recruitingOperations.workflow.activity[${index}].tone is not supported`); });
@@ -841,6 +858,7 @@ function validateHomeIntroductionCommand(landingPage, chatConfigPath) {
 function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePath) {
   if (!landingPage || typeof landingPage !== 'object') fail('landingPage object is required');
   if (!landingPage.headline || !String(landingPage.headline).trim()) fail('landingPage.headline is required');
+  validateRoiCalculator({ roiCalculator: landingPage.roiCalculator }).forEach((issue) => fail(`${issue.path}: ${issue.message}`));
   assertNoEmoji(landingPage);
 
   if (landingPage.localization !== undefined) {

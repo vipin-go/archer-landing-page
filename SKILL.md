@@ -31,10 +31,27 @@ once the content below reaches the persona's `chat-config.json` (see
 no `landingPage` content configured, its `/chat/:agentId` page falls back to
 a plain hero-form chat entry instead — this skill is what turns that on.
 
-The FAQ and Contact sections only render when you provide
-`landingPage.faqs`/`landingPage.contact`. Header links are authored separately
-through `landingPage.header.navItems`; a link whose target section is absent
-is hidden automatically.
+The FAQ, Contact, and ROI Calculator sections only render when you provide
+`landingPage.faqs`/`landingPage.contact`/`landingPage.roiCalculator`. Header
+links are authored separately through `landingPage.header.navItems`; a link
+whose target section is absent is hidden automatically. When `roiCalculator`
+is present and `enabled` is not `false`, every renderer injects a header item
+labelled exactly **ROI Calculator** that scrolls to
+`persona-landing-roi-calculator`. Do not add that item to pinned theme
+navigation arrays — the renderer owns the injection.
+
+`landingPage.roiCalculator` is optional. Omit it to leave existing pages
+unchanged. The calculator is a three-layer economic model, not a salary
+multiple: **AI economics** (tokens, tools, licence), **operational impact**
+(work units, repetitive hours removed, capacity returned), and **classified
+economic value** (cost elimination, throughput, revenue productivity, error
+avoidance). Returned hours are capacity. Visitors allocate that capacity;
+only genuine cost reduction, extra volume, and higher-value work receive a
+euro value. Formulas use a restricted arithmetic DSL (`+ - * / ( )`, numbers,
+and identifiers) with builtins `scenario`, `period_months`, and
+`weeks_per_month`. Never use `eval`. Machine fields such as `formula`,
+`currency`, `format`, `kind`, `group`, `layer`, `valueClass`, `productivity`,
+and metric ids are not translated.
 
 The only thing on this page that is **not** configurable from this file is
 the "Made using Gabriel Operator" attribution footer — that's hardcoded in
@@ -162,7 +179,7 @@ button instead of two, a generic opening line in the hero mockup).
   - Runtime matching uses the server-resolved request-IP country only. A visitor language preference changes translation, never region selection. Matching regional content replaces the base page before theme, SEO, header, CTA, widget, and embed presentation are derived.
 - `landingPage.header` (optional, object) — authored header content. When present, only configured items render; no menu labels are generated from persona-specific code.
   - `brandMark` (optional, `heart`, `image`, or `initial`).
-  - `navItems` (optional, array of `{ label, target }`) — `target` is one of `meet`, `about`, `capabilities`, `use-cases`, `trust`, `how-it-works`, `stories`, `faq`, or `contact`. Items whose target section is absent are hidden automatically.
+  - `navItems` (optional, array of `{ label, target }`) — `target` is one of `meet`, `about`, `capabilities`, `use-cases`, `trust`, `how-it-works`, `stories`, `faq`, or `contact`. Items whose target section is absent are hidden automatically. Do not author an **ROI Calculator** item; the renderer injects it when `roiCalculator` is enabled.
   - `ctaLabel` (optional, string) — separate right-side meet CTA. Omit when the nav already contains a meet item.
 - `landingPage.headline` (required, string) — the hero headline (first line).
 - `landingPage.headlineAccent` (optional, string) — a substring of `headline`, rendered in the persona's accent color. Must exactly match a substring of `headline` or it's ignored.
@@ -345,6 +362,20 @@ the deterministic `assetPath`, no manifest entry contains `page`, every referenc
 exists in both child and parent, and the runtime needs only the selected locale file.
 
 ## Validation
+
+Archer's `hero.instagramCampaign.sourceReview` contains copy only: source-selection,
+identity, permission and logo labels, provenance labels, a no-offer option, language
+preservation notice, and the seven platform limitation messages. Every string is
+bounded to 600 characters and translated with the rest of the page. It cannot grant
+permission or approve sources: only the visitor can do that at runtime. A limited
+draft must disclose restricted acquisition; a profile picture is not automatically
+an approved logo. Keep the existing hero, character and bottom composer unchanged.
+`permissionQuestion` must contain exactly one literal `{accountName}` placeholder,
+preserved during translation and replaced with the verified account name at runtime.
+`changeAccountLabel` labels the action that cancels the current preview and requests
+another public account. Neither copy field constitutes the visitor's permission.
+The paired command may carry `execution.workflowSkill: { path, mode }`; this is not
+landing-page content. The workflow repository owns the declarative instruction package.
 
 For `cinematic-campaigns`, `header.ctaLabel` labels the Meet Archer scroll link.
 `meetArcher.ctaLabel` opens the authored HTTPS `pilot.bookingUrl` directly.

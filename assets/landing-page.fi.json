@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "fi",
   "regionKey": null,
-  "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+  "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -166,6 +166,33 @@
           "generatingLabel": "Luodaan kolmen kuvan pakettia…",
           "imageReviewHeading": "Sinun Instagram-kuvapakkauksesi",
           "imagePackSummary": "Kaksi 1080×1350 syötekuvaa ja yksi 1080×1920 Story-kuva",
+          "sourceReview": {
+            "heading": "Valitse kuvat, joita Archer voi käyttää",
+            "permissionQuestion": "Onko sinulla lupa käyttää {accountName}:n Instagram kuvia vai pitäisikö minun käyttää toista omistamaasi tai hallinnoimaasi julkista tiliä?",
+            "changeAccountLabel": "Käytä toista tiliä",
+            "body": "Tarkista tilin henkilöllisyys ja julkiset todisteet alla. Opas tai toimisto ei ole automaattisesti ravintola, eikä profiilikuva ole automaattisesti logo.",
+            "identityLabel": "Tilin tai yrityksen nimi",
+            "permissionLabel": "Minulla on lupa käyttää näitä valittuja kuvia ja kaikkia tähän kampanjaan valitsemiani merkkejä.",
+            "selectionLabel": "Käytä tätä kuvaa",
+            "logoLabel": "Käytä logona tai visuaalisena merkkinä",
+            "thumbnailLabel": "Julkinen pikkukuva",
+            "originalLabel": "Julkinen postauskuva",
+            "profileLabel": "Profiilikuva, ei hyväksytty logo",
+            "captionLabel": "Näkyvä viestin kuvateksti",
+            "altTextLabel": "Kuvan vaihtoehtoteksti, ei kuvateksti",
+            "limitedHeading": "Rajoitettu julkisten todisteiden luonnos",
+            "noOfferLabel": "Ei tarjousta tai promootiota",
+            "languageNotice": "Hyväksytyt kuvasi säilyttävät alkuperäisen kielensä. Sivun kielen muuttaminen ei kirjoita niitä uudelleen.",
+            "limitations": {
+              "login_wall": "Instagram pyysi kirjautumista. Archer pysäytettiin ennen rajoitetun sisällön avaamista.",
+              "private_content": "Yksityistä sisältöä ei käytetty. Mukana on vain jo saatavilla oleva julkinen todiste.",
+              "captcha": "Instagram pyysi turvatarkastusta. Archer pysähtyi ratkaisematta sitä.",
+              "thumbnails_only": "Vain julkiset pikkukuvat olivat saatavilla. Hienot yksityiskohdat ja typografia voivat olla epävarmoja.",
+              "captions_unavailable": "Viestien tekstitykset eivät olleet käytettävissä. Vaihtoehtoista tekstiä ei ole käsitelty kampanjakopiona.",
+              "media_unavailable": "Joitakin julkisia kuvia ei voitu hakea, ja ne on jätetty pois.",
+              "time_limit": "Rajoitettu selausistunto päättyi ennen kuin tarkempi tarkastus oli valmis."
+            }
+          },
           "feedCoverLabel": "Syötteen kansikuva",
           "carouselSupportLabel": "Tukeva karusellikuva",
           "storyLabel": "Story-kuva",
@@ -290,7 +317,7 @@
       "showcase": {
         "eyebrow": "Tyylin esikatselu",
         "heading": "Tämä on tyyli.",
-        "body": "Tekoälyn luomia esikatselukuvia, jotka havainnollistavat Archerin visuaalista suuntaa — eivät oikeaa materiaalia asiakkaalta tai tapahtumapaikalta.",
+        "body": "Tekoälyn luomat esikatselut havainnollistavat Archer:n visuaalista suuntaa, eivät materiaalia todellisesta asiakkaasta tai tapahtumapaikasta.",
         "notice": "Nämä ovat havainnollistavia tyyliesikatseluja, eivät oikeita pilottitoimituksia. Hyväksytty asiakastyö korvaa ne täällä, kun se on saatavilla.",
         "items": [
           {
@@ -616,6 +643,492 @@
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/workspace-background.png",
           "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-cinematic-poster.jpg"
         ]
+      }
+    },
+    "roiCalculator": {
+      "enabled": true,
+      "kicker": "AI taloustiede",
+      "heading": "Mallinna Archer tuotantotalous",
+      "subheading": "Käsittele freelance-toimittajapäiviä, jolloin lopetat maksamisen, kustannusten eliminointina ja talon sisäisiä tunteja kapasiteettina, jonka voit jakaa uudelleen.",
+      "disclaimer": "Luvut ovat mallinnettuja arvioita oletuksistasi. Palautetut tunnit ovat kapasiteettia, eivät automaattista palkkasäästöä, eivätkä ne ole havaittuja asiakastuloksia.",
+      "currency": "EUR",
+      "locale": "en-GB",
+      "periodToggle": true,
+      "defaultPeriod": "monthly",
+      "settingsHeading": "Käyttö- ja hinta-asetukset",
+      "resultsHeading": "Toiminnallinen vaikutus ja taloudellinen arvo",
+      "profileHeading": "Kiinteä profiili",
+      "workloadHeading": "Työmäärä",
+      "economicsHeading": "AI taloustiede",
+      "economicsNote": "Kaikki käyttökustannukset ovat mallitokeneita, työkaluja ja alustan lisenssiä, eivät palkkavertailua.",
+      "allocationHeading": "Minne palautettu kapasiteetti menee",
+      "allocationHelp": "Poistetut tunnit ovat kapasiteettia. Vain kustannusten alentamiseen, lisävolyymiin tai arvokkaampiin töihin määrittämäsi osakkeet saavat euroarvon.",
+      "unusedAllocationLabel": "Pidetään käyttämättömänä kapasiteettina",
+      "operationsHeading": "Mikä fyysisesti muuttuu",
+      "valueHeading": "Minkä arvoinen tuo muutos on",
+      "frameworkHeading": "Miten arvo syntyy",
+      "negativeProductivity": {
+        "heading": "Negatiivinen tuottavuus poistettu",
+        "body": "Toistuvat leikkaukset, tekstitysvaihtoehdot ja muotojen vaihtuvuus, jotka kuluttavat editoripäiviä luomatta uutta materiaalia.",
+        "items": [
+          "Muoto- ja kuvatekstiversiot",
+          "Odotetaan arvostelua ping-pong",
+          "Uudelleenvienti pienten kopioiden muutosten jälkeen"
+        ]
+      },
+      "positiveProductivity": {
+        "heading": "Mahdollinen positiivinen tuottavuus",
+        "body": "Palautettu tuotantoaika voi viedä enemmän tapahtumia tai lakata maksamasta ylivuotoeditoreille.",
+        "items": [
+          "Lisää tapahtumia samalla viikolla",
+          "Vähemmän ylivuoto freelance-päiviä",
+          "Tiukemmat tarkistussyklit"
+        ]
+      },
+      "producesHeading": "Mitä Archer tuottaa",
+      "produces": [
+        "Hyväksytyt tapahtumaleikkaukset",
+        "Alkuperäiset versiot",
+        "Arvostelupolku"
+      ],
+      "breakdownHeading": "Luokiteltu taloudellinen arvo",
+      "projectionHeading": "Arvioitu 12 kuukauden taloudellinen arvo",
+      "yearOneCostLabel": "Ensimmäinen vuosi tekoälyn hinta",
+      "yearOneValueLabel": "Ensimmäinen vuosi taloudellinen arvo",
+      "yearOneReturnLabel": "Ensimmäinen vuosi taloudellinen tuotto",
+      "scenarios": [
+        {
+          "id": "conservative",
+          "label": "konservatiivinen",
+          "multiplier": 0.7
+        },
+        {
+          "id": "base",
+          "label": "Pohja",
+          "multiplier": 1
+        },
+        {
+          "id": "optimistic",
+          "label": "Optimistinen",
+          "multiplier": 1.3
+        }
+      ],
+      "defaultScenarioId": "base",
+      "inputs": [
+        {
+          "id": "events_per_month",
+          "label": "Tapahtumia tuotannossa joka kuukausi",
+          "type": "slider",
+          "min": 1,
+          "max": 40,
+          "step": 1,
+          "defaultValue": 8,
+          "format": "integer",
+          "group": "profile",
+          "profile": true,
+          "profileIcon": "calendar"
+        },
+        {
+          "id": "capacity_rate",
+          "label": "Sisäinen toimittajakapasiteetti / tunti",
+          "help": "Varjohinta työlliselle kapasiteetille. Freelance-laskut arvostetaan erikseen.",
+          "type": "slider",
+          "min": 20,
+          "max": 200,
+          "step": 5,
+          "defaultValue": 75,
+          "format": "currency",
+          "group": "profile",
+          "profile": true
+        },
+        {
+          "id": "days_per_event",
+          "label": "Toimittajapäiviä per tapahtuma tänään",
+          "type": "slider",
+          "min": 0.5,
+          "max": 8,
+          "step": 0.5,
+          "defaultValue": 1.5,
+          "format": "number",
+          "group": "workload"
+        },
+        {
+          "id": "clips_per_event",
+          "label": "Leikkeet toimitetaan tapahtumakohtaisesti",
+          "type": "slider",
+          "min": 1,
+          "max": 20,
+          "step": 1,
+          "defaultValue": 6,
+          "format": "integer",
+          "group": "workload"
+        },
+        {
+          "id": "automation_share",
+          "label": "Osuus viimeistelystä automatisoitu",
+          "type": "slider",
+          "min": 10,
+          "max": 90,
+          "step": 5,
+          "defaultValue": 55,
+          "format": "percent",
+          "group": "workload"
+        },
+        {
+          "id": "editor_day_rate",
+          "label": "Freelance-toimittajan päiväkurssi",
+          "help": "Todellinen lasku, jonka maksamisen lopetat, kun ylivuotopäivät poistetaan.",
+          "type": "slider",
+          "min": 200,
+          "max": 1200,
+          "step": 25,
+          "defaultValue": 650,
+          "format": "currency",
+          "group": "workload"
+        },
+        {
+          "id": "tokens_per_unit",
+          "label": "Arvioidut tunnukset per automaattinen tunti",
+          "type": "slider",
+          "min": 10000,
+          "max": 250000,
+          "step": 5000,
+          "defaultValue": 40000,
+          "format": "tokens",
+          "group": "economics"
+        },
+        {
+          "id": "input_price",
+          "label": "Mallin syöttöhinta / 1 milj",
+          "type": "number",
+          "min": 0,
+          "max": 50,
+          "step": 0.25,
+          "defaultValue": 2,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "output_price",
+          "label": "Mallin tuotantohinta / 1 milj",
+          "type": "number",
+          "min": 0,
+          "max": 80,
+          "step": 0.25,
+          "defaultValue": 10,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "output_share",
+          "label": "Tulostettujen tunnuksien osuus",
+          "type": "slider",
+          "min": 5,
+          "max": 50,
+          "step": 1,
+          "defaultValue": 20,
+          "format": "percent",
+          "group": "economics"
+        },
+        {
+          "id": "license",
+          "label": "Alustan lisenssi kuukaudessa",
+          "type": "slider",
+          "min": 0,
+          "max": 6000,
+          "step": 50,
+          "defaultValue": 1500,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "allocation_volume",
+          "label": "Jaa käytetään lisäämään äänenvoimakkuutta",
+          "help": "Suorituskyky: lisätyötä sama tiimi voi tehdä. Arvostetaan kapasiteetin luomisena, ei käteisenä, joka poistuu palkasta.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 50,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "allocation_billable",
+          "label": "Osuus käytetään arvokkaampiin / laskutettaviin töihin",
+          "help": "Positiivinen tuottavuus: neuvonta-, myynti- tai muu voittomarginaalityö.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 25,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "allocation_cost_reduction",
+          "label": "Jakaminen on todellista kustannussäästöä",
+          "help": "Negatiivinen tuottavuus poistettiin käteisenä: ylityöt, urakoitsijat tai työt, joista muuten maksaisit.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 17,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "contribution_rate",
+          "label": "Maksumarginaali / arvokkaamman työn tunti",
+          "help": "Käytetään vain laskutettavaan/neuvottavaan osuuteen. Tämä ei ole tuntipalkka.",
+          "type": "slider",
+          "min": 20,
+          "max": 400,
+          "step": 5,
+          "defaultValue": 150,
+          "format": "currency",
+          "group": "allocation"
+        },
+        {
+          "id": "expected_error_cost",
+          "label": "Odotettu kuukausittainen virhe / uusintakustannus tänään",
+          "type": "slider",
+          "min": 0,
+          "max": 20000,
+          "step": 50,
+          "defaultValue": 800,
+          "format": "currency",
+          "group": "workload"
+        },
+        {
+          "id": "error_reduction_share",
+          "label": "Osuus virhekustannuksista vältyttiin",
+          "type": "slider",
+          "min": 0,
+          "max": 90,
+          "step": 5,
+          "defaultValue": 35,
+          "format": "percent",
+          "group": "workload"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "hours_removed",
+          "label": "Toistuva työ automatisoituna",
+          "formula": "events_per_month * days_per_event * 8 * (automation_share / 100)",
+          "format": "hours",
+          "kind": "card",
+          "layer": "operations",
+          "productivity": "negative",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Negatiivinen tuottavuus: käyttötaakka poistettu."
+        },
+        {
+          "id": "hours_returned",
+          "label": "Kapasiteetti palautettiin joukkueelle",
+          "formula": "hours_removed",
+          "format": "hours",
+          "kind": "card",
+          "layer": "operations",
+          "productivity": "positive",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Positiivinen tuottavuus: nyt käytettävissä tunteja parempaan työhön."
+        },
+        {
+          "id": "work_units",
+          "label": "Joka kuukausi mallinnetut leikkeet",
+          "formula": "events_per_month * clips_per_event",
+          "format": "integer",
+          "kind": "card",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "unused_share",
+          "label": "Käyttämätön kapasiteetin osuus",
+          "formula": "100 - allocation_volume - allocation_billable - allocation_cost_reduction",
+          "format": "percent",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": false,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "volume_hours",
+          "label": "Tunteja varattu lisää volyymia",
+          "formula": "hours_returned * (allocation_volume / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "billable_hours",
+          "label": "Tunteja on varattu arvokkaampaan työhön",
+          "formula": "hours_returned * (allocation_billable / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "cost_hours",
+          "label": "Tunteja, joista tulee todellista kustannussäästöä",
+          "formula": "hours_returned * (allocation_cost_reduction / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "unused_hours",
+          "label": "Tuntia pidetään käyttämättömänä kapasiteettina",
+          "formula": "hours_returned * (unused_share / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "monthly_tokens",
+          "label": "Tokeneja kuukaudessa",
+          "formula": "hours_removed * tokens_per_unit",
+          "format": "tokens",
+          "kind": "hidden",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "model_cost",
+          "label": "AI-mallin hinta (arvio)",
+          "formula": "(monthly_tokens * (1 - output_share / 100) / 1000000) * input_price + (monthly_tokens * (output_share / 100) / 1000000) * output_price",
+          "format": "currency",
+          "kind": "breakdown-cost",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "all_in_cost",
+          "label": "All-in AI hinta",
+          "formula": "model_cost + license",
+          "format": "currency",
+          "kind": "summary-cost",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "cost_elimination",
+          "label": "Aidot kustannukset eliminoitu",
+          "formula": "cost_hours * capacity_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "cost-elimination",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Ylityöt, urakoitsijat tai muut kulut, jotka todella lopettaisit."
+        },
+        {
+          "id": "outsourced_cost_eliminated",
+          "label": "Freelance-toimittajan laskuja vältetty",
+          "formula": "(events_per_month * days_per_event * (automation_share / 100) * (allocation_cost_reduction / 100)) * editor_day_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "cost-elimination",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "revenue_productivity",
+          "label": "Arvokkaamman työn panos",
+          "formula": "billable_hours * contribution_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "revenue-productivity",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": true,
+          "note": "Arvostetaan maksumarginaalilla, ei palkalla."
+        },
+        {
+          "id": "throughput_value",
+          "label": "Mahdollisuus ottaa enemmän tilavuutta",
+          "formula": "volume_hours * capacity_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "throughput",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": true,
+          "note": "Ylimääräisen suorituskyvyn varjohinta, ei palkkasäästöjä."
+        },
+        {
+          "id": "error_value",
+          "label": "Odotettu virhe ja korjaustyö vältetty",
+          "formula": "expected_error_cost * (error_reduction_share / 100)",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "error-avoidance",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "economic_value",
+          "label": "Mallillinen taloudellinen arvo",
+          "formula": "cost_elimination + outsourced_cost_eliminated + revenue_productivity + throughput_value + error_value",
+          "format": "currency",
+          "kind": "summary-benefit",
+          "layer": "value",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "net_value",
+          "label": "Taloudellinen arvo tekoälykustannusten jälkeen",
+          "formula": "economic_value - all_in_cost",
+          "format": "currency",
+          "kind": "card",
+          "layer": "value",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "return_multiple",
+          "label": "Taloudellinen tuotto all-in AI -kustannuksille",
+          "formula": "economic_value / all_in_cost",
+          "format": "multiplier",
+          "kind": "summary-roi",
+          "layer": "value",
+          "scalesWithPeriod": false,
+          "scalesWithScenario": false
+        }
+      ],
+      "projection": {
+        "months": 12,
+        "costMetricId": "all_in_cost",
+        "benefitMetricId": "net_value",
+        "yearOneLabel": "Ensimmäisen vuoden taloudellinen arvo tekoälyn kustannusten jälkeen",
+        "costLabel": "AI-hinta (kaikki sisään)",
+        "benefitLabel": "Taloudellinen arvo kustannusten jälkeen"
+      },
+      "cta": {
+        "primaryLabel": "Keskustele osoitteessa Archer",
+        "secondaryLabel": "Katso kuinka se toimii",
+        "primaryTarget": "meet-archer",
+        "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Eurot ovat luokiteltuja mallinnettuja arvoja, ei havaittuja tuloksia."
       }
     }
   },
@@ -1295,6 +1808,266 @@
         "imagePackSummary"
       ],
       "sourceHash": "1a43d0055fa607280cd21cca9244e9d30accef30258f0f5c137c939a37f94eab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "heading"
+      ],
+      "sourceHash": "dec6444029a366e5e909bdf1fec473590760c1b13ab2aa208f279f5d405f7483"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "permissionQuestion"
+      ],
+      "sourceHash": "c6b9aa36126a9c1bedef7c27049b4cee0d21137e57f7d9b957803ac45a95017b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "changeAccountLabel"
+      ],
+      "sourceHash": "d2fe9116400cf32af5650464b88491a8640f69f97c71a5697a240e4e2a8c1734"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "body"
+      ],
+      "sourceHash": "59a7052c4f7c78693faa3467b58804420c90384c6b17d541cf1aedfac7101091"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "identityLabel"
+      ],
+      "sourceHash": "5d1f60a4171d6858314c1f8604cd951f34c3b0083477195ace9b44d4ee94e64c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "permissionLabel"
+      ],
+      "sourceHash": "8414576580359a7f73b089be21f199077eaedac15b6891cb6097186bfe8f4269"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "selectionLabel"
+      ],
+      "sourceHash": "b2f8cf0a864371407a926efed1d084f457ee3d23d583189a434f1b34ef3321d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "logoLabel"
+      ],
+      "sourceHash": "868bf3789271007f8da31baa34f105cc91a41fe9077ab0d155e346788adf82fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "thumbnailLabel"
+      ],
+      "sourceHash": "be20099d80d3111627a54dffc324b4542e340aa8d02a69cf29f748241a91e473"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "originalLabel"
+      ],
+      "sourceHash": "f6d55ee934fbca012bc917941100ce50967b1099fd41676f5e9ad15e63971ae7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "profileLabel"
+      ],
+      "sourceHash": "2df0af34b8327edf1ca436b01edb9cb054f78d0f7b86cb101cde4970d745fe9d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "captionLabel"
+      ],
+      "sourceHash": "fb698d6ffeb47b45ea6e4d680a77c1ee28cd5498f9a22a34ca6e8e5b7b8f8447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "altTextLabel"
+      ],
+      "sourceHash": "adf80fc2798d99a70b3c83f8337c37714697e4caa517534f8535eef5f5764731"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitedHeading"
+      ],
+      "sourceHash": "bfd272376e3e32c1360844e540469bbe75ff47f881b4872ccf9a414908ceec30"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "noOfferLabel"
+      ],
+      "sourceHash": "46170f642cca1c4abf9d655e86dadf3143ea2dfc47c6eeae784123ef5b6449b9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "languageNotice"
+      ],
+      "sourceHash": "40cdb020a5feb6d0ad8bf64ba19c7708bbd9147bcc6d8dd0d09f017c3c69117d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "login_wall"
+      ],
+      "sourceHash": "2a2b8f40e2f93bf30b0ae1d088b430c4cf18569aae2c47fb2ae9aa4d0ddd0768"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "private_content"
+      ],
+      "sourceHash": "71af3b96e0bccee16ca2e847890868a0a9c0a8f6aea26ec0513d65a64fbac051"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "captcha"
+      ],
+      "sourceHash": "2472b963088ae63728f67df466c93ea30c366503a391fed99aac344d33f9c2c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "thumbnails_only"
+      ],
+      "sourceHash": "9caceec6cb1790f6bbeff1029efa2597a025627c15ca87101513421bb28fe9bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "captions_unavailable"
+      ],
+      "sourceHash": "c0fd0e228cc6d1dbda20ecaf0b9ea31a80328dab423b44bbb3a3f6bac5dff035"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "media_unavailable"
+      ],
+      "sourceHash": "9323e7707bf4573ed0ffefeee87e3e112f6e8f87ef4882b4c2c16dbde7e316c3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "cinematicCampaigns",
+        "hero",
+        "instagramCampaign",
+        "sourceReview",
+        "limitations",
+        "time_limit"
+      ],
+      "sourceHash": "0377f7d39242febb62436a7d9db76378d4512d8061e7535e0cb8e1680a77ee38"
     },
     {
       "path": [
@@ -2016,7 +2789,7 @@
         "showcase",
         "body"
       ],
-      "sourceHash": "dfe991242d085125c666b811cf09c592254ac3b1bfeda00cc5447257c6c4389b"
+      "sourceHash": "9817b0a5df99a90327aa8d5bdb92a597430232a7f8ef134bab140fe49a22b576"
     },
     {
       "path": [
@@ -3223,7 +3996,860 @@
         "notice"
       ],
       "sourceHash": "6d547b5c4c6a62b9490a477f804031bbddb08601ef23a2a9db48cd129d5eb527"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "kicker"
+      ],
+      "sourceHash": "9d6eadd1d536884a92a56633ef62b918675469f35a3d07c72ba7a9f01baeb369"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "heading"
+      ],
+      "sourceHash": "6e3f76cdcdb38e0af94cfc49ea5249e938b95f2de8c45d00de2305dc4766ff9f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "subheading"
+      ],
+      "sourceHash": "65055fdc5dac2793d82c334932d509e1ba95e83f803b8a27d0108051fa6b6133"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "disclaimer"
+      ],
+      "sourceHash": "f1b7a204e614929cbb7f8667c3c9118c8d3863ecc3811e16bdce472da9103857"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "settingsHeading"
+      ],
+      "sourceHash": "2db81a4f36b58b92bd835befc97710814f206401d94781ad907fa28a4cd09e4c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "resultsHeading"
+      ],
+      "sourceHash": "e0afda1f9c30def3d10367c47f1e52469dcc178ba838d177e4cc6a0012a22108"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "profileHeading"
+      ],
+      "sourceHash": "5dbbdc5e51f3a95fb5e74c396f6d26d87cd37b4f67c2f1910700eb4d40397a22"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "workloadHeading"
+      ],
+      "sourceHash": "ba3c74c1a18f50a10faac9c24d17c3e1b771657c8fc238e0de390089a747bc2a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "economicsHeading"
+      ],
+      "sourceHash": "9d6eadd1d536884a92a56633ef62b918675469f35a3d07c72ba7a9f01baeb369"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "economicsNote"
+      ],
+      "sourceHash": "944dffd5e7087c63512f2882626641d6f5a1ab6c3806779b93a3516dab997014"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "allocationHeading"
+      ],
+      "sourceHash": "0d7858d9e1a82da02aaeaaa9ad5458fcf94ec713ce8f1f773164ebce4345694d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "allocationHelp"
+      ],
+      "sourceHash": "2d17e37e3acc2484995642626458185d38f464ef39f261ea2de1842636581730"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "unusedAllocationLabel"
+      ],
+      "sourceHash": "a215a74c968b1d40803325f825cac5925678cf58df6f5d3d8776f6b872852e4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "operationsHeading"
+      ],
+      "sourceHash": "b00997599a474bada4f6e309fb79d92ab6f501fb5f30817727a7707775784e8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "valueHeading"
+      ],
+      "sourceHash": "ba76a4a8aebdd12f0e7d843d4098e5f366729eb79dcc6267236204ef91dd94da"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "frameworkHeading"
+      ],
+      "sourceHash": "4cd85ae64e04e029db2db81a1fea50766fd3219653f489c1b82a368bfff7e545"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "heading"
+      ],
+      "sourceHash": "b8c4164dcf6e3ef5d8bf49487237315a0de40b518c74b3ea0bc2d04bf08bc57a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "body"
+      ],
+      "sourceHash": "e414eb0ad3c13fdf2cbba3e17d46f913a0a38806409e972dfa4daa87d3892df8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "items",
+        0
+      ],
+      "sourceHash": "ba70fc7e1dea0a4e81603684609ea495515a8b26ae8651bbd847f009a48cf3d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "items",
+        1
+      ],
+      "sourceHash": "4ecb29fca3af90a8532d7c8b85ba077d6eec97a4601d98ef06d496a18734513e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "items",
+        2
+      ],
+      "sourceHash": "bbe8de15a7c6668b553d379810d95da36510f785c6879f2974f2cfe358a3d9db"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "heading"
+      ],
+      "sourceHash": "9424b432947bafd2b005fcb83f7c9101e955f2ec0c3810a3c0e26a2d53a89847"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "body"
+      ],
+      "sourceHash": "cc3ad985eec3a4940a903e19cdc1b114bdd39b4ac43acbaa849de459e2961401"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "items",
+        0
+      ],
+      "sourceHash": "9070f51ce665ea2c9ad35db2d9275c95f0d2f770ca731fe401cc742e03e0c796"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "items",
+        1
+      ],
+      "sourceHash": "b77d67803e1a359465b34966eaaef8d460288ce296a2bf63ad87082e7cc50730"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "items",
+        2
+      ],
+      "sourceHash": "2854f5ebeb2bc3523684c9ccd86f636cc94ec192a03d084bf32218650bd5d01d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "producesHeading"
+      ],
+      "sourceHash": "d55ac36ef49ec26464f8ff0b90b6b467477d4ead815a27f9417798cdbf0a9cdc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "produces",
+        0
+      ],
+      "sourceHash": "1f8417b650cc33244ef24845bb0f8418063e3f91d6bfce12378f42974c7d7e35"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "produces",
+        1
+      ],
+      "sourceHash": "18b6ba41f5d0488d87f0d48e7c01758073e36e6b2b8f71cdd78caa13640f7a61"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "produces",
+        2
+      ],
+      "sourceHash": "3048f71389c16f7923748ba0f24d013e4c2deed01122196ec3bc452f02d9ada6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "breakdownHeading"
+      ],
+      "sourceHash": "42d035b930c7b854c88b9f450a68ce16d399fde725960b47abb32c73b9cdecda"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projectionHeading"
+      ],
+      "sourceHash": "50d53ffb8b6ba2e987c83a8f63a3eb6d8e9d886c47950a835e7595989d33d0eb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "yearOneCostLabel"
+      ],
+      "sourceHash": "547618fd9bc08782dc81cee26028648b537876d2e955d2cb7be559e964f56b08"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "yearOneValueLabel"
+      ],
+      "sourceHash": "fa9735cf1f9895c43aae556f97d1a24b2418741528ad130412ece4a745a85915"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "yearOneReturnLabel"
+      ],
+      "sourceHash": "85beefa364209014605e15d36bb6f9fa5ee45ffcc2b7126ce391fe1a683818ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "scenarios",
+        0,
+        "label"
+      ],
+      "sourceHash": "75e1783e4e517e5459062db056ec2d886889cf94fc62c3b7e01f10ae3505a2f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "scenarios",
+        1,
+        "label"
+      ],
+      "sourceHash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "scenarios",
+        2,
+        "label"
+      ],
+      "sourceHash": "d343fb299e0c833e79beab8dbd238e17c84bd7e9cfc828955609dddb1cd3fcf6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "77d7ef0d3643f5798f92495c25f50270a753177c985b0de003a5c9f92fdfd397"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "457a4e4b8534ac291a65686ff7efdd1c2cfe39cf47951ba1a7d7108908f0228d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "1236e7d90301651e6778d4fba7b32e7032376125edde4ea934c3a4e3c3aa9811"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "355d4d442912b9d726286bc7df2018dc648c1919977ee49ce80195b8e7d44376"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        3,
+        "label"
+      ],
+      "sourceHash": "e424b40f62dbf077282938b688311d5aeade79faf81664c91b42e23ef6840407"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        4,
+        "label"
+      ],
+      "sourceHash": "5adbd4cb08ab48fb5c0250e4717e132aa83af4c4c240b6625913a143059e3a1b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        5,
+        "label"
+      ],
+      "sourceHash": "e71603a9c58f81d562187ce2dc3fe3b9ebae06598629b70fd00c6a82dc1c8ad5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        5,
+        "help"
+      ],
+      "sourceHash": "0c4602032efd62c49f8fce45dbee326b2d176e27cb428e8b06646adae35bc5a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        6,
+        "label"
+      ],
+      "sourceHash": "222d3732468ff5e8de6e140197a726437d4f3fa70c7e4ebd29aeead30160ec41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        7,
+        "label"
+      ],
+      "sourceHash": "b9f335d754aa66d4f8dbcea05a8ce6b636ffca996a845af7afd62ca72e7a48a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        8,
+        "label"
+      ],
+      "sourceHash": "2e73572adb42f5f277c8de8cec9f3960ea4fd41f307ec9bd1d143b55219159e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        9,
+        "label"
+      ],
+      "sourceHash": "b8e8c8ae12aa13afcf84abd1a49e5e7bf6169679099ef035b94dfbff37349ac6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        10,
+        "label"
+      ],
+      "sourceHash": "fe869422e4aff1869b3e076c0051b15e53020153712ac4a44f9f43ff1ff00f9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        11,
+        "label"
+      ],
+      "sourceHash": "07cb449fc4bd46e5c72cd7dcd3c24ff1d8a0e8ff9c574573568d702f62fb084e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        11,
+        "help"
+      ],
+      "sourceHash": "77599042a260d644dd40ea04cd7f7d119e05570156025a10ac2805a19d988f11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        12,
+        "label"
+      ],
+      "sourceHash": "6cdb8b23c54613e261287a244257ec534d0261b11b9310ea8908f38806c7075d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        12,
+        "help"
+      ],
+      "sourceHash": "7878ca522b4592e2322777a01902b5a09c88e11c2ee72bd242c156966947300c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        13,
+        "label"
+      ],
+      "sourceHash": "804eee4764a8430f43825b3d10636f96f61cb28dddb24014c26b0cea2de6cecf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        13,
+        "help"
+      ],
+      "sourceHash": "661d3c1a695472ec8bb0eae669898d9deb0a2ef677c8d801defda9a6d9b26068"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        14,
+        "label"
+      ],
+      "sourceHash": "8cc287b9a48ef60e7835df9da590f890c2a00f22404ba3d514cdf5b9654be2a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        14,
+        "help"
+      ],
+      "sourceHash": "f57cfb07fd94ff0cd4c9078b18a34ec98069156a07ede77fd06a743549e84f27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        15,
+        "label"
+      ],
+      "sourceHash": "15b2073bf237121ecc43a933ad40bd883c9154ef1af11e0a1142e9342dcf73d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        16,
+        "label"
+      ],
+      "sourceHash": "2c7b96d00325ca2722eb47c35eacf1db07266255127387fd752fb881ee01bc4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        0,
+        "label"
+      ],
+      "sourceHash": "320af1fedd0ec2a0919af231f9c8c0676f08105c235ac8f33af795d1c9b6700b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        0,
+        "note"
+      ],
+      "sourceHash": "9291a98029f2e03a5487bfc64a7f87172c36cb5fbd8eb926c9b7496aa39b2ea9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        1,
+        "label"
+      ],
+      "sourceHash": "cc212326bc6ad9090c67c1a8fecdfac472bc89fb61669b61f6d8bc7b7cf61f9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        1,
+        "note"
+      ],
+      "sourceHash": "796eed9c43a15e279bb60308065138650b3e5367d08928762caa168ae31d2d11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        2,
+        "label"
+      ],
+      "sourceHash": "760b2600a6a96a6e3965c9a20925a05ad8c615616f153d95aa8b0d36e86cfd63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        3,
+        "label"
+      ],
+      "sourceHash": "cc2bd56d7ec11d0473066569c56b9c35ce19b9997f7cb72ff30a273617ee7abf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        4,
+        "label"
+      ],
+      "sourceHash": "954d7b197e9cdda34fc69544aa0cf281fae006ef0e538906d3109ceaad9e7e3d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        5,
+        "label"
+      ],
+      "sourceHash": "36c196ee3a45d40f859adf642af7686fbf7923892a3166e7c23259aed4fcceb0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        6,
+        "label"
+      ],
+      "sourceHash": "2e0dca1786cdb30958e949de32f5ac00c33124c2fe4a023247784495c9482cea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        7,
+        "label"
+      ],
+      "sourceHash": "fba0838ca9b3525b716453915fd98f77df1cec34ec2975034dbe89ff9a1fc8d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        8,
+        "label"
+      ],
+      "sourceHash": "1ec141d886a19fcb577c86afb98ebf0449ed936cece7a8e7a96b44b3281df16a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        9,
+        "label"
+      ],
+      "sourceHash": "580db459a5f5c8285cc4714e8781496cc5a23504ef174275fa84aca80d8d1a3e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        10,
+        "label"
+      ],
+      "sourceHash": "ee598ac63eeea97fa1b3173940e9163f61187d1603fa155aee4cc636f1b609f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        11,
+        "label"
+      ],
+      "sourceHash": "2de06c88f5be573b35f9b7fa846a573cbb12bf0b71af522107a5606b6f3f77a1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        11,
+        "note"
+      ],
+      "sourceHash": "afca482645ce1d04982a97a94dc4471c1bf830f5022fe8ac5078399b4ecfa4f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        12,
+        "label"
+      ],
+      "sourceHash": "63d5893bc04c576593d492edf8a7f3196be3a5cb298f4cc33fdbf65a524f5623"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        13,
+        "label"
+      ],
+      "sourceHash": "12e5a482d5479cf75c2186a4048973faf705bc380857785e64a29866477bbab2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        13,
+        "note"
+      ],
+      "sourceHash": "f6b90007ff624521b1fa314bc405fd65c487fe566c37142b83d4ab0eeba0832c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        14,
+        "label"
+      ],
+      "sourceHash": "a17b57b2c7d83589ab5b13af7bb2a05288ec0f7151e087318b0c3bed72f1061d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        14,
+        "note"
+      ],
+      "sourceHash": "18c0ea45a319205bb4ff80ffba97bdd06c26003478696daa6f4a32d6aee2a4c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        15,
+        "label"
+      ],
+      "sourceHash": "6a2326aa5856c99a78a1c9c45997cf6557a953f3efec8c1fc8e2165a96818750"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        16,
+        "label"
+      ],
+      "sourceHash": "c4402679b0bd01837904090e68038db886c05ed3b1402e58296074c1cb135a57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        17,
+        "label"
+      ],
+      "sourceHash": "0545b989a2eae9237d62263aa70478a274be429a5b20f3052113d1e04010fec9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        18,
+        "label"
+      ],
+      "sourceHash": "d95c7f4a7273275110970c4a53e16a41c9c370c81575f123ec4e77e51490efb0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projection",
+        "yearOneLabel"
+      ],
+      "sourceHash": "e07d177a87fc88f707c1fe6ee3c36863ee433fea74956837d91554e22fdb2068"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projection",
+        "costLabel"
+      ],
+      "sourceHash": "44fa8317e3e6e15538edaae74059a6a56a2ea52c32b62a01355fd10abeeb30bc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projection",
+        "benefitLabel"
+      ],
+      "sourceHash": "56998e38ef5d41206aeb6ec35af43abe60c9df7bf8d88d7f3f1c2a8db0d63734"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "primaryLabel"
+      ],
+      "sourceHash": "e8e9f216a8f9f3cc9bdccba3d271c9a8d0a745fe79e15677c54489cd9cf5c755"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "secondaryLabel"
+      ],
+      "sourceHash": "a105ad29235aa71ee321d02ba00ee1cf7e9273406367343fdf9a721daa38419e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "privacyNote"
+      ],
+      "sourceHash": "dc23cdf650359e6260ca6494e4d765555cdf24afc9b176195d9abb9f154cd47a"
     }
   ],
-  "generatedAt": "2026-09-05T07:41:02.868Z"
+  "generatedAt": "2026-09-05T18:22:49.158Z"
 }

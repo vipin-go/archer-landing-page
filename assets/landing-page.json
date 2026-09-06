@@ -165,6 +165,33 @@
           "generatingLabel": "Creating the three-image pack…",
           "imageReviewHeading": "Your Instagram image pack",
           "imagePackSummary": "Two 1080×1350 feed images and one 1080×1920 Story",
+          "sourceReview": {
+            "heading": "Choose the images Archer may use",
+            "permissionQuestion": "Do you have permission to use {accountName}’s Instagram images, or should I use a different public account you own or manage?",
+            "changeAccountLabel": "Use a different account",
+            "body": "Review the account identity and public evidence below. A guide or agency is not automatically a restaurant, and a profile picture is not automatically a logo.",
+            "identityLabel": "Account or business name",
+            "permissionLabel": "I have permission to use these selected images and any marks I selected for this campaign.",
+            "selectionLabel": "Use this image",
+            "logoLabel": "Use as a logo or visual mark",
+            "thumbnailLabel": "Public thumbnail",
+            "originalLabel": "Public post image",
+            "profileLabel": "Profile picture, not an approved logo",
+            "captionLabel": "Visible post caption",
+            "altTextLabel": "Image alt text, not a caption",
+            "limitedHeading": "Limited public-evidence draft",
+            "noOfferLabel": "No offer or promotion",
+            "languageNotice": "Your approved images keep their original language. Changing the page language does not rewrite them.",
+            "limitations": {
+              "login_wall": "Instagram asked for sign-in. Archer stopped before opening restricted content.",
+              "private_content": "Private content was not accessed. Only public evidence already available is included.",
+              "captcha": "Instagram requested a security check. Archer stopped without solving it.",
+              "thumbnails_only": "Only public thumbnails were available. Fine details and typography may be uncertain.",
+              "captions_unavailable": "Post captions were unavailable. Alt text has not been treated as campaign copy.",
+              "media_unavailable": "Some public images could not be retrieved and have been excluded.",
+              "time_limit": "The bounded browsing session ended before deeper inspection was complete."
+            }
+          },
           "feedCoverLabel": "Feed cover",
           "carouselSupportLabel": "Supporting carousel image",
           "storyLabel": "Story image",
@@ -289,7 +316,7 @@
       "showcase": {
         "eyebrow": "Style preview",
         "heading": "This is the style.",
-        "body": "AI-generated previews illustrating Archer's visual direction — not footage from an actual client or venue.",
+        "body": "AI-generated previews illustrating Archer's visual direction, not footage from an actual client or venue.",
         "notice": "These are illustrative style previews, not real pilot deliveries. Approved client work will replace them here once available.",
         "items": [
           {
@@ -617,6 +644,493 @@
         ]
       }
     },
+    "roiCalculator": {
+      "enabled": true,
+      "kicker": "AI economics",
+      "heading": "Model the production economics of Archer",
+      "headingAccent": "economics",
+      "subheading": "Treat freelance editor days you stop paying as cost elimination, and in-house hours as capacity you can reallocate.",
+      "disclaimer": "Figures are modeled estimates from your assumptions. Returned hours are capacity, not an automatic payroll saving, and are not observed customer results.",
+      "currency": "EUR",
+      "locale": "en-GB",
+      "periodToggle": true,
+      "defaultPeriod": "monthly",
+      "settingsHeading": "Usage & cost settings",
+      "resultsHeading": "Operational impact & economic value",
+      "profileHeading": "Firm profile",
+      "workloadHeading": "Workload",
+      "economicsHeading": "AI economics",
+      "economicsNote": "All-in operating cost is model tokens, tools, and the platform licence, not a salary comparison.",
+      "allocationHeading": "Where returned capacity goes",
+      "allocationHelp": "Hours removed are capacity. Only the shares you assign to cost reduction, extra volume, or higher-value work are given a euro value.",
+      "unusedAllocationLabel": "Held as unused capacity",
+      "operationsHeading": "What physically changes",
+      "valueHeading": "What that change is worth",
+      "frameworkHeading": "How the value is created",
+      "negativeProductivity": {
+        "heading": "Negative productivity removed",
+        "body": "Repetitive cut-downs, caption variants, and format churn that consume editor days without creating new footage.",
+        "items": [
+          "Format and caption variants",
+          "Waiting on review ping-pong",
+          "Re-exports after small copy changes"
+        ]
+      },
+      "positiveProductivity": {
+        "heading": "Potential positive productivity",
+        "body": "Returned production time can take more events, or stop paying overflow editors.",
+        "items": [
+          "More events in the same week",
+          "Fewer overflow freelance days",
+          "Tighter review cycles"
+        ]
+      },
+      "producesHeading": "What Archer produces",
+      "produces": [
+        "Approved event cuts",
+        "Native platform versions",
+        "Review trail"
+      ],
+      "breakdownHeading": "Classified economic value",
+      "projectionHeading": "Projected 12-month economic value",
+      "yearOneCostLabel": "Year one AI cost",
+      "yearOneValueLabel": "Year one economic value",
+      "yearOneReturnLabel": "Year one economic return",
+      "scenarios": [
+        {
+          "id": "conservative",
+          "label": "Conservative",
+          "multiplier": 0.7
+        },
+        {
+          "id": "base",
+          "label": "Base",
+          "multiplier": 1
+        },
+        {
+          "id": "optimistic",
+          "label": "Optimistic",
+          "multiplier": 1.3
+        }
+      ],
+      "defaultScenarioId": "base",
+      "inputs": [
+        {
+          "id": "events_per_month",
+          "label": "Events in production each month",
+          "type": "slider",
+          "min": 1,
+          "max": 40,
+          "step": 1,
+          "defaultValue": 8,
+          "format": "integer",
+          "group": "profile",
+          "profile": true,
+          "profileIcon": "calendar"
+        },
+        {
+          "id": "capacity_rate",
+          "label": "In-house editor capacity / hr",
+          "help": "Shadow price for employed capacity. Freelance invoices are valued separately.",
+          "type": "slider",
+          "min": 20,
+          "max": 200,
+          "step": 5,
+          "defaultValue": 75,
+          "format": "currency",
+          "group": "profile",
+          "profile": true
+        },
+        {
+          "id": "days_per_event",
+          "label": "Editor days per event today",
+          "type": "slider",
+          "min": 0.5,
+          "max": 8,
+          "step": 0.5,
+          "defaultValue": 1.5,
+          "format": "number",
+          "group": "workload"
+        },
+        {
+          "id": "clips_per_event",
+          "label": "Clips delivered per event",
+          "type": "slider",
+          "min": 1,
+          "max": 20,
+          "step": 1,
+          "defaultValue": 6,
+          "format": "integer",
+          "group": "workload"
+        },
+        {
+          "id": "automation_share",
+          "label": "Share of finishing automated",
+          "type": "slider",
+          "min": 10,
+          "max": 90,
+          "step": 5,
+          "defaultValue": 55,
+          "format": "percent",
+          "group": "workload"
+        },
+        {
+          "id": "editor_day_rate",
+          "label": "Freelance editor day rate",
+          "help": "Actual invoice you stop paying when overflow days are removed.",
+          "type": "slider",
+          "min": 200,
+          "max": 1200,
+          "step": 25,
+          "defaultValue": 650,
+          "format": "currency",
+          "group": "workload"
+        },
+        {
+          "id": "tokens_per_unit",
+          "label": "Estimated tokens per automated hour",
+          "type": "slider",
+          "min": 10000,
+          "max": 250000,
+          "step": 5000,
+          "defaultValue": 40000,
+          "format": "tokens",
+          "group": "economics"
+        },
+        {
+          "id": "input_price",
+          "label": "Model input price / 1M tokens",
+          "type": "number",
+          "min": 0,
+          "max": 50,
+          "step": 0.25,
+          "defaultValue": 2,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "output_price",
+          "label": "Model output price / 1M tokens",
+          "type": "number",
+          "min": 0,
+          "max": 80,
+          "step": 0.25,
+          "defaultValue": 10,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "output_share",
+          "label": "Share of tokens that are output",
+          "type": "slider",
+          "min": 5,
+          "max": 50,
+          "step": 1,
+          "defaultValue": 20,
+          "format": "percent",
+          "group": "economics"
+        },
+        {
+          "id": "license",
+          "label": "Platform licence per month",
+          "type": "slider",
+          "min": 0,
+          "max": 6000,
+          "step": 50,
+          "defaultValue": 1500,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "allocation_volume",
+          "label": "Share used to absorb more volume",
+          "help": "Throughput: extra work the same team can take. Valued as capacity creation, not cash leaving payroll.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 50,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "allocation_billable",
+          "label": "Share used for higher-value / billable work",
+          "help": "Positive productivity: advisory, selling, or other contribution-margin work.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 25,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "allocation_cost_reduction",
+          "label": "Share that is genuine cost reduction",
+          "help": "Negative productivity removed as cash: overtime, contractors, or work you would otherwise pay for.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 17,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "contribution_rate",
+          "label": "Contribution margin / hour of higher-value work",
+          "help": "Used only for the billable/advisory share. This is not an hourly salary.",
+          "type": "slider",
+          "min": 20,
+          "max": 400,
+          "step": 5,
+          "defaultValue": 150,
+          "format": "currency",
+          "group": "allocation"
+        },
+        {
+          "id": "expected_error_cost",
+          "label": "Expected monthly error / rework cost today",
+          "type": "slider",
+          "min": 0,
+          "max": 20000,
+          "step": 50,
+          "defaultValue": 800,
+          "format": "currency",
+          "group": "workload"
+        },
+        {
+          "id": "error_reduction_share",
+          "label": "Share of that error cost avoided",
+          "type": "slider",
+          "min": 0,
+          "max": 90,
+          "step": 5,
+          "defaultValue": 35,
+          "format": "percent",
+          "group": "workload"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "hours_removed",
+          "label": "Repetitive work automated",
+          "formula": "events_per_month * days_per_event * 8 * (automation_share / 100)",
+          "format": "hours",
+          "kind": "card",
+          "layer": "operations",
+          "productivity": "negative",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Negative productivity: operating burden removed."
+        },
+        {
+          "id": "hours_returned",
+          "label": "Capacity returned to the team",
+          "formula": "hours_removed",
+          "format": "hours",
+          "kind": "card",
+          "layer": "operations",
+          "productivity": "positive",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Positive productivity: hours now available for better work."
+        },
+        {
+          "id": "work_units",
+          "label": "Clips modeled each month",
+          "formula": "events_per_month * clips_per_event",
+          "format": "integer",
+          "kind": "card",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "unused_share",
+          "label": "Unused capacity share",
+          "formula": "100 - allocation_volume - allocation_billable - allocation_cost_reduction",
+          "format": "percent",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": false,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "volume_hours",
+          "label": "Hours allocated to more volume",
+          "formula": "hours_returned * (allocation_volume / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "billable_hours",
+          "label": "Hours allocated to higher-value work",
+          "formula": "hours_returned * (allocation_billable / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "cost_hours",
+          "label": "Hours that become genuine cost reduction",
+          "formula": "hours_returned * (allocation_cost_reduction / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "unused_hours",
+          "label": "Hours held as unused capacity",
+          "formula": "hours_returned * (unused_share / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "monthly_tokens",
+          "label": "Tokens per month",
+          "formula": "hours_removed * tokens_per_unit",
+          "format": "tokens",
+          "kind": "hidden",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "model_cost",
+          "label": "AI model cost (est.)",
+          "formula": "(monthly_tokens * (1 - output_share / 100) / 1000000) * input_price + (monthly_tokens * (output_share / 100) / 1000000) * output_price",
+          "format": "currency",
+          "kind": "breakdown-cost",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "all_in_cost",
+          "label": "All-in AI cost",
+          "formula": "model_cost + license",
+          "format": "currency",
+          "kind": "summary-cost",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "cost_elimination",
+          "label": "Genuine cost eliminated",
+          "formula": "cost_hours * capacity_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "cost-elimination",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Overtime, contractors, or other spend you would actually stop."
+        },
+        {
+          "id": "outsourced_cost_eliminated",
+          "label": "Freelance editor invoices avoided",
+          "formula": "(events_per_month * days_per_event * (automation_share / 100) * (allocation_cost_reduction / 100)) * editor_day_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "cost-elimination",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "revenue_productivity",
+          "label": "Contribution from higher-value work",
+          "formula": "billable_hours * contribution_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "revenue-productivity",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": true,
+          "note": "Valued at contribution margin, not salary."
+        },
+        {
+          "id": "throughput_value",
+          "label": "Capacity to take more volume",
+          "formula": "volume_hours * capacity_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "throughput",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": true,
+          "note": "Shadow price of extra throughput, not a payroll saving."
+        },
+        {
+          "id": "error_value",
+          "label": "Expected error and rework avoided",
+          "formula": "expected_error_cost * (error_reduction_share / 100)",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "error-avoidance",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "economic_value",
+          "label": "Modeled economic value",
+          "formula": "cost_elimination + outsourced_cost_eliminated + revenue_productivity + throughput_value + error_value",
+          "format": "currency",
+          "kind": "summary-benefit",
+          "layer": "value",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "net_value",
+          "label": "Economic value after AI cost",
+          "formula": "economic_value - all_in_cost",
+          "format": "currency",
+          "kind": "card",
+          "layer": "value",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "return_multiple",
+          "label": "Economic return on all-in AI cost",
+          "formula": "economic_value / all_in_cost",
+          "format": "multiplier",
+          "kind": "summary-roi",
+          "layer": "value",
+          "scalesWithPeriod": false,
+          "scalesWithScenario": false
+        }
+      ],
+      "projection": {
+        "months": 12,
+        "costMetricId": "all_in_cost",
+        "benefitMetricId": "net_value",
+        "yearOneLabel": "Year one economic value after AI cost",
+        "costLabel": "AI cost (all-in)",
+        "benefitLabel": "Economic value after cost"
+      },
+      "cta": {
+        "primaryLabel": "Talk with Archer",
+        "secondaryLabel": "See how it works",
+        "primaryTarget": "meet-archer",
+        "privacyNote": "Your data stays private. Hours are capacity. Euros are classified modeled value, not observed results."
+      }
+    },
     "localization": {
       "translation": {
         "enabled": true,
@@ -627,298 +1141,298 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           },
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "9dcf2366cf94a47f7b4b564cbf6ca10da6acfffc40a4fb1a6b4653535f8b7845",
+            "sourceRevision": "a25557b966ede0a52da0b5c4acffd6d976a3b7441309a8d7d84ea56c1c240038",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-05T07:41:02.868Z"
+            "generatedAt": "2026-09-05T18:22:49.158Z"
           }
         ]
       },

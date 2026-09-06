@@ -149,7 +149,8 @@
         "instagramCampaign": {
           "path": "hero.instagramCampaign",
           "requires": ["enabled", "commandTrigger", "localizedUiCopy"],
-          "localizedUiCopyIncludes": ["welcomeMessage", "urlRequestMessage", "brandAndTypographyLabels", "imageFormatLabels", "errorGroups", "claimTranscriptMessages"],
+          "localizedUiCopyIncludes": ["welcomeMessage", "urlRequestMessage", "brandAndTypographyLabels", "imageFormatLabels", "errorGroups", "claimTranscriptMessages", "sourceReview"],
+          "sourceReview": { "optionalForLegacy": true, "copyOnly": true, "maxStringLength": 600, "permissionRequired": true, "permissionQuestionToken": "{accountName}", "changeAccountLabel": "localized copy", "limitationCodes": ["login_wall", "private_content", "captcha", "thumbnails_only", "captions_unavailable", "media_unavailable", "time_limit"] },
           "commandTrigger": "instagram-campaign",
           "commandExecutionType": "operator_action",
           "workflowResourceKey": "workflow.archer.instagram-campaign-v2",
@@ -279,6 +280,43 @@
         },
         "runtimeDataPolicy": "definitions_only"
       }
+    },
+    "roiCalculator": {
+      "optional": true,
+      "optionalForBackwardCompatibility": true,
+      "sectionId": "persona-landing-roi-calculator",
+      "navTarget": "roi-calculator",
+      "navLabel": "ROI Calculator",
+      "navInjection": "renderer_owned_when_enabled",
+      "methodology": {
+        "layers": ["economics", "operations", "value"],
+        "productivity": ["negative", "positive"],
+        "valueClasses": [
+          "cost-elimination", "capacity-creation", "revenue-productivity", "error-avoidance",
+          "risk-reduction", "throughput", "hiring-avoidance", "cycle-time"
+        ],
+        "return": "economic_value / all_in_ai_cost",
+        "hoursAreCapacity": true
+      },
+      "requiredFields": ["heading", "disclaimer", "currency", "inputs", "metrics"],
+      "nonTranslatableFields": [
+        "formula", "currency", "locale", "format", "kind", "defaultPeriod", "defaultScenarioId",
+        "costMetricId", "benefitMetricId", "primaryTarget", "min", "max", "step", "defaultValue",
+        "multiplier", "months", "scalesWithPeriod", "scalesWithScenario", "enabled", "periodToggle",
+        "profile", "profileIcon", "id", "type", "group", "layer", "valueClass", "productivity"
+      ],
+      "formulaDsl": {
+        "operators": ["+", "-", "*", "/", "(", ")"],
+        "builtins": ["scenario", "period_months", "weeks_per_month"],
+        "identifierPattern": "^[a-z][a-z0-9_]{0,47}$",
+        "eval": false
+      },
+      "inputTypes": ["slider", "number", "select"],
+      "inputGroups": ["profile", "workload", "economics", "allocation"],
+      "formats": ["number", "integer", "currency", "hours", "percent", "multiplier", "tokens"],
+      "metricKinds": ["card", "breakdown-benefit", "breakdown-cost", "summary-cost", "summary-roi", "summary-benefit", "hidden"],
+      "metricLayers": ["economics", "operations", "value"],
+      "periods": ["monthly", "yearly"]
     }
   }
 }
