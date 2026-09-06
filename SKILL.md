@@ -9,7 +9,7 @@ description: >
   from within ChatGPT Sites, Claude Design, or any other AI site builder.
 metadata:
   author: gabriel-operator
-  version: "1.4"
+  version: "1.5"
   compatibility: Requires Node.js 16+ for the validation script.
 ---
 
@@ -31,27 +31,33 @@ once the content below reaches the persona's `chat-config.json` (see
 no `landingPage` content configured, its `/chat/:agentId` page falls back to
 a plain hero-form chat entry instead — this skill is what turns that on.
 
-The FAQ, Contact, and ROI Calculator sections only render when you provide
+The FAQ, Contact, and Business Impact sections only render when you provide
 `landingPage.faqs`/`landingPage.contact`/`landingPage.roiCalculator`. Header
 links are authored separately through `landingPage.header.navItems`; a link
 whose target section is absent is hidden automatically. When `roiCalculator`
 is present and `enabled` is not `false`, every renderer injects a header item
-labelled exactly **ROI Calculator** that scrolls to
+whose localized label comes from `roiCalculator.businessImpact.copy.navLabel`
+(English: **ROI**) and scrolls to
 `persona-landing-roi-calculator`. Do not add that item to pinned theme
 navigation arrays — the renderer owns the injection.
 
-`landingPage.roiCalculator` is optional. Omit it to leave existing pages
-unchanged. The calculator is a three-layer economic model, not a salary
-multiple: **AI economics** (tokens, tools, licence), **operational impact**
-(work units, repetitive hours removed, capacity returned), and **classified
-economic value** (cost elimination, throughput, revenue productivity, error
-avoidance). Returned hours are capacity. Visitors allocate that capacity;
-only genuine cost reduction, extra volume, and higher-value work receive a
-euro value. Formulas use a restricted arithmetic DSL (`+ - * / ( )`, numbers,
-and identifiers) with builtins `scenario`, `period_months`, and
-`weeks_per_month`. Never use `eval`. Machine fields such as `formula`,
-`currency`, `format`, `kind`, `group`, `layer`, `valueClass`, `productivity`,
-and metric ids are not translated.
+`landingPage.roiCalculator` remains optional. When creating a new business-impact
+section, use `methodologyVersion: 2` and read
+[`references/business-impact.md`](references/business-impact.md) **before authoring
+its copy or defaults**. Start from the persona's real work unit, not its employee's
+salary. Separate operational capacity, operating cost, and explicitly modeled value.
+The platform owns the three-step interaction and deterministic calculations; the
+landing-page child owns the bounded workload defaults, outcome selection, and all
+translated labels and explanations. Start financial assumptions unset. Do not
+invent savings, prices, conversion rates, risk reductions, or customer outcomes.
+
+Use **ROI** for the short header link and **ROI Calculator** for the section
+heading (localized in translated pages). Keep the persona-specific supporting copy
+and methodology; the naming does not turn returned capacity into monetary savings.
+Existing unversioned calculators retain their legacy renderer and arithmetic DSL,
+with the same short **ROI** navigation label. Do not migrate an unrelated existing
+persona without authorization. Version 2 uses empty `inputs` and `metrics`
+compatibility arrays; it does not accept authored formulas, scripts, or CSS.
 
 The only thing on this page that is **not** configurable from this file is
 the "Made using Gabriel Operator" attribution footer — that's hardcoded in
@@ -162,6 +168,13 @@ button instead of two, a generic opening line in the hero mockup).
 
 ## Fields
 
+For `grocery-twin`, author the personal/Home calculator independently under
+`landingPage.groceryTwin.homeRoiCalculator` using the bounded methodology-v2
+contract. The root `landingPage.roiCalculator` belongs to Retail. Home never falls
+back to retail assumptions: an absent or disabled home configuration hides its
+calculator and navigation link. Read `references/business-impact.md` for household
+valuation rules and translate both configurations independently.
+
 - `landingPage.design` (optional, object) — explicitly selects the renderer's visual treatment; presentation is never inferred from the persona name.
   - `variant` (optional, `default`, `signature`, `banking`, `form-operations`, `logistics-portal`, `cinematic-campaigns`, `recruiting-operations`, `grocery-twin`, `event-introductions`, or `home-introductions`) — each non-default variant selects one registered, versioned presentation and requires its bounded content object. `logistics-portal` enables Emil's governed logistics portal-twin presentation, and `home-introductions` enables Nest's private buyer/seller introduction presentation.
   - `defaultThemeMode` (optional, `light` or `dark`) — initial mode for the landing page and matching chat/embed; a visitor's explicit mode selection still wins.
@@ -179,7 +192,7 @@ button instead of two, a generic opening line in the hero mockup).
   - Runtime matching uses the server-resolved request-IP country only. A visitor language preference changes translation, never region selection. Matching regional content replaces the base page before theme, SEO, header, CTA, widget, and embed presentation are derived.
 - `landingPage.header` (optional, object) — authored header content. When present, only configured items render; no menu labels are generated from persona-specific code.
   - `brandMark` (optional, `heart`, `image`, or `initial`).
-  - `navItems` (optional, array of `{ label, target }`) — `target` is one of `meet`, `about`, `capabilities`, `use-cases`, `trust`, `how-it-works`, `stories`, `faq`, or `contact`. Items whose target section is absent are hidden automatically. Do not author an **ROI Calculator** item; the renderer injects it when `roiCalculator` is enabled.
+  - `navItems` (optional, array of `{ label, target }`) — `target` is one of `meet`, `about`, `capabilities`, `use-cases`, `trust`, `how-it-works`, `stories`, `faq`, or `contact`. Items whose target section is absent are hidden automatically. Do not add a calculator link; the renderer injects its model-owned label when `roiCalculator` is enabled, retaining the stable `roi-calculator` target.
   - `ctaLabel` (optional, string) — separate right-side meet CTA. Omit when the nav already contains a meet item.
 - `landingPage.headline` (required, string) — the hero headline (first line).
 - `landingPage.headlineAccent` (optional, string) — a substring of `headline`, rendered in the persona's accent color. Must exactly match a substring of `headline` or it's ignored.
@@ -440,3 +453,23 @@ curl -fsSL https://raw.githubusercontent.com/go-code-bot/landing-page-builder/ma
 **Example prompts:**
 - *"Write landing page copy for this persona based on its systemPrompt — 3 features, a punchy headline."*
 - *"Change the CTA label to 'Book a demo' and rewrite the subheadline to be shorter."*
+
+## Workflow-owned capability preview binding
+
+Landing-page schema version 2 additionally accepts an optional root binding:
+`capabilityPreview: { enabled: true, commandTrigger: "<existing-trigger>" }`.
+It must resolve to an enabled `operator_action` command with `workflowRef` and
+`workflowSkill`. These are the only binding fields: no URLs, models, credentials,
+private stages, graph definitions, or executable behavior belong here.
+
+Author the binding in the landing-page child and mirror it into the parent's
+published landing page. Workflow repositories own journey copy/graphs/schemas;
+landing-page children retain marketing-copy ownership. Do not duplicate journey
+questions in theme source or marketing locale files. The shared panel is opt-in
+inside Archer, Form Operations, Grocery Twin, Recruiting Operations, and the
+default hero; existing content/layout/media and legacy demos remain unchanged when
+the binding is absent or the target backend has not activated the package.
+
+Do not enable a binding merely because its JSON validates. Check backend handler
+and continuation support, configured locale catalogues, and the domain's live
+guest/login acceptance first. Never treat a local test as production deployment.
