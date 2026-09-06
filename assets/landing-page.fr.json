@@ -76,7 +76,7 @@
         "Définir le périmètre d'un pilote multi-sites"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Suivi de production Archer pour les promos d'événements hôteliers à temps"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Réserver un pilote",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Échéance couverte",
         "statusBody": "Images réelles · prêt à approuver",
         "voiceCtaLabel": "Parler à Archer"

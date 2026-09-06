@@ -76,7 +76,7 @@
         "Defineix un pilot per a diversos locals"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Seguiment de producció Archer per a promocions d'esdeveniments d'hostaleria puntuals"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Reserva un pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Data límit coberta",
         "statusBody": "Filmació real · a punt per aprovar",
         "voiceCtaLabel": "Parla amb Archer"

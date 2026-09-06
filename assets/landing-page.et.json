@@ -76,7 +76,7 @@
         "Planeeri mitme asukohaga pilootprojekt"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archeri tootmisjälgija õigeaegseteks hotelli- ja toitlustusürituste promo­materjalideks"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Broneeri pilootprojekt",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Tähtaeg kaetud",
         "statusBody": "Ehtne materjal · kinnituseks valmis",
         "voiceCtaLabel": "Räägi Archeriga"

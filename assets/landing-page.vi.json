@@ -76,7 +76,7 @@
         "Lên phạm vi pilot đa địa điểm"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Trình theo dõi sản xuất của Archer cho quảng bá sự kiện nhà hàng - khách sạn đúng hạn"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Đặt lịch Pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Đã đảm bảo hạn chót",
         "statusBody": "Cảnh thật · sẵn sàng duyệt",
         "voiceCtaLabel": "Nói chuyện với Archer"

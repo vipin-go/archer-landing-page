@@ -76,7 +76,7 @@
         "Afgræns et pilotforløb for flere venues"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archers produktionstracker til rettidige hospitality-eventpromos"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Book et pilotforløb",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Deadline dækket",
         "statusBody": "Ægte optagelser · klar til godkendelse",
         "voiceCtaLabel": "Tal med Archer"

@@ -76,7 +76,7 @@
         "Zaplanuj pilotaż w wielu lokalizacjach"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Tracker produkcji Archer do terminowych promocji wydarzeń hotelarsko-gastronomicznych"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Zarezerwuj pilotaż",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Termin spełniony",
         "statusBody": "Prawdziwe nagranie · gotowe do akceptacji",
         "voiceCtaLabel": "Porozmawiaj z Archer"

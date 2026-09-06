@@ -76,7 +76,7 @@
         "Escopo de um piloto multi-local"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Rastreador de produção Archer para promoções de eventos de hospitalidade no prazo"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Agendar um piloto",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Prazo coberto",
         "statusBody": "Imagens reais · prontas para aprovação",
         "voiceCtaLabel": "Fale com o Archer"

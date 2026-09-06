@@ -76,7 +76,7 @@
         "תכנון פיילוט רב-אתרים"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "מעקב הייצור של Archer לקידום אירועי אירוח בזמן"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "הזמינו ניסיון Pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "מועד היעד מסודר",
         "statusBody": "צילום אמיתי · מוכן לאישור",
         "voiceCtaLabel": "דברו עם Archer"

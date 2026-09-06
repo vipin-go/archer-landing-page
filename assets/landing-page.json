@@ -75,7 +75,7 @@
         "Scope a multi-venue pilot"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer production tracker for on-time hospitality event promos"
@@ -458,7 +458,7 @@
           }
         ],
         "ctaLabel": "Book a Pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Deadline covered",
         "statusBody": "Real footage · approval ready",
         "voiceCtaLabel": "Talk to Archer"

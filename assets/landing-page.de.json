@@ -76,7 +76,7 @@
         "Multi-Standort-Pilot skalieren"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer-Produktions-Tracker für pünktliche Event-Promos im Gastgewerbe"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Pilotphase buchen",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Deadline abgedeckt",
         "statusBody": "Echtes Material · genehmigungsbereit",
         "voiceCtaLabel": "Mit Archer sprechen"

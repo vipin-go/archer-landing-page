@@ -76,7 +76,7 @@
         "hatókörű egy több helyszínes pilóta"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer gyártáskövető az időbeni vendéglátó esemény promócióihoz"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Pilotprogram egyeztetése",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "határidő lefedett",
         "statusBody": "Valódi felvétel · Jóváhagyás kész",
         "voiceCtaLabel": "Beszélj Archerrel"

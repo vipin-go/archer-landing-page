@@ -76,7 +76,7 @@
         "确定多场地试点范围"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer 医院事活动促销及时产品追踪器"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "预订试点",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "截止日期已覆盖",
         "statusBody": "真实镜头 · 审批就绪",
         "voiceCtaLabel": "与 Archer 交谈"

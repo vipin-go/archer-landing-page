@@ -76,7 +76,7 @@
         "Definir el alcance de un piloto multisede"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Seguimiento de producción de Archer para promociones de eventos de hostelería a tiempo"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Reservar un piloto",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Fecha límite cubierta",
         "statusBody": "Material real · lista para aprobación",
         "voiceCtaLabel": "Hablar con Archer"

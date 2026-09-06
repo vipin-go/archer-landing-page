@@ -76,7 +76,7 @@
         "Definišite pilot za više objekata"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer traker produkcije za promo materijale ugostiteljskih događaja na vreme"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Zakažite pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Rok pokriven",
         "statusBody": "Stvarni snimci · spremno za odobrenje",
         "voiceCtaLabel": "Razgovarajte sa Archerom"

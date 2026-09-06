@@ -76,7 +76,7 @@
         "Naplánujte pilot pre viacero priestorov"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archerrv produkčný tracker pre včasné promo podujatí v pohostinstve"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Objednajte si pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Termín pokrytý",
         "statusBody": "Skutočné zábery · pripravené na schválenie",
         "voiceCtaLabel": "Hovorte s Archerom"

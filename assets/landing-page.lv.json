@@ -76,7 +76,7 @@
         "Plānojiet pilotprojektu vairākām vietām"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer ražošanas izsekotājs savlaicīgām HoReCa pasākumu reklāmām"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Pieteikt pilotprojektu",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Termiņš nodrošināts",
         "statusBody": "Īsti kadri · gatavs apstiprināšanai",
         "voiceCtaLabel": "Runāt ar Archer"

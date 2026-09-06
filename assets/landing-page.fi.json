@@ -76,7 +76,7 @@
         "Määrittele monen toimipisteen pilotti"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archerin tuotantoseuranta hotelliala-alan tapahtumapromootioiden ajallaan toimittamiseen"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Varaa pilotti",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Määräaika katettu",
         "statusBody": "Aitoa kuvamateriaalia · valmis hyväksyttäväksi",
         "voiceCtaLabel": "Puhu Archerille"

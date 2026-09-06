@@ -76,7 +76,7 @@
         "Opredelite pilotni projekt za več lokacij"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archerjev produkcijski sledilnik za pravočasne promocije gostinskih dogodkov"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Rezervirajte pilotni projekt",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Rok pokrit",
         "statusBody": "Resnični posnetki · pripravljeni za odobritev",
         "voiceCtaLabel": "Pogovorite se z Archerjem"

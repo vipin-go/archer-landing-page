@@ -76,7 +76,7 @@
         "Omfattning En flerplatspilot"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer Production Tracker för kampanjer för gästfrihet i tid"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Boka en pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "deadline täckt",
         "statusBody": "Verklig film · Godkännande redo",
         "voiceCtaLabel": "Prata med Archer"

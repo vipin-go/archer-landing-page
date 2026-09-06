@@ -76,7 +76,7 @@
         "다중 Venue 파일럿 범위 설정"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer 제작 트래커: 호스피탈리티 이벤트 프로모 정시 납품"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "파일럿 신청하기",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "마감 보장",
         "statusBody": "실제 촬영 footage · 승인 준비 완료",
         "voiceCtaLabel": "Archer와 상담하기"

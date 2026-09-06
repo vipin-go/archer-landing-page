@@ -76,7 +76,7 @@
         "複数会場のパイロットを計画する"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer制作トラッカー：ホスピタリティイベントのプロモを予定どおりに"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "パイロットを予約",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "締め切りも安心",
         "statusBody": "実写映像 · 承認可能な状態",
         "voiceCtaLabel": "Archerに相談する"

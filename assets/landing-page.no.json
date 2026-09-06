@@ -76,7 +76,7 @@
         "Skisser et pilotprosjekt for flere venues"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archers produksjonssporing for tässige hotel- og restaurantkampanjer"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Bestill et pilotprosjekt",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Frist dekket",
         "statusBody": "Ekelt opptak · klar til godkjenning",
         "voiceCtaLabel": "Snakk med Archer"

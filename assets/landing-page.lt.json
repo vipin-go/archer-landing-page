@@ -76,7 +76,7 @@
         "Suplanuoti kelių vietų bandomąjį laikotarpį"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer gamybos sekiklis, skirtas laiku pristatyti svetingumo sektoriaus renginių reklamas"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Užsakyti bandomąjį etapą",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Terminas užtikrintas",
         "statusBody": "Tikra medžiaga · paruošta patvirtinti",
         "voiceCtaLabel": "Pasikalbėkite b su Archer"

@@ -76,7 +76,7 @@
         "Охват пилотного проекта с несколькими площадками"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Трекер производства Archer для своевременных промо-материалов мероприятий в сфере гостеприимства"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Забронировать пилот",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Дедлайн покрыт",
         "statusBody": "Реальные кадры · готовы к одобрению",
         "voiceCtaLabel": "Поговорите с Archer"

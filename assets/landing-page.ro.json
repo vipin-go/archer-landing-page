@@ -76,7 +76,7 @@
         "Scopul unui pilot cu mai multe locații"
       ]
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
       "alt": "Archer Urmărirea producției pentru promoțiile evenimentelor de ospitalitate la timp"
@@ -459,7 +459,7 @@
           }
         ],
         "ctaLabel": "Rezervă un proiect-pilot",
-        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-winged.png",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
         "statusTitle": "Termenul limită acoperit",
         "statusBody": "Imagini reale · Aprobare gata",
         "voiceCtaLabel": "Vorbește cu Archer"
