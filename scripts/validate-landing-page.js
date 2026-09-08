@@ -857,8 +857,19 @@ function validateHomeIntroductionCommand(landingPage, chatConfigPath) {
 
 function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePath) {
   if (!landingPage || typeof landingPage !== 'object') fail('landingPage object is required');
+  if (landingPage.capabilityPreview !== undefined) {
+    const binding = landingPage.capabilityPreview;
+    if (!binding || typeof binding !== 'object' || Array.isArray(binding) || Object.keys(binding).some(key => !['enabled', 'commandTrigger'].includes(key)) || typeof binding.enabled !== 'boolean' || !/^\/?[a-z0-9][a-z0-9-]{0,63}$/.test(binding.commandTrigger || '')) fail('landingPage.capabilityPreview accepts only enabled and a registered commandTrigger');
+    if (binding.enabled && chatConfigPath) {
+      const config = JSON.parse(fs.readFileSync(chatConfigPath, 'utf8'));
+      const trigger = binding.commandTrigger.replace(/^\/+/, '').toLowerCase();
+      const command = config.publishedConfig?.agentTopology?.slashCommands?.find(item => item.enabled !== false && String(item.trigger || '').replace(/^\/+/, '').toLowerCase() === trigger);
+      if (command?.execution?.type !== 'operator_action' || command.execution.workflowRef?.kind !== 'workflow' || !command.execution.workflowRef.resourceKey || !/^skills\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(command.execution.workflowSkill?.path || '') || !['legacy', 'shadow', 'skill'].includes(command.execution.workflowSkill?.mode)) fail('Shared capability preview requires an enabled, workflow-bound operator_action with a workflowSkill package');
+    }
+  }
   if (!landingPage.headline || !String(landingPage.headline).trim()) fail('landingPage.headline is required');
   validateRoiCalculator({ roiCalculator: landingPage.roiCalculator }).forEach((issue) => fail(`${issue.path}: ${issue.message}`));
+  validateRoiCalculator({ roiCalculator: landingPage.groceryTwin?.homeRoiCalculator, pathPrefix: 'landingPage.groceryTwin.homeRoiCalculator' }).forEach((issue) => fail(`${issue.path}: ${issue.message}`));
   assertNoEmoji(landingPage);
 
   if (landingPage.localization !== undefined) {
