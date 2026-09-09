@@ -649,8 +649,8 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 8 door-open campaign packages, already filled.",
-      "disclaimer": "A scenario built from typical campaign-editing usage, not observed media results. One overflow invoice is counted once. Archer does not replace the approval before doors open.",
+      "subheading": "A typical hospitality month: 8 recurring campaign packages for venue and restaurant events.",
+      "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -685,16 +685,17 @@
           "contribution_rate": 75,
           "cash_hours": 6,
           "cash_baseline": 1600,
-          "cash_avoided": 800
+          "cash_avoided": 800,
+          "customer_price": 1950
         },
         "copy": {
           "navLabel": "ROI",
-          "workloadStep": "Events in production",
-          "costStep": "Token and media",
-          "valueStep": "Editor time",
-          "workloadIntro": "Model hospitality campaign editing and review. Include image and video generation costs; an avoided production invoice is counted only once.",
-          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+          "workloadStep": "Campaign volume",
+          "costStep": "Operating cost assumptions",
+          "valueStep": "Production capacity",
+          "workloadIntro": "Model recurring campaign packages for hospitality venues and restaurant groups. Archer prepares the work; a human still approves it before publication.",
+          "costIntro": "AI, media, tools, platform and infrastructure costs are delivery assumptions, separate from Archer's customer price.",
+          "valueIntro": "Returned editor hours are capacity. Assign them to one validated value basis: internal contribution or actual avoided spending.",
           "sampleNotice": "Typical usage · not observed results",
           "monthly": "Monthly",
           "yearly": "Yearly",
@@ -702,7 +703,7 @@
           "back": "Back",
           "reset": "Reset assumptions",
           "summary": "Your modeled impact",
-          "volume": "Campaigns modeled",
+          "volume": "Approved packages modeled",
           "grossHours": "Repetitive work reduced",
           "capacity": "Editor hours returned",
           "retained": "Capacity kept available",
@@ -732,9 +733,9 @@
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
-          "economicValue": "Modeled economic value",
-          "netBenefit": "Net modeled benefit",
-          "multiple": "Economic return multiple",
+          "economicValue": "Modeled production savings",
+          "netBenefit": "Net savings after Archer price",
+          "multiple": "Internal delivery multiple",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
@@ -742,7 +743,7 @@
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
           "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+          "formulaLabel": "Customer ROI = (modeled production savings − Archer customer price) ÷ Archer customer price. Use one value basis and validate it with a paid pilot.",
           "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
           "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
           "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
@@ -759,24 +760,26 @@
           "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "customerBenefit": "Modeled production savings before Archer price",
+          "customerRoi": "Cost-based customer ROI"
         },
         "fields": {
           "volume": {
-            "label": "Events in production each month",
-            "help": "Count campaigns you actually ship before doors open, not every idea on a backlog."
+            "label": "Event campaign packages per month",
+            "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
           },
           "minutes": {
-            "label": "Editor hours per event today",
-            "help": "Hands-on edit, caption and variant time for one event. Enter minutes: a 12-hour baseline is 720."
+            "label": "Baseline editor minutes per campaign package",
+            "help": "Hands-on editing, captions and variants for one package. Enter minutes; 720 minutes represents a 12-hour baseline."
           },
           "automation": {
-            "label": "Share of that edit Archer handles",
-            "help": "Illustrative share of the assembly work, not a skip of the approval."
+            "label": "Archer share of production",
+            "help": "Illustrative share of repetitive assembly Archer handles. Customer approval and rights checks remain required."
           },
           "review": {
-            "label": "Minutes to approve each campaign",
-            "help": "The one human approval still required before doors open."
+            "label": "Approval minutes per package",
+            "help": "Human approval time before the campaign is published or used for the event."
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
@@ -885,6 +888,10 @@
           "days_after": {
             "label": "Cycle time after, in days",
             "help": "Shown as an operational change only, without an assumed monetary value."
+          },
+          "customer_price": {
+            "label": "Archer customer price per month",
+            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
           }
         },
         "burden": [
@@ -910,7 +917,8 @@
             "contribution_rate": 75,
             "cash_hours": 3,
             "cash_baseline": 800,
-            "cash_avoided": 400
+            "cash_avoided": 400,
+            "customer_price": 1500
           },
           "medium": {
             "volume": 8,
@@ -926,15 +934,15 @@
             "contribution_rate": 75,
             "cash_hours": 6,
             "cash_baseline": 1600,
-            "cash_avoided": 800
+            "cash_avoided": 800,
+            "customer_price": 1950
           }
         },
         "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
-          "higher_value",
-          "cash"
+          "higher_value"
         ],
         "confirmations": {
           "overlap": true,
@@ -944,7 +952,7 @@
         },
         "hero": {
           "kind": "volume",
-          "label": "Door-open campaign packages"
+          "label": "Approved campaign packages"
         },
         "outcomes": [
           {
@@ -961,8 +969,8 @@
         "tabs": [
           {
             "id": "events",
-            "label": "Events in production",
-            "intro": "How many event campaigns you edit in a typical month, and the approval pass still required.",
+            "label": "Campaign volume",
+            "intro": "Model recurring event-campaign packages for venues and restaurant groups, including the customer approval pass.",
             "fields": [
               "volume",
               "minutes",
@@ -974,8 +982,8 @@
           },
           {
             "id": "tokens",
-            "label": "Token and media",
-            "intro": "Tokens plus a modeled media-generation line. Video is not a cheap text-token job.",
+            "label": "Operating cost assumptions",
+            "intro": "Keep AI, media, platform, tools and infrastructure costs separate from Archer's customer price.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -986,13 +994,26 @@
           },
           {
             "id": "editor",
-            "label": "Editor time",
-            "intro": "Editor hours returned, plus one avoided overflow invoice counted once.",
-            "fields": [],
+            "label": "Production capacity",
+            "intro": "Measure editor capacity returned. Assign it to validated internal contribution or actual avoided spending, not both.",
+            "fields": [
+              "customer_price"
+            ],
             "showPackage": true,
             "showOutcomes": true
           }
-        ]
+        ],
+        "pricing": {
+          "basis": "fixed",
+          "annualPrice": 23400,
+          "label": "Archer customer price",
+          "help": "Proposed pricing: a four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+        },
+        "presentation": {
+          "financial": "optional",
+          "showCustomerEconomics": true,
+          "hideEconomicMultiple": true
+        }
       },
       "cta": {
         "primaryLabel": "Talk with Archer",
