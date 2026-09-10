@@ -649,7 +649,7 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 8 recurring campaign packages for venue and restaurant events.",
+      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
       "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
       "currency": "EUR",
       "currencyCopy": {
@@ -672,21 +672,21 @@
       "metrics": [],
       "businessImpact": {
         "defaults": {
-          "volume": 8,
+          "volume": 1,
           "minutes": 720,
           "automation": 55,
           "review": 45,
           "tokens_per_output": 400000,
-          "model_cost": 650,
+          "model_cost": 81,
           "tools_cost": 0,
           "infrastructure_cost": 0,
           "platform_cost": 1500,
-          "higher_value_hours": 40.8,
+          "higher_value_hours": 5.8,
           "contribution_rate": 75,
-          "cash_hours": 6,
-          "cash_baseline": 1600,
-          "cash_avoided": 800,
-          "customer_price": 1950
+          "cash_hours": 0,
+          "cash_baseline": 0,
+          "cash_avoided": 0,
+          "customer_price": 600
         },
         "copy": {
           "navLabel": "ROI",
@@ -736,6 +736,9 @@
           "economicValue": "Modeled production savings",
           "netBenefit": "Net savings after Archer price",
           "multiple": "Internal delivery multiple",
+          "customerBenefit": "Modeled production savings before Archer price",
+          "customerRoi": "Cost-based customer ROI",
+          "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
@@ -760,14 +763,20 @@
           "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-          "customerBenefit": "Modeled production savings before Archer price",
-          "customerRoi": "Cost-based customer ROI"
+          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
         },
         "fields": {
           "volume": {
             "label": "Event campaign packages per month",
             "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+          },
+          "accepted_rate": {
+            "label": "Expected acceptance rate",
+            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+          },
+          "attendance_rate": {
+            "label": "Expected attendance rate",
+            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
           },
           "minutes": {
             "label": "Baseline editor minutes per campaign package",
@@ -780,6 +789,10 @@
           "review": {
             "label": "Approval minutes per package",
             "help": "Human approval time before the campaign is published or used for the event."
+          },
+          "cycles_per_unit": {
+            "label": "Cycles per unit each month",
+            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
@@ -802,8 +815,16 @@
             "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
           },
           "platform_cost": {
-            "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+          },
+          "customer_price": {
+            "label": "Archer customer price per month",
+            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+          },
+          "personal_value_per_hour": {
+            "label": "Optional value you assign to an hour",
+            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
@@ -888,10 +909,6 @@
           "days_after": {
             "label": "Cycle time after, in days",
             "help": "Shown as an operational change only, without an assumed monetary value."
-          },
-          "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
           }
         },
         "burden": [
@@ -904,21 +921,21 @@
         ],
         "usagePackages": {
           "base": {
-            "volume": 4,
+            "volume": 1,
             "tokensPerOutput": 400000,
-            "platform_cost": 990,
+            "platform_cost": 188,
             "minutes": 720,
             "automation": 55,
             "review": 45,
-            "model_cost": 320,
+            "model_cost": 81,
             "tools_cost": 0,
             "infrastructure_cost": 0,
-            "higher_value_hours": 20.4,
+            "higher_value_hours": 5.8,
             "contribution_rate": 75,
-            "cash_hours": 3,
-            "cash_baseline": 800,
-            "cash_avoided": 400,
-            "customer_price": 1500
+            "cash_hours": 0,
+            "cash_baseline": 0,
+            "cash_avoided": 0,
+            "customer_price": 600
           },
           "medium": {
             "volume": 8,
@@ -930,15 +947,15 @@
             "model_cost": 650,
             "tools_cost": 0,
             "infrastructure_cost": 0,
-            "higher_value_hours": 40.8,
+            "higher_value_hours": 46.8,
             "contribution_rate": 75,
-            "cash_hours": 6,
-            "cash_baseline": 1600,
-            "cash_avoided": 800,
+            "cash_hours": 0,
+            "cash_baseline": 0,
+            "cash_avoided": 0,
             "customer_price": 1950
           }
         },
-        "defaultPackage": "medium",
+        "defaultPackage": "base",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1005,9 +1022,9 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 23400,
+          "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "Proposed pricing: a four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
         },
         "presentation": {
           "financial": "optional",
@@ -1033,7 +1050,7 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1041,7 +1058,7 @@
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1049,7 +1066,7 @@
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1057,7 +1074,7 @@
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1065,7 +1082,7 @@
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1073,7 +1090,7 @@
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1081,7 +1098,7 @@
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1089,7 +1106,7 @@
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1097,7 +1114,7 @@
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1105,7 +1122,7 @@
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1113,7 +1130,7 @@
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1121,7 +1138,7 @@
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1129,7 +1146,7 @@
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1137,7 +1154,7 @@
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1145,7 +1162,7 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1153,7 +1170,7 @@
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1161,7 +1178,7 @@
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1169,7 +1186,7 @@
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1177,7 +1194,7 @@
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1185,7 +1202,7 @@
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1193,7 +1210,7 @@
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1201,7 +1218,7 @@
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1209,7 +1226,7 @@
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1217,7 +1234,7 @@
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1225,7 +1242,7 @@
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1233,7 +1250,7 @@
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1241,7 +1258,7 @@
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1249,7 +1266,7 @@
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1257,7 +1274,7 @@
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1265,7 +1282,7 @@
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1273,7 +1290,7 @@
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1281,7 +1298,7 @@
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1289,7 +1306,7 @@
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1297,7 +1314,7 @@
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1305,7 +1322,7 @@
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1313,7 +1330,7 @@
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"
@@ -1321,7 +1338,7 @@
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+            "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-07T06:04:36.311Z"

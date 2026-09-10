@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "fi",
   "regionKey": null,
-  "sourceRevision": "876cffd3088dd8ed281d97470b128bcd5d91eb888b7c1af59f8d5bbe90c9bbf9",
+  "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -650,7 +650,7 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 8 recurring campaign packages for venue and restaurant events.",
+      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
       "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
       "currency": "EUR",
       "currencyCopy": {
@@ -673,21 +673,21 @@
       "metrics": [],
       "businessImpact": {
         "defaults": {
-          "volume": 8,
+          "volume": 1,
           "minutes": 720,
           "automation": 55,
           "review": 45,
           "tokens_per_output": 400000,
-          "model_cost": 650,
+          "model_cost": 81,
           "tools_cost": 0,
           "infrastructure_cost": 0,
           "platform_cost": 1500,
-          "higher_value_hours": 40.8,
+          "higher_value_hours": 5.8,
           "contribution_rate": 75,
-          "cash_hours": 6,
-          "cash_baseline": 1600,
-          "cash_avoided": 800,
-          "customer_price": 1950
+          "cash_hours": 0,
+          "cash_baseline": 0,
+          "cash_avoided": 0,
+          "customer_price": 600
         },
         "copy": {
           "navLabel": "ROI",
@@ -737,6 +737,9 @@
           "economicValue": "Modeled production savings",
           "netBenefit": "Net savings after Archer price",
           "multiple": "Internal delivery multiple",
+          "customerBenefit": "Modeled production savings before Archer price",
+          "customerRoi": "Cost-based customer ROI",
+          "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
@@ -761,14 +764,20 @@
           "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-          "customerBenefit": "Modeled production savings before Archer price",
-          "customerRoi": "Cost-based customer ROI"
+          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
         },
         "fields": {
           "volume": {
             "label": "Event campaign packages per month",
             "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+          },
+          "accepted_rate": {
+            "label": "Expected acceptance rate",
+            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+          },
+          "attendance_rate": {
+            "label": "Expected attendance rate",
+            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
           },
           "minutes": {
             "label": "Baseline editor minutes per campaign package",
@@ -781,6 +790,10 @@
           "review": {
             "label": "Approval minutes per package",
             "help": "Human approval time before the campaign is published or used for the event."
+          },
+          "cycles_per_unit": {
+            "label": "Cycles per unit each month",
+            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
@@ -803,8 +816,16 @@
             "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
           },
           "platform_cost": {
-            "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+          },
+          "customer_price": {
+            "label": "Archer customer price per month",
+            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+          },
+          "personal_value_per_hour": {
+            "label": "Optional value you assign to an hour",
+            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
@@ -889,10 +910,6 @@
           "days_after": {
             "label": "Cycle time after, in days",
             "help": "Shown as an operational change only, without an assumed monetary value."
-          },
-          "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
           }
         },
         "burden": [
@@ -905,21 +922,21 @@
         ],
         "usagePackages": {
           "base": {
-            "volume": 4,
+            "volume": 1,
             "tokensPerOutput": 400000,
-            "platform_cost": 990,
+            "platform_cost": 188,
             "minutes": 720,
             "automation": 55,
             "review": 45,
-            "model_cost": 320,
+            "model_cost": 81,
             "tools_cost": 0,
             "infrastructure_cost": 0,
-            "higher_value_hours": 20.4,
+            "higher_value_hours": 5.8,
             "contribution_rate": 75,
-            "cash_hours": 3,
-            "cash_baseline": 800,
-            "cash_avoided": 400,
-            "customer_price": 1500
+            "cash_hours": 0,
+            "cash_baseline": 0,
+            "cash_avoided": 0,
+            "customer_price": 600
           },
           "medium": {
             "volume": 8,
@@ -931,15 +948,15 @@
             "model_cost": 650,
             "tools_cost": 0,
             "infrastructure_cost": 0,
-            "higher_value_hours": 40.8,
+            "higher_value_hours": 46.8,
             "contribution_rate": 75,
-            "cash_hours": 6,
-            "cash_baseline": 1600,
-            "cash_avoided": 800,
+            "cash_hours": 0,
+            "cash_baseline": 0,
+            "cash_avoided": 0,
             "customer_price": 1950
           }
         },
-        "defaultPackage": "medium",
+        "defaultPackage": "base",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1006,9 +1023,9 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 23400,
+          "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "Proposed pricing: a four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
         },
         "presentation": {
           "financial": "optional",
@@ -3912,7 +3929,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7a3713d115307b3ec4195b3f6f4abdf83e57d56c4e7575ffd5625cdcf5f2dbec"
+      "sourceHash": "2dd828e7eb75ab5e19982402d8a319e0f15497288fde400850a0a8221a71182c"
     },
     {
       "path": [
@@ -3920,7 +3937,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "413a3453b637b0ba56c9acc97b219dd972fb19a50ff4e12923696ff05b2fa706"
+      "sourceHash": "1947034a23d7455029d01199814f58b46c41148db0f0d44657559792de7d06aa"
     },
     {
       "path": [
@@ -3994,7 +4011,7 @@
         "copy",
         "workloadStep"
       ],
-      "sourceHash": "d396e6e12647b1c1d6db1356e4258c2ea7cc39c3904cd2a93a9aab58d4b29f60"
+      "sourceHash": "d1a95a21e7005456021bb2e5b1cf1978ed7840bc135fb952fc0fd1114c58ecb1"
     },
     {
       "path": [
@@ -4004,7 +4021,7 @@
         "copy",
         "costStep"
       ],
-      "sourceHash": "4ce9381fc6af74f2a1f238f73d3979c1bbe19ed13fd38fcb654e6b0cb026665a"
+      "sourceHash": "dc85fed036e217ba6391584d7c9b42139d5eee2f097c8cc90d08b0056dd4033f"
     },
     {
       "path": [
@@ -4014,7 +4031,7 @@
         "copy",
         "valueStep"
       ],
-      "sourceHash": "ed5c320f481cbb3521462d67aacfac1637ee2726f9b061c30970629743369652"
+      "sourceHash": "76ad745991079fdeb0ece3125f1b16b637ae5e5f80333a2266200e3375709d64"
     },
     {
       "path": [
@@ -4024,7 +4041,7 @@
         "copy",
         "workloadIntro"
       ],
-      "sourceHash": "7152084968ae9f58c2c44462f665d02de61d3ddc0ee8bf3c619be3522bf7d22c"
+      "sourceHash": "2265f80f9745905accc40f94c0d1d20fa966f5717e9f985a83e14b57774159f2"
     },
     {
       "path": [
@@ -4034,7 +4051,7 @@
         "copy",
         "costIntro"
       ],
-      "sourceHash": "99519bb6804fac080a4d66e5d56dbf3cf8ced07705ab1e9d902b3d98d456e6ad"
+      "sourceHash": "82941b948d47b8b13d64356aa14f54178b2b79562b520db386f233a4fd90017b"
     },
     {
       "path": [
@@ -4044,7 +4061,7 @@
         "copy",
         "valueIntro"
       ],
-      "sourceHash": "6ff02073ccdf04b3e5de1dae681d73a69f2ff43a4d298ded9bb897fb2aa1867a"
+      "sourceHash": "63fd64557e33cc8287ccfe86fe72b1d9180e12c259ba74b7a216577324bbbc22"
     },
     {
       "path": [
@@ -4124,7 +4141,7 @@
         "copy",
         "volume"
       ],
-      "sourceHash": "65e37cbb0d0667e8d7386fdc350e32dd5d75b3a9073c98d8e88e4fded46d631f"
+      "sourceHash": "6cebfbf8cacb75ad8cc92dda914db5ef6cb10d08c005edec3e12ed74178313b4"
     },
     {
       "path": [
@@ -4424,7 +4441,7 @@
         "copy",
         "economicValue"
       ],
-      "sourceHash": "c4402679b0bd01837904090e68038db886c05ed3b1402e58296074c1cb135a57"
+      "sourceHash": "df69ca1af492de71ce228ea911bd0ec7a41df8f595ad156da31c2690d68760f0"
     },
     {
       "path": [
@@ -4434,7 +4451,7 @@
         "copy",
         "netBenefit"
       ],
-      "sourceHash": "387e61fb69f9bca35408f8250768560fe3d9db172de2af927403575107cc892c"
+      "sourceHash": "9f7fb3cd5ad86e515653b965d0f6a9f611d607e7a73f8c614fcdee889ab5e185"
     },
     {
       "path": [
@@ -4444,7 +4461,37 @@
         "copy",
         "multiple"
       ],
-      "sourceHash": "10006b13cdfc279e8c6ce0e3d277d084ff911a5d6f8e8c191c738e90c286f6d3"
+      "sourceHash": "1571168233291e18b902725c874a5d5c25a4223e126d0a443cb52f78b5a0df33"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "customerBenefit"
+      ],
+      "sourceHash": "0c1ef695d1d9ca4fd7933ea56ec617fddd6fae6896e32c0a4a34471a9353634d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "customerRoi"
+      ],
+      "sourceHash": "69bf9a9b4fd1286860435e0d1b1367392216ce69bfa6dea278d976b049062115"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "payback"
+      ],
+      "sourceHash": "e96093c891d1c1698f3d590dcb3936c4435412404ddfa3952b6d76469e5cd3c2"
     },
     {
       "path": [
@@ -4524,7 +4571,7 @@
         "copy",
         "formulaLabel"
       ],
-      "sourceHash": "056d3a33de02c97f5733e1f2589835715f6915396b6ee9e44e0ed9a6a465c4c5"
+      "sourceHash": "47af8a053e97c18a952299365482ed9d33b335e86fad3210a45eac811f13e418"
     },
     {
       "path": [
@@ -4705,7 +4752,7 @@
         "volume",
         "label"
       ],
-      "sourceHash": "77d7ef0d3643f5798f92495c25f50270a753177c985b0de003a5c9f92fdfd397"
+      "sourceHash": "75d94b14b695cdf73486cb12efad8df863cdaf4c6dd9ed101ae29cb6d24d97bb"
     },
     {
       "path": [
@@ -4716,7 +4763,51 @@
         "volume",
         "help"
       ],
-      "sourceHash": "cb6a81046b75452b854e424c875c9995a2371f1cce6669b40b11270b00fe22e4"
+      "sourceHash": "c8525cf3787738b11e7550072cceb0c98c81e9c8caaf18a993bb3cd6adcf0ef4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "accepted_rate",
+        "label"
+      ],
+      "sourceHash": "4f18eadc75d14eb74855873509015b808c65f203c106bb0b930b259c91a4cd90"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "accepted_rate",
+        "help"
+      ],
+      "sourceHash": "53c784692d4624ff93d2536a2758a75697784ab0bd514fd49cf0bfe137ff8b63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "label"
+      ],
+      "sourceHash": "5bd0a69e139ca817fa379a3199bfb60aa79162688b5bf69ab63f222d94009ece"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "help"
+      ],
+      "sourceHash": "6d642dbc90d83a7597e4d27c689bf20e6186d4a54377aabfa110ba67749df3f5"
     },
     {
       "path": [
@@ -4727,7 +4818,7 @@
         "minutes",
         "label"
       ],
-      "sourceHash": "131d1d8800a18e51f0f5b958cc438b46376900c41fb742bf10c9dad730ca3a52"
+      "sourceHash": "0af9370e7927069d71c8d4b0ad591b9718ea0cb79f4af9e30c8c5e30bad9cbc0"
     },
     {
       "path": [
@@ -4738,7 +4829,7 @@
         "minutes",
         "help"
       ],
-      "sourceHash": "a20fc4c87a4a329319cb93dc12513cc7ecff26df44db4d98f3c559b87f6f681c"
+      "sourceHash": "3668d02e832815d5753c1e58b5f6bfd1455c7cb8a0c2b63bf6f50d7728536e42"
     },
     {
       "path": [
@@ -4749,7 +4840,7 @@
         "automation",
         "label"
       ],
-      "sourceHash": "cbcc9042bfa8ae83aa178faf536fd53bf2affc7cf6fc2004e0e1eb7f25d56040"
+      "sourceHash": "0ad1c80ec099606d5c048c82e2b58980b2cd9f22e0d1cb40f3ad339378bc165d"
     },
     {
       "path": [
@@ -4760,7 +4851,7 @@
         "automation",
         "help"
       ],
-      "sourceHash": "b3f33d6747e96aa15c7369c8ca2e8c724139a176f839429dcb218c7113e659e3"
+      "sourceHash": "bc82ae1c09b5fe8288db5bea088d6d694c53f9770c76cb3587a5dced2a21594e"
     },
     {
       "path": [
@@ -4771,7 +4862,7 @@
         "review",
         "label"
       ],
-      "sourceHash": "6bab0d66e5dba8dc93cb5e28027d9d2760a44bd479a14bb2be4195fbe6315d71"
+      "sourceHash": "3ead7ed5cbd11498e9526d10fddd6e958a87ae728f764a595077f69b8de2a11b"
     },
     {
       "path": [
@@ -4782,7 +4873,29 @@
         "review",
         "help"
       ],
-      "sourceHash": "26b8813c552af2fa41b03404b8cb485f0324792c9eff9729b91da885953372e2"
+      "sourceHash": "11d8e3f657838f695174215242bd3a19db5e18ece339977e129177855f13ba59"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cycles_per_unit",
+        "label"
+      ],
+      "sourceHash": "50ae3179cff21cf825b3980719fd56953da321da210f2ece4a4e260d8f452259"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cycles_per_unit",
+        "help"
+      ],
+      "sourceHash": "10da77417bec885daf5ad209507c2316d7049ed357fc4298c267d8aa4fcbc585"
     },
     {
       "path": [
@@ -4903,7 +5016,7 @@
         "platform_cost",
         "label"
       ],
-      "sourceHash": "a6fcdd0b18bc1948c3d24b297f450e4a3e2c5067229cdd3e11bc43d89f8867b9"
+      "sourceHash": "879bc5433e23785c45e1fa0a349f108a6ad79fb35677603499c5a2b476e716fa"
     },
     {
       "path": [
@@ -4914,7 +5027,51 @@
         "platform_cost",
         "help"
       ],
-      "sourceHash": "6e9cc2bd308b9760c3e8c2fe9e311a11d6e100bd3c60f5c4763640168e8a1422"
+      "sourceHash": "d9e0ea9472566cefb05632557f2d4f35cd8cb8742e1e577ca3aa9202c4cb7d9d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "customer_price",
+        "label"
+      ],
+      "sourceHash": "fba8bbc86f42fbfbbe795b179e8994164c24ee442ceb807990b419f6390de7d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "customer_price",
+        "help"
+      ],
+      "sourceHash": "df50326cbab8747a2e1b360196282150b59823fbcf348a735c4a3eca372dbdc6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "personal_value_per_hour",
+        "label"
+      ],
+      "sourceHash": "201c99a96bf2891da28703d1cdbd1fce65358f8fabd2e4516307e3712b2b3049"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "personal_value_per_hour",
+        "help"
+      ],
+      "sourceHash": "b48b72c5bcda4125000fc27e552c7de5c9f1d93ee39f88ff6e29a7e83081a8f7"
     },
     {
       "path": [
@@ -5425,7 +5582,7 @@
         "businessImpact",
         "defaultPackage"
       ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
+      "sourceHash": "cae662172fd450bb0cd710a769079c05bfc5d8e35efa6576edc7d0377afdd4a2"
     },
     {
       "path": [
@@ -5460,20 +5617,10 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "selected",
-        1
-      ],
-      "sourceHash": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "hero",
         "label"
       ],
-      "sourceHash": "80b42475265c5c5db94b23f1e84981dfd1c7bed2026d286cd67a462e99062eb0"
+      "sourceHash": "c00d5a58d13ab449d76eef8bfc645e63f9b34d7818237ef9cf79d94415c9553e"
     },
     {
       "path": [
@@ -5528,7 +5675,7 @@
         0,
         "label"
       ],
-      "sourceHash": "d396e6e12647b1c1d6db1356e4258c2ea7cc39c3904cd2a93a9aab58d4b29f60"
+      "sourceHash": "d1a95a21e7005456021bb2e5b1cf1978ed7840bc135fb952fc0fd1114c58ecb1"
     },
     {
       "path": [
@@ -5539,7 +5686,7 @@
         0,
         "intro"
       ],
-      "sourceHash": "ba8f188c286d832d04d5eaca11e0927ffac593a0147fe50ced36136ab112c2cb"
+      "sourceHash": "60d62240722619ab785dd4dd9f7c2507ce1c9e99dd5cb8298330b3f98f3dd219"
     },
     {
       "path": [
@@ -5598,7 +5745,7 @@
         1,
         "label"
       ],
-      "sourceHash": "4ce9381fc6af74f2a1f238f73d3979c1bbe19ed13fd38fcb654e6b0cb026665a"
+      "sourceHash": "dc85fed036e217ba6391584d7c9b42139d5eee2f097c8cc90d08b0056dd4033f"
     },
     {
       "path": [
@@ -5609,7 +5756,7 @@
         1,
         "intro"
       ],
-      "sourceHash": "01108d9bab0332af9e8ae6f9a1f00e6239159a00a078b5ed8b8a0f9ad3097a7a"
+      "sourceHash": "c4ce7294b82032189ffe3cecef2ec8d3fcd27e2c12835d2451ca5e511ea58acf"
     },
     {
       "path": [
@@ -5668,7 +5815,7 @@
         2,
         "label"
       ],
-      "sourceHash": "ed5c320f481cbb3521462d67aacfac1637ee2726f9b061c30970629743369652"
+      "sourceHash": "76ad745991079fdeb0ece3125f1b16b637ae5e5f80333a2266200e3375709d64"
     },
     {
       "path": [
@@ -5679,7 +5826,59 @@
         2,
         "intro"
       ],
-      "sourceHash": "3b881552f315b93de8df012f274ecbc48aea4f4c01e733306eb732010550eb38"
+      "sourceHash": "2015075f98c9c683259da1523540b1176cfa74923c0f6ce19e64481f08fcac34"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        2,
+        "fields",
+        0
+      ],
+      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "pricing",
+        "basis"
+      ],
+      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "pricing",
+        "label"
+      ],
+      "sourceHash": "3f4a40632f0723e777cf207d30a62d65df856e466ab283aaeac05d0ce1dac9b2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "pricing",
+        "help"
+      ],
+      "sourceHash": "eca43c7b90ae177e4c1fd49c7d3ced43182834ef860b72c92dc3f1a92bacc49b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "presentation",
+        "financial"
+      ],
+      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
