@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ar",
   "regionKey": null,
-  "sourceRevision": "cdff1f80a6a7e263e6a874944a175af998624341be35266213e7312ac613e0d4",
+  "sourceRevision": "0cf25cc41a103c5bd5df58d836836fc9d8bca1ff58bd78bf097668170e0b9332",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -168,7 +168,7 @@
           "imagePackSummary": "صورتا خلاصة بحجم 1080×1350 وصورة قصيرة بحجم 1080×1920",
           "sourceReview": {
             "heading": "اختر الصور التي قد يستخدمها Archer",
-            "permissionQuestion": "هل لديك إذن لاستخدام صور Instagram الخاصة بـ {accountName}، أم يجب عليّ استخدام حساب عام آخر تملكه أو تديره؟",
+            "permissionQuestion": "هل لديك إذن لاستخدام {accountName}'s Instagram Images ، أم هل يجب أن أستخدم حسابًا عامًا مختلفًا تمتلكه أو تديره؟",
             "changeAccountLabel": "استخدم حسابًا مختلفًا",
             "body": "قم بمراجعة هوية الحساب والأدلة العامة أدناه. لا يعد الدليل أو الوكالة مطعمًا تلقائيًا، كما لا تعتبر صورة الملف الشخصي شعارًا تلقائيًا.",
             "identityLabel": "اسم الحساب أو النشاط التجاري",
@@ -690,7 +690,7 @@
           "customer_price": 600
         },
         "copy": {
-          "navLabel": "ROI",
+          "navLabel": "تقييم الأسعار",
           "workloadStep": "Campaign volume",
           "costStep": "Operating cost assumptions",
           "valueStep": "Production capacity",
@@ -764,7 +764,19 @@
           "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "currentPreparation": "ساعات التحضير الحالية",
+          "reviewHours": "ساعات المراجعة البشرية",
+          "reworkHours": "تجنب أو تمت إضافة ساعات إعادة العمل",
+          "capacityValue": "قيمة السعة النموذجية",
+          "acceptedUnits": "الوحدات المقبولة",
+          "attendedUnits": "الوحدات التي حضرها",
+          "costPerAttended": "التكلفة لكل وحدة حاضرة",
+          "benefitCost": "مضاعفة تكلفة الفوائد",
+          "firstYearCost": "تكلفة السنة الأولى",
+          "firstYearRoi": "عائد الاستثمار في السنة الأولى",
+          "paybackOutsideTerm": "لم يتم استردادها ضمن المصطلح النموذجي",
+          "months": "months"
         },
         "fields": {
           "volume": {
@@ -4001,7 +4013,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "5bb1092e45d12cf344ec810103fd96adc18943f70e30d02a092a40f74fe906b0"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4742,6 +4754,116 @@
         "noCurrencyChange"
       ],
       "sourceHash": "718220721cfbe482039fc6bb6d52481ed1384fad16ff119ca5d0dc4c3ae718d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "currentPreparation"
+      ],
+      "sourceHash": "928d958c583b780cba9c5fad46428b528902459f6f74faae75a72a2b21f7cabc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewHours"
+      ],
+      "sourceHash": "3394ced95b267c4fd710961fbf5b99c081da26926fc35a65b3ba1b62c9a12fd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reworkHours"
+      ],
+      "sourceHash": "21523a67898e293abd0be47cf292c5b483391500d60950dda9865c3ca628df4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "capacityValue"
+      ],
+      "sourceHash": "4dcc485471faab34162bd8d16b862cd837b4b64dd86e84401842e28d920376ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "acceptedUnits"
+      ],
+      "sourceHash": "3ed61fbb99811ea11ce35cb68185047f0446a13ecc082f4edb06d75e88460873"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "attendedUnits"
+      ],
+      "sourceHash": "0db82f1fd2dc4654d446d2314dc0e121be49032b71f161c5bb319e1ea6acb2fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "costPerAttended"
+      ],
+      "sourceHash": "986006eea01980a34bac981d6fdcd579b24644b9c0b38d2656019c7ef20af10d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "benefitCost"
+      ],
+      "sourceHash": "2a39db7e18bf9bef2886f35046487c9173020534025bd58500a83605a6c0b542"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "firstYearCost"
+      ],
+      "sourceHash": "bf73c12619d3fc77c3953ebb2c6f63bcdf2db74bcd39c27076a7950099712780"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "firstYearRoi"
+      ],
+      "sourceHash": "086f8fc44b4ee68fbee0be574928d80c02020715a2957269229f5c6016a0322a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "paybackOutsideTerm"
+      ],
+      "sourceHash": "2fa8b02a70b6cbedb48d8b8168d94fb34cc4616141582ee666347452f2ab28d7"
     },
     {
       "path": [
@@ -5908,5 +6030,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-07T06:04:36.311Z"
+  "generatedAt": "2026-09-11T04:23:08.546Z"
 }
