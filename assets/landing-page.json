@@ -3,6 +3,10 @@
   "resourceKey": "landing_page.archer",
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "instagram-campaign"
+    },
     "design": {
       "variant": "cinematic-campaigns",
       "defaultThemeMode": "dark",
