@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "no",
   "regionKey": null,
-  "sourceRevision": "0cf25cc41a103c5bd5df58d836836fc9d8bca1ff58bd78bf097668170e0b9332",
+  "sourceRevision": "1b046dd4aa3748c2a8c2401a6d05cd03e2ce078bdde9cc95eeae15f1323a4366",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -128,20 +128,20 @@
           "enabled": true,
           "commandTrigger": "instagram-campaign",
           "welcomeMessage": "Hei, jeg er Archer, redaktøren din for restaurantkampanjer.",
-          "urlRequestMessage": "Del en offentlig Instagram-profil for en restaurant, et innlegg, en karusell eller en Reel for å begynne.",
-          "urlPlaceholder": "Lim inn en offentlig Instagram-URL…",
+          "urlRequestMessage": "Del en offentlig restaurantnettside, produktside eller Instagram-profil, -innlegg, -karusell eller -Reel for å starte.",
+          "urlPlaceholder": "Lim inn en offentlig nettside- eller Instagram-URL …",
           "analyzeLabel": "Bygg merkevaresettet mitt",
           "analyzingLabel": "Leser offentlige merkevaresignaler…",
           "brandReviewHeading": "Gjennomgå merkevareidentiteten",
           "brandReviewBody": "Rediger antatte detaljer før noe genereres.",
           "observedLabel": "Observert",
           "inferredLabel": "Antatt",
-          "instagramLabel": "Instagram",
+          "instagramLabel": "Håndtak eller domene",
           "restaurantFallbackLabel": "Restaurant",
           "brandPaletteLabel": "Palett med fem merkefarger",
           "brandColorLabel": "Merkefarge",
           "neutralRecommendationLabel": "Nøytral anbefaling",
-          "profileImageLabel": "Instagram-profilbilde",
+          "profileImageLabel": "Profil- eller logo-bilde",
           "fontRecommendationLabel": "Skrifttypeanbefaling",
           "unverifiableTypographyCopy": "Ingen verifiserbar typografisk prøve var tilgjengelig.",
           "photographyFallback": "Bruk kun godkjent kildemateriell.",
@@ -164,29 +164,29 @@
           "generateBody": "To 4:5-feedbilder og ett 9:16 Story-bilde, kun med godkjente restaurantassets og abstrakte grafiske behandlinger.",
           "confirmGenerateLabel": "Bekreft og generer bilder",
           "generatingLabel": "Lager tremannsbildepakken…",
-          "imageReviewHeading": "Din Instagram-bildepakke",
+          "imageReviewHeading": "Din kampanjebilde-pakke",
           "imagePackSummary": "To 1080×1350 feed-bilder og ett 1080×1920 Story-bilde",
           "sourceReview": {
             "heading": "Velg bildene Archer kan bruke",
-            "permissionQuestion": "Har du tillatelse til å bruke {accountName} sine Instagram-bilder, eller bør jeg bruke en annen offentlig konto du eier eller administrerer?",
-            "changeAccountLabel": "Bruk en annen konto",
-            "body": "Se gjennom kontoidentiteten og offentlige bevis nedenfor. En guide eller et byrå er ikke automatisk en restaurant, og et profilbilde er ikke automatisk en logo.",
+            "permissionQuestion": "Har du tillatelse til å bruke {accountName}s bilder, eller skal jeg bruke en annen offentlig kilde du eier eller administrerer?",
+            "changeAccountLabel": "Bruk en annen kilde",
+            "body": "Gå gjennom kildeidentiteten og offentlig bevis nedenfor. En guide eller et byrå er ikke automatisk en restaurant, og et profilbilde er ikke automatisk en logo.",
             "identityLabel": "Konto- eller bedriftsnavn",
             "permissionLabel": "Jeg har tillatelse til å bruke disse valgte bildene og eventuelle merker jeg har valgt for denne kampanjen.",
             "selectionLabel": "Bruk dette bildet",
             "logoLabel": "Bruk som logo eller visuelt merke",
             "thumbnailLabel": "Offentlig miniatyrbilde",
-            "originalLabel": "Bilde av offentlig innlegg",
-            "profileLabel": "Profilbilde, ikke godkjent logo",
+            "originalLabel": "Offentlig bilde",
+            "profileLabel": "Profilbilde eller nettstedikon, ikke en godkjent logo",
             "captionLabel": "Synlig innleggstekst",
             "altTextLabel": "Bilde-alt-tekst, ikke en bildetekst",
             "limitedHeading": "Begrenset utkast til offentlig bevis",
             "noOfferLabel": "Ingen tilbud eller kampanjer",
             "languageNotice": "De godkjente bildene dine beholder originalspråket. Å endre sidespråket omskriver dem ikke.",
             "limitations": {
-              "login_wall": "Instagram ba om pålogging. Archer stoppet før åpning av begrenset innhold.",
+              "login_wall": "Siden ba om pålogging. Archer stoppet før den åpnet begrenset innhold.",
               "private_content": "Privat innhold ble ikke åpnet. Kun offentlige bevis som allerede er tilgjengelig er inkludert.",
-              "captcha": "Instagram ba om en sikkerhetssjekk. Archer stoppet uten å løse det.",
+              "captcha": "Siden ba om en sikkerhetskontroll. Archer stoppet uten å løse det.",
               "thumbnails_only": "Bare offentlige miniatyrbilder var tilgjengelige. Fine detaljer og typografi kan være usikre.",
               "captions_unavailable": "Innleggsteksting var utilgjengelig. Alt tekst har ikke blitt behandlet som kampanjekopi.",
               "media_unavailable": "Noen offentlige bilder kunne ikke hentes og har blitt ekskludert.",
@@ -204,27 +204,27 @@
           "createVideoLabel": "Lag en video",
           "loginNotice": "Logg inn for å gjøre det godkjente bildet om til en sekssekundersvideo, koble til Instagram, planlegge eller publisere.",
           "cancelLabel": "Start på nytt",
-          "errorCopy": "Archer kunne ikke fullføre denne forhåndsvisningen. Prøv en annen offentlig Instagram-URL.",
-          "invalidUrlError": "Skriv inn en fullstendig offentlig URL til en Instagram-profil, et innlegg, en karusell eller en Reel.",
-          "accessError": "Instagram kunne ikke vise den offentlige siden. Prøv en annen offentlig URL.",
-          "activePreviewError": "Fullfør eller start forhåndsvisningen av den nåværende Instagram-kampanjen først.",
+          "errorCopy": "Archer kunne ikke fullføre denne forhåndsvisningen. Prøv en annen offentlig URL.",
+          "invalidUrlError": "Skriv inn en fullstendig offentlig nettside- eller Instagram-profil, -innlegg, -karusell eller -Reel-URL.",
+          "accessError": "Den offentlige siden kunne ikke leses. Prøv en annen offentlig URL.",
+          "activePreviewError": "Fullfør eller start den nåværende kampanjeforhåndsvisningen først.",
           "limitError": "Grensen for offentlige forhåndsvisninger er nådd. Logg inn eller prøv igjen senere.",
-          "expiredError": "Forhåndsvisningen av denne Instagram-kampanjen har utløpt. Start på nytt.",
+          "expiredError": "Denne kampanjeforhåndsvisningen utløp. Start på nytt.",
           "validationError": "Se over de uthevede kampanjedetaljene og prøv igjen.",
           "generationError": "Bildepakken kunne ikke genereres. Prøv igjen.",
           "claimError": "Archer kunne ikke flytte denne kampanjen til ditt private arbeidsområde. Prøv igjen.",
           "brandReadyMessage": "Jeg fant de offentlige merkevaresignalene. Se over hva som ble observert og hva som ble antatt før vi lager noe.",
           "brandApprovedMessage": "Merkevareidentiteten er godkjent. Beskriv arrangementet med enkelt språk.",
-          "imagePackReadyMessage": "Din trebilders Instagram-pakke er klar til gjennomgang og nedlasting.",
+          "imagePackReadyMessage": "Din kampanjepakke med tre bilder er klar for gjennomgang og nedlasting.",
           "imagesApprovedMessage": "Bildene er godkjent. Logg inn for å lage en video, koble til Instagram, planlegge eller publisere.",
           "privateVideoOfferMessage": "Din godkjente bildepakke er nå privat. Vil du ha en sekunder lang 9:16 arrangementspromo, eller vil du avslutte med bildepakken?"
         },
         "intake": {
-          "eyebrow": "Instagram-kampanjeforhåndsvisning",
-          "title": "Start med restaurantens offentlige Instagram",
+          "eyebrow": "Kampanjeforhåndsvisning",
+          "title": "Start med restaurantens offentlige nettside eller Instagram",
           "body": "Archer leser tilgjengelige merkevaresignaler, merker observasjoner og antakelser, og gjør et godkjent eventbrief om til tre nedlastbare bilder.",
-          "uploadLabel": "Offentlig Instagram-URL",
-          "uploadHint": "Profil, innlegg, karusell eller Reel",
+          "uploadLabel": "Offentlig nettside- eller Instagram-URL",
+          "uploadHint": "Nettside, produktside eller Instagram-profil, -innlegg eller -Reel",
           "transferNote": "Kun offentlige assets. Archer omgår aldri private profiler, påloggingsvegger, CAPTCHA eller utilgjengelige medier.",
           "eventLabel": "Merkevareidentitet",
           "eventValue": "Observert + antatt, redigerbart",
@@ -232,7 +232,7 @@
           "deadlineValue": "To feed-bilder + ett Story",
           "platformLabel": "Deretter",
           "suggestions": [
-            "Lim inn restaurantens Instagram",
+            "Lim inn restaurantens nettside eller Instagram",
             "Gjennomgå merkevareidentiteten",
             "Beskriv arrangementet"
           ]
@@ -560,7 +560,7 @@
                 "target": "pilot"
               },
               {
-                "label": "Ta kontakt med",
+                "label": "Kontakt",
                 "target": "contact"
               }
             ]
@@ -1359,7 +1359,7 @@
         "instagramCampaign",
         "urlRequestMessage"
       ],
-      "sourceHash": "505643be6c0532a0cde281ee2ef7a14724abd9bd1ff8962d66e7693159894940"
+      "sourceHash": "7b7821c857d6be7f6129920e1c87a70fe567b7534a7ce642d0bfaabd57c0b33c"
     },
     {
       "path": [
@@ -1369,7 +1369,7 @@
         "instagramCampaign",
         "urlPlaceholder"
       ],
-      "sourceHash": "f1634253c9cad36045fbf11aa8bf72cab93257a14537f57ec9f5a2aea266c21d"
+      "sourceHash": "8cca6bed31002f3caad6e55829b28c7962c4b5e3a386c2f240db54352b1f9d56"
     },
     {
       "path": [
@@ -1439,7 +1439,7 @@
         "instagramCampaign",
         "instagramLabel"
       ],
-      "sourceHash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6"
+      "sourceHash": "934f4d3597fd6da9642e99761b400d0d1f46c75d255bb9171d34d60d59699848"
     },
     {
       "path": [
@@ -1489,7 +1489,7 @@
         "instagramCampaign",
         "profileImageLabel"
       ],
-      "sourceHash": "e14cc2a4574a38dc035bfa2d53d8d34ec6861a783b7b7f81a546fa55a4cab179"
+      "sourceHash": "3122502d80bec1ae5b1c600b1fca4e52657b03787f52238b5a5c245df1f6687a"
     },
     {
       "path": [
@@ -1719,7 +1719,7 @@
         "instagramCampaign",
         "imageReviewHeading"
       ],
-      "sourceHash": "fddeedf739fdec957d4a8413c07cb3987566b479563a44b48a7c248e565f211e"
+      "sourceHash": "455e673becf3129720239ec7863a6f489ea0ebdde0bca37892452a930d7c0557"
     },
     {
       "path": [
@@ -1751,7 +1751,7 @@
         "sourceReview",
         "permissionQuestion"
       ],
-      "sourceHash": "c6b9aa36126a9c1bedef7c27049b4cee0d21137e57f7d9b957803ac45a95017b"
+      "sourceHash": "3e2218cb69411f6aa0292c257a7dc8999a5be6903413d03353e73c51d317c0c2"
     },
     {
       "path": [
@@ -1762,7 +1762,7 @@
         "sourceReview",
         "changeAccountLabel"
       ],
-      "sourceHash": "d2fe9116400cf32af5650464b88491a8640f69f97c71a5697a240e4e2a8c1734"
+      "sourceHash": "a469a9a425e04499570c41e51b4449780a36f1bccc5f819e93806b3cfb6546ed"
     },
     {
       "path": [
@@ -1773,7 +1773,7 @@
         "sourceReview",
         "body"
       ],
-      "sourceHash": "59a7052c4f7c78693faa3467b58804420c90384c6b17d541cf1aedfac7101091"
+      "sourceHash": "f893f781d169af43801c6a66846f0164ca890031295797309fd8362043767265"
     },
     {
       "path": [
@@ -1839,7 +1839,7 @@
         "sourceReview",
         "originalLabel"
       ],
-      "sourceHash": "f6d55ee934fbca012bc917941100ce50967b1099fd41676f5e9ad15e63971ae7"
+      "sourceHash": "6ce71cf8ede6a89da4bbc5a8398e0bbaa22b2692ef719864d887939e1dadde13"
     },
     {
       "path": [
@@ -1850,7 +1850,7 @@
         "sourceReview",
         "profileLabel"
       ],
-      "sourceHash": "2df0af34b8327edf1ca436b01edb9cb054f78d0f7b86cb101cde4970d745fe9d"
+      "sourceHash": "eb0e5bcb6bf248e05b6abc6a5103eac815009f700048061213d8459eae713420"
     },
     {
       "path": [
@@ -1917,7 +1917,7 @@
         "limitations",
         "login_wall"
       ],
-      "sourceHash": "2a2b8f40e2f93bf30b0ae1d088b430c4cf18569aae2c47fb2ae9aa4d0ddd0768"
+      "sourceHash": "33ae341e616a309ddf5c1a4494d201b5ccd2a262d85026f394de5ce8f320d50c"
     },
     {
       "path": [
@@ -1941,7 +1941,7 @@
         "limitations",
         "captcha"
       ],
-      "sourceHash": "2472b963088ae63728f67df466c93ea30c366503a391fed99aac344d33f9c2c6"
+      "sourceHash": "32a371a9b56e53a64ed752ffba23e0193d0f20f9c724e22570812637b2e88246"
     },
     {
       "path": [
@@ -2109,7 +2109,7 @@
         "instagramCampaign",
         "errorCopy"
       ],
-      "sourceHash": "3b2c8e5f94ced524136275128277aede3062b5fe031c898bff3ac66f7f1b7b4f"
+      "sourceHash": "eb8b96f659013f42d7c8141af7d9be0cf44041e81853a929b3bfa0afd019c272"
     },
     {
       "path": [
@@ -2119,7 +2119,7 @@
         "instagramCampaign",
         "invalidUrlError"
       ],
-      "sourceHash": "f61d44af851111526b2129c81af039436a536d196a0620bdf0015700af97e0ef"
+      "sourceHash": "99f8e37a1567e903cb238b3cc1eb68326a525474d6883662f84cefa1b72ce2f0"
     },
     {
       "path": [
@@ -2129,7 +2129,7 @@
         "instagramCampaign",
         "accessError"
       ],
-      "sourceHash": "bab0449e2a0a4c9a7e0b809dc92e17ba8b20dd080676f68ff3577a5c36843f3c"
+      "sourceHash": "b7fd4e8fc5a38238eca8861cbc5c5a690dfa28a213543e4c412d489568471a37"
     },
     {
       "path": [
@@ -2139,7 +2139,7 @@
         "instagramCampaign",
         "activePreviewError"
       ],
-      "sourceHash": "77d8012ee34f1353f36914a6a9117ab2b8cf9864e67c58c0dc0322bc19678247"
+      "sourceHash": "bf0e00c8c19e40c4140dafaa1171eff976c8abfab482a001c7966c54ecabee07"
     },
     {
       "path": [
@@ -2159,7 +2159,7 @@
         "instagramCampaign",
         "expiredError"
       ],
-      "sourceHash": "ae7410d8139e6a0ff2f3fac0added2ff84ac55d26dc37bb755c8cc762754a643"
+      "sourceHash": "b493d03d72acb63d12f5addcd342de925aaa17673189e135e746cb4925706873"
     },
     {
       "path": [
@@ -2219,7 +2219,7 @@
         "instagramCampaign",
         "imagePackReadyMessage"
       ],
-      "sourceHash": "24e7cc92444bfe1092429eb9a9a730ff445cf28b27b8223dcdf5273ae7f18149"
+      "sourceHash": "82ad4846752bdd7dea8ebfcbfcea02ad9b4b56f8e855e986e6fea4596a9451c3"
     },
     {
       "path": [
@@ -2249,7 +2249,7 @@
         "intake",
         "eyebrow"
       ],
-      "sourceHash": "c176cdd330c72a94ddacc460475465a396fef11e56e123c563d9c546f20c20ce"
+      "sourceHash": "37ebe9312eb00e9375d4cb2b444162a00b019d048d546f7162456398bafe35d6"
     },
     {
       "path": [
@@ -2259,7 +2259,7 @@
         "intake",
         "title"
       ],
-      "sourceHash": "28486cc0b426793bfd176587816a847023c9f93de8ded0f1c5aca4f24181b60c"
+      "sourceHash": "a1a2f2c78c602fe1afd4f18de9abab1a5aa038134bdb37d6eef5fb19bcefdc3c"
     },
     {
       "path": [
@@ -2279,7 +2279,7 @@
         "intake",
         "uploadLabel"
       ],
-      "sourceHash": "abdd948d8cdca1442b5beac1217d4b88dde2c00fe487f321d4e8c05aced6ff6c"
+      "sourceHash": "81aafd2ab4584bce8bd67c9cd9b6be18d421f6c1609a75a5552feaf70cd303c1"
     },
     {
       "path": [
@@ -2289,7 +2289,7 @@
         "intake",
         "uploadHint"
       ],
-      "sourceHash": "dbea5f648dd44a5c73d8c908e420d7897bb4d85196b34358d8347195667253cb"
+      "sourceHash": "b530e86062029f880f85c68e42c30adb51d00d6af2fcd8820cc5dc46e221bfbf"
     },
     {
       "path": [
@@ -2360,7 +2360,7 @@
         "suggestions",
         0
       ],
-      "sourceHash": "4ba46de21c957ad2f6ca3e2d7f3e949bafd940f37ba7708d9bc72096c0c3ccb1"
+      "sourceHash": "92a0479bf7c2846b7ca3d42dc4f15c9d6761fc064a92a6fde09c882850bf257c"
     },
     {
       "path": [
@@ -5711,28 +5711,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -5816,54 +5797,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "6d65ed5c750019a199c61a33ea9202fb727c05e257560f38f014e6b1520e50ed"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        3
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -5879,54 +5812,6 @@
         "intro"
       ],
       "sourceHash": "c4ce7294b82032189ffe3cecef2ec8d3fcd27e2c12835d2451ca5e511ea58acf"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
     },
     {
       "path": [
@@ -5955,28 +5840,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5991,16 +5854,6 @@
         "help"
       ],
       "sourceHash": "eca43c7b90ae177e4c1fd49c7d3ced43182834ef860b72c92dc3f1a92bacc49b"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -6030,5 +5883,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:23:08.546Z"
+  "generatedAt": "2026-09-26T20:32:08.550Z"
 }
