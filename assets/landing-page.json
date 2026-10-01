@@ -5,7 +5,8 @@
   "landingPage": {
     "capabilityPreview": {
       "enabled": true,
-      "commandId": "instagram-campaign"
+      "commandId": "instagram-campaign",
+      "presentation": "journey"
     },
     "design": {
       "variant": "cinematic-campaigns",
