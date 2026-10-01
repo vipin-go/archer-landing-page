@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Mød Archer"
     },
-    "badge": "Ægte optagelser. Én godkendelse. Til tiden.",
-    "headline": "Dit eventmateriale, tilbage som brandede klip inden dørene åbner.",
-    "subheadline": "Send rigtig telefonsoptagelse fra hvert venue. Archer redigerer, brander, undertekster og tilpasser størrelsen til Reels, TikTok, Shorts og Snapchat og sender derefter én godkendelse før eventets deadline.",
+    "badge": "AI-eventkampagner for restauranter",
+    "headline": "Din restaurants hjemmeside, gjort til en kampagne.",
+    "subheadline": "Del din restaurants offentlige hjemmeside eller Instagram. Archer læser din rigtige brandidentitet, bekræfter eventet og genererer tre godkendte kampagnebilleder, klar til Instagram efter login.",
     "ctaLabel": "Book et fireugers pilotforløb",
     "secondaryCtaLabel": "Se workflowet",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Log ind",
         "pilotLabel": "Book et pilotforløb",
-        "eyebrow": "Eventpromo-produktion for hospitalityteams",
+        "eyebrow": "AI-eventkampagner for restauranter",
         "headingLines": [
-          "Dit eventmateriale,",
-          "tilbage som brandede klip"
+          "Din restaurants hjemmeside,",
+          "gjort til en kampagne"
         ],
-        "mutedHeadingLine": "inden dørene åbner.",
-        "body": "Send rigtig telefonsoptagelse fra hvert venue. Archer redigerer, brander, undertekster og tilpasser størrelsen til Reels, TikTok, Shorts og Snapchat og sender derefter én godkendelse før eventets deadline.",
+        "mutedHeadingLine": "før dit næste event er udsolgt.",
+        "body": "Del din restaurants offentlige hjemmeside eller Instagram. Archer læser din rigtige brandidentitet, bekræfter eventet og genererer tre godkendte kampagnebilleder, klar til Instagram efter login.",
         "primaryCtaLabel": "Book et fireugers pilotforløb",
         "secondaryCtaLabel": "Se workflowet",
         "instagramCampaign": {

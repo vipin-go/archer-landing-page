@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Tutustu Archeriin"
     },
-    "badge": "Aitoa kuvamateriaalia. Yksi hyväksyntä. Aikataulussa.",
-    "headline": "Tapahtumasi kuvamateriaali takaisin brändättyinä leikkeinä ennen ovien avautumista.",
-    "subheadline": "Lähetä aitoa puhelinkuvaa jokaisesta toimipisteestä. Archer editroi, brändää, lisää tekstitykset ja muuttaa koon Reelsejä, TikTokia, Shortseja ja Snapchatia varten ja ohjaa sitten yhden hyväksynnän ennen tapahtuman määräaikaa.",
+    "badge": "Tekoälypohjaiset tapahtumakampanjat ravintoloille",
+    "headline": "Ravintolasi verkkosivu, muutettuna kampanjaksi.",
+    "subheadline": "Jaa ravintolasi julkinen verkkosivu tai Instagram. Archer lukee todellisen brändi-identiteettisi, vahvistaa tapahtuman ja luo kolme hyväksyttyä kampanjakuvaa, valmiina Instagramiin kirjautumisen jälkeen.",
     "ctaLabel": "Varaa neljän viikon pilotti",
     "secondaryCtaLabel": "Katso työnkulku",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Kirjaudu sisään",
         "pilotLabel": "Varaa pilotti",
-        "eyebrow": "Tapahtumapromootioiden tuotanto hotellialan tiimeille",
+        "eyebrow": "Tekoälypohjaiset tapahtumakampanjat ravintoloille",
         "headingLines": [
-          "Tapahtumasi kuvamateriaali,",
-          "takaisin brändättyinä leikkeinä"
+          "Ravintolasi verkkosivu,",
+          "muutettuna kampanjaksi"
         ],
-        "mutedHeadingLine": "ennen ovien avautumista.",
-        "body": "Lähetä aitoa puhelinkuvaa jokaisesta toimipisteestä. Archer editroi, brändää, lisää tekstitykset ja muuttaa koon Reelsejä, TikTokia, Shortseja ja Snapchatia varten ja ohjaa sitten yhden hyväksynnän ennen tapahtuman määräaikaa.",
+        "mutedHeadingLine": "ennen kuin seuraava tapahtumasi loppuu kesken.",
+        "body": "Jaa ravintolasi julkinen verkkosivu tai Instagram. Archer lukee todellisen brändi-identiteettisi, vahvistaa tapahtuman ja luo kolme hyväksyttyä kampanjakuvaa, valmiina Instagramiin kirjautumisen jälkeen.",
         "primaryCtaLabel": "Varaa neljän viikon pilotti",
         "secondaryCtaLabel": "Katso työnkulku",
         "instagramCampaign": {

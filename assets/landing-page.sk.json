@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Spoznajte Archera"
     },
-    "badge": "Skutočné zábery. Jedno schválenie. Načas.",
-    "headline": "Záznamy z vašej udalosti späť ako značkové klipy skôr, než sa otvoria dvere.",
-    "subheadline": "Pošlite skutočné zábery z mobilu z každého priestoru. Archer ich upraví, označí brandingom, pridá titulky a prispôsobí formát pre Reels, TikTok, Shorts a Snapchat, a potom smeruje jedno schválenie pred termínom udalosti.",
+    "badge": "AI kampane na podujatia pre reštaurácie",
+    "headline": "Web vašej reštaurácie, premenený na kampaň.",
+    "subheadline": "Zdieľajte verejný web alebo Instagram svojej reštaurácie. Archer načíta vašu skutočnú identitu značky, potvrdí podujatie a vytvorí tri schválené kampaňové obrázky, pripravené na Instagram po prihlásení.",
     "ctaLabel": "Objednajte si štvortýždňový pilot",
     "secondaryCtaLabel": "Pozrite si pracovný postup",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Prihlásiť sa",
         "pilotLabel": "Objednajte si pilot",
-        "eyebrow": "Produkcia promo na udalosti pre pohostinské tímy",
+        "eyebrow": "AI kampane na podujatia pre reštaurácie",
         "headingLines": [
-          "Záznamy z vašej udalosti,",
-          "späť ako značkové klipy"
+          "Web vašej reštaurácie,",
+          "premenený na kampaň"
         ],
-        "mutedHeadingLine": "skôr, než sa otvoria dvere.",
-        "body": "Pošlite skutočné zábery z mobilu z každého priestoru. Archer ich upraví, označí brandingom, pridá titulky a prispôsobí formát pre Reels, TikTok, Shorts a Snapchat, a potom smeruje jedno schválenie pred termínom udalosti.",
+        "mutedHeadingLine": "kým sa nevypredajú lístky.",
+        "body": "Zdieľajte verejný web alebo Instagram svojej reštaurácie. Archer načíta vašu skutočnú identitu značky, potvrdí podujatie a vytvorí tri schválené kampaňové obrázky, pripravené na Instagram po prihlásení.",
         "primaryCtaLabel": "Objednajte si štvortýždňový pilot",
         "secondaryCtaLabel": "Pozrite si pracovný postup",
         "instagramCampaign": {

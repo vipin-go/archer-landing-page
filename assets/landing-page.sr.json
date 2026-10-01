@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Upoznajte Archer"
     },
-    "badge": "Pravi snimci. Jedno odobrenje. Na vreme.",
-    "headline": "Snimci s vašeg događaja vraćaju se kao brendirani klipovi pre otvaranja vrata.",
-    "subheadline": "Pošaljite prave snimke sa telefona iz svakog objekta. Archer ih montira, brendira, dodaje titlove i prilagođava veličinu za Reels, TikTok, Shorts i Snapchat, a zatim organizuje jedno odobrenje pre roka za događaj.",
+    "badge": "AI кампање догађаја за ресторане",
+    "headline": "Сајт вашег ресторана, претворен у кампању.",
+    "subheadline": "Поделите јавни сајт или Инстаграм свог ресторана. Archer чита ваш прави идентитет бренда, потврђује догађај и генерише три одобрене слике кампање, спремне за Инстаграм након пријаве.",
     "ctaLabel": "Zakažite četvoronedeljni pilot",
     "secondaryCtaLabel": "Pogledajte tok rada",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Prijavite se",
         "pilotLabel": "Zakažite pilot",
-        "eyebrow": "Produkcija promo materijala za ugostiteljske timove",
+        "eyebrow": "AI кампање догађаја за ресторане",
         "headingLines": [
-          "Snimci s vašeg događaja,",
-          "vraćaju se kao brendirani klipovi"
+          "Сајт вашег ресторана,",
+          "претворен у кампању"
         ],
-        "mutedHeadingLine": "pre otvaranja vrata.",
-        "body": "Pošaljite prave snimke sa telefona iz svakog objekta. Archer ih montira, brendira, dodaje titlove i prilagođava veličinu za Reels, TikTok, Shorts i Snapchat, a zatim organizuje jedno odobrenje pre roka za događaj.",
+        "mutedHeadingLine": "пре него што следећи догађај распрода улазнице.",
+        "body": "Поделите јавни сајт или Инстаграм свог ресторана. Archer чита ваш прави идентитет бренда, потврђује догађај и генерише три одобрене слике кампање, спремне за Инстаграм након пријаве.",
         "primaryCtaLabel": "Zakažite četvoronedeljni pilot",
         "secondaryCtaLabel": "Pogledajte tok rada",
         "instagramCampaign": {

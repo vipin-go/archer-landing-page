@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Upoznajte Archer"
     },
-    "badge": "Stvarni snimci. Jedno odobrenje. Na vrijeme.",
-    "headline": "Vaše snimke događaja, natrag kao brendirani klipovi prije nego se vrata otvore.",
-    "subheadline": "Pošaljite stvarne snimke s telefona iz svakog objekta. Archer ih uređuje, brendira, dodaje titlove i prilagoĊava veličinu za Reels, TikTok, Shorts i Snapchat, a zatim usmjerava jedno odobrenje prije rostleda.",
+    "badge": "AI kampanje za događaje za restorane",
+    "headline": "Web stranica vašeg restorana, pretvorena u kampanju.",
+    "subheadline": "Podijelite javnu web stranicu ili Instagram svog restorana. Archer čita vaš stvarni identitet brenda, potvrđuje događaj i generira tri odobrene slike kampanje, spremne za Instagram nakon prijave.",
     "ctaLabel": "Rezervis četveronedjeljni pilot",
     "secondaryCtaLabel": "Pogledajte tijek rada",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Prijava",
         "pilotLabel": "Rezervis pilot",
-        "eyebrow": "Produkcija promocija događaja za ugostiteljske timove",
+        "eyebrow": "AI kampanje za događaje za restorane",
         "headingLines": [
-          "Vaše snimke događaja,",
-          "natrag kao brendirani klipovi"
+          "Web stranica vašeg restorana,",
+          "pretvorena u kampanju"
         ],
-        "mutedHeadingLine": "prije nego se vrata otvore.",
-        "body": "Pošaljite stvarne snimke s telefona iz svakog objekta. Archer ih uređuje, brendira, dodaje titlove i prilagoĊava veličinu za Reels, TikTok, Shorts i Snapchat, a zatim usmjerava jedno odobrenje prije rostleda.",
+        "mutedHeadingLine": "prije nego što sljedeći događaj rasproda ulaznice.",
+        "body": "Podijelite javnu web stranicu ili Instagram svog restorana. Archer čita vaš stvarni identitet brenda, potvrđuje događaj i generira tri odobrene slike kampanje, spremne za Instagram nakon prijave.",
         "primaryCtaLabel": "Rezervis četveronedjeljni pilot",
         "secondaryCtaLabel": "Pogledajte tijek rada",
         "instagramCampaign": {

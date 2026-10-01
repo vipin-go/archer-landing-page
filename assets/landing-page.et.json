@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Tutvu Archeriga"
     },
-    "badge": "Ehtne materjal. Üks kinnitus. Õigeaegselt.",
-    "headline": "Sinu ürituse kaadrid tulevad tagasi brändiklippidena enne, kui uksed avanevad.",
-    "subheadline": "Saada igast asukohast ehtsat telefoni­materjali. Archer lõikab, brändib, lisab subtiitrid ja vormindab materjali Reelsi, TikToki, Shortsi ja Snapchati jaoks, seejärel suunab ühe kinnituse enne ürituse tähtaega.",
+    "badge": "AI-sündmuskampaaniad restoranidele",
+    "headline": "Sinu restorani veebileht, kampaaniaks muudetud.",
+    "subheadline": "Jaga oma restorani avalikku veebilehte või Instagrami. Archer loeb su tegelikku brändi identiteeti, kinnitab sündmuse ja loob kolm heaks kiidetud kampaaniapilti, valmis Instagrami pärast sisselogimist.",
     "ctaLabel": "Broneeri neljanädalane pilootprojekt",
     "secondaryCtaLabel": "Vaata töövoogu",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Logi sisse",
         "pilotLabel": "Broneeri pilootprojekt",
-        "eyebrow": "Ürituste promo­tootmine hotelli- ja toitlustusmeeskondadele",
+        "eyebrow": "AI-sündmuskampaaniad restoranidele",
         "headingLines": [
-          "Sinu ürituse kaadrid,",
-          "tagasi brändiklippidena"
+          "Sinu restorani veebileht,",
+          "kampaaniaks muudetud"
         ],
-        "mutedHeadingLine": "enne, kui uksed avanevad.",
-        "body": "Saada igast asukohast ehtsat telefoni­materjali. Archer lõikab, brändib, lisab subtiitrid ja vormindab materjali Reelsi, TikToki, Shortsi ja Snapchati jaoks, seejärel suunab ühe kinnituse enne ürituse tähtaega.",
+        "mutedHeadingLine": "enne kui piletid otsa saavad.",
+        "body": "Jaga oma restorani avalikku veebilehte või Instagrami. Archer loeb su tegelikku brändi identiteeti, kinnitab sündmuse ja loob kolm heaks kiidetud kampaaniapilti, valmis Instagrami pärast sisselogimist.",
         "primaryCtaLabel": "Broneeri neljanädalane pilootprojekt",
         "secondaryCtaLabel": "Vaata töövoogu",
         "instagramCampaign": {

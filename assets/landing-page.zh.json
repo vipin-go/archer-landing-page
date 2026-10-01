@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "认识 Archer"
     },
-    "badge": "真实镜头。一轮审批。准时。",
-    "headline": "您的活动镜头，在大门开启前作为品牌剪辑。",
-    "subheadline": "发送每个场所的真实手机镜头。Archer 为 Reels、TikTok、Shorts 和 Snapchat 进行编辑、品牌化、添加字幕并调整尺寸，然后在活动截止前进行一次审批。",
+    "badge": "面向餐厅的AI活动营销",
+    "headline": "你的餐厅网站，变成一场营销活动。",
+    "subheadline": "分享你餐厅的公开网站或Instagram。Archer读取你真实的品牌形象，确认活动详情，并生成三张已批准的营销图片，登录后即可发布或安排到Instagram。",
     "ctaLabel": "预订四周试点",
     "secondaryCtaLabel": "查看工作流",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "登录",
         "pilotLabel": "预订试点",
-        "eyebrow": " hospitality 团队的活动促销制作",
+        "eyebrow": "面向餐厅的AI活动营销",
         "headingLines": [
-          "您的活动镜头，",
-          "作为品牌剪辑. "
+          "你的餐厅网站，",
+          "变成一场营销活动"
         ],
-        "mutedHeadingLine": "在大门开启前。",
-        "body": "发送每个场所的真实手机镜头。Archer 为 Reels、TikTok、Shorts 和 Snapchat 进行编辑、品牌化、添加字幕并调整尺寸，然后在活动截止前进行一次审批。",
+        "mutedHeadingLine": "趁下次活动票还没卖完。",
+        "body": "分享你餐厅的公开网站或Instagram。Archer读取你真实的品牌形象，确认活动详情，并生成三张已批准的营销图片，登录后即可发布或安排到Instagram。",
         "primaryCtaLabel": "预订四周试点",
         "secondaryCtaLabel": "查看工作流",
         "instagramCampaign": {

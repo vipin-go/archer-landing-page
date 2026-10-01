@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Møt Archer"
     },
-    "badge": "Ekte opptak. Én godkjenning. I tide.",
-    "headline": "Ditt eventopptak, tilbake som merkede klipp før dørene åpnes.",
-    "subheadline": "Send ekte mobilopptak fra hvert venue. Archer redigerer, merker, tekstlegger og tilpasser størrelsen for Reels, TikTok, Shorts og Snapchat, og sender deretter én godkjenning før arrangementets frist.",
+    "badge": "AI-arrangementskampanjer for restauranter",
+    "headline": "Restaurantens nettside, gjort om til en kampanje.",
+    "subheadline": "Del restaurantens offentlige nettside eller Instagram. Archer leser din ekte merkeidentitet, bekrefter arrangementet og lager tre godkjente kampanjebilder, klare for Instagram etter innlogging.",
     "ctaLabel": "Bestill et fireukers pilotprosjekt",
     "secondaryCtaLabel": "Se arbeidsflyten",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Logg inn",
         "pilotLabel": "Bestill et pilotprosjekt",
-        "eyebrow": "Eventpromo-produksjon for hotell- og restaurantteam",
+        "eyebrow": "AI-arrangementskampanjer for restauranter",
         "headingLines": [
-          "Ditt eventopptak,",
-          "tilbake som merkede klipp"
+          "Restaurantens nettside,",
+          "gjort om til en kampanje"
         ],
-        "mutedHeadingLine": "før dørene åpnes.",
-        "body": "Send ekte mobilopptak fra hvert venue. Archer redigerer, merker, tekstlegger og tilpasser størrelsen for Reels, TikTok, Shorts og Snapchat, og sender deretter én godkjenning før arrangementets frist.",
+        "mutedHeadingLine": "før neste arrangement er utsolgt.",
+        "body": "Del restaurantens offentlige nettside eller Instagram. Archer leser din ekte merkeidentitet, bekrefter arrangementet og lager tre godkjente kampanjebilder, klare for Instagram etter innlogging.",
         "primaryCtaLabel": "Bestill et fireukers pilotprosjekt",
         "secondaryCtaLabel": "Se arbeidsflyten",
         "instagramCampaign": {

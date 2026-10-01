@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Susipažinkite su Archer"
     },
-    "badge": "Tikros filmuotos medžiagos. Vienas patvirtinimas. Laiku.",
-    "headline": "Jūsų renginio filmuota medžiaga grįžta kaip prekės ženklą atspindintys klipai dar prieš atsidarant durims.",
-    "subheadline": "Siųskite tikrą telefono filmuotą medžiagą iš kiekvienos vietos. Archer ją redaguoja, pažymi prekės ženklu, prideda subtitrus ir pritaiko formatą „Reels“, „TikTok“, „Shorts“ ir „Snapchat“, tada pateikia vieną patvirtinimą prieš renginio terminą.",
+    "badge": "DI renginių kampanijos restoranams",
+    "headline": "Jūsų restorano svetainė, paversta kampanija.",
+    "subheadline": "Pasidalykite savo restorano vieša svetaine ar Instagram. Archer nuskaito jūsų tikrąją prekės ženklo tapatybę, patvirtina renginį ir sukuria tris patvirtintus kampanijos vaizdus, paruoštus Instagram po prisijungimo.",
     "ctaLabel": "Užsakyti keturių savaičių bandomąjį laikotarpį",
     "secondaryCtaLabel": "Peržiūrėti darbo eigą",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Prisijungti",
         "pilotLabel": "Užsakyti bandomąjį laikotarpį",
-        "eyebrow": "Renginių reklamų gamyba svetingumo komandoms",
+        "eyebrow": "DI renginių kampanijos restoranams",
         "headingLines": [
-          "Jūsų renginio filmuota medžiaga,",
-          "grąžinama kaip prekės ženklo klipai"
+          "Jūsų restorano svetainė,",
+          "paversta kampanija"
         ],
-        "mutedHeadingLine": "dar prieš atsidarant durims.",
-        "body": "Siųskite tikrą telefono filmuotą medžiagą iš kiekvienos vietos. Archer ją redaguoja, pažymi prekės ženklu, prideda subtitrus ir pritaiko formatą „Reels“, „TikTok“, „Shorts“ ir „Snapchat“, tada pateikia vieną patvirtinimą prieš renginio terminą.",
+        "mutedHeadingLine": "kol neišparduoti kito renginio bilietai.",
+        "body": "Pasidalykite savo restorano vieša svetaine ar Instagram. Archer nuskaito jūsų tikrąją prekės ženklo tapatybę, patvirtina renginį ir sukuria tris patvirtintus kampanijos vaizdus, paruoštus Instagram po prisijungimo.",
         "primaryCtaLabel": "Užsakyti keturių savaičių bandomąjį laikotarpį",
         "secondaryCtaLabel": "Peržiūrėti darbo eigą",
         "instagramCampaign": {

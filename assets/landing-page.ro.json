@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Cunoaște-l pe Archer"
     },
-    "badge": "filmări reale. O singură aprobare. la timp.",
-    "headline": "Imaginile evenimentului dvs., înapoi ca clipuri de marcă înainte de a se deschide ușile.",
-    "subheadline": "Trimiteți imagini de telefon reale din fiecare locație. Archer editări, mărci, subtitrări și redimensionează pentru Reels, TikTok, Shorts și Snapchat, apoi direcționează o aprobare înainte de termenul limită al evenimentului.",
+    "badge": "Campanii de evenimente AI pentru restaurante",
+    "headline": "Site-ul restaurantului tău, transformat în campanie.",
+    "subheadline": "Distribuie site-ul public sau Instagramul restaurantului tău. Archer citește identitatea reală a brandului, confirmă evenimentul și generează trei imagini de campanie aprobate, gata pentru Instagram după autentificare.",
     "ctaLabel": "Rezervați un pilot de patru săptămâni",
     "secondaryCtaLabel": "vezi fluxul de lucru",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Autentifica",
         "pilotLabel": "Rezervați un pilot",
-        "eyebrow": "Producție promoțională pentru echipe pentru echipe de ospitalitate",
+        "eyebrow": "Campanii de evenimente AI pentru restaurante",
         "headingLines": [
-          "filmările evenimentului dvs.,",
-          "înapoi ca clipuri de marcă"
+          "Site-ul restaurantului tău,",
+          "transformat în campanie"
         ],
-        "mutedHeadingLine": "înainte ca ușile să se deschidă.",
-        "body": "Trimiteți imagini de telefon reale din fiecare locație. Archer editări, mărci, subtitrări și redimensionează pentru Reels, TikTok, Shorts și Snapchat, apoi direcționează o aprobare înainte de termenul limită al evenimentului.",
+        "mutedHeadingLine": "înainte ca biletele să se epuizeze.",
+        "body": "Distribuie site-ul public sau Instagramul restaurantului tău. Archer citește identitatea reală a brandului, confirmă evenimentul și generează trei imagini de campanie aprobate, gata pentru Instagram după autentificare.",
         "primaryCtaLabel": "Rezervați un pilot de patru săptămâni",
         "secondaryCtaLabel": "vezi fluxul de lucru",
         "instagramCampaign": {

@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Seznamte se s Archerem"
     },
-    "badge": "Skutečné záběry. Jedno schválení. Včas.",
-    "headline": "Vaše eventové záběry se vrátí jako značkované klipy ještě před otevřením dveří.",
-    "subheadline": "Odešlete skutečné videonahrávky z každého místa. Archer je stříhá, značí, přidává titulky a přizpůsobuje pro Reels, TikTok, Shorts a Snapchat, a předem spravuje jednotné schválení před termínem události.",
+    "badge": "AI kampaně na akce pro restaurace",
+    "headline": "Web vaší restaurace, proměněný v kampaň.",
+    "subheadline": "Sdílejte veřejný web nebo Instagram restaurace. Archer přečte vaši skutečnou identitu značky, potvrdí akci a vytvoří tři schválené kampaňové obrázky, připravené ke zveřejnění na Instagramu po přihlášení.",
     "ctaLabel": "Objednat čtyřtýdenní pilot",
     "secondaryCtaLabel": "Podívat se na proces",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Přihlásit se",
         "pilotLabel": "Objednat pilot",
-        "eyebrow": "Produkce propagačních materiálů pro události pro týmy v hotelnictví",
+        "eyebrow": "AI kampaně na akce pro restaurace",
         "headingLines": [
-          "Vaše událostní záběry,",
-          "se vrátí jako značkované klipy"
+          "Web vaší restaurace,",
+          "proměněný v kampaň"
         ],
-        "mutedHeadingLine": "ještě před otevřením dveří.",
-        "body": "Odešlete skutečné videonahrávky z každého místa. Archer je stříhá, značí, přidává titulky a přizpůsobuje pro Reels, TikTok, Shorts a Snapchat, a předem spravuje jednotné schválení před termínem události.",
+        "mutedHeadingLine": "než se akce vyprodá.",
+        "body": "Sdílejte veřejný web nebo Instagram restaurace. Archer přečte vaši skutečnou identitu značky, potvrdí akci a vytvoří tři schválené kampaňové obrázky, připravené ke zveřejnění na Instagramu po přihlášení.",
         "primaryCtaLabel": "Objednat čtyřtýdenní pilot",
         "secondaryCtaLabel": "Podívat se na proces",
         "instagramCampaign": {

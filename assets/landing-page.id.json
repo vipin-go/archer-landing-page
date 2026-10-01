@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Kenali Archer"
     },
-    "badge": "rekaman nyata. satu persetujuan. tepat waktu.",
-    "headline": "Rekaman acara Anda, kembali sebagai klip bermerek sebelum pintu terbuka.",
-    "subheadline": "Kirim cuplikan telepon asli dari setiap tempat. Archer Mengedit, merek, keterangan, dan mengubah ukurannya untuk Reels, TikTok, Shorts, dan Snapchat, kemudian rute satu persetujuan sebelum acara tenggat waktu.",
+    "badge": "Kampanye acara AI untuk restoran",
+    "headline": "Situs web restoranmu, diubah jadi kampanye.",
+    "subheadline": "Bagikan situs web publik atau Instagram restoranmu. Archer membaca identitas merek asli, mengonfirmasi acara, dan membuat tiga gambar kampanye yang disetujui, siap dipublikasikan ke Instagram setelah masuk.",
     "ctaLabel": "Pesan pilot empat minggu",
     "secondaryCtaLabel": "Lihat alur kerja",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Masuk",
         "pilotLabel": "memesan pilot",
-        "eyebrow": "Produksi acara-promo untuk tim perhotelan",
+        "eyebrow": "Kampanye acara AI untuk restoran",
         "headingLines": [
-          "Rekaman acara Anda,",
-          "Kembali sebagai klip bermerek"
+          "Situs web restoranmu,",
+          "diubah jadi kampanye"
         ],
-        "mutedHeadingLine": "Sebelum pintu terbuka.",
-        "body": "Kirim cuplikan telepon asli dari setiap tempat. Archer Mengedit, merek, keterangan, dan mengubah ukurannya untuk Reels, TikTok, Shorts, dan Snapchat, kemudian rute satu persetujuan sebelum acara tenggat waktu.",
+        "mutedHeadingLine": "sebelum acara berikutnya terjual habis.",
+        "body": "Bagikan situs web publik atau Instagram restoranmu. Archer membaca identitas merek asli, mengonfirmasi acara, dan membuat tiga gambar kampanye yang disetujui, siap dipublikasikan ke Instagram setelah masuk.",
         "primaryCtaLabel": "Pesan pilot empat minggu",
         "secondaryCtaLabel": "Lihat alur kerja",
         "instagramCampaign": {

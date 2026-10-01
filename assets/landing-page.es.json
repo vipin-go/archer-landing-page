@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Conoce Archer"
     },
-    "badge": "Imagen real. Una aprobación. A tiempo.",
-    "headline": "El material de tu evento, de vuelta como clips con marca antes de que abran las puertas.",
-    "subheadline": "Envía material real de teléfono desde cada sede. Archer edita, marca, subtitula y redimensiona para Reels, TikTok, Shorts y Snapchat, y gestiona una aprobación antes de la fecha límite del evento.",
+    "badge": "Campañas de eventos con IA para restaurantes",
+    "headline": "La web de tu restaurante, convertida en campaña.",
+    "subheadline": "Comparte la web pública o el Instagram de tu restaurante. Archer lee tu identidad de marca real, confirma el evento y genera tres imágenes de campaña aprobadas, listas para Instagram tras iniciar sesión.",
     "ctaLabel": "Reservar un piloto de cuatro semanas",
     "secondaryCtaLabel": "Ver el flujo de trabajo",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Iniciar sesión",
         "pilotLabel": "Reservar un piloto",
-        "eyebrow": "Producción de promociones de eventos para equipos de hostelería",
+        "eyebrow": "Campañas de eventos con IA para restaurantes",
         "headingLines": [
-          "El material de tu evento,",
-          "de vuelta como clips con marca"
+          "La web de tu restaurante,",
+          "convertida en campaña"
         ],
-        "mutedHeadingLine": "antes de que abran las puertas.",
-        "body": "Envía material real de teléfono desde cada sede. Archer edita, marca, subtitula y redimensiona para Reels, TikTok, Shorts y Snapchat, y gestiona una aprobación antes de la fecha límite del evento.",
+        "mutedHeadingLine": "antes de que se agoten las entradas.",
+        "body": "Comparte la web pública o el Instagram de tu restaurante. Archer lee tu identidad de marca real, confirma el evento y genera tres imágenes de campaña aprobadas, listas para Instagram tras iniciar sesión.",
         "primaryCtaLabel": "Reservar un piloto de cuatro semanas",
         "secondaryCtaLabel": "Ver el flujo de trabajo",
         "instagramCampaign": {

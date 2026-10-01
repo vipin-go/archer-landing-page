@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Archer'i Tanı"
     },
-    "badge": "Gerçek görüntü. Tek onay. zamanında.",
-    "headline": "Etkinlik görüntüleri, kapı açılmadan brant klip olarak.",
-    "subheadline": "Her bir venue için gerçek telefon görüntüsü gönderin. Archer, Reels, TikTok, Shorts ve Snapchat için düzenler, brandeer, alt metin ekler ve boyutlandırır, etkinlik tarihinden önce tek bir onayı yönlendirir.",
+    "badge": "Restoranlar için yapay zekâ etkinlik kampanyaları",
+    "headline": "Restoranınızın web sitesi, bir kampanyaya dönüştü.",
+    "subheadline": "Restoranınızın herkese açık web sitesini veya Instagram'ını paylaşın. Archer gerçek marka kimliğinizi okur, etkinliği onaylar ve giriş yaptıktan sonra Instagram'da paylaşıma hazır, onaylanmış üç kampanya görseli oluşturur.",
     "ctaLabel": "Dört haftalık pilot başvurusu",
     "secondaryCtaLabel": "Workflow'i gör",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Giriş yap",
         "pilotLabel": "Pilot başvurusu",
-        "eyebrow": "Hospitality takımları için etkinlik promoları üretimi",
+        "eyebrow": "Restoranlar için yapay zekâ etkinlik kampanyaları",
         "headingLines": [
-          "Etkinlik görüntüleri,",
-          "geri brant klipler"
+          "Restoranınızın web sitesi,",
+          "bir kampanyaya dönüştü"
         ],
-        "mutedHeadingLine": "kapı açılmadan.",
-        "body": "Her bir venue için gerçek telefon görüntüsü gönderin. Archer, Reels, TikTok, Shorts ve Snapchat için düzenler, brandeer, alt metin ekler ve boyutlandırır, etkinlik tarihinden önce tek bir onayı yönlendirir.",
+        "mutedHeadingLine": "bir sonraki etkinliğiniz tükenmeden önce.",
+        "body": "Restoranınızın herkese açık web sitesini veya Instagram'ını paylaşın. Archer gerçek marka kimliğinizi okur, etkinliği onaylar ve giriş yaptıktan sonra Instagram'da paylaşıma hazır, onaylanmış üç kampanya görseli oluşturur.",
         "primaryCtaLabel": "Dört haftalık pilot başvurusu",
         "secondaryCtaLabel": "Workflow'i gör",
         "instagramCampaign": {

@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Möt Archer"
     },
-    "badge": "Riktig film. Ett godkännande. i tid.",
-    "headline": "Dina evenemangsfilmer, tillbaka som märkesklipp innan dörrarna öppnas.",
-    "subheadline": "Skicka riktiga telefonbilder från varje plats. Archer Redigeringar, varumärken, bildtexter och storleksändringar för Reels, TikTok, Shorts och Snapchat, sedan dirigerar ett godkännande före evenemangets deadline.",
+    "badge": "AI-eventkampanjer för restauranger",
+    "headline": "Din restaurangs webbplats, omgjord till en kampanj.",
+    "subheadline": "Dela din restaurangs offentliga webbplats eller Instagram. Archer läser din verkliga varumärkesidentitet, bekräftar eventet och skapar tre godkända kampanjbilder, redo för Instagram efter inloggning.",
     "ctaLabel": "Boka en fyra veckor lång pilot",
     "secondaryCtaLabel": "Se arbetsflödet",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Logga in",
         "pilotLabel": "Boka en pilot",
-        "eyebrow": "Event-kampanjproduktion för gästfrihetsteam",
+        "eyebrow": "AI-eventkampanjer för restauranger",
         "headingLines": [
-          "Dina evenemangsfilmer,",
-          "Tillbaka som märkesklipp"
+          "Din restaurangs webbplats,",
+          "omgjord till en kampanj"
         ],
-        "mutedHeadingLine": "Innan dörrarna öppnas.",
-        "body": "Skicka riktiga telefonbilder från varje plats. Archer Redigeringar, varumärken, bildtexter och storleksändringar för Reels, TikTok, Shorts och Snapchat, sedan dirigerar ett godkännande före evenemangets deadline.",
+        "mutedHeadingLine": "innan ditt nästa event är slutsålt.",
+        "body": "Dela din restaurangs offentliga webbplats eller Instagram. Archer läser din verkliga varumärkesidentitet, bekräftar eventet och skapar tre godkända kampanjbilder, redo för Instagram efter inloggning.",
         "primaryCtaLabel": "Boka en fyra veckor lång pilot",
         "secondaryCtaLabel": "Se arbetsflödet",
         "instagramCampaign": {

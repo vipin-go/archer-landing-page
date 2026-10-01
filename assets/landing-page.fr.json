@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Rencontrez Archer"
     },
-    "badge": "Images réelles. Une approbation. À temps.",
-    "headline": "Vos images d'événement, renvoyées sous forme de clips marqués avant l'ouverture des portes.",
-    "subheadline": "Envoyez les véritables séquences téléphoniques de chaque lieu. Archer édite, marque, sous-titre et redimensionne pour Reels, TikTok, Shorts et Snapchat, puis dirige une approbation unique avant la date limite de l'événement.",
+    "badge": "Campagnes d'événements IA pour restaurants",
+    "headline": "Le site de votre restaurant, transformé en campagne.",
+    "subheadline": "Partagez le site public ou l'Instagram de votre restaurant. Archer lit votre véritable identité de marque, confirme l'événement et génère trois visuels de campagne approuvés, prêts pour Instagram après connexion.",
     "ctaLabel": "Réservez un pilote de quatre semaines",
     "secondaryCtaLabel": "Voir le workflow",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Se connecter",
         "pilotLabel": "Réserver un pilote",
-        "eyebrow": "Production de promos d'événements pour les équipes hôtelières",
+        "eyebrow": "Campagnes d'événements IA pour restaurants",
         "headingLines": [
-          "Votre événement, vos images,",
-          "reviennent sous forme de clips marqués"
+          "Le site de votre restaurant,",
+          "transformé en campagne"
         ],
-        "mutedHeadingLine": "avant l'ouverture des portes.",
-        "body": "Envoyez les véritables séquences téléphoniques de chaque lieu. Archer édite, marque, sous-titre et redimensionne pour Reels, TikTok, Shorts et Snapchat, puis dirige une approbation unique avant la date limite de l'événement.",
+        "mutedHeadingLine": "avant que votre prochain événement affiche complet.",
+        "body": "Partagez le site public ou l'Instagram de votre restaurant. Archer lit votre véritable identité de marque, confirme l'événement et génère trois visuels de campagne approuvés, prêts pour Instagram après connexion.",
         "primaryCtaLabel": "Réservez un pilote de quatre semaines",
         "secondaryCtaLabel": "Voir le workflow",
         "instagramCampaign": {

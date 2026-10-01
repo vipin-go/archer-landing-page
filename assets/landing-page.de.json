@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Treffen Sie Archer"
     },
-    "badge": "Echte Aufnahmen. Eine Genehmigung. Pünktlich.",
-    "headline": "Ihr Event-Material zurück als markengerechte Clips, bevor die Türen öffnen.",
-    "subheadline": "Senden Sie echtes Handy-Material von jedem Standort. Archer schneidet, brandet, untertitelt und skaliert es für Reels, TikTok, Shorts und Snapchat und leitet eine Genehmigung vor dem Event-Termin.",
+    "badge": "KI-Eventkampagnen für Restaurants",
+    "headline": "Die Website deines Restaurants, zur Kampagne gemacht.",
+    "subheadline": "Teile die öffentliche Website oder Instagram deines Restaurants. Archer liest deine echte Markenidentität, bestätigt das Event und erstellt drei freigegebene Kampagnenbilder, bereit für Instagram nach der Anmeldung.",
     "ctaLabel": "Vierwöchige Pilotphase buchen",
     "secondaryCtaLabel": "Workflow ansehen",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Anmelden",
         "pilotLabel": "Pilotphase buchen",
-        "eyebrow": "Event-Promo-Produktion für Gastgewerbe-Teams",
+        "eyebrow": "KI-Eventkampagnen für Restaurants",
         "headingLines": [
-          "Ihr Event-Material,",
-          "zurück als markengerechte Clips"
+          "Die Website deines Restaurants,",
+          "zur Kampagne gemacht"
         ],
-        "mutedHeadingLine": "bevor die Türen öffnen.",
-        "body": "Senden Sie echtes Handy-Material von jedem Standort. Archer schneidet, brandet, untertitelt und skaliert es für Reels, TikTok, Shorts und Snapchat und leitet eine Genehmigung vor dem Event-Termin.",
+        "mutedHeadingLine": "bevor dein nächstes Event ausverkauft ist.",
+        "body": "Teile die öffentliche Website oder Instagram deines Restaurants. Archer liest deine echte Markenidentität, bestätigt das Event und erstellt drei freigegebene Kampagnenbilder, bereit für Instagram nach der Anmeldung.",
         "primaryCtaLabel": "Vierwöchige Pilotphase buchen",
         "secondaryCtaLabel": "Workflow ansehen",
         "instagramCampaign": {

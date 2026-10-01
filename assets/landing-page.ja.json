@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Archerをご紹介します"
     },
-    "badge": "本物の映像。承認は一度だけ。時間どおりに。",
-    "headline": "イベントの映像を、開場前にブランディング済みクリップとしてお返しします。",
-    "subheadline": "各会場からスマートフォンで撮影した実映像を送ってください。Archerが編集・ブランディング・字幕付け・サイズ調整を行い、Reels、TikTok、Shorts、Snapchat向けに用意して、イベント締切前に一度承認を取ります。",
+    "badge": "レストラン向けAIイベントキャンペーン",
+    "headline": "レストランのウェブサイトが、キャンペーンに。",
+    "subheadline": "レストランの公開ウェブサイトまたはInstagramを共有してください。Archerが実際のブランドアイデンティティを読み取り、イベントを確認し、承認済みのキャンペーン画像を3枚生成します。ログイン後にInstagramへ公開・予約できます。",
     "ctaLabel": "4週間のパイロットを予約する",
     "secondaryCtaLabel": "ワークフローを見る",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "ログイン",
         "pilotLabel": "パイロットを予約する",
-        "eyebrow": "ホスピタリティチーム向けイベントプロモ制作",
+        "eyebrow": "レストラン向けAIイベントキャンペーン",
         "headingLines": [
-          "イベントの映像を、",
-          "ブランディング済みクリップとして"
+          "レストランのウェブサイトが、",
+          "キャンペーンに"
         ],
-        "mutedHeadingLine": "開場前に。",
-        "body": "各会場からスマートフォンで撮影した実映像を送ってください。Archerが編集・ブランディング・字幕付け・サイズ調整を行い、Reels、TikTok、Shorts、Snapchat向けに用意して、イベント締切前に一度承認を取ります。",
+        "mutedHeadingLine": "次のイベントが満席になる前に。",
+        "body": "レストランの公開ウェブサイトまたはInstagramを共有してください。Archerが実際のブランドアイデンティティを読み取り、イベントを確認し、承認済みのキャンペーン画像を3枚生成します。ログイン後にInstagramへ公開・予約できます。",
         "primaryCtaLabel": "4週間のパイロットを予約する",
         "secondaryCtaLabel": "ワークフローを見る",
         "instagramCampaign": {

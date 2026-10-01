@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Archer를 만나보세요"
     },
-    "badge": "실제 촬영. 한 번의 승인. 정시에.",
-    "headline": "이벤트 촬영 영상이 오픈 전에 브랜드 클립으로 돌아옵니다.",
-    "subheadline": "각 Venue에서 스마트폰으로 촬영한 실제 영상을 보내주세요. Archer가 편집, 브랜딩, 자막, 크기 조정을 Reels, TikTok, Shorts, Snapchat에 맞춰 처리하고, 이벤트 마감 전에 한 번 승인을 받습니다.",
+    "badge": "레스토랑을 위한 AI 이벤트 캠페인",
+    "headline": "레스토랑 웹사이트가 캠페인으로.",
+    "subheadline": "레스토랑의 공개 웹사이트나 인스타그램을 공유하세요. Archer가 실제 브랜드 아이덴티티를 읽고, 이벤트를 확인한 뒤, 승인된 캠페인 이미지 3장을 생성합니다. 로그인 후 인스타그램에 게시하거나 예약할 수 있습니다.",
     "ctaLabel": "4주 파일럿 예약하기",
     "secondaryCtaLabel": "워크플로 보기",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "로그인",
         "pilotLabel": "파일럿 예약",
-        "eyebrow": "호스피탈리티 팀을 위한 이벤트 프로모 제작",
+        "eyebrow": "레스토랑을 위한 AI 이벤트 캠페인",
         "headingLines": [
-          "이벤트 촬영 영상을,",
-          "브랜드 클립으로"
+          "레스토랑 웹사이트가,",
+          "캠페인으로"
         ],
-        "mutedHeadingLine": "오픈 전에.",
-        "body": "각 Venue에서 스마트폰으로 촬영한 실제 영상을 보내주세요. Archer가 편집, 브랜딩, 자막, 크기 조정을 Reels, TikTok, Shorts, Snapchat에 맞춰 처리하고, 이벤트 마감 전에 한 번 승인을 받습니다.",
+        "mutedHeadingLine": "다음 이벤트가 매진되기 전에.",
+        "body": "레스토랑의 공개 웹사이트나 인스타그램을 공유하세요. Archer가 실제 브랜드 아이덴티티를 읽고, 이벤트를 확인한 뒤, 승인된 캠페인 이미지 3장을 생성합니다. 로그인 후 인스타그램에 게시하거나 예약할 수 있습니다.",
         "primaryCtaLabel": "4주 파일럿 예약하기",
         "secondaryCtaLabel": "워크플로 보기",
         "instagramCampaign": {

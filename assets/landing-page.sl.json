@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Spoznajte Archerja"
     },
-    "badge": "Resnični posnetki. Eno odobritev. Pravočasno.",
-    "headline": "Vaši posnetki dogodkov, vrnjeni kot blagovno znamkani izrezki, preden se odprejo vrata.",
-    "subheadline": "Pošljite resnične telefonske posnetke iz vsakega lokala. Archer jih uredi, blagovno označi, podnaslovi in prilagodi velikost za Reels, TikTok, Shorts in Snapchat, nato pa usmeri eno odobritev pred rokom dogodka.",
+    "badge": "AI kampanje dogodkov za restavracije",
+    "headline": "Spletna stran vaše restavracije, spremenjena v kampanjo.",
+    "subheadline": "Delite javno spletno stran ali Instagram svoje restavracije. Archer prebere vašo pravo identiteto blagovne znamke, potrdi dogodek in ustvari tri odobrene slike kampanje, pripravljene za Instagram po prijavi.",
     "ctaLabel": "Rezervirajte štiritedenski pilotni projekt",
     "secondaryCtaLabel": "Oglejte si potek dela",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Prijava",
         "pilotLabel": "Rezervirajte pilotni projekt",
-        "eyebrow": "Produkcija promocij dogodkov za gostinske ekipe",
+        "eyebrow": "AI kampanje dogodkov za restavracije",
         "headingLines": [
-          "Vaši posnetki dogodkov,",
-          "vrnjeni kot blagovno znamkani izrezki"
+          "Spletna stran vaše restavracije,",
+          "spremenjena v kampanjo"
         ],
-        "mutedHeadingLine": "preden se odprejo vrata.",
-        "body": "Pošljite resnične telefonske posnetke iz vsakega lokala. Archer jih uredi, blagovno označi, podnaslovi in prilagodi velikost za Reels, TikTok, Shorts in Snapchat, nato pa usmeri eno odobritev pred rokom dogodka.",
+        "mutedHeadingLine": "preden zmanjka vstopnic.",
+        "body": "Delite javno spletno stran ali Instagram svoje restavracije. Archer prebere vašo pravo identiteto blagovne znamke, potrdi dogodek in ustvari tri odobrene slike kampanje, pripravljene za Instagram po prijavi.",
         "primaryCtaLabel": "Rezervirajte štiritedenski pilotni projekt",
         "secondaryCtaLabel": "Oglejte si potek dela",
         "instagramCampaign": {

@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Maak kennis met Archer"
     },
-    "badge": "Echte beelden. Eén goedkeuring. Op tijd.",
-    "headline": "Jouw event-beelden, terug als merkclips voordat de deuren opengaan.",
-    "subheadline": "Verstuur echte telefoonbeelden van elke locatie. Archer bewerkt, brandt, ondertitelt en past de grootte aan voor Reels, TikTok, Shorts en Snapchat, en stuurt vervolgens één goedkeuring voordat de deadline van het evenement verstrijkt.",
+    "badge": "AI-evenementcampagnes voor restaurants",
+    "headline": "De website van je restaurant, omgezet in een campagne.",
+    "subheadline": "Deel de openbare website of Instagram van je restaurant. Archer leest je echte merkidentiteit, bevestigt het evenement en maakt drie goedgekeurde campagnebeelden, klaar voor Instagram na inloggen.",
     "ctaLabel": "Boek een pilot van vier weken",
     "secondaryCtaLabel": "Bekijk de workflow",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Inloggen",
         "pilotLabel": "Boek een pilot",
-        "eyebrow": "Event-promo productie voor horecateams",
+        "eyebrow": "AI-evenementcampagnes voor restaurants",
         "headingLines": [
-          "Jouw event-beelden,",
-          "terug als merkclips"
+          "De website van je restaurant,",
+          "omgezet in een campagne"
         ],
-        "mutedHeadingLine": "voordat de deuren opengaan.",
-        "body": "Verstuur echte telefoonbeelden van elke locatie. Archer bewerkt, brandt, ondertitelt en past de grootte aan voor Reels, TikTok, Shorts en Snapchat, en stuurt vervolgens één goedkeuring voordat de deadline van het evenement verstrijkt.",
+        "mutedHeadingLine": "voordat je volgende evenement uitverkocht is.",
+        "body": "Deel de openbare website of Instagram van je restaurant. Archer leest je echte merkidentiteit, bevestigt het evenement en maakt drie goedgekeurde campagnebeelden, klaar voor Instagram na inloggen.",
         "primaryCtaLabel": "Boek een pilot van vier weken",
         "secondaryCtaLabel": "Bekijk de workflow",
         "instagramCampaign": {

@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Iepazīstieties ar Archer"
     },
-    "badge": "Īsti kadri. Viens apstiprinājums. Laikā.",
-    "headline": "Jūsu pasākuma kadri — atpakaļ kā zīmēti klipi pirms durvis atveras.",
-    "subheadline": "Nosūtiet īstus mobilā tālruņa video no katras vietas. Archer rediģē, pievieno zīmolu, subtitrus un maina izmērus formātiem Reels, TikTok, Shorts un Snapchat, pēc tam nodrošina vienu apstiprinājumu pirms pasākuma termiņa.",
+    "badge": "AI pasākumu kampaņas restorāniem",
+    "headline": "Jūsu restorāna vietne, pārvērsta kampaņā.",
+    "subheadline": "Kopīgojiet sava restorāna publisko vietni vai Instagram. Archer nolasa jūsu patieso zīmola identitāti, apstiprina pasākumu un izveido trīs apstiprinātus kampaņas attēlus, gatavus Instagram pēc pieteikšanās.",
     "ctaLabel": "Pieteikt četru nedēļu pilotprojektu",
     "secondaryCtaLabel": "Skatīt darbplūsmu",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Pieteikties",
         "pilotLabel": "Pieteikt pilotprojektu",
-        "eyebrow": "Pasākumu reklāmu ražošana HoReCa komandām",
+        "eyebrow": "AI pasākumu kampaņas restorāniem",
         "headingLines": [
-          "Jūsu pasākuma kadri,",
-          "atpakaļ kā zīmēti klipi"
+          "Jūsu restorāna vietne,",
+          "pārvērsta kampaņā"
         ],
-        "mutedHeadingLine": "pirms durvis atveras.",
-        "body": "Nosūtiet īstus mobilā tālruņa video no katras vietas. Archer rediģē, pievieno zīmolu, subtitrus un maina izmērus formātiem Reels, TikTok, Shorts un Snapchat, pēc tam nodrošina vienu apstiprinājumu pirms pasākuma termiņa.",
+        "mutedHeadingLine": "pirms nākamā pasākuma biļetes izpārdotas.",
+        "body": "Kopīgojiet sava restorāna publisko vietni vai Instagram. Archer nolasa jūsu patieso zīmola identitāti, apstiprina pasākumu un izveido trīs apstiprinātus kampaņas attēlus, gatavus Instagram pēc pieteikšanās.",
         "primaryCtaLabel": "Pieteikt četru nedēļu pilotprojektu",
         "secondaryCtaLabel": "Skatīt darbplūsmu",
         "instagramCampaign": {

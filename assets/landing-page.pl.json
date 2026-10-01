@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Poznaj Archer"
     },
-    "badge": "Prawdziwe nagrania. Jedno zatwierdzenie. Na czas.",
-    "headline": "Materiał z Twojego wydarzenia wraca jako klipy z brandingiem, zanim otworzą się drzwi.",
-    "subheadline": "Wyślij prawdziwe nagrania ze smartfona z każdego lokalu. Archer montuje, branduje, dodaje napisy i dostosowuje format do Reels, TikTok, Shorts i Snapchat, a potem uzyskuje jedno zatwierdzenie przed terminem wydarzenia.",
+    "badge": "Kampanie wydarzeń AI dla restauracji",
+    "headline": "Strona Twojej restauracji, zamieniona w kampanię.",
+    "subheadline": "Udostępnij publiczną stronę lub Instagram swojej restauracji. Archer odczytuje Twoją prawdziwą tożsamość marki, potwierdza wydarzenie i generuje trzy zatwierdzone obrazy kampanii, gotowe na Instagram po zalogowaniu.",
     "ctaLabel": "Zarezerwuj czterotygodniowy pilotaż",
     "secondaryCtaLabel": "Zobacz proces",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Zaloguj się",
         "pilotLabel": "Zarezerwuj pilotaż",
-        "eyebrow": "Produkcja promocji wydarzeń dla zespołów hotelarsko-gastronomicznych",
+        "eyebrow": "Kampanie wydarzeń AI dla restauracji",
         "headingLines": [
-          "Materiał z Twojego wydarzenia,",
-          "wraca jako klipy z brandingiem"
+          "Strona Twojej restauracji,",
+          "zamieniona w kampanię"
         ],
-        "mutedHeadingLine": "zanim otworzą się drzwi.",
-        "body": "Wyślij prawdziwe nagrania ze smartfona z każdego lokalu. Archer montuje, branduje, dodaje napisy i dostosowuje format do Reels, TikTok, Shorts i Snapchat, a potem uzyskuje jedno zatwierdzenie przed terminem wydarzenia.",
+        "mutedHeadingLine": "zanim bilety na wydarzenie się skończą.",
+        "body": "Udostępnij publiczną stronę lub Instagram swojej restauracji. Archer odczytuje Twoją prawdziwą tożsamość marki, potwierdza wydarzenie i generuje trzy zatwierdzone obrazy kampanii, gotowe na Instagram po zalogowaniu.",
         "primaryCtaLabel": "Zarezerwuj czterotygodniowy pilotaż",
         "secondaryCtaLabel": "Zobacz proces",
         "instagramCampaign": {

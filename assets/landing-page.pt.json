@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Conheça o Archer"
     },
-    "badge": "Imagens reais. Uma aprovação. No prazo.",
-    "headline": "As imagens do seu evento, de volta como clipes marcados antes da abertura das portas.",
-    "subheadline": "Envie imagens reais de celular de cada local. O Archer edita, marca, legendra e redimensiona para Reels, TikTok, Shorts e Snapchat, e encaminha uma aprovação antes do prazo do evento.",
+    "badge": "Campanhas de eventos com IA para restaurantes",
+    "headline": "O site do seu restaurante, transformado em campanha.",
+    "subheadline": "Compartilhe o site público ou Instagram do seu restaurante. Archer lê sua identidade de marca real, confirma o evento e gera três imagens de campanha aprovadas, prontas para o Instagram após o login.",
     "ctaLabel": "Agende um piloto de quatro semanas",
     "secondaryCtaLabel": "Ver o fluxo de trabalho",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Entrar",
         "pilotLabel": "Agende um piloto",
-        "eyebrow": "Produção de promoções de eventos para equipes de hospitalidade",
+        "eyebrow": "Campanhas de eventos com IA para restaurantes",
         "headingLines": [
-          "As imagens do seu evento,",
-          "de volta como clipes marcados"
+          "O site do seu restaurante,",
+          "transformado em campanha"
         ],
-        "mutedHeadingLine": "antes da abertura das portas.",
-        "body": "Envie imagens reais de celular de cada local. O Archer edita, marca, legendra e redimensiona para Reels, TikTok, Shorts e Snapchat, e encaminha uma aprovação antes do prazo do evento.",
+        "mutedHeadingLine": "antes que seu próximo evento esgote.",
+        "body": "Compartilhe o site público ou Instagram do seu restaurante. Archer lê sua identidade de marca real, confirma o evento e gera três imagens de campanha aprovadas, prontas para o Instagram após o login.",
         "primaryCtaLabel": "Agende um piloto de quatro semanas",
         "secondaryCtaLabel": "Ver o fluxo de trabalho",
         "instagramCampaign": {

@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Ismerd meg Archert"
     },
-    "badge": "igazi felvétel. Egy jóváhagyás. időben.",
-    "headline": "Az eseményről készült felvételek, mint márkás klipek, mielőtt kinyílnának az ajtók.",
-    "subheadline": "Valódi telefonos felvételek küldése minden helyszínről. Archer Szerkesztések, márkák, feliratok és átméretezések a Reels-hez, TikTok, Shorts és Snapchat, majd az esemény határideje előtt egy jóváhagyást irányít.",
+    "badge": "AI eseménykampányok éttermeknek",
+    "headline": "Éttermed weboldala, kampánnyá alakítva.",
+    "subheadline": "Oszd meg éttermed nyilvános weboldalát vagy Instagramját. Archer beolvassa valódi márkaidentitásodat, megerősíti az eseményt, és három jóváhagyott kampányképet készít, bejelentkezés után az Instagramra készen.",
     "ctaLabel": "Foglaljon négyhetes pilótát",
     "secondaryCtaLabel": "Lásd a munkafolyamatot",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Bejelentkezés",
         "pilotLabel": "foglaljon egy pilótát",
-        "eyebrow": "Esemény-promóció vendéglátó csapatok számára",
+        "eyebrow": "AI eseménykampányok éttermeknek",
         "headingLines": [
-          "az eseményről készült felvételed,",
-          "Vissza márkás klipekként"
+          "Éttermed weboldala,",
+          "kampánnyá alakítva"
         ],
-        "mutedHeadingLine": "mielőtt kinyílnak az ajtók.",
-        "body": "Valódi telefonos felvételek küldése minden helyszínről. Archer Szerkesztések, márkák, feliratok és átméretezések a Reels-hez, TikTok, Shorts és Snapchat, majd az esemény határideje előtt egy jóváhagyást irányít.",
+        "mutedHeadingLine": "mielőtt elfogynak a jegyek.",
+        "body": "Oszd meg éttermed nyilvános weboldalát vagy Instagramját. Archer beolvassa valódi márkaidentitásodat, megerősíti az eseményt, és három jóváhagyott kampányképet készít, bejelentkezés után az Instagramra készen.",
         "primaryCtaLabel": "Foglaljon négyhetes pilótát",
         "secondaryCtaLabel": "Lásd a munkafolyamatot",
         "instagramCampaign": {

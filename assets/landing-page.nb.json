@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Møt Archer"
     },
-    "badge": "Ekte opptak. Én godkjenning. I tide.",
-    "headline": "Ditt eventopptak, tilbake som merkede klipp før dørene åpnes.",
-    "subheadline": "Send ekte telefonopptak fra hvert sted. Archer redigerer, merker, tekstler og tilpasser størrelsen for Reels, TikTok, Shorts og Snapchat, og sender deretter én godkjenning før arrangementsfristen.",
+    "badge": "AI-arrangementskampanjer for restauranter",
+    "headline": "Restaurantens nettside, gjort om til en kampanje.",
+    "subheadline": "Del restaurantens offentlige nettside eller Instagram. Archer leser din ekte merkeidentitet, bekrefter arrangementet og lager tre godkjente kampanjebilder, klare for Instagram etter innlogging.",
     "ctaLabel": "Book et fireukers pilotprosjekt",
     "secondaryCtaLabel": "Se arbeidsflyten",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Logg inn",
         "pilotLabel": "Book et pilotprosjekt",
-        "eyebrow": "Eventpromo-produksjon for serveringsteam",
+        "eyebrow": "AI-arrangementskampanjer for restauranter",
         "headingLines": [
-          "Ditt eventopptak,",
-          "tilbake som merkede klipp"
+          "Restaurantens nettside,",
+          "gjort om til en kampanje"
         ],
-        "mutedHeadingLine": "før dørene åpnes.",
-        "body": "Send ekte telefonopptak fra hvert sted. Archer redigerer, merker, tekstler og tilpasser størrelsen for Reels, TikTok, Shorts og Snapchat, og sender deretter én godkjenning før arrangementsfristen.",
+        "mutedHeadingLine": "før neste arrangement er utsolgt.",
+        "body": "Del restaurantens offentlige nettside eller Instagram. Archer leser din ekte merkeidentitet, bekrefter arrangementet og lager tre godkjente kampanjebilder, klare for Instagram etter innlogging.",
         "primaryCtaLabel": "Book et fireukers pilotprosjekt",
         "secondaryCtaLabel": "Se arbeidsflyten",
         "instagramCampaign": {

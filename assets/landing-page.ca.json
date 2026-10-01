@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Coneix l'Archer"
     },
-    "badge": "Filmació real. Una aprovació. Puntual.",
-    "headline": "La filmació del teu esdeveniment, de tornada com a clips de marca abans que obrin les portes.",
-    "subheadline": "Envia filmació real de mòbil des de cada local. Archer l'edita, la marca, la subtitula i l'adapta per a Reels, TikTok, Shorts i Snapchat, i després gestiona una aprovació única abans de la data límit de l'esdeveniment.",
+    "badge": "Campanyes d'esdeveniments amb IA per a restaurants",
+    "headline": "El web del teu restaurant, convertit en campanya.",
+    "subheadline": "Comparteix el web públic o l'Instagram del teu restaurant. Archer llegeix la identitat de marca real, confirma l'esdeveniment i genera tres imatges de campanya aprovades, llestes per publicar a Instagram després d'iniciar sessió.",
     "ctaLabel": "Reserva un pilot de quatre setmanes",
     "secondaryCtaLabel": "Descobreix el flux de treball",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Inicia sessió",
         "pilotLabel": "Reserva un pilot",
-        "eyebrow": "Producció de promocions d'esdeveniments per a equips d'hostaleria",
+        "eyebrow": "Campanyes d'esdeveniments amb IA per a restaurants",
         "headingLines": [
-          "La filmació del teu esdeveniment,",
-          "de tornada com a clips de marca"
+          "El web del teu restaurant,",
+          "convertit en campanya"
         ],
-        "mutedHeadingLine": "abans que obrin les portes.",
-        "body": "Envia filmació real de mòbil des de cada local. Archer l'edita, la marca, la subtitula i l'adapta per a Reels, TikTok, Shorts i Snapchat, i després gestiona una aprovació única abans de la data límit de l'esdeveniment.",
+        "mutedHeadingLine": "abans que s'esgotin les entrades.",
+        "body": "Comparteix el web públic o l'Instagram del teu restaurant. Archer llegeix la identitat de marca real, confirma l'esdeveniment i genera tres imatges de campanya aprovades, llestes per publicar a Instagram després d'iniciar sessió.",
         "primaryCtaLabel": "Reserva un pilot de quatre setmanes",
         "secondaryCtaLabel": "Descobreix el flux de treball",
         "instagramCampaign": {

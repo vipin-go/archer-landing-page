@@ -56,9 +56,9 @@
       "navItems": [],
       "ctaLabel": "Gặp Archer"
     },
-    "badge": "Cảnh thật. Một lần duyệt. Đúng hạn.",
-    "headline": "Cảnh sự kiện của bạn được trả về dưới dạng clip có thương hiệu trước khi cửa mở.",
-    "subheadline": "Gửi cảnh quay thật bằng điện thoại từ mỗi địa điểm. Archer chỉnh sửa, gắn thương hiệu, thêm phụ đề và định lại kích thước cho Reels, TikTok, Shorts và Snapchat, sau đó định tuyến một lần duyệt trước hạn chót sự kiện.",
+    "badge": "Chiến dịch sự kiện AI cho nhà hàng",
+    "headline": "Trang web nhà hàng của bạn, trở thành chiến dịch.",
+    "subheadline": "Chia sẻ trang web công khai hoặc Instagram của nhà hàng bạn. Archer đọc bản sắc thương hiệu thực sự, xác nhận sự kiện và tạo ba hình ảnh chiến dịch đã duyệt, sẵn sàng đăng Instagram sau khi đăng nhập.",
     "ctaLabel": "Đặt lịch pilot bốn tuần",
     "secondaryCtaLabel": "Xem quy trình",
     "demoConversation": [
@@ -115,13 +115,13 @@
         ],
         "loginLabel": "Đăng nhập",
         "pilotLabel": "Đặt lịch pilot",
-        "eyebrow": "Sản xuất quảng bá sự kiện cho đội ngũ nhà hàng - khách sạn",
+        "eyebrow": "Chiến dịch sự kiện AI cho nhà hàng",
         "headingLines": [
-          "Cảnh sự kiện của bạn,",
-          "trả về dưới dạng clip có thương hiệu"
+          "Trang web nhà hàng của bạn,",
+          "trở thành chiến dịch"
         ],
-        "mutedHeadingLine": "trước khi cửa mở.",
-        "body": "Gửi cảnh quay thật bằng điện thoại từ mỗi địa điểm. Archer chỉnh sửa, gắn thương hiệu, thêm phụ đề và định lại kích thước cho Reels, TikTok, Shorts và Snapchat, sau đó định tuyến một lần duyệt trước hạn chót sự kiện.",
+        "mutedHeadingLine": "trước khi sự kiện tiếp theo bán hết vé.",
+        "body": "Chia sẻ trang web công khai hoặc Instagram của nhà hàng bạn. Archer đọc bản sắc thương hiệu thực sự, xác nhận sự kiện và tạo ba hình ảnh chiến dịch đã duyệt, sẵn sàng đăng Instagram sau khi đăng nhập.",
         "primaryCtaLabel": "Đặt lịch pilot bốn tuần",
         "secondaryCtaLabel": "Xem quy trình",
         "instagramCampaign": {
