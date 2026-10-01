@@ -119,13 +119,13 @@
         ],
         "loginLabel": "Log in",
         "pilotLabel": "Book a pilot",
-        "eyebrow": "Event-promo production for hospitality teams",
+        "eyebrow": "AI event campaigns for restaurants",
         "headingLines": [
-          "Your event footage,",
-          "back as branded clips"
+          "Your restaurant's website,",
+          "turned into a campaign"
         ],
-        "mutedHeadingLine": "before the doors open.",
-        "body": "Send real phone footage from each venue. Archer edits, brands, captions, and resizes it for Reels, TikTok, Shorts, and Snapchat, then routes one approval before the event deadline.",
+        "mutedHeadingLine": "before your next event sells out.",
+        "body": "Share your restaurant's public website or Instagram. Archer reads your real brand identity, confirms the event, and generates three approved campaign images, ready to publish or schedule to Instagram after sign-in.",
         "primaryCtaLabel": "Book a four-week pilot",
         "secondaryCtaLabel": "See the workflow",
         "instagramCampaign": {
