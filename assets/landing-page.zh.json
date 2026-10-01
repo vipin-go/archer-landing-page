@@ -650,23 +650,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
-      "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
+      "subheading": "典型的招待月：针对场地或餐厅活动的 1 个重复活动套餐。",
+      "disclaimer": "基于客户输入的生产假设而不是观察到的活动或媒体结果的建模场景。 Archer 在发布前准备经许可的镜头供人工批准。",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "货币换算不是本地成本研究。输入您自己的当地成本和贡献假设。语言的变化不会改变数量。"
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "人工智能的总体成本是如何构建的",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "这是您的总预算。切换到成本细分以逐项列出；假设没有分裂。",
+        "benefitNotice": "建模福利，而不是收费。划掉的金额是您希望避免的支出，而不是人工智能账单上的折扣。",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "返回的小时数是容量，而不是自动节省的时间。只有您分配给实际支出减少或额外捐款的部分才会获得货币价值。"
       },
       "locale": "en-GB",
       "inputs": [],
@@ -694,10 +694,10 @@
           "workloadStep": "Campaign volume",
           "costStep": "Operating cost assumptions",
           "valueStep": "Production capacity",
-          "workloadIntro": "Model recurring campaign packages for hospitality venues and restaurant groups. Archer prepares the work; a human still approves it before publication.",
-          "costIntro": "AI, media, tools, platform and infrastructure costs are delivery assumptions, separate from Archer's customer price.",
-          "valueIntro": "Returned editor hours are capacity. Assign them to one validated value basis: internal contribution or actual avoided spending.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "为酒店场所和餐厅集团建立定期营销活动套餐模型。 Archer 准备工作；在发布之前，人们仍然会批准它。",
+          "costIntro": "人工智能、媒体、工具、平台和基础设施成本是交付假设，与 Archer 的客户价格分开。",
+          "valueIntro": "返回的编辑时间为容量。将它们分配给一个经过验证的价值基础：内部贡献或实际避免的支出。",
+          "sampleNotice": "典型用法·未观察到的结果",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -722,11 +722,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "现有团队审查使用返回的容量。额外的付费审核包含在运营成本中，不会再次从团队能力中扣除。",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "预算必须包括模型/媒体、工具、基础设施、Gabriel 费用和额外的付费审查。不要将不变的工资单计为新支出。",
+          "itemizedNote": "代币使用量是根据每个输出的数量 × 代币数计算得出的。除非适用，否则额外的媒体、工具和基础设施将保持为零。额外付费审阅根据审阅时间及其费率计算。",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -735,36 +735,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled production savings",
-          "netBenefit": "Net savings after Archer price",
+          "netBenefit": "Archer 价格后的净节省",
           "multiple": "Internal delivery multiple",
-          "customerBenefit": "Modeled production savings before Archer price",
+          "customerBenefit": "Archer 价格之前的仿照生产节省",
           "customerRoi": "Cost-based customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "相同的每月假设，没有增长或复利。招聘节省仅在输入的期间有效。",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Customer ROI = (modeled production savings − Archer customer price) ÷ Archer customer price. Use one value basis and validate it with a paid pilot.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "运营负担消除（负生产力），恢复产能。只有利用这种能力，更高价值的工作（潜在的积极生产力）才能创造经济价值。仅靠时间并不能节省现金。代币成本使用建模的输入/输出组合，而不是提供商报价。",
+          "formulaLabel": "客户投资回报率 =（模拟生产节省 − Archer 客户价格） ÷ Archer 客户价格。使用一种价值基础并通过付费试点进行验证。",
+          "allocationNote": "每个小时可以分配一次。未分配的时间仍然是容量，没有货币价值。",
+          "overlapLabel": "这些好处各不相同；我已经排除了其他地方已经计算的成本和损失。",
+          "overlapNote": "错误和风险估计不包括节省的劳动力，并且同一事件不得出现在两个类别中。贡献不包括人工智能成本，人工智能成本需单独扣除。",
+          "hiringLabel": "这次招聘是经过真正计划的，分配的能力可以满足这项工作。",
+          "reviewedLabel": "我已经审查了我的结果；未选择的结果在此估计中没有财务价值。",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "由能力和需求支持的额外工作",
+          "assumptionsIncomplete": "完成选定的假设以计算财务价值。",
+          "allocationError": "分配的小时数超出了可用的净容量。减少拨款。",
+          "reviewError": "审查所花费的时间比减少的工作量还要多。在这些假设下，没有可用的正容量。",
+          "cashError": "避免的支出不能超过当前支出，或者在没有分配时间的情况下具有正值。",
+          "hiringError": "分配的容量必须覆盖计划的雇用时间。确认计划的雇佣及其持续时间。",
+          "riskError": "对于损失减少估计，事后概率不能超过事前概率。",
+          "overlapError": "在将其纳入财务结果之前，请确认收益不会重叠。",
+          "boundsError": "使用显示限制内的值。",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "语言改变格式，而不是你的货币或假设。",
           "currentPreparation": "目前的准备时间",
           "reviewHours": "人工审核时间",
           "reworkHours": "避免或增加返工时间",
@@ -780,157 +780,157 @@
         },
         "fields": {
           "volume": {
-            "label": "Event campaign packages per month",
-            "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+            "label": "每月活动套餐",
+            "help": "计算您实际为场地或餐厅活动运送的重复活动套餐，而不是积压的每个想法。"
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "接收者接受的准备输出的可选建模份额。这不是保证或观察到的结果。"
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "预计将发生的已接受会议的模拟份额。将其替换为试点后经过验证的事件记录。"
           },
           "minutes": {
-            "label": "Baseline editor minutes per campaign package",
-            "help": "Hands-on editing, captions and variants for one package. Enter minutes; 720 minutes represents a 12-hour baseline."
+            "label": "每个营销活动包的基线编辑分钟数",
+            "help": "为一个包进行动手编辑、字幕和变体。输入分钟； 720 分钟代表 12 小时基线。"
           },
           "automation": {
             "label": "Archer share of production",
-            "help": "Illustrative share of repetitive assembly Archer handles. Customer approval and rights checks remain required."
+            "help": "重复组装 Archer 手柄的说明性份额。仍然需要客户批准和权利检查。"
           },
           "review": {
             "label": "Approval minutes per package",
-            "help": "Human approval time before the campaign is published or used for the event."
+            "help": "活动发布或用于活动之前的人工批准时间。"
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "每月每个单元的周期",
+            "help": "每个单位在典型月份内运行多少个重复订单、审核或处理周期。"
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
-            "help": "Modeled tokens for copy, variants and orchestration around one event."
+            "help": "围绕一个事件进行复制、变体和编排的建模令牌。"
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "包括代币使用、模型/媒体、工具、基础设施、Gabriel 费用和额外付费评论。"
           },
           "model_cost": {
             "label": "Models and media generation",
-            "help": "Image and video generation for this package, counted separately from the token envelope."
+            "help": "该包的图像和视频生成，与令牌信封分开计数。"
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "浏览器会话、连接器和其他计量服务。如果没有则输入零。"
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "此工作负载的增量托管、存储和计算。如果没有则输入零。"
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "其他交付和支持费用",
+            "help": "建模托管、存储、监控和支持成本，与客户价格分开。"
           },
           "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+            "label": "Archer 每月客户价格",
+            "help": "可编辑的商业假设。为期 4 周的试点测试费用约为 1,500-2,500 欧元，每个场馆每月的经常性工作费用约为 600-1,200 欧元。"
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "您分配给一小时的可选值",
+            "help": "仅作为可选的个人比较。这不是薪水、工资或有保证的现金储蓄。"
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "每小时额外付费评论",
+            "help": "实际的额外审稿人支出，而不是不变员工的工资。"
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "消除有偿工作的时间",
+            "help": "仅分配加班、承包商或加工支出实际上会停止的工作。"
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "目前该工作的每月支出",
+            "help": "减少的现金预算。"
           },
           "cash_avoided": {
-            "label": "Overflow invoice you would stop",
-            "help": "One production invoice that actually stops. Count it once."
+            "label": "溢出发票你会停止",
+            "help": "一张实际停止的生产发票。算一次。"
           },
           "higher_value_hours": {
-            "label": "Hours kept for creative direction",
-            "help": "Editor time redirected from repetitive variants."
+            "label": "留出时间进行创意指导",
+            "help": "编辑时间从重复的变体重定向。"
           },
           "contribution_rate": {
-            "label": "In-house editor capacity / hr",
-            "help": "Incremental value of an editor hour on direction, not a freelance rate copied as salary saved."
+            "label": "内部编辑能力/小时",
+            "help": "编辑工作时间的增量价值，而不是复制为节省工资的自由职业费率。"
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "用于额外容量的小时数",
+            "help": "该拨款也不能用于咨询工作或削减支出。"
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "每增加一个单位的团队分钟数",
+            "help": "剩余的人力工作（包括审核）需要再交付一个单元。"
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "预计需求的额外单位",
+            "help": "容量本身并不是需求。输入您预计每月承担的额外工作量。"
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "增量收入减去交付成本； AI运营成本单独扣除。"
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "计划雇用的时间",
+            "help": "将能力分配给具体的计划工作，而不是一般的全职等效估计。"
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "计划雇用的每月工时",
+            "help": "分配的容量必须覆盖整个工作负载。"
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "实际递延的每月租金费用",
+            "help": "使用真正计划的雇用成本，而不是已经雇用的人的工资。"
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "推迟雇用的月份",
+            "help": "一到十二个月；在此期间之后，年度估算将停止计算节余。"
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "每月预期避免的错误",
+            "help": "使用您的基线和预期减少量。排除事件也算作风险降低。"
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "不包括其他地方已包含的人工、退款或其他损失。"
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "您的估计，不是保证的风险评估。"
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "使用相同的事件和每月时间范围作为基线。"
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "该事件的损失风险",
+            "help": "排除错误事件和已计算的支出。这是不确定的预期价值，而不是节省的现金。"
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "之前的周期时间（以天为单位）",
+            "help": "从开始到完成所花费的时间，与实际操作的努力无关。"
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "之后的周期时间（以天为单位）",
+            "help": "仅显示为运营变化，没有假定的货币价值。"
           }
         },
         "burden": [
-          "Editing campaign variants and captions",
-          "Repeated formatting and approval preparation"
+          "编辑营销活动变体和标题",
+          "重复格式化和审批准备"
         ],
         "opportunity": [
           "More reviewed event campaigns",
-          "Creative direction and less paid production overflow"
+          "创意方向和低薪制作溢出"
         ],
         "usagePackages": {
           "base": {
@@ -987,20 +987,20 @@
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Keep editors on creative direction",
-            "help": "Use returned hours on direction and approval, not on repetitive variants."
+            "label": "让编辑保持创意方向",
+            "help": "将返回的时间用于指导和批准，而不是重复的变体。"
           },
           {
             "id": "cash",
-            "label": "Stop one overflow production invoice",
-            "help": "Count a contractor invoice that actually stops. Do not also count those hours as salary saved."
+            "label": "停止一张超额生产发票",
+            "help": "计算实际停止的承包商发票。不要也将这些时间算作节省的工资。"
           }
         ],
         "tabs": [
           {
             "id": "events",
             "label": "Campaign volume",
-            "intro": "Model recurring event-campaign packages for venues and restaurant groups, including the customer approval pass.",
+            "intro": "为场馆和餐厅集团建立定期活动营销活动包模型，包括客户批准通行证。",
             "fields": [
               "volume",
               "minutes",
@@ -1013,7 +1013,7 @@
           {
             "id": "tokens",
             "label": "Operating cost assumptions",
-            "intro": "Keep AI, media, platform, tools and infrastructure costs separate from Archer's customer price.",
+            "intro": "将人工智能、媒体、平台、工具和基础设施成本与 Archer 的客户价格分开。",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1025,7 +1025,7 @@
           {
             "id": "editor",
             "label": "Production capacity",
-            "intro": "Measure editor capacity returned. Assign it to validated internal contribution or actual avoided spending, not both.",
+            "intro": "返回测量编辑器容量。将其分配给经过验证的内部贡献或实际避免的支出，而不是两者。",
             "fields": [
               "customer_price"
             ],
@@ -1037,7 +1037,7 @@
           "basis": "fixed",
           "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "这一单包方案使用 600 欧元/月的经常性价格假设。为期 4 周的试点费用约为 1,500 至 2,500 欧元；经常性场地定价约为每个场地每月 600 至 1,200 欧元。在有偿证据出现之前，将这些视为假设。"
         },
         "presentation": {
           "financial": "optional",
@@ -1049,7 +1049,7 @@
         "primaryLabel": "Talk with Archer",
         "primaryTarget": "meet-archer",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "您的数据保持私密。小时数即容量。财务金额是模型估计值，而不是观察到的结果。",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -5883,5 +5883,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-26T20:32:08.550Z"
+  "generatedAt": "2026-10-01T12:38:50.935Z"
 }

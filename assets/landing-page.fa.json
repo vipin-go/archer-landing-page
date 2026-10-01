@@ -212,7 +212,7 @@
           "expiredError": "این پیش‌نمایش کمپین منقضی شده است. دوباره شروع کنید.",
           "validationError": "جزئیات کمپین برجسته شده را بررسی کنید و دوباره امتحان کنید.",
           "generationError": "بسته تصویر تولید نشد. لطفاً دوباره امتحان کنید.",
-          "claimError": "آرچر قادر به انتقال این کمپین به فضای کاری خصوصی شما بود. لطفاً دوباره امتحان کنید.",
+          "claimError": "Archer نتوانست این کمپین را به فضای کاری خصوصی شما منتقل کند. لطفا دوباره امتحان کنید.",
           "brandReadyMessage": "من علائم برند عمومی را پیدا کردم. قبل از هر چیز ایجاد کنیم، مشاهده‌ها و استنتاج‌ها را بررسی کنید.",
           "brandApprovedMessage": "شناسه برند تأیید شد. رویداد را به زبان ساده توصیف کنید.",
           "imagePackReadyMessage": "بسته سه تصویری کمپین شما آماده بازبینی و دانلود است.",
@@ -222,10 +222,10 @@
         "intake": {
           "eyebrow": "پیش‌نمایش کمپین",
           "title": "با وب‌سایت عمومی یا اینستاگرام رستوران شروع کنید",
-          "body": "آرچر سیگنال‌های برند قابل دسترسی را خوانده، مشاهده‌ها و استنتاج‌ها را برچسب‌گذاری می‌کند و یک خلاصه رویداد تأیید شده را به سه تصویر قابل دانلود تبدیل می‌کند.",
+          "body": "Archer سیگنال های مارک قابل دسترسی را می خواند، مشاهدات و استنباط ها را برچسب گذاری می کند و خلاصه رویداد تأیید شده را به سه تصویر قابل دانلود تبدیل می کند.",
           "uploadLabel": "وب‌سایت عمومی یا URL اینستاگرام",
           "uploadHint": "وب‌سایت، صفحه محصول، یا پروفایل، پست یا Reel اینستاگرام",
-          "transferNote": "فقط دارایی‌های عمومی. آرچر هرگز پروفایل‌های خصوصی، دیوار ورود، CAPTCHA یا رسانه‌های غیرقابل دسترسی را عبور نمی‌کند.",
+          "transferNote": "فقط دارایی های عمومی Archer هرگز نمایه های خصوصی، دیوارهای ورود به سیستم، CAPTCHA یا رسانه های در دسترس را دور نمی زند.",
           "eventLabel": "شناسه برند",
           "eventValue": " مشاهده‌شده + استنتاج‌شده، ویرایش‌پذیر",
           "deadlineLabel": "بسته تصویر",
@@ -257,7 +257,7 @@
           {
             "number": "02",
             "title": "برند",
-            "description": "آرچر تمیز می‌کند، ویرایش می‌کند، legenda می‌نویسد و اندازه تغییر می‌دهد بدون اینکه آنچه فیلم گرفته شده را جایگزین کند.",
+            "description": "Archer بدون جایگزین کردن چیزی که فیلم گرفته شده است، پاکسازی، ویرایش، شرح و تغییر اندازه می‌شود.",
             "visualKind": "brand",
             "details": [
               "کیت برند اختصاص به محل",
@@ -268,7 +268,7 @@
           {
             "number": "03",
             "title": "تأیید",
-            "description": "یک نفر نام‌گذاری‌شده یک لینک واحد را مرور می‌کند در حالی که آرچر ساعت را مدیریت می‌کند.",
+            "description": "یک تأییدکننده به نام یک پیوند را بررسی می کند در حالی که Archer صاحب ساعت است.",
             "visualKind": "approve",
             "details": [
               "یک تأیید واحد و متمرکز",
@@ -650,23 +650,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
-      "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
+      "subheading": "یک ماه مهمان نوازی معمولی: 1 بسته کمپین تکراری برای یک مکان یا رویداد رستوران.",
+      "disclaimer": "یک سناریوی مدل‌سازی شده مبتنی بر مفروضات تولید وارد شده توسط مشتری، بدون مشاهده نتایج کمپین یا رسانه. Archer فیلم های مجاز را قبل از انتشار برای تأیید انسانی آماده می کند.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "تبدیل ارز یک تحقیق هزینه محلی نیست. هزینه های محلی و فرضیات مشارکت خود را وارد کنید. تغییرات زبان مقدار را تغییر نمی دهد."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "هزینه هوش مصنوعی همه کاره چگونه ساخته می شود",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "این کل بودجه شماست. به تفکیک هزینه تغییر دهید تا آن را جزئی کنید. هیچ تقسیمی در نظر گرفته نشده است.",
+        "benefitNotice": "مزایای مدل‌سازی شده، نه هزینه‌ها. مبالغ خط خورده هزینه هایی است که انتظار دارید از آن اجتناب کنید، نه تخفیف در صورتحساب هوش مصنوعی.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "ساعات برگشت ظرفیت است، نه صرفه جویی خودکار. فقط بخش هایی که به کاهش هزینه های واقعی یا کمک اضافی اختصاص می دهید ارزش پولی دریافت می کنند."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -694,10 +694,10 @@
           "workloadStep": "Campaign volume",
           "costStep": "Operating cost assumptions",
           "valueStep": "Production capacity",
-          "workloadIntro": "Model recurring campaign packages for hospitality venues and restaurant groups. Archer prepares the work; a human still approves it before publication.",
-          "costIntro": "AI, media, tools, platform and infrastructure costs are delivery assumptions, separate from Archer's customer price.",
-          "valueIntro": "Returned editor hours are capacity. Assign them to one validated value basis: internal contribution or actual avoided spending.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "بسته‌های کمپین تکراری را برای مکان‌های مهمان‌نوازی و گروه‌های رستوران مدل کنید. Archer کار را آماده می کند. یک انسان هنوز آن را قبل از انتشار تأیید می کند.",
+          "costIntro": "هزینه های هوش مصنوعی، رسانه، ابزار، پلت فرم و زیرساخت، مفروضات تحویل هستند، جدا از قیمت مشتری Archer.",
+          "valueIntro": "ساعات کاری ویرایشگر برگردانده ظرفیت است. آنها را به یک مبنای ارزش معتبر اختصاص دهید: مشارکت داخلی یا هزینه های واقعی اجتناب شده.",
+          "sampleNotice": "استفاده معمولی · نتایج مشاهده نشده است",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -722,11 +722,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "بررسی تیم موجود از ظرفیت برگشتی استفاده می کند. بررسی پرداختی اضافی در هزینه عملیاتی گنجانده شده است، دوباره از ظرفیت تیم کسر نمی شود.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "بودجه باید شامل مدل ها/رسانه ها، ابزارها، زیرساخت ها، هزینه های گابریل و بررسی پرداختی اضافی باشد. حقوق و دستمزد بدون تغییر را به عنوان هزینه های جدید درج نکنید.",
+          "itemizedNote": "مصرف توکن از حجم × توکن در هر خروجی محاسبه می شود. رسانه ها، ابزارها و زیرساخت های اضافی در حد صفر باقی می مانند مگر اینکه اعمال شوند. بررسی پولی اضافی از ساعت بررسی و نرخ آن محاسبه می شود.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -735,36 +735,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled production savings",
-          "netBenefit": "Net savings after Archer price",
+          "netBenefit": "پس انداز خالص پس از قیمت Archer",
           "multiple": "Internal delivery multiple",
-          "customerBenefit": "Modeled production savings before Archer price",
+          "customerBenefit": "صرفه جویی در تولید مدل شده قبل از قیمت Archer",
           "customerRoi": "Cost-based customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "همان مفروضات ماهانه، بدون رشد یا ترکیب. پس انداز استخدام فقط برای دوره وارد شده باقی می ماند.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Customer ROI = (modeled production savings − Archer customer price) ÷ Archer customer price. Use one value basis and validate it with a paid pilot.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "بار عملیاتی برداشته شده (بهره وری منفی) ظرفیت را برمی گرداند. کار با ارزش بالاتر (بهره وری مثبت بالقوه) تنها در صورتی ارزش اقتصادی ایجاد می کند که از آن ظرفیت استفاده شود. ساعت ها به تنهایی پس انداز نقدی نیستند. هزینه توکن از ترکیب ورودی/خروجی مدل‌سازی شده استفاده می‌کند، نه از قیمت ارائه‌دهنده.",
+          "formulaLabel": "ROI مشتری = (صرفه جویی در تولید مدل - قیمت مشتری Archer) ÷ Archer قیمت مشتری. از یک مبنای ارزش استفاده کنید و آن را با یک پایلوت پولی تأیید کنید.",
+          "allocationNote": "هر ساعت را می توان یک بار اختصاص داد. ساعات تخصیص نیافته ظرفیت باقی می ماند، بدون ارزش پولی.",
+          "overlapLabel": "این مزایا متمایز هستند. من هزینه ها و زیان هایی را که قبلاً در جاهای دیگر شمرده شده است، حذف کرده ام.",
+          "overlapNote": "تخمین خطا و ریسک صرفه جویی در نیروی کار را حذف نمی کند و یک حادثه نباید در هر دو دسته ظاهر شود. مشارکت هزینه‌های هوش مصنوعی را که به طور جداگانه کسر می‌شود، شامل نمی‌شود.",
+          "hiringLabel": "این استخدام واقعاً برنامه ریزی شده بود و ظرفیت اختصاص داده شده می تواند کار را پوشش دهد.",
+          "reviewedLabel": "من نتایج خود را بررسی کرده ام. نتایج انتخاب نشده در این برآورد ارزش مالی ندارند.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "کار اضافی با ظرفیت و تقاضا پشتیبانی می شود",
+          "assumptionsIncomplete": "برای محاسبه ارزش مالی، مفروضات انتخاب شده را تکمیل کنید.",
+          "allocationError": "ساعات اختصاص داده شده بیش از ظرفیت خالص موجود است. تخصیص ها را کاهش دهید.",
+          "reviewError": "بررسی زمان بیشتری نسبت به کاهش کار نیاز دارد. هیچ ظرفیت مثبتی در این مفروضات موجود نیست.",
+          "cashError": "هزینه‌های اجتناب‌شده نمی‌تواند از هزینه‌های جاری فراتر رود یا بدون ساعت اختصاص داده شده ارزش مثبت داشته باشد.",
+          "hiringError": "ظرفیت اختصاص داده شده باید ساعات استخدام برنامه ریزی شده را پوشش دهد. استخدام برنامه ریزی شده و مدت آن را تأیید کنید.",
+          "riskError": "برای تخمین کاهش ضرر، احتمال بعد نمی تواند از احتمال قبل تجاوز کند.",
+          "overlapError": "قبل از گنجاندن آنها در نتیجه مالی، تأیید کنید که مزایا با هم تداخل ندارند.",
+          "boundsError": "از مقادیر در محدوده های نمایش داده شده استفاده کنید.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "زبان قالب بندی را تغییر می دهد، نه واحد پول یا مفروضات شما.",
           "currentPreparation": "ساعات آماده سازی فعلی",
           "reviewHours": "ساعت بررسی انسانی",
           "reworkHours": "از ساعات کار مجدد اجتناب شده یا اضافه شده است",
@@ -780,157 +780,157 @@
         },
         "fields": {
           "volume": {
-            "label": "Event campaign packages per month",
-            "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+            "label": "بسته های کمپین رویداد در ماه",
+            "help": "بسته‌های کمپین تکراری را که در واقع برای رویدادهای محل برگزاری یا رستوران ارسال می‌کنید، بشمارید، نه هر ایده‌ای را که در یک لیست عقب مانده است."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "سهم مدل‌سازی شده اختیاری از خروجی‌های آماده پذیرفته شده توسط گیرنده. این یک تضمین یا نتیجه مشاهده شده نیست."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "سهم مدل شده از جلسات پذیرفته شده انتظار می رود اتفاق بیفتد. این را با سوابق رویداد تأیید شده پس از یک آزمایشی جایگزین کنید."
           },
           "minutes": {
-            "label": "Baseline editor minutes per campaign package",
-            "help": "Hands-on editing, captions and variants for one package. Enter minutes; 720 minutes represents a 12-hour baseline."
+            "label": "دقیقه ویرایشگر پایه در هر بسته کمپین",
+            "help": "ویرایش عملی، زیرنویس‌ها و انواع برای یک بسته. دقیقه را وارد کنید؛ 720 دقیقه نشان دهنده یک خط پایه 12 ساعته است."
           },
           "automation": {
             "label": "Archer share of production",
-            "help": "Illustrative share of repetitive assembly Archer handles. Customer approval and rights checks remain required."
+            "help": "سهم گویا دسته های مونتاژ تکراری Archer. تأیید مشتری و بررسی حقوق همچنان مورد نیاز است."
           },
           "review": {
             "label": "Approval minutes per package",
-            "help": "Human approval time before the campaign is published or used for the event."
+            "help": "زمان تایید انسانی قبل از انتشار یا استفاده از کمپین برای رویداد."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "چرخه در واحد هر ماه",
+            "help": "تعداد دفعات سفارش، بازبینی یا پردازش تکرارشونده هر واحد در یک ماه معمولی انجام می شود."
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
-            "help": "Modeled tokens for copy, variants and orchestration around one event."
+            "help": "توکن های مدل سازی شده برای کپی، انواع و ارکستراسیون حول یک رویداد."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "استفاده از رمز، مدل‌ها/رسانه‌ها، ابزارها، زیرساخت‌ها، هزینه‌های گابریل و بررسی پرداختی اضافی را شامل شود."
           },
           "model_cost": {
             "label": "Models and media generation",
-            "help": "Image and video generation for this package, counted separately from the token envelope."
+            "help": "تولید تصویر و ویدئو برای این بسته، جدا از پاکت توکن شمارش می شود."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "جلسات مرورگر، اتصال دهنده ها و سایر خدمات اندازه گیری شده. اگر هیچ کدام صفر را وارد کنید."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "میزبانی افزایشی، ذخیره سازی و محاسبه برای این حجم کاری. اگر هیچ کدام صفر را وارد کنید."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "سایر هزینه های تحویل و پشتیبانی",
+            "help": "هزینه میزبانی مدل شده، ذخیره سازی، نظارت و پشتیبانی، جدا از قیمت مشتری."
           },
           "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+            "label": "Archer قیمت مشتری در هر ماه",
+            "help": "فرضیه تجاری قابل ویرایش تقریباً 1500 تا 2500 یورو برای یک خلبان چهار هفته ای و 600 تا 1200 یورو در هر مکان در ماه برای کارهای تکراری آزمایش کنید."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "مقدار اختیاری که به یک ساعت اختصاص می دهید",
+            "help": "فقط یک مقایسه شخصی اختیاری. این حقوق، دستمزد یا پس انداز نقدی تضمین شده نیست."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "بررسی پولی اضافی در هر ساعت",
+            "help": "هزینه‌های واقعی بازبین، نه حقوق یک کارمند بدون تغییر."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "ساعاتی که کار با حقوق را حذف می کند",
+            "help": "فقط کارهایی را اختصاص دهید که اضافه کاری، پیمانکار یا هزینه پردازش آنها واقعا متوقف می شود."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "هزینه های جاری ماهانه برای آن کار",
+            "help": "بودجه نقدی که کاهش از آن حاصل خواهد شد."
           },
           "cash_avoided": {
-            "label": "Overflow invoice you would stop",
-            "help": "One production invoice that actually stops. Count it once."
+            "label": "سرریز فاکتور شما را متوقف کنید",
+            "help": "یک فاکتور تولید که در واقع متوقف می شود. یکبار بشمار"
           },
           "higher_value_hours": {
-            "label": "Hours kept for creative direction",
-            "help": "Editor time redirected from repetitive variants."
+            "label": "ساعت‌ها برای هدایت خلاقانه نگهداری می‌شوند",
+            "help": "زمان ویرایشگر از انواع تکراری تغییر مسیر داد."
           },
           "contribution_rate": {
-            "label": "In-house editor capacity / hr",
-            "help": "Incremental value of an editor hour on direction, not a freelance rate copied as salary saved."
+            "label": "ظرفیت ویرایشگر داخلی / ساعت",
+            "help": "ارزش افزایشی یک ساعت ویرایشگر در جهت، نه نرخ فریلنسری که به عنوان حقوق ذخیره شده کپی شده است."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "ساعت استفاده شده برای حجم اضافی",
+            "help": "این تخصیص همچنین نمی تواند برای کارهای مشاوره ای یا کاهش هزینه ها استفاده شود."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "دقایق تیمی در هر واحد اضافی",
+            "help": "تلاش انسانی باقیمانده، از جمله بازنگری، برای ارائه یک واحد دیگر نیاز داشت."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "واحدهای اضافی با تقاضای مورد انتظار",
+            "help": "ظرفیت به تنهایی تقاضا نیست. کار ماهانه اضافی را که انتظار دارید انجام دهید وارد کنید."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "درآمد افزایشی منهای هزینه های تحویل؛ هزینه های عملیاتی هوش مصنوعی به طور جداگانه کسر می شود."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "ساعاتی که استخدام برنامه ریزی شده را پوشش می دهد",
+            "help": "ظرفیت را به کارهای برنامه ریزی شده خاص اختصاص دهید، نه یک برآورد کلی تمام وقت."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "ساعت های ماهانه استخدام برنامه ریزی شده را پوشش می دهد",
+            "help": "ظرفیت تخصیص یافته باید کل این حجم کار را پوشش دهد."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "هزینه اجاره ماهانه در واقع به تعویق افتاده است",
+            "help": "از هزینه یک استخدام واقعاً برنامه ریزی شده استفاده کنید، نه حقوق فردی که قبلاً شاغل است."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "ماه هایی که استخدام به تعویق افتاده است",
+            "help": "یک تا دوازده ماه؛ تخمین سالیانه پس‌انداز را پس از این دوره محاسبه نمی‌کند."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "خطاهای اجتناب شده مورد انتظار در هر ماه",
+            "help": "از میزان پایه و کاهش مورد انتظار خود استفاده کنید. حوادث را نیز به عنوان کاهش خطر در نظر نگیرید."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "نیروی کار، بازپرداخت یا سایر زیان‌هایی که قبلاً در جاهای دیگر گنجانده شده است را حذف کنید."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "برآورد شما، نه یک ارزیابی ریسک تضمین شده."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "از همان رویداد و افق زمانی ماهانه به عنوان خط پایه استفاده کنید."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "قرار گرفتن در معرض از دست دادن برای آن رویداد",
+            "help": "حوادث خطا و هزینه‌هایی که قبلاً حساب شده را حذف کنید. این ارزش مورد انتظار نامشخص است، نه پول نقد ذخیره شده."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "زمان چرخه قبل، در روز",
+            "help": "زمان سپری شده از شروع تا تکمیل، جدا از تلاش عملی."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "زمان چرخه پس از آن، در روز",
+            "help": "فقط به عنوان یک تغییر عملیاتی، بدون ارزش پولی فرضی نشان داده شده است."
           }
         },
         "burden": [
-          "Editing campaign variants and captions",
-          "Repeated formatting and approval preparation"
+          "ویرایش انواع کمپین و زیرنویس ها",
+          "آماده سازی قالب بندی و تایید مکرر"
         ],
         "opportunity": [
           "More reviewed event campaigns",
-          "Creative direction and less paid production overflow"
+          "جهت خلاقانه و سرریز تولید کمتر"
         ],
         "usagePackages": {
           "base": {
@@ -987,20 +987,20 @@
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Keep editors on creative direction",
-            "help": "Use returned hours on direction and approval, not on repetitive variants."
+            "label": "ویراستاران را در جهت خلاق نگه دارید",
+            "help": "از ساعات برگشتی در جهت و تایید استفاده کنید، نه در انواع تکراری."
           },
           {
             "id": "cash",
-            "label": "Stop one overflow production invoice",
-            "help": "Count a contractor invoice that actually stops. Do not also count those hours as salary saved."
+            "label": "یک فاکتور تولید سرریز را متوقف کنید",
+            "help": "فاکتور پیمانکاری را بشمارید که واقعا متوقف می شود. همچنین آن ساعات را به عنوان حقوق پس انداز حساب نکنید."
           }
         ],
         "tabs": [
           {
             "id": "events",
             "label": "Campaign volume",
-            "intro": "Model recurring event-campaign packages for venues and restaurant groups, including the customer approval pass.",
+            "intro": "مدل‌سازی بسته‌های کمپین رویداد تکراری برای مکان‌ها و گروه‌های رستوران، از جمله مجوز تأیید مشتری.",
             "fields": [
               "volume",
               "minutes",
@@ -1013,7 +1013,7 @@
           {
             "id": "tokens",
             "label": "Operating cost assumptions",
-            "intro": "Keep AI, media, platform, tools and infrastructure costs separate from Archer's customer price.",
+            "intro": "هزینه های هوش مصنوعی، رسانه، پلت فرم، ابزار و زیرساخت را از قیمت مشتری Archer جدا نگه دارید.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1025,7 +1025,7 @@
           {
             "id": "editor",
             "label": "Production capacity",
-            "intro": "Measure editor capacity returned. Assign it to validated internal contribution or actual avoided spending, not both.",
+            "intro": "ظرفیت ویرایشگر اندازه گیری بازگشت. آن را به مشارکت داخلی معتبر یا هزینه های اجتناب شده واقعی اختصاص دهید، نه هر دو.",
             "fields": [
               "customer_price"
             ],
@@ -1037,7 +1037,7 @@
           "basis": "fixed",
           "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "این سناریوی یک بسته از یک فرضیه قیمت تکرارشونده 600 یورو در ماه استفاده می کند. یک خلبان چهار هفته ای تقریباً 1500 تا 2500 یورو است. قیمت مکان تکراری تقریباً 600 تا 1200 یورو در هر مکان در ماه است. تا زمانی که شواهد پولی وجود داشته باشد، اینها را به عنوان فرضیه در نظر بگیرید."
         },
         "presentation": {
           "financial": "optional",
@@ -1049,7 +1049,7 @@
         "primaryLabel": "Talk with Archer",
         "primaryTarget": "meet-archer",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "داده های شما خصوصی می ماند. ساعت ظرفیت است. مبالغ مالی برآوردهای مدل شده هستند، نه نتایج مشاهده شده.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -5883,5 +5883,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-26T20:32:08.550Z"
+  "generatedAt": "2026-10-01T12:38:51.101Z"
 }

@@ -560,7 +560,7 @@
                 "target": "pilot"
               },
               {
-                "label": "Kapcsolat",
+                "label": "Érintkezés",
                 "target": "contact"
               }
             ]
@@ -650,23 +650,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
-      "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
+      "subheading": "Egy tipikus vendéglátás hónap: 1 visszatérő kampánycsomag helyszínre vagy éttermi rendezvényre.",
+      "disclaimer": "Modellezett forgatókönyv, amely az ügyfelek által megadott termelési feltételezéseken alapul, nem megfigyelt kampány- vagy médiaeredményeken. A Archer közzététel előtt előkészíti az engedélyezett felvételeket emberi jóváhagyásra.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "A valutaváltás nem helyi költségkutatás. Adja meg saját helyi költségeit és hozzájárulási feltételezéseit. A nyelvi változtatások nem változtatják meg az összegeket."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "Hogyan épül fel az all-in AI költség",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Ez az Ön teljes költségkerete. Váltson a Költségbontásra a tételes tételhez; nem feltételeztek szétválást.",
+        "benefitNotice": "Modellezett juttatások, nem díjak. Az áthúzott összegek olyan kiadások, amelyeket el kell kerülni, nem pedig kedvezmények a mesterséges intelligencia számlájára.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "A visszaküldött órák kapacitást jelentenek, nem pedig automatikus megtakarításokat. Csak a tényleges kiadáscsökkentéshez vagy kiegészítő hozzájáruláshoz hozzárendelt részek kapnak pénzbeli értéket."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -694,10 +694,10 @@
           "workloadStep": "Campaign volume",
           "costStep": "Operating cost assumptions",
           "valueStep": "Production capacity",
-          "workloadIntro": "Model recurring campaign packages for hospitality venues and restaurant groups. Archer prepares the work; a human still approves it before publication.",
-          "costIntro": "AI, media, tools, platform and infrastructure costs are delivery assumptions, separate from Archer's customer price.",
-          "valueIntro": "Returned editor hours are capacity. Assign them to one validated value basis: internal contribution or actual avoided spending.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Ismétlődő kampánycsomagok modellezése vendéglátóhelyek és éttermi csoportok számára. Archer előkészíti a munkát; egy ember még a közzététel előtt jóváhagyja.",
+          "costIntro": "Az AI, a média, az eszközök, a platform és az infrastruktúra költségei a szállítási feltételezések, elkülönülve a Archer vásárlói árától.",
+          "valueIntro": "A visszaküldött szerkesztői órák kapacitása. Rendelje hozzá őket egy érvényesített értékalaphoz: belső hozzájárulás vagy ténylegesen elkerült kiadás.",
+          "sampleNotice": "Tipikus használat · nem észlelt eredmények",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -722,11 +722,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "A meglévő csoportos felülvizsgálat a visszaadott kapacitást használja. A további fizetett felülvizsgálat a működési költségek részét képezi, és nem kerül levonásra a csapat kapacitásából.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "A költségvetésnek tartalmaznia kell a modelleket/médiát, az eszközöket, az infrastruktúrát, a Gabriel díjait és a további fizetett felülvizsgálatot. A változatlan bérszámfejtés ne szerepeljen új kiadásként.",
+          "itemizedNote": "A tokenhasználatot a mennyiség × kimenetenkénti tokenek számítják. Az extra média, eszközök és infrastruktúra nullán marad, hacsak nem alkalmazhatók. A további fizetett felülvizsgálat a felülvizsgálati órákból és annak mértékéből kerül kiszámításra.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -735,36 +735,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled production savings",
-          "netBenefit": "Net savings after Archer price",
+          "netBenefit": "Nettó megtakarítás Archer ár után",
           "multiple": "Internal delivery multiple",
-          "customerBenefit": "Modeled production savings before Archer price",
+          "customerBenefit": "Modellezett gyártási megtakarítás Archer ár előtt",
           "customerRoi": "Cost-based customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Ugyanazok a havi feltételezések, növekedés vagy összevonás nélkül. A felvételi megtakarítás csak a megadott időszakra érvényes.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Customer ROI = (modeled production savings − Archer customer price) ÷ Archer customer price. Use one value basis and validate it with a paid pilot.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Az eltávolított működési teher (negatív termelékenység) visszaadja a kapacitást. A magasabb értékű munka (potenciális pozitív termelékenység) csak akkor teremt gazdasági értéket, ha ezt a kapacitást kihasználják. Az órák önmagukban nem jelentenek készpénzmegtakarítást. A token költsége modellezett input/output keveréket használ, nem szolgáltatói árajánlatot.",
+          "formulaLabel": "Vevői ROI = (modellezett termelési megtakarítás − Archer vevői ár) ÷ Archer vevői ár. Használjon egy értékalapot, és érvényesítse egy fizetős pilottal.",
+          "allocationNote": "Minden órát egyszer lehet beosztani. A fel nem osztott órák kapacitása marad, pénzbeli érték nélkül.",
+          "overlapLabel": "Ezek az előnyök eltérőek; Kizártam a máshol már számba vett költségeket és veszteségeket.",
+          "overlapNote": "A hiba- és kockázatbecslések nem tartalmazzák a munkaerő-megtakarítást, és ugyanaz az esemény nem fordulhat elő mindkét kategóriában. A hozzájárulás nem tartalmazza a mesterséges intelligencia költségeit, amelyeket külön vonnak le.",
+          "hiringLabel": "Ezt a bérbeadást valóban megtervezték, és a kiosztott kapacitás fedezi a munkát.",
+          "reviewedLabel": "Áttekintettem az eredményeimet; a nem kiválasztott eredményeknek nincs pénzügyi értéke ebben a becslésben.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "A kapacitás és az igény által támogatott további munka",
+          "assumptionsIncomplete": "Végezze el a kiválasztott feltevéseket a pénzügyi érték kiszámításához.",
+          "allocationError": "A kiosztott órák meghaladják a rendelkezésre álló nettó kapacitást. Csökkentse az allokációt.",
+          "reviewError": "A felülvizsgálat több időt vesz igénybe, mint amennyi munka csökkent. Ezeknél a feltételezéseknél nem áll rendelkezésre pozitív kapacitás.",
+          "cashError": "Az elkerült kiadások nem haladhatják meg a jelenlegi kiadásokat, és nem lehetnek pozitív értékűek anélkül, hogy órákat szánnának.",
+          "hiringError": "A kiosztott kapacitásnak ki kell terjednie a tervezett bérlési órákra. Erősítse meg a tervezett bérletet és annak időtartamát.",
+          "riskError": "Az utáni valószínűség nem haladhatja meg a veszteségcsökkentési becslés előtti valószínűségét.",
+          "overlapError": "Mielőtt belefoglalná őket a pénzügyi eredménybe, győződjön meg arról, hogy az előnyök nem fedik egymást.",
+          "boundsError": "Használjon értékeket a megjelenített határokon belül.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "A nyelv megváltoztatja a formázást, nem a pénznemet vagy a feltételezéseket.",
           "currentPreparation": "Aktuális felkészülési órák",
           "reviewHours": "Humán felülvizsgálati órák",
           "reworkHours": "elkerülhető vagy hozzáadott átdolgozási órák",
@@ -780,157 +780,157 @@
         },
         "fields": {
           "volume": {
-            "label": "Event campaign packages per month",
-            "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+            "label": "Rendezvény kampánycsomagok havonta",
+            "help": "Számolja az ismétlődő kampánycsomagokat, amelyeket ténylegesen helyszíni vagy éttermi eseményekhez szállít, ne minden ötletet a lemaradásban."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "A címzett által elfogadott elkészített kimenetek opcionális modellezett részesedése. Ez nem garancia vagy megfigyelt eredmény."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "A várhatóan elfogadott találkozók modellezett aránya. Cserélje ki ezt a pilóta után ellenőrzött eseményrekordokra."
           },
           "minutes": {
-            "label": "Baseline editor minutes per campaign package",
-            "help": "Hands-on editing, captions and variants for one package. Enter minutes; 720 minutes represents a 12-hour baseline."
+            "label": "Alapszintű szerkesztői percek kampánycsomagonként",
+            "help": "Gyakorlati szerkesztés, feliratok és változatok egy csomaghoz. Írja be a perceket; A 720 perc 12 órás alapértéket jelent."
           },
           "automation": {
             "label": "Archer share of production",
-            "help": "Illustrative share of repetitive assembly Archer handles. Customer approval and rights checks remain required."
+            "help": "Az ismétlődő összeszerelésű Archer fogantyúk szemléltető része. Továbbra is szükség van az ügyfél jóváhagyására és a jogok ellenőrzésére."
           },
           "review": {
             "label": "Approval minutes per package",
-            "help": "Human approval time before the campaign is published or used for the event."
+            "help": "Emberi jóváhagyási idő a kampány közzététele vagy az eseményhez való felhasználása előtt."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Ciklusok egységenként havonta",
+            "help": "Hány ismétlődő rendelési, felülvizsgálati vagy feldolgozási ciklust futnak le az egyes egységek egy átlagos hónapban."
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
-            "help": "Modeled tokens for copy, variants and orchestration around one event."
+            "help": "Modellezett tokenek másolathoz, változatokhoz és hangszereléshez egy esemény körül."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Tartalmazza a token használatát, a modelleket/médiát, az eszközöket, az infrastruktúrát, a Gabriel díjait és a további fizetett felülvizsgálatot."
           },
           "model_cost": {
             "label": "Models and media generation",
-            "help": "Image and video generation for this package, counted separately from the token envelope."
+            "help": "Kép- és videógenerálás ehhez a csomaghoz, a token-borítéktól külön számítva."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Böngészőszekciók, csatlakozók és egyéb mért szolgáltatások. Ha nincs, írjon be nullát."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Növekményes tárhely, tárolás és számítás ehhez a munkaterheléshez. Ha nincs, írjon be nullát."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Egyéb szállítási és támogatási költségek",
+            "help": "Modellezett hosting, tárolás, figyelés és támogatás költsége, külön a vevői ártól."
           },
           "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+            "label": "Archer vásárlói ár havonta",
+            "help": "Szerkeszthető kereskedelmi hipotézis. Teszteljen körülbelül 1500–2500 eurót négyhetes pilóta esetén, és 600–1200 eurót helyszínenként havonta ismétlődő munkák esetén."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Opcionális érték, amelyet egy órához rendel",
+            "help": "Csak opcionális személyes összehasonlítás. Ez nem fizetés, bér vagy garantált készpénzmegtakarítás."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "További fizetett felülvizsgálat óránként",
+            "help": "Valós többletbírálói kiadás, nem egy változatlan alkalmazott fizetése."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "Órák, amelyek megszüntetik a fizetett munkát",
+            "help": "Csak olyan munkát jelöljön ki, amelynél a túlórák, a vállalkozók vagy a feldolgozási kiadások ténylegesen leállnak."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Jelenlegi havi kiadások erre a munkára",
+            "help": "A készpénzes költségvetés, amelyből a csökkentés származik."
           },
           "cash_avoided": {
-            "label": "Overflow invoice you would stop",
-            "help": "One production invoice that actually stops. Count it once."
+            "label": "Túlcsordulási számla, amelyet leállítana",
+            "help": "Egy gyártási számla, amely ténylegesen leáll. Számold meg egyszer."
           },
           "higher_value_hours": {
-            "label": "Hours kept for creative direction",
-            "help": "Editor time redirected from repetitive variants."
+            "label": "A kreatív irányításra tartott órák",
+            "help": "A szerkesztő ideje átirányítva az ismétlődő változatokból."
           },
           "contribution_rate": {
-            "label": "In-house editor capacity / hr",
-            "help": "Incremental value of an editor hour on direction, not a freelance rate copied as salary saved."
+            "label": "Házon belüli szerkesztő kapacitás / óra",
+            "help": "Egy szerkesztői óra növekménye az utasítás szerint, nem pedig a megtakarított fizetésként másolt szabadúszó díj."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "További hangerőre használt órák",
+            "help": "Ez az összeg nem használható fel tanácsadói munkára vagy kiadáscsökkentésre."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Csapatperc további egységenként",
+            "help": "A fennmaradó emberi erőfeszítésre, beleértve a felülvizsgálatot is, még egy egység szállítására volt szükség."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "További egységek várható igényekkel",
+            "help": "A kapacitás önmagában nem kereslet. Adja meg a további havi munkát, amelyet el kell vállalnia."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Növekményes bevétel csökkentve a szállítási költségeket; Az AI működési költségeit külön vonják le."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "A tervezett bérleti munkaidő",
+            "help": "A kapacitást konkrét tervezett munkára kell felosztani, nem pedig általános, teljes munkaidővel egyenértékű becslést."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "A tervezett bérlet havi órákat fedezne",
+            "help": "A kiosztott kapacitásnak ezt a teljes munkaterhelést le kell fednie."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "A havi bérleti költség ténylegesen halasztott",
+            "help": "Használja a valóban megtervezett bérbeadás költségeit, ne egy már alkalmazott fizetését."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Hónapok elhalasztják a bérbeadást",
+            "help": "Egytől tizenkét hónapig; az éves becslés ezen időszak után leállítja a megtakarítások számítását."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Várhatóan elkerült hibák havonta",
+            "help": "Használja az alapvonalat és a várható csökkentést. A kockázatcsökkentésnek számító incidensek kizárása."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Zárja ki a munkaerőt, a visszatérítést vagy az egyéb veszteségeket, amelyek már máshol szerepelnek."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Az Ön becslése, nem garantált kockázatértékelés."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Használja ugyanazt az eseményt és havi időhorizontot, mint az alapvonalat."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Veszteség kitettsége az adott eseményhez",
+            "help": "Zárja ki a már megszámolt hibákat és kiadásokat. Ez bizonytalan várható érték, nem megtakarított készpénz."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Ciklusidő előtt, napokban",
+            "help": "Az elejétől a befejezésig eltelt idő, külön a gyakorlati erőfeszítéstől."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Ciklusidő után, napokban",
+            "help": "Csak működési változásként jelenik meg, feltételezett pénzbeli érték nélkül."
           }
         },
         "burden": [
-          "Editing campaign variants and captions",
-          "Repeated formatting and approval preparation"
+          "Kampányváltozatok és feliratok szerkesztése",
+          "Ismételt formázás és jóváhagyás előkészítése"
         ],
         "opportunity": [
           "More reviewed event campaigns",
-          "Creative direction and less paid production overflow"
+          "Kreatív irány és kevésbé fizetett gyártási túlcsordulás"
         ],
         "usagePackages": {
           "base": {
@@ -987,20 +987,20 @@
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Keep editors on creative direction",
-            "help": "Use returned hours on direction and approval, not on repetitive variants."
+            "label": "Tartsa a szerkesztőket a kreatív irányvonalon",
+            "help": "Használja a visszaadott órákat az utasítás és jóváhagyás alapján, ne az ismétlődő változatoknál."
           },
           {
             "id": "cash",
-            "label": "Stop one overflow production invoice",
-            "help": "Count a contractor invoice that actually stops. Do not also count those hours as salary saved."
+            "label": "Egy túlcsordulási termelési számla leállítása",
+            "help": "Számoljon ki egy vállalkozói számlát, amely ténylegesen leáll. Ne számítsa ezeket az órákat megtakarított fizetésnek."
           }
         ],
         "tabs": [
           {
             "id": "events",
             "label": "Campaign volume",
-            "intro": "Model recurring event-campaign packages for venues and restaurant groups, including the customer approval pass.",
+            "intro": "Ismétlődő esemény-kampánycsomagok modellezése helyszínek és éttermi csoportok számára, beleértve az ügyfél-jóváhagyási igazolványt is.",
             "fields": [
               "volume",
               "minutes",
@@ -1013,7 +1013,7 @@
           {
             "id": "tokens",
             "label": "Operating cost assumptions",
-            "intro": "Keep AI, media, platform, tools and infrastructure costs separate from Archer's customer price.",
+            "intro": "Tartsa elkülönítve a mesterséges intelligencia, a média, a platform, az eszközök és az infrastruktúra költségeit a Archer vásárlói árától.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1025,7 +1025,7 @@
           {
             "id": "editor",
             "label": "Production capacity",
-            "intro": "Measure editor capacity returned. Assign it to validated internal contribution or actual avoided spending, not both.",
+            "intro": "Mérési szerkesztő kapacitás vissza. Rendelje hozzá az érvényesített belső hozzájáruláshoz vagy a ténylegesen elkerült kiadáshoz, ne mindkettőhöz.",
             "fields": [
               "customer_price"
             ],
@@ -1037,7 +1037,7 @@
           "basis": "fixed",
           "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "Ez az egycsomagos forgatókönyv egy 600 €/hó visszatérő árú hipotézist használ. Egy négyhetes pilot körülbelül 1500–2500 euró; Az ismétlődő helyszíni árak körülbelül 600–1200 euró helyszínenként havonta. Kezelje ezeket hipotézisekként, amíg nincs fizetett bizonyíték."
         },
         "presentation": {
           "financial": "optional",
@@ -1049,7 +1049,7 @@
         "primaryLabel": "Talk with Archer",
         "primaryTarget": "meet-archer",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Adatai privátak maradnak. Az óra kapacitás. A pénzügyi összegek modellezett becslések, nem megfigyelt eredmények.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -5883,5 +5883,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-26T20:32:08.550Z"
+  "generatedAt": "2026-10-01T12:38:51.921Z"
 }

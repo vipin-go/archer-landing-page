@@ -560,7 +560,7 @@
                 "target": "pilot"
               },
               {
-                "label": "Kontakt",
+                "label": "Kontakta",
                 "target": "contact"
               }
             ]
@@ -650,21 +650,21 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
-      "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
+      "subheading": "En typisk gästfrihetsmånad: 1 återkommande kampanjpaket för en lokal eller ett restaurangevenemang.",
+      "disclaimer": "Ett modellerat scenario baserat på kundinmatade produktionsantaganden, inte observerade kampanj- eller mediaresultat. Archer förbereder tillåten film för mänskligt godkännande innan publicering.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
       },
       "costCopy": {
         "breakdown": "How the all-in AI cost is built",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
+        "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
         "remainder": "Other included operating costs",
         "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
       },
@@ -694,10 +694,10 @@
           "workloadStep": "Campaign volume",
           "costStep": "Operating cost assumptions",
           "valueStep": "Production capacity",
-          "workloadIntro": "Model recurring campaign packages for hospitality venues and restaurant groups. Archer prepares the work; a human still approves it before publication.",
-          "costIntro": "AI, media, tools, platform and infrastructure costs are delivery assumptions, separate from Archer's customer price.",
-          "valueIntro": "Returned editor hours are capacity. Assign them to one validated value basis: internal contribution or actual avoided spending.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Modellera återkommande kampanjpaket för besöksställen och restauranggrupper. Archer förbereder arbetet; en människa godkänner det fortfarande före publicering.",
+          "costIntro": "AI, media, verktyg, plattform och infrastrukturkostnader är leveransantaganden, separat från Archers kundpris.",
+          "valueIntro": "Returnerade redaktörstimmar är kapacitet. Tilldela dem till en validerad värdegrund: internt bidrag eller faktiska undvikna utgifter.",
+          "sampleNotice": "Typisk användning · ej observerade resultat",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -722,10 +722,10 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Befintlig teamgranskning använder returnerad kapacitet. Ytterligare betald recension ingår i driftskostnaden, dras inte av igen från teamkapaciteten.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
+          "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
           "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
@@ -735,36 +735,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled production savings",
-          "netBenefit": "Net savings after Archer price",
+          "netBenefit": "Nettobesparing efter Archer pris",
           "multiple": "Internal delivery multiple",
-          "customerBenefit": "Modeled production savings before Archer price",
+          "customerBenefit": "Modellerade produktionsbesparingar före Archer pris",
           "customerRoi": "Cost-based customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Customer ROI = (modeled production savings − Archer customer price) ÷ Archer customer price. Use one value basis and validate it with a paid pilot.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Driftsbördan tas bort (negativ produktivitet) ger tillbaka kapacitet. Arbete med högre värde (potentiell positiv produktivitet) skapar ekonomiskt värde endast om den kapaciteten används. Bara timmar är inte kontantbesparingar. Token cost uses a modeled input/output mix, not a provider quote.",
+          "formulaLabel": "Kundens ROI = (modellerade produktionsbesparingar − Archer kundpris) ÷ Archer kundpris. Använd en värdegrund och validera den med en betald pilot.",
+          "allocationNote": "Varje timme kan tilldelas en gång. Otilldelade timmar förblir kapacitet, utan pengar.",
+          "overlapLabel": "These benefits are distinct; Jag har exkluderat kostnader och förluster som redan räknats på annat håll.",
+          "overlapNote": "Fel- och riskuppskattningar utesluter arbetsbesparingar och samma incident får inte förekomma i båda kategorierna. Bidraget exkluderar AI-kostnader, som dras av separat.",
+          "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
+          "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
           "cycleResult": "Cycle-time improvement",
           "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
+          "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
+          "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
+          "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
+          "cashError": "Undvikda utgifter får inte överstiga nuvarande utgifter eller ha ett positivt värde utan några timmar.",
+          "hiringError": "Tilldelad kapacitet ska täcka de planerade hyrtimmar. Confirm the planned hire and its duration.",
+          "riskError": "Sannolikheten efter kan inte överstiga före-sannolikheten för en förlustreduktionsuppskattning.",
+          "overlapError": "Bekräfta att fördelarna inte överlappar varandra innan du inkluderar dem i det ekonomiska resultatet.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "Språket ändrar formateringen, inte din valuta eller dina antaganden.",
           "currentPreparation": "Aktuella förberedelsetider",
           "reviewHours": "Human Review Hours",
           "reworkHours": "undviks eller lagt till omarbetningstider",
@@ -780,28 +780,28 @@
         },
         "fields": {
           "volume": {
-            "label": "Event campaign packages per month",
-            "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+            "label": "Eventkampanjpaket per månad",
+            "help": "Räkna återkommande kampanjpaket som du faktiskt skickar för lokal- eller restaurangevenemang, inte varje idé på en eftersläpning."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "Valfri modellerad andel av förberedda utdata som accepteras av mottagaren. Detta är ingen garanti eller observerat resultat."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Modeled share of accepted meetings expected to happen. Ersätt detta med verifierade händelseposter efter en pilot."
           },
           "minutes": {
-            "label": "Baseline editor minutes per campaign package",
-            "help": "Hands-on editing, captions and variants for one package. Enter minutes; 720 minutes represents a 12-hour baseline."
+            "label": "Baslinjeredigeringsminuter per kampanjpaket",
+            "help": "Praktisk redigering, bildtexter och varianter för ett paket. Ange minuter; 720 minuter representerar en 12-timmars baslinje."
           },
           "automation": {
             "label": "Archer share of production",
-            "help": "Illustrative share of repetitive assembly Archer handles. Customer approval and rights checks remain required."
+            "help": "Illustrativ andel av repetitiv montering Archer handtag. Kundens godkännande och rättighetskontroller krävs fortfarande."
           },
           "review": {
             "label": "Approval minutes per package",
-            "help": "Human approval time before the campaign is published or used for the event."
+            "help": "Mänsklig godkännandetid innan kampanjen publiceras eller används för evenemanget."
           },
           "cycles_per_unit": {
             "label": "Cycles per unit each month",
@@ -809,42 +809,42 @@
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
-            "help": "Modeled tokens for copy, variants and orchestration around one event."
+            "help": "Modellerade tokens för kopia, varianter och orkestrering kring ett evenemang."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Inkludera tokenanvändning, modeller/media, verktyg, infrastruktur, Gabriel-avgifter och ytterligare betald recension."
           },
           "model_cost": {
             "label": "Models and media generation",
-            "help": "Image and video generation for this package, counted separately from the token envelope."
+            "help": "Bild- och videogenerering för detta paket, räknas separat från token-kuvertet."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Webbläsarsessioner, anslutningar och andra mättjänster. Ange noll om ingen."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Övriga leverans- och supportkostnader",
+            "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
           },
           "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+            "label": "Archer kundpris per månad",
+            "help": "Redigerbar kommersiell hypotes. Testa cirka 1 500 €–2 500 € för en fyra veckors pilot och 600 €–1 200 € per plats och månad för återkommande arbete."
           },
           "personal_value_per_hour": {
             "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "help": "Faktiska extra granskarutgifter, inte lönen för en oförändrad anställd."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
+            "label": "Timmar som tar bort betalt arbete",
             "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
           },
           "cash_baseline": {
@@ -852,85 +852,85 @@
             "help": "The cash budget from which the reduction will come."
           },
           "cash_avoided": {
-            "label": "Overflow invoice you would stop",
-            "help": "One production invoice that actually stops. Count it once."
+            "label": "Överskottsfaktura skulle du stoppa",
+            "help": "En produktionsfaktura som faktiskt stannar. Räkna det en gång."
           },
           "higher_value_hours": {
-            "label": "Hours kept for creative direction",
-            "help": "Editor time redirected from repetitive variants."
+            "label": "Timmar hålls för kreativ ledning",
+            "help": "Redaktörstid omdirigerad från repetitiva varianter."
           },
           "contribution_rate": {
-            "label": "In-house editor capacity / hr",
-            "help": "Incremental value of an editor hour on direction, not a freelance rate copied as salary saved."
+            "label": "Intern redaktörskapacitet / tim",
+            "help": "Inkrementellt värde av en redaktörstimme på riktning, inte en frilanspris kopierad som sparad lön."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
+            "label": "Timmar som används för extra volym",
             "help": "This allocation cannot also be used for advisory work or spending reductions."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
+            "label": "Lagminuter per extra enhet",
             "help": "The remaining human effort, including review, needed to deliver one more unit."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Ytterligare enheter med förväntad efterfrågan",
+            "help": "Enbart kapacitet är inte efterfrågan. Enter the extra monthly work you expect to take on."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Inkrementella intäkter minus leveranskostnader; Driftskostnader för AI dras av separat."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
+            "label": "Timmar som täcker den planerade hyran",
             "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Månadstimmar som den planerade hyran skulle täcka",
+            "help": "Den tilldelade kapaciteten måste täcka hela denna arbetsbörda."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
+            "label": "Månatlig hyra kostnad faktiskt uppskjuten",
             "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Månader som hyran skjuts upp",
+            "help": "En till tolv månader; the annual estimate stops counting savings after this period."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Förväntade undvikade fel per månad",
+            "help": "Använd din baslinje och förväntade minskning. Exkludera incidenter som också räknas som riskminskning."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Uteslut arbete, återbetalningar eller andra förluster som redan ingår någon annanstans."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Din uppskattning, inte en garanterad riskbedömning."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
             "help": "Use the same event and monthly time horizon as the baseline."
           },
           "loss": {
-            "label": "Loss exposure for that event",
+            "label": "Förlustexponering för den händelsen",
             "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Cykeltid före, i dagar",
+            "help": "Förfluten tid från start till slutförande, separat från praktisk ansträngning."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
+            "label": "Cykeltid efter, i dagar",
             "help": "Shown as an operational change only, without an assumed monetary value."
           }
         },
         "burden": [
-          "Editing campaign variants and captions",
-          "Repeated formatting and approval preparation"
+          "Redigera kampanjvarianter och bildtexter",
+          "Upprepad formatering och förberedelser för godkännande"
         ],
         "opportunity": [
           "More reviewed event campaigns",
-          "Creative direction and less paid production overflow"
+          "Kreativ riktning och mindre betald produktionsspill"
         ],
         "usagePackages": {
           "base": {
@@ -987,20 +987,20 @@
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Keep editors on creative direction",
-            "help": "Use returned hours on direction and approval, not on repetitive variants."
+            "label": "Håll redaktörerna på kreativ väg",
+            "help": "Använd returnerade timmar på riktning och godkännande, inte på repetitiva varianter."
           },
           {
             "id": "cash",
-            "label": "Stop one overflow production invoice",
-            "help": "Count a contractor invoice that actually stops. Do not also count those hours as salary saved."
+            "label": "Stoppa en överskottsfaktura",
+            "help": "Räkna en entreprenörsfaktura som faktiskt stannar. Räkna inte också de timmarna som sparad lön."
           }
         ],
         "tabs": [
           {
             "id": "events",
             "label": "Campaign volume",
-            "intro": "Model recurring event-campaign packages for venues and restaurant groups, including the customer approval pass.",
+            "intro": "Modellera återkommande evenemangskampanjpaket för lokaler och restauranggrupper, inklusive kundens godkännandepass.",
             "fields": [
               "volume",
               "minutes",
@@ -1013,7 +1013,7 @@
           {
             "id": "tokens",
             "label": "Operating cost assumptions",
-            "intro": "Keep AI, media, platform, tools and infrastructure costs separate from Archer's customer price.",
+            "intro": "Håll AI, media, plattform, verktyg och infrastrukturkostnader åtskilda från Archers kundpris.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1025,7 +1025,7 @@
           {
             "id": "editor",
             "label": "Production capacity",
-            "intro": "Measure editor capacity returned. Assign it to validated internal contribution or actual avoided spending, not both.",
+            "intro": "Mät redaktörskapacitet har returnerats. Tilldela det till validerat internt bidrag eller faktiska undvikna utgifter, inte båda.",
             "fields": [
               "customer_price"
             ],
@@ -1037,7 +1037,7 @@
           "basis": "fixed",
           "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "Detta scenario med ett paket använder en hypotes om återkommande pris på €600/månad. En fyra veckor lång pilot kostar cirka 1 500 €–2 500 €; återkommande lokalprissättning är cirka €600–1200 € per plats och månad. Behandla dessa som hypoteser tills det finns betalda bevis."
         },
         "presentation": {
           "financial": "optional",
@@ -1049,7 +1049,7 @@
         "primaryLabel": "Talk with Archer",
         "primaryTarget": "meet-archer",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -5883,5 +5883,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-26T20:32:08.550Z"
+  "generatedAt": "2026-10-01T12:38:52.118Z"
 }

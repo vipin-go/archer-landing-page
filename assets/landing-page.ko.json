@@ -553,14 +553,14 @@
             ]
           },
           {
-            "label": "시작하기",
+            "label": "스타트",
             "links": [
               {
                 "label": "4주 파일럿",
                 "target": "pilot"
               },
               {
-                "label": "문의",
+                "label": "접촉",
                 "target": "contact"
               }
             ]
@@ -650,23 +650,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical hospitality month: 1 recurring campaign package for a venue or restaurant event.",
-      "disclaimer": "A modeled scenario based on customer-entered production assumptions, not observed campaign or media results. Archer prepares permissioned footage for human approval before publication.",
+      "subheading": "일반적인 환대 월: 장소 또는 레스토랑 이벤트에 대한 반복 캠페인 패키지 1개.",
+      "disclaimer": "관찰된 캠페인이나 미디어 결과가 아닌 고객이 입력한 생산 가정을 기반으로 한 모델링된 시나리오입니다. Archer는 게시 전에 사람의 승인을 위해 허가된 영상을 준비합니다.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "통화 변환은 현지 비용 조사가 아닙니다. 현지 비용과 기여 가정을 입력하세요. 언어를 변경해도 금액은 변경되지 않습니다."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "올인 AI 비용은 어떻게 구성되나요?",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "이것이 귀하의 총 예산입니다. 항목별로 분류하려면 비용 분석으로 전환하세요. 분할이 가정되지 않았습니다.",
+        "benefitNotice": "요금이 아닌 모델링된 혜택입니다. 줄이 그어진 금액은 AI 청구서에 대한 할인이 아니라 피할 것으로 예상되는 지출입니다.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "반환된 시간은 자동 절약이 아닌 용량입니다. 실제 지출 절감이나 추가 기여에 할당한 부분만 금전적 가치를 받습니다."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -694,10 +694,10 @@
           "workloadStep": "Campaign volume",
           "costStep": "Operating cost assumptions",
           "valueStep": "Production capacity",
-          "workloadIntro": "Model recurring campaign packages for hospitality venues and restaurant groups. Archer prepares the work; a human still approves it before publication.",
-          "costIntro": "AI, media, tools, platform and infrastructure costs are delivery assumptions, separate from Archer's customer price.",
-          "valueIntro": "Returned editor hours are capacity. Assign them to one validated value basis: internal contribution or actual avoided spending.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "숙박 시설 및 레스토랑 그룹을 위한 반복 캠페인 패키지 모델입니다. Archer 작업을 준비합니다. 인간은 출판되기 전에 여전히 그것을 승인합니다.",
+          "costIntro": "AI, 미디어, 도구, 플랫폼 및 인프라 비용은 Archer의 고객 가격과는 별도로 배송 가정입니다.",
+          "valueIntro": "반환된 편집 시간은 용량입니다. 하나의 검증된 가치 기준(내부 기여 또는 실제 회피 지출)에 할당합니다.",
+          "sampleNotice": "일반적인 사용법 · 관찰되지 않은 결과",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -722,11 +722,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "기존 팀 검토에서는 반환된 용량을 사용합니다. 추가 유료 리뷰는 운영 비용에 포함되며 팀 용량에서 다시 공제되지 않습니다.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "예산에는 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰가 포함되어야 합니다. 변경되지 않은 급여를 새로운 지출로 포함하지 마십시오.",
+          "itemizedNote": "토큰 사용량은 출력당 볼륨 × 토큰으로 계산됩니다. 추가 미디어, 도구 및 인프라는 적용되지 않는 한 0으로 유지됩니다. 추가 유료 리뷰는 리뷰 시간과 요율로 계산됩니다.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -735,36 +735,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled production savings",
-          "netBenefit": "Net savings after Archer price",
+          "netBenefit": "Archer 가격 이후 순 절감액",
           "multiple": "Internal delivery multiple",
-          "customerBenefit": "Modeled production savings before Archer price",
+          "customerBenefit": "Archer 가격 이전의 생산 절감 모델링",
           "customerRoi": "Cost-based customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "성장이나 복리 없이 동일한 월별 가정. 채용 비용 절감은 입력한 기간 동안만 지속됩니다.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Customer ROI = (modeled production savings − Archer customer price) ÷ Archer customer price. Use one value basis and validate it with a paid pilot.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "운영 부담이 제거되어(음의 생산성) 용량을 반환합니다. 더 높은 가치의 작업(잠재적 긍정적 생산성)은 해당 용량이 사용되는 경우에만 경제적 가치를 창출합니다. 시간만으로는 현금을 절약할 수 없습니다. 토큰 비용은 공급자 견적이 아닌 모델링된 입력/출력 혼합을 사용합니다.",
+          "formulaLabel": "고객 ROI = (모델링된 생산 절감액 − Archer 고객 가격) ¼ Archer 고객 가격. 하나의 가치 기반을 사용하고 유료 파일럿을 통해 검증합니다.",
+          "allocationNote": "각 시간은 한 번씩 할당될 수 있습니다. 할당되지 않은 시간은 금전적 가치 없이 용량으로 유지됩니다.",
+          "overlapLabel": "이러한 이점은 뚜렷합니다. 다른 곳에서 이미 계산된 비용과 손실은 제외했습니다.",
+          "overlapNote": "오류 및 위험 추정치는 인건비 절감을 제외하며 동일한 사고가 두 범주 모두에 나타나서는 안 됩니다. 기여금에는 별도로 공제되는 AI 비용이 제외됩니다.",
+          "hiringLabel": "이번 고용은 진정으로 계획된 것이며 할당된 역량으로 작업을 감당할 수 있습니다.",
+          "reviewedLabel": "나는 내 결과를 검토했습니다. 선택되지 않은 결과는 이 추정치에 금전적 가치가 없습니다.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "용량 및 수요에 따라 지원되는 추가 작업",
+          "assumptionsIncomplete": "재정적 가치를 계산하려면 선택한 가정을 완료하세요.",
+          "allocationError": "할당된 시간이 사용 가능한 순 용량을 초과합니다. 할당을 줄입니다.",
+          "reviewError": "검토 작업은 줄어든 작업보다 시간이 더 걸립니다. 이러한 가정에서는 양의 용량을 사용할 수 없습니다.",
+          "cashError": "회피된 지출은 현재 지출을 초과할 수 없으며 할당된 시간이 없을 때 양수 값을 가질 수 없습니다.",
+          "hiringError": "할당된 용량은 계획된 고용 시간을 포함해야 합니다. 계획된 고용과 기간을 확인합니다.",
+          "riskError": "이후 확률은 손실 감소 추정에 대한 이전 확률을 초과할 수 없습니다.",
+          "overlapError": "재무 결과에 포함하기 전에 혜택이 중복되지 않는지 확인하세요.",
+          "boundsError": "표시된 한계 내의 값을 사용하십시오.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "언어는 통화나 가정이 아니라 형식을 변경합니다.",
           "currentPreparation": "현재 준비 시간",
           "reviewHours": "휴먼 리뷰 시간",
           "reworkHours": "재작업 시간을 피하거나 추가했습니다",
@@ -780,157 +780,157 @@
         },
         "fields": {
           "volume": {
-            "label": "Event campaign packages per month",
-            "help": "Count recurring campaign packages you actually ship for venue or restaurant events, not every idea on a backlog."
+            "label": "월별 이벤트 캠페인 패키지",
+            "help": "백로그에 있는 모든 아이디어가 아니라 실제로 장소나 레스토랑 이벤트를 위해 배송하는 반복 캠페인 패키지를 계산하세요."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "수신자가 수락한 준비된 출력의 선택적 모델링 공유입니다. 이는 보증이나 관찰된 결과가 아닙니다."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "예상되는 수락된 회의의 점유율을 모델링했습니다. 파일럿 후에 이를 확인된 이벤트 기록으로 바꿉니다."
           },
           "minutes": {
-            "label": "Baseline editor minutes per campaign package",
-            "help": "Hands-on editing, captions and variants for one package. Enter minutes; 720 minutes represents a 12-hour baseline."
+            "label": "캠페인 패키지당 기준 편집자 시간(분)",
+            "help": "하나의 패키지에 대한 직접 편집, 캡션 및 변형. 분을 입력하세요. 720분은 12시간 기준을 나타냅니다."
           },
           "automation": {
             "label": "Archer share of production",
-            "help": "Illustrative share of repetitive assembly Archer handles. Customer approval and rights checks remain required."
+            "help": "반복적인 조립 Archer 핸들의 예시적인 점유율입니다. 고객 승인 및 권리 확인은 여전히 ​​필요합니다."
           },
           "review": {
             "label": "Approval minutes per package",
-            "help": "Human approval time before the campaign is published or used for the event."
+            "help": "캠페인이 게시되거나 이벤트에 사용되기 전 사람의 승인 시간입니다."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "매월 단위당 주기",
+            "help": "각 단위가 일반적으로 한 달에 실행하는 반복 주문, 검토 또는 처리 주기 수입니다."
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
-            "help": "Modeled tokens for copy, variants and orchestration around one event."
+            "help": "하나의 이벤트에 대한 복사, 변형 및 조정을 위한 모델링된 토큰입니다."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "토큰 사용, 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰를 포함합니다."
           },
           "model_cost": {
             "label": "Models and media generation",
-            "help": "Image and video generation for this package, counted separately from the token envelope."
+            "help": "이 패키지의 이미지 및 비디오 생성은 토큰 봉투와 별도로 계산됩니다."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "브라우저 세션, 커넥터 및 기타 측정 서비스. 없으면 0을 입력하세요."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "이 워크로드를 위한 증분 호스팅, 스토리지 및 컴퓨팅. 없으면 0을 입력하세요."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "기타 배송 및 지원 비용",
+            "help": "고객 가격과 별도로 호스팅, 스토리지, 모니터링 및 지원 비용을 모델링했습니다."
           },
           "customer_price": {
-            "label": "Archer customer price per month",
-            "help": "Editable commercial hypothesis. Test approximately €1,500–€2,500 for a four-week pilot and €600–€1,200 per venue per month for recurring work."
+            "label": "월별 Archer 고객 가격",
+            "help": "편집 가능한 상업적 가설. 4주 파일럿의 경우 약 €1,500~€2,500를 테스트하고 반복 작업의 경우 매월 장소당 €600~€1,200를 테스트합니다."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "시간에 할당하는 선택적 값",
+            "help": "선택적인 개인 비교일 뿐입니다. 이는 급여, 임금 또는 보장된 현금 저축이 아닙니다."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "시간당 추가 유료 리뷰",
+            "help": "변경되지 않은 직원의 급여가 아닌 실제 추가 검토자 지출입니다."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "유급 작업을 제거하는 시간",
+            "help": "초과 근무, 계약자 또는 처리 비용이 실제로 중단되는 작업만 할당하십시오."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "해당 작업에 대한 현재 월별 지출",
+            "help": "감소가 발생하는 현금 예산입니다."
           },
           "cash_avoided": {
-            "label": "Overflow invoice you would stop",
-            "help": "One production invoice that actually stops. Count it once."
+            "label": "초과 송장 당신은 중지할 것입니다",
+            "help": "실제로 중단되는 생산 송장 1개. 한번 계산해 보세요."
           },
           "higher_value_hours": {
-            "label": "Hours kept for creative direction",
-            "help": "Editor time redirected from repetitive variants."
+            "label": "창의적인 방향을 위해 몇 시간씩 유지됨",
+            "help": "반복되는 변형에서 편집기 시간이 리디렉션되었습니다."
           },
           "contribution_rate": {
-            "label": "In-house editor capacity / hr",
-            "help": "Incremental value of an editor hour on direction, not a freelance rate copied as salary saved."
+            "label": "사내 편집자 수용인원/hr",
+            "help": "급여 절감으로 복사된 프리랜서 요율이 아닌 지시에 대한 편집자 시간의 증분 값입니다."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "추가 볼륨에 사용된 시간",
+            "help": "이 할당은 자문 작업이나 지출 절감에도 사용할 수 없습니다."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "추가 단위당 팀 시간",
+            "help": "검토를 포함한 남은 인간의 노력은 하나의 단위를 더 제공하는 데 필요했습니다."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "수요가 예상되는 추가 유닛",
+            "help": "용량만으로는 수요가 없습니다. 수행할 것으로 예상되는 추가 월별 작업을 입력하세요."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "배송 비용을 제외한 추가 수익; AI 운영 비용은 별도로 공제됩니다."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "계획된 고용 시간",
+            "help": "일반적인 정규직 추정이 아닌 특정 계획 작업에 용량을 할당합니다."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "계획된 고용에 포함되는 월별 시간",
+            "help": "할당된 용량은 이 전체 워크로드를 포괄해야 합니다."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "실제로 월 임대료가 연기되었습니다.",
+            "help": "이미 고용된 사람의 급여가 아닌 실제로 계획된 고용 비용을 사용하십시오."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "고용이 연기되는 달",
+            "help": "1~12개월; 이 기간 이후에는 연간 추정치에서 절감액 계산이 중단됩니다."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "월별 예상 방지 오류",
+            "help": "기준선과 예상 감소량을 사용하세요. 사고도 위험 감소로 간주하여 제외합니다."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "다른 곳에 이미 포함된 인건비, 환불 또는 기타 손실은 제외하세요."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "보장된 위험 평가가 아닌 귀하의 추정치입니다."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "동일한 이벤트 및 월별 기간을 기준으로 사용합니다."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "해당 이벤트에 대한 손실 노출",
+            "help": "이미 계산된 오류 사고 및 지출을 제외합니다. 이는 저장된 현금이 아닌 불확실한 기대 가치입니다."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "이전 주기 시간(일)",
+            "help": "직접 작업한 작업과 별개로 시작부터 완료까지 경과된 시간입니다."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "이후 주기 시간(일)",
+            "help": "가정된 금전적 가치 없이 운영 변경으로만 표시됩니다."
           }
         },
         "burden": [
-          "Editing campaign variants and captions",
-          "Repeated formatting and approval preparation"
+          "캠페인 변형 및 캡션 편집",
+          "반복되는 서식 및 승인 준비"
         ],
         "opportunity": [
           "More reviewed event campaigns",
-          "Creative direction and less paid production overflow"
+          "창의적인 방향과 저임금 생산 과잉"
         ],
         "usagePackages": {
           "base": {
@@ -987,20 +987,20 @@
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Keep editors on creative direction",
-            "help": "Use returned hours on direction and approval, not on repetitive variants."
+            "label": "편집자가 창의적인 방향을 유지하도록 하세요.",
+            "help": "반복적인 변형이 아닌 지시 및 승인에 반환된 시간을 사용하십시오."
           },
           {
             "id": "cash",
-            "label": "Stop one overflow production invoice",
-            "help": "Count a contractor invoice that actually stops. Do not also count those hours as salary saved."
+            "label": "하나의 초과 생산 송장 중지",
+            "help": "실제로 중지된 계약자 송장을 계산합니다. 또한 그 시간을 급여로 계산하지 마십시오."
           }
         ],
         "tabs": [
           {
             "id": "events",
             "label": "Campaign volume",
-            "intro": "Model recurring event-campaign packages for venues and restaurant groups, including the customer approval pass.",
+            "intro": "고객 승인 패스를 포함하여 장소 및 레스토랑 그룹을 위한 반복 이벤트 캠페인 패키지를 모델링합니다.",
             "fields": [
               "volume",
               "minutes",
@@ -1013,7 +1013,7 @@
           {
             "id": "tokens",
             "label": "Operating cost assumptions",
-            "intro": "Keep AI, media, platform, tools and infrastructure costs separate from Archer's customer price.",
+            "intro": "AI, 미디어, 플랫폼, 도구 및 인프라 비용을 Archer의 고객 가격과 별도로 유지하세요.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1025,7 +1025,7 @@
           {
             "id": "editor",
             "label": "Production capacity",
-            "intro": "Measure editor capacity returned. Assign it to validated internal contribution or actual avoided spending, not both.",
+            "intro": "측정 편집기 용량이 반환되었습니다. 검증된 내부 기여 또는 실제 회피 지출에 할당하되, 둘 다에 할당할 수는 없습니다.",
             "fields": [
               "customer_price"
             ],
@@ -1037,7 +1037,7 @@
           "basis": "fixed",
           "annualPrice": 7200,
           "label": "Archer customer price",
-          "help": "This one-package scenario uses a €600/month recurring-price hypothesis. A four-week pilot is approximately €1,500–€2,500; recurring venue pricing is approximately €600–€1,200 per venue per month. Treat these as hypotheses until paid evidence exists."
+          "help": "이 단일 패키지 시나리오는 월 €600의 반복 가격 가설을 사용합니다. 4주 파일럿 비용은 약 €1,500~€2,500입니다. 반복되는 장소 가격은 매월 장소당 약 €600~€1,200입니다. 유료 증거가 존재할 때까지 이를 가설로 취급하십시오."
         },
         "presentation": {
           "financial": "optional",
@@ -1049,7 +1049,7 @@
         "primaryLabel": "Talk with Archer",
         "primaryTarget": "meet-archer",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -5883,5 +5883,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-26T20:32:08.550Z"
+  "generatedAt": "2026-10-01T12:38:51.739Z"
 }
