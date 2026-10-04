@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "fa",
   "regionKey": null,
-  "sourceRevision": "1b046dd4aa3748c2a8c2401a6d05cd03e2ce078bdde9cc95eeae15f1323a4366",
+  "sourceRevision": "83aff3578798bf73e91da969883d075e685146d55a95c07e8ab9c7f8cbd121f7",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -54,13 +54,13 @@
       "brandMark": "image",
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/favicon.svg",
       "navItems": [],
-      "ctaLabel": "با Archer آشنا شوید"
+      "ctaLabel": "دیدار Archer"
     },
     "badge": "کمپین‌های رویداد هوش مصنوعی برای رستوران‌ها",
     "headline": "وب‌سایت رستوران شما، تبدیل به یک کمپین.",
     "subheadline": "وب‌سایت عمومی یا اینستاگرام رستوران خود را به اشتراک بگذارید. آرچر هویت برند واقعی شما را می‌خواند، رویداد را تأیید می‌کند و سه تصویر کمپین تأییدشده می‌سازد، آماده انتشار در اینستاگرام پس از ورود.",
-    "ctaLabel": "یک دوره آزمایشی چهار هفته‌ای رزرو کنید",
-    "secondaryCtaLabel": "گردش کار را ببینید",
+    "ctaLabel": "آزمایش چهارهفته‌ای رزرو کنید",
+    "secondaryCtaLabel": "دیدن روند",
     "demoConversation": [
       {
         "role": "assistant",
@@ -78,8 +78,8 @@
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-hospitality-banner.png",
-      "alt": "ردیاب تولید Archer برای پروموهای رویدادهای مهمانداری به‌موقع"
+      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "alt": "کمپین‌های سینمایی Archer"
     },
     "cinematicCampaigns": {
       "accessibility": {
@@ -105,7 +105,7 @@
             "target": "showcase"
           },
           {
-            "label": "ردیاب تولید",
+            "label": "وضعیت تولید",
             "target": "tracker"
           },
           {
@@ -114,16 +114,16 @@
           }
         ],
         "loginLabel": "ورود",
-        "pilotLabel": "رزرو پایلوت",
+        "pilotLabel": "آزمایش رزرو کنید",
         "eyebrow": "کمپین‌های رویداد هوش مصنوعی برای رستوران‌ها",
         "headingLines": [
-          "وب‌سایت رستوران شما،",
-          "تبدیل به یک کمپین"
+          "وب‌سایت رستورانتان،",
+          "به کمپین تبدیل می‌شود"
         ],
-        "mutedHeadingLine": "پیش از تمام شدن بلیت رویداد بعدی.",
+        "mutedHeadingLine": "پیش از تکمیل ظرفیت رویداد بعدی.",
         "body": "وب‌سایت عمومی یا اینستاگرام رستوران خود را به اشتراک بگذارید. آرچر هویت برند واقعی شما را می‌خواند، رویداد را تأیید می‌کند و سه تصویر کمپین تأییدشده می‌سازد، آماده انتشار در اینستاگرام پس از ورود.",
-        "primaryCtaLabel": "یک دوره آزمایشی چهار هفته‌ای رزرو کنید",
-        "secondaryCtaLabel": "گردش کار را ببینید",
+        "primaryCtaLabel": "آزمایش چهارهفته‌ای رزرو کنید",
+        "secondaryCtaLabel": "دیدن روند",
         "instagramCampaign": {
           "enabled": true,
           "commandTrigger": "instagram-campaign",
@@ -539,11 +539,11 @@
             "label": "عملیات",
             "links": [
               {
-                "label": "ردیاب تولید",
+                "label": "وضعیت تولید",
                 "target": "tracker"
               },
               {
-                "label": "با Archer آشنا شوید",
+                "label": "دیدار Archer",
                 "target": "meet-archer"
               },
               {
@@ -1054,6 +1054,7 @@
       }
     }
   },
+  "chatEmbedConfig": {},
   "translationIndex": [
     {
       "path": [
@@ -1068,21 +1069,21 @@
         "landingPage",
         "badge"
       ],
-      "sourceHash": "129f273472001aa49b3ef04b9cf92203b785be012fda33b0ba00731f8555b27f"
+      "sourceHash": "a8dff81336c1172f767c1c4b1cf28034a30dc1bc1af647104adab7e23e9e91ec"
     },
     {
       "path": [
         "landingPage",
         "headline"
       ],
-      "sourceHash": "15372b3f79c8b024ffa0b517eb10efcf2d020220d0a61c6acfcfeaf7d1f33b91"
+      "sourceHash": "ca151132fc09c66b8db93630fa9e07b12c6e23c41dd8c4d4df400b5f9f4b0c69"
     },
     {
       "path": [
         "landingPage",
         "subheadline"
       ],
-      "sourceHash": "859dc4486eb42b72f38e506819e98641b6bcc6cec0c9c7a6d07c0a7e17c97413"
+      "sourceHash": "a19ac3edfe8b528dc9fdcf1aee74b8803c19ae1ab301698e933600d2f3f4e353"
     },
     {
       "path": [
@@ -1156,7 +1157,7 @@
         "seoImage",
         "alt"
       ],
-      "sourceHash": "4cc79a303ea82eca931d1095b00dcbcbf9dd765dea24e0923c4220be5c7df988"
+      "sourceHash": "dfd913f31e22e989c7b91b367cef788ced922b35de62fd84d8d84b9d6c24bb18"
     },
     {
       "path": [
@@ -1283,7 +1284,7 @@
         "hero",
         "eyebrow"
       ],
-      "sourceHash": "5d5026689ed7012cab2debdf623a07167b163745d00c8e9ab13c03f1b05499cd"
+      "sourceHash": "a8dff81336c1172f767c1c4b1cf28034a30dc1bc1af647104adab7e23e9e91ec"
     },
     {
       "path": [
@@ -1293,7 +1294,7 @@
         "headingLines",
         0
       ],
-      "sourceHash": "4db8255174c5882b865eee8f959a72c14f174ef6bd747e08045d855a4623a18f"
+      "sourceHash": "ff4327ac84431a5e0ef1db1d1991fb9867019a2085d9d2208029c7d797668997"
     },
     {
       "path": [
@@ -1303,7 +1304,7 @@
         "headingLines",
         1
       ],
-      "sourceHash": "fa6315e085dc3d93f4f3c2862adcfebaaa799f2420f8045fc16419c85dd8d38b"
+      "sourceHash": "32c090e15354ddaf7bc008cb033c31acab2323dcc840b55f242cf8c7139998da"
     },
     {
       "path": [
@@ -1312,7 +1313,7 @@
         "hero",
         "mutedHeadingLine"
       ],
-      "sourceHash": "736a17129a7fedc39730c89142e21d0f5c94dc7be0c3dc66dbdd7e71dbbf0110"
+      "sourceHash": "dc92a8c034dc88320cdeb406367fae37fdb1b302f17ef49afa2d9a0b570eaaae"
     },
     {
       "path": [
@@ -1321,7 +1322,7 @@
         "hero",
         "body"
       ],
-      "sourceHash": "859dc4486eb42b72f38e506819e98641b6bcc6cec0c9c7a6d07c0a7e17c97413"
+      "sourceHash": "a19ac3edfe8b528dc9fdcf1aee74b8803c19ae1ab301698e933600d2f3f4e353"
     },
     {
       "path": [
@@ -5883,5 +5884,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:55.898Z"
+  "generatedAt": "2026-10-04T16:30:49.818Z"
 }
