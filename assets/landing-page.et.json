@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "et",
   "regionKey": null,
-  "sourceRevision": "83aff3578798bf73e91da969883d075e685146d55a95c07e8ab9c7f8cbd121f7",
+  "sourceRevision": "e5fd3fcb24b984f8bb6aeec5a5627550f8cd0e80b478dee686928bbdf937ec06",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -78,7 +78,7 @@
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-no-wings.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/archer-landing-page/main/assets/media/archer-og.png",
+      "src": "https://gabrieloperator.com/api/page-builder/media/ed1303bc-3dd0-455f-b752-1616187dfe74/0e11add8-f56d-4d5a-a103-872c19e03b0b/content/archer-cinematic-og-banner-v1-0e11add8-f56d-4d5a-a103-872c19e03b0b.webp",
       "alt": "Archer filmilikud kampaaniad"
     },
     "cinematicCampaigns": {
@@ -1054,7 +1054,6 @@
       }
     }
   },
-  "chatEmbedConfig": {},
   "translationIndex": [
     {
       "path": [
@@ -5703,15 +5702,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "cae662172fd450bb0cd710a769079c05bfc5d8e35efa6576edc7d0377afdd4a2"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -5884,5 +5874,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-04T16:30:51.978Z"
+  "generatedAt": "2026-10-11T11:26:38.390Z"
 }
