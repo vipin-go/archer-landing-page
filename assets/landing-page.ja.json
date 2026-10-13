@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ja",
   "regionKey": null,
-  "sourceRevision": "e5fd3fcb24b984f8bb6aeec5a5627550f8cd0e80b478dee686928bbdf937ec06",
+  "sourceRevision": "da0f1d501ad33b191c803b8cf7fc2e330f428ed9db2e9a6ee6933e94b2df5f2f",
   "landingPage": {
     "design": {
       "variant": "cinematic-campaigns",
@@ -97,7 +97,7 @@
             "target": "workflow"
           },
           {
-            "label": "納品",
+            "label": "配達",
             "target": "delivery"
           },
           {
@@ -526,7 +526,7 @@
                 "target": "workflow"
               },
               {
-                "label": "納品",
+                "label": "配達",
                 "target": "delivery"
               },
               {
@@ -536,7 +536,7 @@
             ]
           },
           {
-            "label": "運用",
+            "label": "オペレーション",
             "links": [
               {
                 "label": "制作状況",
@@ -649,9 +649,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "典型的なホスピタリティ月: 会場またはレストランのイベント用の 1 つの定期的なキャンペーン パッケージ。",
-      "disclaimer": "観察されたキャンペーンやメディアの結果ではなく、顧客が入力した運用上の想定に基づいてモデル化されたシナリオ。 Archer は、公開前に人間の承認を得るため、許可された映像を準備します。",
+      "heading": "料金とROI",
+      "subheading": "入力に基づく、あなたの推定リターン。",
+      "disclaimer": "計画時の推定は実測ROIとは別です。実測収益の根拠となるのは、承認済みの成果と比較可能な記録済み費用のみです。",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -687,7 +687,7 @@
           "cash_hours": 0,
           "cash_baseline": 0,
           "cash_avoided": 0,
-          "customer_price": 600
+          "customer_price": 49
         },
         "copy": {
           "navLabel": "価格設定",
@@ -739,7 +739,7 @@
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Archer 価格以前のモデル化された生産削減",
           "customerRoi": "Cost-based customer ROI",
-          "payback": "Customer payback period",
+          "payback": "顧客の回収期間",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "成長も複利もなしの同じ月次仮定。雇用割引は、入力した期間のみ持続します。",
@@ -784,8 +784,8 @@
             "help": "バックログにあるすべてのアイデアではなく、会場やレストランのイベント向けに実際に発送する定期的なキャンペーン パッケージをカウントします。"
           },
           "accepted_rate": {
-            "label": "Expected acceptance rate",
-            "help": "受信者が受け入れた、準備された出力のオプションのモデル化された共有。これは保証または観察された結果ではありません。"
+            "label": "期待される受け入れ率",
+            "help": "受信者が受け入れる準備済み出力のオプションのモデル共有。 これは保証または観察結果ではありません。"
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
@@ -804,8 +804,8 @@
             "help": "キャンペーンが公開されるか、イベントに使用されるまでの人による承認時間。"
           },
           "cycles_per_unit": {
-            "label": "毎月のユニットあたりのサイクル",
-            "help": "通常の月に各ユニットが実行される定期的な注文、レビュー、または処理サイクルの数。"
+            "label": "毎月の 1 ユニットあたりのサイクル",
+            "help": "各ユニットが通常の月に実行される、定期的な注文、レビュー、または処理サイクルの数。"
           },
           "tokens_per_output": {
             "label": "Tokens per campaign package",
@@ -828,16 +828,16 @@
             "help": "このワークロードのための増分ホスティング、ストレージ、コンピューティング。ない場合はゼロを入力します。"
           },
           "platform_cost": {
-            "label": "その他の配送およびサポート費用",
-            "help": "顧客価格とは別に、ホスティング、ストレージ、監視、サポートのコストをモデル化します。"
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Archer 月額顧客価格",
             "help": "編集可能な商業仮説。テストの費用は、4 週間のパイロットで約 1,500 ～ 2,500 ユーロ、定期的な作業の場合は会場ごとに 1 か月あたり 600 ～ 1,200 ユーロです。"
           },
           "personal_value_per_hour": {
-            "label": "時間に割り当てるオプションの値",
-            "help": "オプションの個人的な比較のみ。これは給与、賃金、または保証された現金貯蓄ではありません。"
+            "label": "1 時間に割り当てるオプションの値",
+            "help": "オプションの個人比較のみ。 これは、給与、賃金、または保証された現金貯蓄ではありません。"
           },
           "review_rate": {
             "label": "1時間あたりの追加の有料レビュー",
@@ -932,43 +932,6 @@
           "More reviewed event campaigns",
           "クリエイティブなディレクションと低賃金制作のオーバーフロー"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 400000,
-            "platform_cost": 188,
-            "minutes": 720,
-            "automation": 55,
-            "review": 45,
-            "model_cost": 81,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 5.8,
-            "contribution_rate": 75,
-            "cash_hours": 0,
-            "cash_baseline": 0,
-            "cash_avoided": 0,
-            "customer_price": 600
-          },
-          "medium": {
-            "volume": 8,
-            "tokensPerOutput": 400000,
-            "platform_cost": 1500,
-            "minutes": 720,
-            "automation": 55,
-            "review": 45,
-            "model_cost": 650,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 46.8,
-            "contribution_rate": 75,
-            "cash_hours": 0,
-            "cash_baseline": 0,
-            "cash_avoided": 0,
-            "customer_price": 1950
-          }
-        },
-        "defaultPackage": "base",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1035,8 +998,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 7200,
-          "label": "Archer customer price",
+          "label": "価格設定",
           "help": "この 1 つのパッケージのシナリオでは、月額 600 ユーロの定期価格仮説を使用します。 4 週間のパイロット費用は約 1,500 ～ 2,500 ユーロです。会場の定期料金は、1会場あたり月額約600～1,200ユーロです。有償の証拠が存在するまで、これらを仮説として扱います。"
         },
         "presentation": {
@@ -1051,6 +1013,97 @@
         "secondaryLabel": "See how it works",
         "privacyNote": "データはプライベートのままです。時間は定員です。金額はモデル化された推定値であり、観察された結果ではありません。",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "social",
+        "copy": {
+          "navLabel": "価格設定",
+          "heading": "料金とROI",
+          "intro": "入力に基づく、あなたの推定リターン。",
+          "monthly": "月",
+          "weekly": "週",
+          "daily": "日",
+          "cost": "お支払い額",
+          "benefit": "推定リターン",
+          "net": "純利益",
+          "roi": "推定ROI",
+          "timeBenefit": "推定時間価値",
+          "timeRoi": "時間価値ROI",
+          "timeBack": "取り戻せる時間",
+          "missing": "数値を入力",
+          "noRatio": "Not applicable",
+          "method": "計算方法",
+          "reset": "リセット",
+          "audience": "対象者",
+          "includedVat": "付加価値税込み",
+          "excludedVat": "付加価値税抜き",
+          "perMonth": "月額",
+          "equivalents": "月ごとの請求です。日・週の数値は平均値であり、日額・週額の請求や収益の保証ではありません。",
+          "timeNote": "時間価値は任意で入力する推定値であり、現金収入や人件費削減額ではありません。正味の分数には確認・承認にかかる時間も含みます。",
+          "estimateNote": "計画時の推定は実測ROIとは別です。実測収益の根拠となるのは、承認済みの成果と比較可能な記録済み費用のみです。",
+          "limitNote": "追加利用や個別見積もりの作業はお問い合わせください。この推定はプランに含まれる範囲のみが対象です。",
+          "timeFormula": "時間価値 = 件数 × 正味の短縮分数 ÷ 60 × あなたの時間単価。",
+          "profitFormula": "限界利益 = 対象の推奨セッション数 × 成約率の上昇幅 ÷ 100 × 追加注文ごとの利益。",
+          "proceedsFormula": "増分収入 = ロット数または回収件数 ×（実施後の純収入 − 実施前の純収入）。",
+          "roiFormula": "純便益 = 便益 − アプリの定期利用料。ROI = 純便益 ÷ アプリの定期利用料 × 100。無料プランにはROIの割合はありません。"
+        },
+        "profiles": [
+          {
+            "id": "social",
+            "label": "ソーシャル",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "月間ソーシャル用セット数",
+                "help": "プランの枠内で、１か月に確認する予定の作業量。",
+                "defaultValue": 8,
+                "min": 0,
+                "max": 8,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "短縮時間（分）",
+                "help": "確認、承認、修正後の推定値。負の値は追加の労力を示します。",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "時間当たりの価値",
+                "help": "任意で入力する独自の評価額です。現金の節約や給与削減を約束するものではありません。",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "ソーシャル",
+              "vatIncluded": false,
+              "includedUnits": 8,
+              "allowance": "メディア利用上限付きソーシャル用セット8件",
+              "extras": "プレミアムメディア、追加生成、本格的な映像制作は別途お見積もりします。"
+            },
+            "assumptions": [
+              "正味の時間短縮は想定していません。独自の推定値を入力してください。",
+              "正味の分数には顧客による確認も含みます。時間の金銭的価値はあなたが入力するもので、現金収入ではありません。"
+            ],
+            "loop": "イベントやキャンペーンの概要 → ソーシャル用セットを作成 → 顧客が内容と権利を承認 → 承認済みの成果物と実際の利用量を記録。",
+            "ctaLabel": "デモを試す",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -3933,7 +3986,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -3941,7 +3994,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "2dd828e7eb75ab5e19982402d8a319e0f15497288fde400850a0a8221a71182c"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -3949,7 +4002,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "1947034a23d7455029d01199814f58b46c41148db0f0d44657559792de7d06aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -5834,7 +5887,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "3f4a40632f0723e777cf207d30a62d65df856e466ab283aaeac05d0ce1dac9b2"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5872,7 +5925,468 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "f1b7505afa5c9e2bd6d68ae814b3582cf38632d56a67913e75e7d8cb10b5a8a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "0edbbba3fda9292bec32dbfbef7c9b8ac1041c7995529eddd26c83a7887712c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "f1b7505afa5c9e2bd6d68ae814b3582cf38632d56a67913e75e7d8cb10b5a8a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "c8a557839028bb306a6991f8463e7a73ec74490a1513af5b91855ee16a844c0a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "a03728b0f678c5a189a880730d9fa66f672c2234a91c649dbec1222ead42d91b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "c0fcde8176bce75a56623ccf89f3222e6d7a7bf0aa461af53c81b5ca2c27c5b8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T11:26:38.390Z"
+  "generatedAt": "2026-10-13T14:19:35.426Z"
 }
